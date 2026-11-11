@@ -264,8 +264,12 @@ void tr_read_encrypted(char *dst, size_t size, FILE *f, const char *key)
 
 const char *tr_level_name(const char *name)
 {
+	// Level names come from fixed-width fields of the episode files and are
+	// padded with spaces; the keys are trimmed (see textdump.c).
 	char key[32];
 	snprintf(key, sizeof(key), "level.%s", name);
+	for (size_t len = strlen(key); len > 6 && key[len - 1] == ' '; --len)
+		key[len - 1] = '\0';
 
 	const char *text = tr_lookup(key);
 	return text != NULL ? text : name;
@@ -330,6 +334,7 @@ static const UiTextInfo ui_texts[UI_TEXT_COUNT] =
 	[UI_CUSTOM_SHIP] = { "ui.custom_ship", "Custom Ship %d", "상점의 사용자 정의 함선 이름. %d(번호)는 그대로 두세요" },
 	[UI_OR_PLAY] = { "ui.or_play", "Or play... %s", "슈퍼 아케이드 모드를 마친 뒤 나오는 안내. %s는 미니게임 이름입니다" },
 	[UI_TYPE_AT_TITLE] = { "ui.type_at_title", "Type %s at Title", "슈퍼 아케이드 모드를 마친 뒤 나오는 비밀 코드 안내. %s는 타이틀 화면에서 입력할 코드입니다 (영어 그대로)" },
+	[UI_PAGE_OF] = { "ui.page_of", "%s of %d", "도움말 화면 오른쪽 아래의 쪽 번호. %s는 \"페이지 3\" 같은 현재 쪽, %d는 전체 쪽 수입니다 (작은 글씨)" },
 };
 
 const char *ui_text(UiText id)

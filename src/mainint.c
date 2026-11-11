@@ -459,7 +459,9 @@ static bool helpSystemPage(Uint8 *topic, bool *restart)
 		snprintf(buffer, sizeof buffer, "%s %d", miscText[24], page - topicStart[*topic - 1] + 1);
 		draw_font_hv(VGAScreen, 10, 192, buffer, small_font, left_aligned, 13, 5);
 
-		snprintf(buffer, sizeof buffer, "%s %d of %d", miscText[25], page, MAX_PAGE);
+		JE_char page_text[TEXT_SIZE(42) + 16];
+		snprintf(page_text, sizeof page_text, "%s %d", miscText[25], page);
+		tr_format(buffer, sizeof buffer, ui_text(UI_PAGE_OF), page_text, MAX_PAGE);
 		draw_font_hv(VGAScreen, 320 - 10, 192, buffer, small_font, right_aligned, 13, 5);
 
 		// Draw text.

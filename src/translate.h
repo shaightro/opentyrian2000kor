@@ -126,6 +126,7 @@ typedef enum
 	UI_CUSTOM_SHIP,
 	UI_OR_PLAY,
 	UI_TYPE_AT_TITLE,
+	UI_PAGE_OF,
 
 	UI_TEXT_COUNT
 } UiText;

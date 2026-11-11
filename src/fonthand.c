@@ -66,6 +66,10 @@ bool JE_nextTextChar(const char **s, unsigned int font, Uint32 *codepoint)
 
 bool JE_isWideChar(const char *s)
 {
+	// '~' only toggles highlighting, so look at the character after it (as the
+	// text loops do for after_wide).
+	while (*s == '~')
+		++s;
 	return (unsigned char)*s >= 0x80;
 }
 

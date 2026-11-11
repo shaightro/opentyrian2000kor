@@ -240,7 +240,7 @@ static const char *note_for(const char *key)
 		{ "help.defaultHighScoreNames.", "최고 기록 표의 기본 이름 (사람 이름이라 그대로 둬도 됩니다)" },
 		{ "help.defaultTeamNames.", "2인용 최고 기록 표의 기본 팀 이름" },
 		{ "help.orderingInfo.", "구매 안내 문구 (셰어웨어 시절의 흔적)" },
-		{ "help.superTyrianText.", "슈퍼 타이리안 모드 문구" },
+		{ "help.superTyrianText.", "슈퍼 티리안 모드 문구" },
 		{ "item.weapon.", "무기 이름 (상점과 함선 정보 화면)" },
 		{ "item.ship.", "함선 이름" },
 		{ "item.special.", "특수 무기 이름" },
@@ -728,14 +728,21 @@ static int count_char(const char *s, char c)
 /** The printf-style placeholders of a string, e.g. "%d%s". */
 static void placeholders(const char *s, char *out, size_t size)
 {
+	// Only printf conversions (optionally with a width) count: a '%' in prose,
+	// as in "50% of", is a percent sign (cube text is not a format string).
 	size_t len = 0;
 	for (; *s != '\0'; ++s)
 	{
-		if (*s == '%' && s[1] != '\0' && len + 3 < size)
+		if (*s != '%')
+			continue;
+		const char *c = s + 1;
+		while (*c >= '0' && *c <= '9')
+			++c;
+		if (*c != '\0' && strchr("dsiuxc%", *c) != NULL && len + 3 < size)
 		{
 			out[len++] = '%';
-			out[len++] = s[1];
-			++s;
+			out[len++] = *c;
+			s = c;
 		}
 	}
 	out[len] = '\0';
@@ -872,7 +879,7 @@ static int check(const char *dir)
 			++report_errors;
 		}
 
-		if (t->msgstr[0] == ' ' && e->text[0] != ' ')
+		if (t->msgstr[0] == ' ' && e->text[0] != ' ' && e->text[0] != '\n')
 		{
 			report_line("경고: %s:%d: %s: 번역이 공백으로 시작합니다", t->file, t->line, t->key);
 			++report_warnings;
