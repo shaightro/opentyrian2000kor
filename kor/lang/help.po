@@ -14,17 +14,17 @@ msgstr ""
 #. 도움말 상자의 설명 (작은 글씨, 상자 안에서 자동 줄바꿈). 최대 690바이트 (한글 약 230자)
 msgctxt "help.helpTxt.0"
 msgid "~Start Level~  Select the next level to play (usually there is only one selection)."
-msgstr ""
+msgstr "~출격~  다음에 플레이할 레벨을 고릅니다 (보통은 하나뿐입니다)."
 
 #. 도움말 상자의 설명 (작은 글씨, 상자 안에서 자동 줄바꿈). 최대 690바이트 (한글 약 230자)
 msgctxt "help.helpTxt.1"
 msgid "~DATA~  Here you read the datacubes you collect during some levels.  Some cubes have certain... hints.  Be sure to read them!  Select DONE when you are finished reading your cubes."
-msgstr ""
+msgstr "~데이터~  일부 레벨에서 모은 데이터 큐브를 여기서 읽습니다. 어떤 큐브에는 모종의... 힌트가 있으니 꼭 읽어 보세요! 다 읽었으면 게임 메뉴로 나가세요."
 
 #. 도움말 상자의 설명 (작은 글씨, 상자 안에서 자동 줄바꿈). 최대 690바이트 (한글 약 230자)
 msgctxt "help.helpTxt.2"
 msgid "~Player Input~  Select the input device you want to use by pushing left or right.  Tyrian will not allow both players to use the same input device."
-msgstr ""
+msgstr "~플레이어 입력~  왼쪽이나 오른쪽을 눌러 사용할 입력 장치를 고릅니다. 티리안에서는 두 플레이어가 같은 입력 장치를 쓸 수 없습니다."
 
 #. 도움말 상자의 설명 (작은 글씨, 상자 안에서 자동 줄바꿈). 최대 690바이트 (한글 약 230자)
 msgctxt "help.helpTxt.3"
@@ -34,37 +34,37 @@ msgstr ""
 #. 도움말 상자의 설명 (작은 글씨, 상자 안에서 자동 줄바꿈). 최대 690바이트 (한글 약 230자)
 msgctxt "help.helpTxt.4"
 msgid "~Upgrade Ship~  You can configure many aspects of your ship.  Upgrade points for your ship are gained by shooting enemies and collecting various items."
-msgstr ""
+msgstr "~함선 개조~  함선의 여러 부분을 원하는 대로 꾸밀 수 있습니다. 개조에 쓸 점수는 적을 쏘아 맞히고 여러 아이템을 모아서 얻습니다."
 
 #. 도움말 상자의 설명 (작은 글씨, 상자 안에서 자동 줄바꿈). 최대 690바이트 (한글 약 230자)
 msgctxt "help.helpTxt.5"
 msgid "~Purchasing~  Use the up/down arrow keys to select the item you want to view.  When you purchase the item, a bar will move to show the item you have purchased.  You may then exit the menu using done or ESC."
-msgstr ""
+msgstr "~구입~  위/아래 방향키로 살펴볼 아이템을 고릅니다. 아이템을 사면 막대가 움직여 산 아이템을 표시합니다. 그런 다음 완료나 ESC로 메뉴에서 나가면 됩니다."
 
 #. 도움말 상자의 설명 (작은 글씨, 상자 안에서 자동 줄바꿈). 최대 690바이트 (한글 약 230자)
 msgctxt "help.helpTxt.6"
 msgid "The amount of money you will have available after purchasing the item selected is shown at the bottom.  Items that are darkened out cost more than you can afford and you will be unable to select them."
-msgstr ""
+msgstr "고른 아이템을 산 뒤에 남는 돈은 아래쪽에 표시됩니다. 어둡게 표시된 아이템은 가진 돈보다 비싸서 고를 수 없습니다."
 
 #. 도움말 상자의 설명 (작은 글씨, 상자 안에서 자동 줄바꿈). 최대 690바이트 (한글 약 230자)
 msgctxt "help.helpTxt.7"
 msgid "~Ship Type~  Each ship has a different armor rating.  Armor is your last line of protection from enemy attack and is not easily repaired in the middile of combat."
-msgstr ""
+msgstr "~함선 종류~  함선마다 장갑 등급이 다릅니다. 장갑은 적의 공격을 막는 최후의 방어선이며, 전투 중에는 쉽게 수리할 수 없습니다."
 
 #. 도움말 상자의 설명 (작은 글씨, 상자 안에서 자동 줄바꿈). 최대 690바이트 (한글 약 230자)
 msgctxt "help.helpTxt.8"
 msgid "~Front Gun~/~Rear Gun~  Your ship can carry both a front and rear gun.  You can change your weapons or upgrade them from here."
-msgstr ""
+msgstr "~전방 무기~/~후방 무기~  함선에는 전방 무기와 후방 무기를 하나씩 달 수 있습니다. 여기서 무기를 바꾸거나 강화합니다."
 
 #. 도움말 상자의 설명 (작은 글씨, 상자 안에서 자동 줄바꿈). 최대 690바이트 (한글 약 230자)
 msgctxt "help.helpTxt.9"
 msgid "To ~upgrade~ or ~downgrade~ your existing gun, use the right and left arrow keys or click on the red arrows below your ship.  The bars in the center show you what power level your weapons are at."
-msgstr ""
+msgstr "지금 무기를 ~강화~하거나 ~약화~하려면 오른쪽/왼쪽 방향키를 쓰거나 함선 아래의 빨간 화살표를 누르세요. 가운데의 막대는 무기의 현재 위력 단계를 보여 줍니다."
 
 #. 도움말 상자의 설명 (작은 글씨, 상자 안에서 자동 줄바꿈). 최대 690바이트 (한글 약 230자)
 msgctxt "help.helpTxt.10"
 msgid "The red arrows and cost displays indicate when you can upgrade or downgrade your weapons.  If the right arrow is darkened or the cost is displayed in red, you cannot upgrade further."
-msgstr ""
+msgstr "빨간 화살표와 비용 표시를 보면 무기를 강화하거나 약화할 수 있는지 알 수 있습니다. 오른쪽 화살표가 어둡거나 비용이 빨간색이면 더는 강화할 수 없습니다."
 
 #. 도움말 상자의 설명 (작은 글씨, 상자 안에서 자동 줄바꿈). 최대 690바이트 (한글 약 230자)
 msgctxt "help.helpTxt.11"
@@ -74,32 +74,32 @@ msgstr ""
 #. 도움말 상자의 설명 (작은 글씨, 상자 안에서 자동 줄바꿈). 최대 690바이트 (한글 약 230자)
 msgctxt "help.helpTxt.12"
 msgid "Be sure to watch the power bar to see how quickly your energy level will drop while firing."
-msgstr ""
+msgstr "발사하는 동안 에너지가 얼마나 빨리 줄어드는지 에너지 게이지를 꼭 지켜보세요."
 
 #. 도움말 상자의 설명 (작은 글씨, 상자 안에서 자동 줄바꿈). 최대 690바이트 (한글 약 230자)
 msgctxt "help.helpTxt.13"
 msgid "~Shield~  Your ship is protected by a shield, which you upgrade in the same manner as your ship. Just select the shield you like with the up/down arrow keys, and buy it by pressing the \"enter\" key or the space bar."
-msgstr ""
+msgstr "~보호막~  함선은 보호막의 보호를 받으며, 보호막도 함선과 같은 방법으로 개조합니다. 위/아래 방향키로 마음에 드는 보호막을 고르고 \"enter\" 키나 스페이스 바를 눌러 사면 됩니다."
 
 #. 도움말 상자의 설명 (작은 글씨, 상자 안에서 자동 줄바꿈). 최대 690바이트 (한글 약 230자)
 msgctxt "help.helpTxt.14"
 msgid "~Generator~  You need power to fly that ship you're in. Your generator is the most important part of your ship. It determines how many shots you can fire at a time as well as how fast your shield recharges."
-msgstr ""
+msgstr "~발전기~  함선을 날리려면 에너지가 필요합니다. 발전기는 함선에서 가장 중요한 부품으로, 한 번에 쏠 수 있는 탄의 수와 보호막이 충전되는 속도를 결정합니다."
 
 #. 도움말 상자의 설명 (작은 글씨, 상자 안에서 자동 줄바꿈). 최대 690바이트 (한글 약 230자)
 msgctxt "help.helpTxt.15"
 msgid "Buy a better generator and you'll have a much better edge. Select your option in the same manner as the other items."
-msgstr ""
+msgstr "더 좋은 발전기를 사면 훨씬 유리해집니다. 다른 아이템과 같은 방법으로 고르세요."
 
 #. 도움말 상자의 설명 (작은 글씨, 상자 안에서 자동 줄바꿈). 최대 690바이트 (한글 약 230자)
 msgctxt "help.helpTxt.16"
 msgid "~Sidekicks~  You can have both a left and right sidekick.  These are special weapons that fly alongside your ship."
-msgstr ""
+msgstr "~사이드킥~  왼쪽과 오른쪽에 사이드킥을 하나씩 달 수 있습니다. 함선 곁을 따라 나는 특수 무기입니다."
 
 #. 도움말 상자의 설명 (작은 글씨, 상자 안에서 자동 줄바꿈). 최대 690바이트 (한글 약 230자)
 msgctxt "help.helpTxt.17"
 msgid "They range from just a simple cannon to the awesome \"Atom\" bomb. Some are much more powerful than others.  Many have limited ammo, but they will recharge slowly during a level!"
-msgstr ""
+msgstr "단순한 캐논부터 무시무시한 \"원자\" 폭탄까지 종류가 다양하며, 다른 것보다 훨씬 강력한 것도 있습니다. 대부분 탄약이 한정되어 있지만, 레벨을 진행하는 동안 천천히 다시 채워집니다!"
 
 #. 도움말 상자의 설명 (작은 글씨, 상자 안에서 자동 줄바꿈). 최대 690바이트 (한글 약 230자)
 msgctxt "help.helpTxt.18"
@@ -109,662 +109,662 @@ msgstr ""
 #. 도움말 상자의 설명 (작은 글씨, 상자 안에서 자동 줄바꿈). 최대 690바이트 (한글 약 230자)
 msgctxt "help.helpTxt.19"
 msgid "~Done~  This selection allows you to return to the Main Menu. Click on it when you're ready to fly!"
-msgstr ""
+msgstr "~완료~  메인 메뉴로 돌아갑니다. 출격할 준비가 되면 누르세요!"
 
 #. 도움말 상자의 설명 (작은 글씨, 상자 안에서 자동 줄바꿈). 최대 690바이트 (한글 약 230자)
 msgctxt "help.helpTxt.20"
 msgid "~Options Menu~  From this menu you may configure your joystick or keyboard, and load and save your games."
-msgstr ""
+msgstr "~옵션 메뉴~  이 메뉴에서 조이스틱이나 키보드를 설정하고, 게임을 불러오거나 저장할 수 있습니다."
 
 #. 도움말 상자의 설명 (작은 글씨, 상자 안에서 자동 줄바꿈). 최대 690바이트 (한글 약 230자)
 msgctxt "help.helpTxt.21"
 msgid "~Save Game~  The game you have in progress is automatically saved when you finish the level. So if you forget to save your game, just load \"Last Level\" and the last level you played will be loaded."
-msgstr ""
+msgstr "~게임 저장~  진행 중인 게임은 레벨을 마칠 때마다 자동으로 저장됩니다. 그러니 저장을 깜빡했다면 \"마지막 레벨\"을 불러오세요. 마지막으로 플레이한 레벨이 불러와집니다."
 
 #. 도움말 상자의 설명 (작은 글씨, 상자 안에서 자동 줄바꿈). 최대 690바이트 (한글 약 230자)
 msgctxt "help.helpTxt.22"
 msgid "To save a game select \"save game\" from the Options menu, find an empty slot, press the Enter key or spacebar, and enter the name of your choice."
-msgstr ""
+msgstr "게임을 저장하려면 옵션 메뉴에서 \"저장하기\"를 고르고, 빈 슬롯을 찾아 Enter 키나 스페이스 바를 누른 뒤 원하는 이름을 입력하세요."
 
 #. 도움말 상자의 설명 (작은 글씨, 상자 안에서 자동 줄바꿈). 최대 690바이트 (한글 약 230자)
 msgctxt "help.helpTxt.23"
 msgid "~Load Game~  To load a game, follow the same procedure except all you need to do is highlight the name of the game you wish to load and press Enter or hit the spacebar."
-msgstr ""
+msgstr "~게임 불러오기~  불러올 때도 방법은 같습니다. 불러올 게임의 이름을 고른 뒤 Enter나 스페이스 바를 누르기만 하면 됩니다."
 
 #. 도움말 상자의 설명 (작은 글씨, 상자 안에서 자동 줄바꿈). 최대 690바이트 (한글 약 230자)
 msgctxt "help.helpTxt.24"
 msgid "~Keyboard~  To configure your keyboard select \"Keyboard\" from the Options menu. Then, hit the key you wish to use for the function that is highlighted (example: when \"up\" is highlighted, hit the up arrow on your numeric keypad)."
-msgstr ""
+msgstr "~키보드~  키보드를 설정하려면 옵션 메뉴에서 \"키보드\"를 고르세요. 그런 다음 강조된 기능에 쓸 키를 누르면 됩니다 (예: \"위\"가 강조되어 있으면 숫자 키패드의 위쪽 화살표를 누릅니다)."
 
 #. 도움말 상자의 설명 (작은 글씨, 상자 안에서 자동 줄바꿈). 최대 690바이트 (한글 약 230자)
 msgctxt "help.helpTxt.25"
 msgid "~Joystick~  To configure your joystick, simply select \"Joystick\" from the Options menu and follow the on-screen instructions."
-msgstr ""
+msgstr "~조이스틱~  조이스틱을 설정하려면 옵션 메뉴에서 \"조이스틱\"을 고르고 화면의 안내를 따르세요."
 
 #. 도움말 상자의 설명 (작은 글씨, 상자 안에서 자동 줄바꿈). 최대 690바이트 (한글 약 230자)
 msgctxt "help.helpTxt.26"
 msgid "~Volume~  You may also change the volume of the music or the sound in the game by highlighting either \"Music\" or \"Sound\" in the Options menu and using the left and right arrow keys to change the volume."
-msgstr ""
+msgstr "~음량~  옵션 메뉴에서 \"음악\"이나 \"효과음\"을 고른 뒤 왼쪽/오른쪽 방향키를 누르면 게임의 음악이나 효과음 음량을 바꿀 수 있습니다."
 
 #. 도움말 상자의 설명 (작은 글씨, 상자 안에서 자동 줄바꿈). 최대 690바이트 (한글 약 230자)
 msgctxt "help.helpTxt.27"
 msgid "~Quit Game~  Select this to quit your game.  You will be returned to the title screen.  Use Alt-X for a quick way to quit the game."
-msgstr ""
+msgstr "~게임 종료~  게임을 끝내고 타이틀 화면으로 돌아갑니다. Alt-X를 누르면 바로 게임을 끝낼 수 있습니다."
 
 #. 도움말 상자의 설명 (작은 글씨, 상자 안에서 자동 줄바꿈). 최대 690바이트 (한글 약 230자)
 msgctxt "help.helpTxt.28"
 msgid "To exit the game from the title screen simply select \"Quit Game\" again and press Enter or the spacebar."
-msgstr ""
+msgstr "타이틀 화면에서 게임을 완전히 끝내려면 \"종료\"를 고르고 Enter나 스페이스 바를 누르세요."
 
 #. 도움말 상자의 설명 (작은 글씨, 상자 안에서 자동 줄바꿈). 최대 690바이트 (한글 약 230자)
 msgctxt "help.helpTxt.29"
 msgid "Select Ordering Info from Main Menu to find out how to order."
-msgstr ""
+msgstr "주문 방법은 메인 메뉴의 주문 안내에서 확인하세요."
 
 #. 도움말 상자의 설명 (작은 글씨, 상자 안에서 자동 줄바꿈). 최대 690바이트 (한글 약 230자)
 msgctxt "help.helpTxt.30"
 msgid "~Power Bar~■ Current power available.  Your weapons and shields draw power from here."
-msgstr ""
+msgstr "~에너지 게이지~ 지금 쓸 수 있는 에너지입니다. 무기와 보호막은 여기서 에너지를 끌어다 씁니다."
 
 #. 도움말 상자의 설명 (작은 글씨, 상자 안에서 자동 줄바꿈). 최대 690바이트 (한글 약 230자)
 msgctxt "help.helpTxt.31"
 msgid "~Weapons~■ The two bars show your weapon power for both front and rear weapons."
-msgstr ""
+msgstr "~무기~ 두 막대는 전방 무기와 후방 무기의 위력을 보여 줍니다."
 
 #. 도움말 상자의 설명 (작은 글씨, 상자 안에서 자동 줄바꿈). 최대 690바이트 (한글 약 230자)
 msgctxt "help.helpTxt.32"
 msgid "~Weapon Mode~■ Some rear weapons can have their firing pattern changed with the keyboard command ~change fire~ or a joystick button assigned to ~Change rear weapon~."
-msgstr ""
+msgstr "~무기 모드~ 일부 후방 무기는 키보드의 ~발사 방식 변경~ 키나 ~후방 무기 전환~에 할당한 조이스틱 버튼으로 발사 방식을 바꿀 수 있습니다."
 
 #. 도움말 상자의 설명 (작은 글씨, 상자 안에서 자동 줄바꿈). 최대 690바이트 (한글 약 230자)
 msgctxt "help.helpTxt.33"
 msgid "~Sidekicks~■ You can have up to two side weapons, usually fired with separate buttons.  The number of shots left are shown under the weapon name."
-msgstr ""
+msgstr "~사이드킥~ 측면 무기를 두 개까지 달 수 있으며, 보통 각각 다른 버튼으로 발사합니다. 남은 탄 수는 무기 이름 아래에 표시됩니다."
 
 #. 도움말 상자의 설명 (작은 글씨, 상자 안에서 자동 줄바꿈). 최대 690바이트 (한글 약 230자)
 msgctxt "help.helpTxt.34"
 msgid "~Shield/Armor~■ These bars show how much damage you can take.  Shields will recharge with time from your ~power bar~ and a repair ship may appear if your armor is low - shoot it!"
-msgstr ""
+msgstr "~보호막/장갑~ 이 막대는 앞으로 견딜 수 있는 피해량입니다. 보호막은 시간이 지나면 ~에너지 게이지~에서 충전되며, 장갑이 바닥나면 수리선이 나타나기도 하니 쏘아 맞히세요!"
 
 #. 도움말 상자의 설명 (작은 글씨, 상자 안에서 자동 줄바꿈). 최대 690바이트 (한글 약 230자)
 msgctxt "help.helpTxt.35"
 msgid "~Side-Panel~  Top: Player 1    Bottom: Player 2"
-msgstr ""
+msgstr "~측면 패널~  위: 플레이어 1    아래: 플레이어 2"
 
 #. 도움말 상자의 설명 (작은 글씨, 상자 안에서 자동 줄바꿈). 최대 690바이트 (한글 약 230자)
 msgctxt "help.helpTxt.36"
 msgid "~Weapon Power~■ This shows the level of power for each player's main weapon."
-msgstr ""
+msgstr "~무기 위력~ 각 플레이어의 주 무기 위력 단계입니다."
 
 #. 도움말 상자의 설명 (작은 글씨, 상자 안에서 자동 줄바꿈). 최대 690바이트 (한글 약 230자)
 msgctxt "help.helpTxt.37"
 msgid "~Linking~■ Move both ships together to combine them.  Player 1 disengages by holding down a sidekick firing button and moving up.  Player 2 disengages by moving without firing the main gun."
-msgstr ""
+msgstr "~합체~ 두 함선을 겹치면 합체합니다. 플레이어 1은 사이드킥 발사 버튼을 누른 채 위로 움직이면 분리됩니다. 플레이어 2는 주 무기를 쏘지 않고 움직이면 분리됩니다."
 
 #. 도움말 상자의 설명 (작은 글씨, 상자 안에서 자동 줄바꿈). 최대 690바이트 (한글 약 230자)
 msgctxt "help.helpTxt.38"
 msgid "~Rotation Cannon~■ Player 2 can aim the cannon by holding down the fire button and moving in any direction."
-msgstr ""
+msgstr "~회전 캐논~ 플레이어 2는 발사 버튼을 누른 채 움직여 캐논을 원하는 방향으로 겨눌 수 있습니다."
 
 #. 행성(지역) 이름. 최대 45바이트 (한글 약 15자)
 msgctxt "help.pName.0"
 msgid "Tyrian"
-msgstr ""
+msgstr "티리안"
 
 #. 행성(지역) 이름. 최대 45바이트 (한글 약 15자)
 msgctxt "help.pName.1"
 msgid "Asteroid 1"
-msgstr ""
+msgstr "소행성 1"
 
 #. 행성(지역) 이름. 최대 45바이트 (한글 약 15자)
 msgctxt "help.pName.2"
 msgid "Asteroid 2"
-msgstr ""
+msgstr "소행성 2"
 
 #. 행성(지역) 이름. 최대 45바이트 (한글 약 15자)
 msgctxt "help.pName.3"
 msgid "Asteroid 3"
-msgstr ""
+msgstr "소행성 3"
 
 #. 행성(지역) 이름. 최대 45바이트 (한글 약 15자)
 msgctxt "help.pName.4"
 msgid "Soh Jin"
-msgstr ""
+msgstr "소진"
 
 #. 행성(지역) 이름. 최대 45바이트 (한글 약 15자)
 msgctxt "help.pName.5"
 msgid "Camanis"
-msgstr ""
+msgstr "카마니스"
 
 #. 행성(지역) 이름. 최대 45바이트 (한글 약 15자)
 msgctxt "help.pName.6"
 msgid "Gryphon"
-msgstr ""
+msgstr "그리폰"
 
 #. 행성(지역) 이름. 최대 45바이트 (한글 약 15자)
 msgctxt "help.pName.7"
 msgid "Savara"
-msgstr ""
+msgstr "사바라"
 
 #. 행성(지역) 이름. 최대 45바이트 (한글 약 15자)
 msgctxt "help.pName.8"
 msgid "Gyges"
-msgstr ""
+msgstr "기게스"
 
 #. 행성(지역) 이름. 최대 45바이트 (한글 약 15자)
 msgctxt "help.pName.9"
 msgid "Deliani"
-msgstr ""
+msgstr "델리아니"
 
 #. 행성(지역) 이름. 최대 45바이트 (한글 약 15자)
 msgctxt "help.pName.10"
 msgid "Ixmucane"
-msgstr ""
+msgstr "익스무카네"
 
 #. 행성(지역) 이름. 최대 45바이트 (한글 약 15자)
 msgctxt "help.pName.11"
 msgid "Torm"
-msgstr ""
+msgstr "토름"
 
 #. 행성(지역) 이름. 최대 45바이트 (한글 약 15자)
 msgctxt "help.pName.12"
 msgid "Unknown"
-msgstr ""
+msgstr "미확인"
 
 #. 행성(지역) 이름. 최대 45바이트 (한글 약 15자)
 msgctxt "help.pName.13"
 msgid "Unknown"
-msgstr ""
+msgstr "미확인"
 
 #. 행성(지역) 이름. 최대 45바이트 (한글 약 15자)
 msgctxt "help.pName.14"
 msgid "Bonus"
-msgstr ""
+msgstr "보너스"
 
 #. 행성(지역) 이름. 최대 45바이트 (한글 약 15자)
 msgctxt "help.pName.15"
 msgid "Fleet"
-msgstr ""
+msgstr "함대"
 
 #. 행성(지역) 이름. 최대 45바이트 (한글 약 15자)
 msgctxt "help.pName.16"
 msgid "Botany A"
-msgstr ""
+msgstr "식물원 A"
 
 #. 행성(지역) 이름. 최대 45바이트 (한글 약 15자)
 msgctxt "help.pName.17"
 msgid "Botany B"
-msgstr ""
+msgstr "식물원 B"
 
 #. 행성(지역) 이름. 최대 45바이트 (한글 약 15자)
 msgctxt "help.pName.18"
 msgid "AstCity"
-msgstr ""
+msgstr "소행성 도시"
 
 #. 행성(지역) 이름. 최대 45바이트 (한글 약 15자)
 msgctxt "help.pName.19"
 msgid "Gauntlet"
-msgstr ""
+msgstr "시련의 길"
 
 #. 행성(지역) 이름. 최대 45바이트 (한글 약 15자)
 msgctxt "help.pName.20"
 msgid "Skip It"
-msgstr ""
+msgstr "건너뛰기"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.0"
 msgid "Last Level Completed"
-msgstr ""
+msgstr "마지막으로 완료한 레벨"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.1"
 msgid "~Save name:  ~"
-msgstr ""
+msgstr "~저장 이름:  ~"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.2"
 msgid "EMPTY SLOT"
-msgstr ""
+msgstr "빈 슬롯"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.3"
 msgid "Cubes collected:"
-msgstr ""
+msgstr "모은 큐브:"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.4"
 msgid "Press a key"
-msgstr ""
+msgstr "아무 키나 누르세요"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.5"
 msgid "Exit to Game Menu"
-msgstr ""
+msgstr "게임 메뉴로 나가기"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.6"
 msgid "Press C to recalibrate"
-msgstr ""
+msgstr "C 키를 누르면 다시 보정합니다"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.7"
 msgid "INSERT COIN"
-msgstr ""
+msgstr "동전을 넣으세요"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.8"
 msgid "Joystick recalibrated"
-msgstr ""
+msgstr "조이스틱 보정 완료"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.9"
 msgid "OK"
-msgstr ""
+msgstr "확인"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.10"
 msgid "CANCEL"
-msgstr ""
+msgstr "취소"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.11"
 msgid "Read:"
-msgstr ""
+msgstr "읽음:"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.12"
 msgid "EXIT"
-msgstr ""
+msgstr "나가기"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.13"
 msgid "DONE"
-msgstr ""
+msgstr "완료"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.14"
 msgid "None"
-msgstr ""
+msgstr "없음"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.15"
 msgid "No Data is available at this time."
-msgstr ""
+msgstr "지금은 볼 수 있는 데이터가 없습니다."
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.16"
 msgid "Warping to secret level!"
-msgstr ""
+msgstr "비밀 레벨로 워프합니다!"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.17"
 msgid "SOUND OFF"
-msgstr ""
+msgstr "효과음 끔"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.18"
 msgid "SOUND ON"
-msgstr ""
+msgstr "효과음 켬"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.19"
 msgid "NEW GAME"
-msgstr ""
+msgstr "새 게임"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.20"
 msgid "Good luck..."
-msgstr "행운을 빈다..."
+msgstr "행운을 빕니다..."
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.21"
 msgid "GAME OVER"
-msgstr ""
+msgstr "게임 오버"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.22"
 msgid "PAUSED"
-msgstr ""
+msgstr "일시 정지"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.23"
 msgid "Enter your beta password:"
-msgstr ""
+msgstr "베타 암호를 입력하세요:"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.24"
 msgid "PART"
-msgstr ""
+msgstr "파트"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.25"
 msgid "Page"
-msgstr ""
+msgstr "페이지"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.26"
 msgid "Completed:"
-msgstr ""
+msgstr "완료:"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.27"
 msgid "Current Score:"
-msgstr ""
+msgstr "현재 점수:"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.28"
 msgid "Are you sure you want to exit?"
-msgstr ""
+msgstr "정말 나가시겠습니까?"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.29"
 msgid "You will quit this level."
-msgstr ""
+msgstr "이 레벨을 포기하게 됩니다."
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.30"
 msgid "You will be returned to the main menu."
-msgstr ""
+msgstr "메인 메뉴로 돌아갑니다."
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.31"
 msgid "Use arrow keys to select and press Enter."
-msgstr ""
+msgstr "방향키로 고르고 Enter를 누르세요."
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.32"
 msgid "Press the key to use for this function."
-msgstr ""
+msgstr "이 기능에 쓸 키를 누르세요."
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.33"
 msgid "Exit to Main Menu"
-msgstr ""
+msgstr "메인 메뉴로 나가기"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.34"
 msgid "Beta Test Version"
-msgstr ""
+msgstr "베타 테스트 버전"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.35"
 msgid "MUSIC OFF"
-msgstr ""
+msgstr "음악 끔"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.36"
 msgid "MUSIC ON"
-msgstr ""
+msgstr "음악 켬"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.37"
 msgid "Your total Score:"
-msgstr ""
+msgstr "총점:"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.38"
 msgid "One Player Saved Games"
-msgstr ""
+msgstr "1인용 저장 게임"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.39"
 msgid "Two Player Saved Games"
-msgstr ""
+msgstr "2인용 저장 게임"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.40"
 msgid "Player 1 Score:"
-msgstr ""
+msgstr "플레이어 1 점수:"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.41"
 msgid "Player 2 Score:"
-msgstr ""
+msgstr "플레이어 2 점수:"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.42"
 msgid "Player 1 got"
-msgstr ""
+msgstr "플레이어 1 획득:"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.43"
 msgid "Player 2 got"
-msgstr ""
+msgstr "플레이어 2 획득:"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.44"
 msgid "Front Weapon Power-Up"
-msgstr ""
+msgstr "전방 무기 강화"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.45"
 msgid "Rear Weapon Power-Up"
-msgstr ""
+msgstr "후방 무기 강화"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.46"
 msgid "One Player"
-msgstr ""
+msgstr "1인용"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.47"
 msgid "Two Player"
-msgstr ""
+msgstr "2인용"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.48"
 msgid "Player 1"
-msgstr ""
+msgstr "플레이어 1"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.49"
 msgid "Player 2"
-msgstr ""
+msgstr "플레이어 2"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.50"
 msgid "High Scores"
-msgstr ""
+msgstr "최고 기록"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.51"
 msgid "Congratulations!"
-msgstr ""
+msgstr "축하합니다!"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.52"
 msgid "You have earned a high score!"
-msgstr ""
+msgstr "최고 기록을 세웠습니다!"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.53"
 msgid "Enter your name:"
-msgstr ""
+msgstr "이름을 입력하세요:"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.54"
 msgid "Levels in Episode  1:17  2:12  3:12  4:20"
-msgstr ""
+msgstr "에피소드별 레벨  1:17  2:12  3:12  4:20"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.55"
 msgid "~Left~ or ~right~ for 1 or 2 player game."
-msgstr ""
+msgstr "~왼쪽~/~오른쪽~ 키로 1인용 또는 2인용을 고릅니다."
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.56"
 msgid "~Left~ or ~right~ to select episode."
-msgstr ""
+msgstr "~왼쪽~/~오른쪽~ 키로 에피소드를 고릅니다."
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.57"
 msgid "Player 1 has earned a high score!"
-msgstr ""
+msgstr "플레이어 1이 최고 기록을 세웠습니다!"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.58"
 msgid "Player 2 has earned a high score!"
-msgstr ""
+msgstr "플레이어 2가 최고 기록을 세웠습니다!"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.59"
 msgid "Secret Level!"
-msgstr ""
+msgstr "비밀 레벨!"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.60"
 msgid "* Game Saved *"
-msgstr ""
+msgstr "* 게임 저장됨 *"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.61"
 msgid "Exiting:"
-msgstr ""
+msgstr "이탈:"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.62"
 msgid "Destruction:"
-msgstr ""
+msgstr "파괴율:"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.63"
 msgid "You got the"
-msgstr ""
+msgstr "획득:"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.64"
 msgid "Press F1 for help."
-msgstr ""
+msgstr "F1 키로 도움말을 봅니다."
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.65"
 msgid "F10 toggles left CPU/Human player."
-msgstr ""
+msgstr "F10: 왼쪽 플레이어 CPU/사람 전환"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.66"
 msgid "TIME REMAINING"
-msgstr ""
+msgstr "남은 시간"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.67"
 msgid ">> Bonus Game <<"
-msgstr ""
+msgstr ">> 보너스 게임 <<"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.68"
 msgid "Are you sure you want to save?"
-msgstr ""
+msgstr "정말 저장하시겠습니까?"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.69"
 msgid "Original save:"
-msgstr ""
+msgstr "기존 저장:"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.70"
 msgid "[/] Rear Weapon Mode"
-msgstr ""
+msgstr "[/] 후방 무기 모드"
 
 #. 여러 화면에 나오는 기타 문구 (대부분 작은 글씨 한 줄). 뒤에 숫자나 이름이 붙는 것도 있습니다. 최대 123바이트 (한글 약 41자)
 msgctxt "help.miscText.71"
 msgid "Type Engage or"
-msgstr ""
+msgstr "Engage를 입력하거나"
 
 #. 아주 짧은 기타 문구. 최대 33바이트 (한글 약 11자)
 msgctxt "help.miscTextB.0"
 msgid "Ep"
-msgstr ""
+msgstr "EP"
 
 #. 아주 짧은 기타 문구. 최대 33바이트 (한글 약 11자)
 msgctxt "help.miscTextB.1"
 msgid "Episode"
-msgstr ""
+msgstr "에피소드"
 
 #. 아주 짧은 기타 문구. 최대 33바이트 (한글 약 11자)
 msgctxt "help.miscTextB.2"
 msgid "Last Level"
-msgstr ""
+msgstr "마지막 레벨"
 
 #. 아주 짧은 기타 문구. 최대 33바이트 (한글 약 11자)
 msgctxt "help.miscTextB.3"
 msgid "got"
-msgstr ""
+msgstr "획득:"
 
 #. 아주 짧은 기타 문구. 최대 33바이트 (한글 약 11자)
 msgctxt "help.miscTextB.4"
 msgid "SUPER"
-msgstr ""
+msgstr "슈퍼"
 
 #. 아주 짧은 기타 문구. 최대 33바이트 (한글 약 11자)
 msgctxt "help.miscTextB.5"
 msgid "POWER:"
-msgstr ""
+msgstr "위력:"
 
 #. 아주 짧은 기타 문구. 최대 33바이트 (한글 약 11자)
 msgctxt "help.miscTextB.6"
 msgid "Time Bonus"
-msgstr ""
+msgstr "시간 보너스"
 
 #. 아주 짧은 기타 문구. 최대 33바이트 (한글 약 11자)
 msgctxt "help.miscTextB.7"
 msgid "Lives Bonus"
-msgstr ""
+msgstr "목숨 보너스"
 
 #. 키 이름 (키 설정 메뉴). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.6.0"
 msgid "KEY CONFIG"
-msgstr ""
+msgstr "키 설정"
 
 #. 키 이름 (키 설정 메뉴). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.6.1"
 msgid "UP"
-msgstr ""
+msgstr "위"
 
 #. 키 이름 (키 설정 메뉴). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.6.2"
 msgid "DOWN"
-msgstr ""
+msgstr "아래"
 
 #. 키 이름 (키 설정 메뉴). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.6.3"
 msgid "LEFT"
-msgstr ""
+msgstr "왼쪽"
 
 #. 키 이름 (키 설정 메뉴). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.6.4"
 msgid "RIGHT"
-msgstr ""
+msgstr "오른쪽"
 
 #. 키 이름 (키 설정 메뉴). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.6.5"
 msgid "FIRE"
-msgstr ""
+msgstr "발사"
 
 #. 키 이름 (키 설정 메뉴). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.6.6"
 msgid "CHANGE FIRE"
-msgstr ""
+msgstr "발사 방식 변경"
 
 #. 키 이름 (키 설정 메뉴). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.6.7"
 msgid "LEFT SIDEKICK"
-msgstr ""
+msgstr "왼쪽 사이드킥"
 
 #. 키 이름 (키 설정 메뉴). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.6.8"
 msgid "RIGHT SIDEKICK"
-msgstr ""
+msgstr "오른쪽 사이드킥"
 
 #. 키 이름 (키 설정 메뉴). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.6.9"
 msgid "Reset to Defaults"
-msgstr ""
+msgstr "기본값으로 초기화"
 
 #. 키 이름 (키 설정 메뉴). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.6.10"
 msgid "Done"
-msgstr ""
+msgstr "완료"
 
 #. 메인 메뉴 항목 (보통 글씨). 최대 84바이트 (한글 약 28자)
 msgctxt "help.menuText.0"
@@ -799,82 +799,82 @@ msgstr "종료"
 #. 메인 메뉴 항목 (보통 글씨). 최대 84바이트 (한글 약 28자)
 msgctxt "help.menuText.6"
 msgid "---Ordering Info Before Demo"
-msgstr ""
+msgstr "---데모 전 주문 안내"
 
 #. 이벤트 알림 문구. 최대 90바이트 (한글 약 30자)
 msgctxt "help.outputs.0"
 msgid "Enemy approaching from behind."
-msgstr ""
+msgstr "후방에서 적 접근 중."
 
 #. 이벤트 알림 문구. 최대 90바이트 (한글 약 30자)
 msgctxt "help.outputs.1"
 msgid "Large mass detected ahead!"
-msgstr ""
+msgstr "전방에 거대 질량 감지!"
 
 #. 이벤트 알림 문구. 최대 90바이트 (한글 약 30자)
 msgctxt "help.outputs.2"
 msgid "Intercepting enemy aircraft."
-msgstr ""
+msgstr "적기 요격 개시."
 
 #. 이벤트 알림 문구. 최대 90바이트 (한글 약 30자)
 msgctxt "help.outputs.3"
 msgid "Cleared enemy platforms."
-msgstr ""
+msgstr "적 플랫폼 지대 통과."
 
 #. 이벤트 알림 문구. 최대 90바이트 (한글 약 30자)
 msgctxt "help.outputs.4"
 msgid "Approaching enemy platforms..."
-msgstr ""
+msgstr "적 플랫폼에 접근 중..."
 
 #. 이벤트 알림 문구. 최대 90바이트 (한글 약 30자)
 msgctxt "help.outputs.5"
 msgid "~WARNING:~ Spikes ahead!!"
-msgstr ""
+msgstr "~경고:~ 전방에 가시!!"
 
 #. 이벤트 알림 문구. 최대 90바이트 (한글 약 30자)
 msgctxt "help.outputs.6"
 msgid "Afterburners activated!"
-msgstr ""
+msgstr "애프터버너 작동!"
 
 #. 이벤트 알림 문구. 최대 90바이트 (한글 약 30자)
 msgctxt "help.outputs.7"
 msgid "** Danger! **"
-msgstr ""
+msgstr "** 위험! **"
 
 #. 이벤트 알림 문구. 최대 90바이트 (한글 약 30자)
 msgctxt "help.outputs.8"
 msgid ">>> Bonus Level <<<"
-msgstr ""
+msgstr ">>> 보너스 레벨 <<<"
 
 #. 도움말 주제 이름. 최대 60바이트 (한글 약 20자)
 msgctxt "help.topicName.0"
 msgid "Help Menu"
-msgstr ""
+msgstr "도움말"
 
 #. 도움말 주제 이름. 최대 60바이트 (한글 약 20자)
 msgctxt "help.topicName.1"
 msgid "One-Player Game Menu"
-msgstr ""
+msgstr "1인용 게임 메뉴"
 
 #. 도움말 주제 이름. 최대 60바이트 (한글 약 20자)
 msgctxt "help.topicName.2"
 msgid "Two-Player Game Menu"
-msgstr ""
+msgstr "2인용 게임 메뉴"
 
 #. 도움말 주제 이름. 최대 60바이트 (한글 약 20자)
 msgctxt "help.topicName.3"
 msgid "Upgrade Ship"
-msgstr ""
+msgstr "함선 개조"
 
 #. 도움말 주제 이름. 최대 60바이트 (한글 약 20자)
 msgctxt "help.topicName.4"
 msgid "Options"
-msgstr ""
+msgstr "옵션"
 
 #. 도움말 주제 이름. 최대 60바이트 (한글 약 20자)
 msgctxt "help.topicName.5"
 msgid "EXIT HELP"
-msgstr ""
+msgstr "도움말 닫기"
 
 #. 게임 메뉴 화면 아래쪽 설명 (작은 글씨, 한 줄). 최대 195바이트 (한글 약 65자)
 msgctxt "help.mainMenuHelp.0"
@@ -904,162 +904,162 @@ msgstr "게임을 그만둡니다."
 #. 게임 메뉴 화면 아래쪽 설명 (작은 글씨, 한 줄). 최대 195바이트 (한글 약 65자)
 msgctxt "help.mainMenuHelp.5"
 msgid "Each ship has a different armor rating."
-msgstr ""
+msgstr "함선마다 장갑 등급이 다릅니다."
 
 #. 게임 메뉴 화면 아래쪽 설명 (작은 글씨, 한 줄). 최대 195바이트 (한글 약 65자)
 msgctxt "help.mainMenuHelp.6"
 msgid "Change and upgrade your forward weapon."
-msgstr ""
+msgstr "전방 무기를 바꾸거나 강화합니다."
 
 #. 게임 메뉴 화면 아래쪽 설명 (작은 글씨, 한 줄). 최대 195바이트 (한글 약 65자)
 msgctxt "help.mainMenuHelp.7"
 msgid "Change and upgrade your rear/side weapon."
-msgstr ""
+msgstr "후방/측면 무기를 바꾸거나 강화합니다."
 
 #. 게임 메뉴 화면 아래쪽 설명 (작은 글씨, 한 줄). 최대 195바이트 (한글 약 65자)
 msgctxt "help.mainMenuHelp.8"
 msgid "Shields are your first line of defense."
-msgstr ""
+msgstr "보호막은 첫 번째 방어선입니다."
 
 #. 게임 메뉴 화면 아래쪽 설명 (작은 글씨, 한 줄). 최대 195바이트 (한글 약 65자)
 msgctxt "help.mainMenuHelp.9"
 msgid "Generators power your weapons and shields."
-msgstr ""
+msgstr "발전기는 무기와 보호막에 에너지를 공급합니다."
 
 #. 게임 메뉴 화면 아래쪽 설명 (작은 글씨, 한 줄). 최대 195바이트 (한글 약 65자)
 msgctxt "help.mainMenuHelp.10"
 msgid "Take a chance : Purchase a special weapon."
-msgstr ""
+msgstr "모험해 보세요: 특수 무기를 삽니다."
 
 #. 게임 메뉴 화면 아래쪽 설명 (작은 글씨, 한 줄). 최대 195바이트 (한글 약 65자)
 msgctxt "help.mainMenuHelp.11"
 msgid "Return to the previous menu."
-msgstr ""
+msgstr "이전 메뉴로 돌아갑니다."
 
 #. 게임 메뉴 화면 아래쪽 설명 (작은 글씨, 한 줄). 최대 195바이트 (한글 약 65자)
 msgctxt "help.mainMenuHelp.12"
 msgid "Load a saved game.  (Shortcut is ALT-L)"
-msgstr ""
+msgstr "저장한 게임을 불러옵니다.  (단축키 ALT-L)"
 
 #. 게임 메뉴 화면 아래쪽 설명 (작은 글씨, 한 줄). 최대 195바이트 (한글 약 65자)
 msgctxt "help.mainMenuHelp.13"
 msgid "Save your game for later.  (Shortcut is ALT-S)"
-msgstr ""
+msgstr "나중을 위해 게임을 저장합니다.  (단축키 ALT-S)"
 
 #. 게임 메뉴 화면 아래쪽 설명 (작은 글씨, 한 줄). 최대 195바이트 (한글 약 65자)
 msgctxt "help.mainMenuHelp.14"
 msgid "Change volume with the left/right arrow keys."
-msgstr ""
+msgstr "왼쪽/오른쪽 방향키로 음량을 바꿉니다."
 
 #. 게임 메뉴 화면 아래쪽 설명 (작은 글씨, 한 줄). 최대 195바이트 (한글 약 65자)
 msgctxt "help.mainMenuHelp.15"
 msgid "Configure your Joystick buttons."
-msgstr ""
+msgstr "조이스틱 버튼을 설정합니다."
 
 #. 게임 메뉴 화면 아래쪽 설명 (작은 글씨, 한 줄). 최대 195바이트 (한글 약 65자)
 msgctxt "help.mainMenuHelp.16"
 msgid "Change the keys used to play the game."
-msgstr ""
+msgstr "게임에 쓸 키를 바꿉니다."
 
 #. 게임 메뉴 화면 아래쪽 설명 (작은 글씨, 한 줄). 최대 195바이트 (한글 약 65자)
 msgctxt "help.mainMenuHelp.17"
 msgid "Select this location to visit next."
-msgstr ""
+msgstr "이곳을 다음 목적지로 고릅니다."
 
 #. 게임 메뉴 화면 아래쪽 설명 (작은 글씨, 한 줄). 최대 195바이트 (한글 약 65자)
 msgctxt "help.mainMenuHelp.18"
 msgid "Select the item you want."
-msgstr ""
+msgstr "원하는 아이템을 고릅니다."
 
 #. 게임 메뉴 화면 아래쪽 설명 (작은 글씨, 한 줄). 최대 195바이트 (한글 약 65자)
 msgctxt "help.mainMenuHelp.19"
 msgid "Press ENTER to change this key."
-msgstr ""
+msgstr "ENTER를 누르면 이 키를 바꿉니다."
 
 #. 게임 메뉴 화면 아래쪽 설명 (작은 글씨, 한 줄). 최대 195바이트 (한글 약 65자)
 msgctxt "help.mainMenuHelp.20"
 msgid "Press up or down to select the save slot you want."
-msgstr ""
+msgstr "위/아래 키로 원하는 저장 슬롯을 고릅니다."
 
 #. 게임 메뉴 화면 아래쪽 설명 (작은 글씨, 한 줄). 최대 195바이트 (한글 약 65자)
 msgctxt "help.mainMenuHelp.21"
 msgid "Press up or down to select the cube you want to read."
-msgstr ""
+msgstr "위/아래 키로 읽을 큐브를 고릅니다."
 
 #. 게임 메뉴 화면 아래쪽 설명 (작은 글씨, 한 줄). 최대 195바이트 (한글 약 65자)
 msgctxt "help.mainMenuHelp.22"
 msgid "Press ESC to exit."
-msgstr ""
+msgstr "ESC를 누르면 나갑니다."
 
 #. 게임 메뉴 화면 아래쪽 설명 (작은 글씨, 한 줄). 최대 195바이트 (한글 약 65자)
 msgctxt "help.mainMenuHelp.23"
 msgid "Select a weapon.  Left/right arrow keys to change power level."
-msgstr ""
+msgstr "무기를 고릅니다.  왼쪽/오른쪽 방향키로 위력 단계를 바꿉니다."
 
 #. 게임 메뉴 화면 아래쪽 설명 (작은 글씨, 한 줄). 최대 195바이트 (한글 약 65자)
 msgctxt "help.mainMenuHelp.24"
 msgid "Reset all key selections to the original settings."
-msgstr ""
+msgstr "모든 키 설정을 처음 상태로 되돌립니다."
 
 #. 게임 메뉴 화면 아래쪽 설명 (작은 글씨, 한 줄). 최대 195바이트 (한글 약 65자)
 msgctxt "help.mainMenuHelp.25"
 msgid "Continue playing the level."
-msgstr ""
+msgstr "레벨을 계속 진행합니다."
 
 #. 게임 메뉴 화면 아래쪽 설명 (작은 글씨, 한 줄). 최대 195바이트 (한글 약 65자)
 msgctxt "help.mainMenuHelp.26"
 msgid "Quit playing the level."
-msgstr ""
+msgstr "레벨을 포기합니다."
 
 #. 게임 메뉴 화면 아래쪽 설명 (작은 글씨, 한 줄). 최대 195바이트 (한글 약 65자)
 msgctxt "help.mainMenuHelp.27"
 msgid "Change detail level with the left/right arrow keys."
-msgstr ""
+msgstr "왼쪽/오른쪽 방향키로 그래픽 품질을 바꿉니다."
 
 #. 게임 메뉴 화면 아래쪽 설명 (작은 글씨, 한 줄). 최대 195바이트 (한글 약 65자)
 msgctxt "help.mainMenuHelp.28"
 msgid "Change game speed with the left/right arrow keys."
-msgstr ""
+msgstr "왼쪽/오른쪽 방향키로 게임 속도를 바꿉니다."
 
 #. 게임 메뉴 화면 아래쪽 설명 (작은 글씨, 한 줄). 최대 195바이트 (한글 약 65자)
 msgctxt "help.mainMenuHelp.29"
 msgid "Use the arrow keys to select the interface device to use."
-msgstr ""
+msgstr "방향키로 사용할 입력 장치를 고릅니다."
 
 #. 게임 메뉴 화면 아래쪽 설명 (작은 글씨, 한 줄). 최대 195바이트 (한글 약 65자)
 msgctxt "help.mainMenuHelp.30"
 msgid "Change the function with the left/right arrow keys."
-msgstr ""
+msgstr "왼쪽/오른쪽 방향키로 기능을 바꿉니다."
 
 #. 게임 메뉴 화면 아래쪽 설명 (작은 글씨, 한 줄). 최대 195바이트 (한글 약 65자)
 msgctxt "help.mainMenuHelp.31"
 msgid "Select this if the position mark is not in the center rectangle."
-msgstr ""
+msgstr "위치 표시가 가운데 사각형 안에 없을 때 고릅니다."
 
 #. 게임 메뉴 화면 아래쪽 설명 (작은 글씨, 한 줄). 최대 195바이트 (한글 약 65자)
 msgctxt "help.mainMenuHelp.32"
 msgid "Leave the joystick in the center position and push a button."
-msgstr ""
+msgstr "조이스틱을 가운데에 두고 버튼을 누르세요."
 
 #. 게임 메뉴 화면 아래쪽 설명 (작은 글씨, 한 줄). 최대 195바이트 (한글 약 65자)
 msgctxt "help.mainMenuHelp.33"
 msgid "Access schematics and detailed info on your ship."
-msgstr ""
+msgstr "함선의 설계도와 상세 정보를 봅니다."
 
 #. 게임 메뉴 화면 아래쪽 설명 (작은 글씨, 한 줄). 최대 195바이트 (한글 약 65자)
 msgctxt "help.mainMenuHelp.34"
 msgid "Configure your mouse buttons."
-msgstr ""
+msgstr "마우스 버튼을 설정합니다."
 
 #. 게임 메뉴 화면 아래쪽 설명 (작은 글씨, 한 줄). 최대 195바이트 (한글 약 65자)
 msgctxt "help.mainMenuHelp.35"
 msgid "Reset all buttons selections to the original settings."
-msgstr ""
+msgstr "모든 버튼 설정을 처음 상태로 되돌립니다."
 
 #. 게임 메뉴 화면 아래쪽 설명 (작은 글씨, 한 줄). 최대 195바이트 (한글 약 65자)
 msgctxt "help.mainMenuHelp.36"
 msgid "Configuration settings."
-msgstr ""
+msgstr "게임 설정을 바꿉니다."
 
 #. 게임 메뉴 제목 (큰 글씨, 짧게). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.1.0"
@@ -1099,177 +1099,177 @@ msgstr "게임 종료"
 #. 게임 메뉴 제목 (큰 글씨, 짧게). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.2.0"
 msgid "Upgrade Ship"
-msgstr ""
+msgstr "함선 개조"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.2.1"
 msgid "Ship Type"
-msgstr ""
+msgstr "함선 종류"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.2.2"
 msgid "Front Gun"
-msgstr ""
+msgstr "전방 무기"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.2.3"
 msgid "Rear Gun"
-msgstr ""
+msgstr "후방 무기"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.2.4"
 msgid "Shield"
-msgstr ""
+msgstr "보호막"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.2.5"
 msgid "Generator"
-msgstr ""
+msgstr "발전기"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.2.6"
 msgid "Left Sidekick"
-msgstr ""
+msgstr "왼쪽 사이드킥"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.2.7"
 msgid "Right Sidekick"
-msgstr ""
+msgstr "오른쪽 사이드킥"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.2.8"
 msgid "Done"
-msgstr ""
+msgstr "완료"
 
 #. 게임 메뉴 제목 (큰 글씨, 짧게). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.3.0"
 msgid "Options"
-msgstr ""
+msgstr "옵션"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.3.1"
 msgid "Load"
-msgstr ""
+msgstr "불러오기"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.3.2"
 msgid "Save"
-msgstr ""
+msgstr "저장하기"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.3.3"
 msgid "Music"
-msgstr ""
+msgstr "음악"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.3.4"
 msgid "Sound"
-msgstr ""
+msgstr "효과음"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.3.5"
 msgid "Joystick"
-msgstr ""
+msgstr "조이스틱"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.3.6"
 msgid "Keyboard"
-msgstr ""
+msgstr "키보드"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.3.7"
 msgid "Mouse"
-msgstr ""
+msgstr "마우스"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.3.8"
 msgid "Done"
-msgstr ""
+msgstr "완료"
 
 #. 게임 중 메뉴 항목. 최대 60바이트 (한글 약 20자)
 msgctxt "help.inGameText.0"
 msgid "Music Volume"
-msgstr ""
+msgstr "음악 음량"
 
 #. 게임 중 메뉴 항목. 최대 60바이트 (한글 약 20자)
 msgctxt "help.inGameText.1"
 msgid "Sound Volume"
-msgstr ""
+msgstr "효과음 음량"
 
 #. 게임 중 메뉴 항목. 최대 60바이트 (한글 약 20자)
 msgctxt "help.inGameText.2"
 msgid "Detail Level"
-msgstr ""
+msgstr "그래픽 품질"
 
 #. 게임 중 메뉴 항목. 최대 60바이트 (한글 약 20자)
 msgctxt "help.inGameText.3"
 msgid "Game Speed"
-msgstr ""
+msgstr "게임 속도"
 
 #. 게임 중 메뉴 항목. 최대 60바이트 (한글 약 20자)
 msgctxt "help.inGameText.4"
 msgid "Return to Game"
-msgstr ""
+msgstr "게임으로 돌아가기"
 
 #. 게임 중 메뉴 항목. 최대 60바이트 (한글 약 20자)
 msgctxt "help.inGameText.5"
 msgid "Quit Level"
-msgstr ""
+msgstr "레벨 포기"
 
 #. 그래픽 품질 단계 이름. 최대 36바이트 (한글 약 12자)
 msgctxt "help.detailLevel.0"
 msgid "Low"
-msgstr ""
+msgstr "낮음"
 
 #. 그래픽 품질 단계 이름. 최대 36바이트 (한글 약 12자)
 msgctxt "help.detailLevel.1"
 msgid "Normal"
-msgstr ""
+msgstr "보통"
 
 #. 그래픽 품질 단계 이름. 최대 36바이트 (한글 약 12자)
 msgctxt "help.detailLevel.2"
 msgid "High"
-msgstr ""
+msgstr "높음"
 
 #. 그래픽 품질 단계 이름. 최대 36바이트 (한글 약 12자)
 msgctxt "help.detailLevel.3"
 msgid "Pentium"
-msgstr ""
+msgstr "펜티엄"
 
 #. 그래픽 품질 단계 이름. 최대 36바이트 (한글 약 12자)
 msgctxt "help.detailLevel.4"
 msgid "Laptop VGA"
-msgstr ""
+msgstr "노트북 VGA"
 
 #. 그래픽 품질 단계 이름. 최대 36바이트 (한글 약 12자)
 msgctxt "help.detailLevel.5"
 msgid "Wild"
-msgstr ""
+msgstr "광란"
 
 #. 게임 속도 단계 이름. 최대 36바이트 (한글 약 12자)
 msgctxt "help.gameSpeedText.0"
 msgid "Slug Mode"
-msgstr ""
+msgstr "달팽이 모드"
 
 #. 게임 속도 단계 이름. 최대 36바이트 (한글 약 12자)
 msgctxt "help.gameSpeedText.1"
 msgid "Slower"
-msgstr ""
+msgstr "더 느림"
 
 #. 게임 속도 단계 이름. 최대 36바이트 (한글 약 12자)
 msgctxt "help.gameSpeedText.2"
 msgid "Slow"
-msgstr ""
+msgstr "느림"
 
 #. 게임 속도 단계 이름. 최대 36바이트 (한글 약 12자)
 msgctxt "help.gameSpeedText.3"
 msgid "Normal"
-msgstr ""
+msgstr "보통"
 
 #. 게임 속도 단계 이름. 최대 36바이트 (한글 약 12자)
 msgctxt "help.gameSpeedText.4"
 msgid "Turbo"
-msgstr ""
+msgstr "터보"
 
 #. 에피소드 이름 (에피소드 선택 화면, 보통 글씨). 최대 90바이트 (한글 약 30자)
 msgctxt "help.episode_name.0"
@@ -1299,7 +1299,7 @@ msgstr "에피소드 4: 운명의 끝"
 #. 에피소드 이름 (에피소드 선택 화면, 보통 글씨). 최대 90바이트 (한글 약 30자)
 msgctxt "help.episode_name.5"
 msgid "Episode 5: Hazudra Fodder"
-msgstr ""
+msgstr "에피소드 5: 하주드라의 먹잇감"
 
 #. 난이도 이름 (난이도 선택 화면, 보통 글씨). 최대 60바이트 (한글 약 20자)
 msgctxt "help.difficulty_name.0"
@@ -1369,542 +1369,542 @@ msgstr "네트워크 대전"
 #. 게임 메뉴 제목 (큰 글씨, 짧게). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.10.0"
 msgid "Game Menu"
-msgstr ""
+msgstr "게임 메뉴"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.10.1"
 msgid "Start Level"
-msgstr ""
+msgstr "출격"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.10.2"
 msgid "Player 1 Input"
-msgstr ""
+msgstr "플레이어 1 입력"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.10.3"
 msgid "Player 2 Input"
-msgstr ""
+msgstr "플레이어 2 입력"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.10.4"
 msgid "Options"
-msgstr ""
+msgstr "옵션"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.10.5"
 msgid "Quit Game"
-msgstr ""
+msgstr "게임 종료"
 
 #. 입력 장치 이름. 최대 36바이트 (한글 약 12자)
 msgctxt "help.inputDevices.0"
 msgid "Keyboard"
-msgstr ""
+msgstr "키보드"
 
 #. 입력 장치 이름. 최대 36바이트 (한글 약 12자)
 msgctxt "help.inputDevices.1"
 msgid "Mouse"
-msgstr ""
+msgstr "마우스"
 
 #. 입력 장치 이름. 최대 36바이트 (한글 약 12자)
 msgctxt "help.inputDevices.2"
 msgid "Joystick"
-msgstr ""
+msgstr "조이스틱"
 
 #. 네트워크 대전 문구 (이 판에서는 쓰지 않음). 최대 96바이트 (한글 약 32자)
 msgctxt "help.networkText.0"
 msgid "has aborted"
-msgstr ""
+msgstr "중단함:"
 
 #. 네트워크 대전 문구 (이 판에서는 쓰지 않음). 최대 96바이트 (한글 약 32자)
 msgctxt "help.networkText.1"
 msgid "a practice game."
-msgstr ""
+msgstr "연습 게임."
 
 #. 네트워크 대전 문구 (이 판에서는 쓰지 않음). 최대 96바이트 (한글 약 32자)
 msgctxt "help.networkText.2"
 msgid "a two-player game."
-msgstr ""
+msgstr "2인용 게임."
 
 #. 네트워크 대전 문구 (이 판에서는 쓰지 않음). 최대 96바이트 (한글 약 32자)
 msgctxt "help.networkText.3"
 msgid "Waiting for player 1."
-msgstr ""
+msgstr "플레이어 1을 기다리는 중입니다."
 
 #. 네트워크 대전 문구 (이 판에서는 쓰지 않음). 최대 96바이트 (한글 약 32자)
 msgctxt "help.networkText.4"
 msgid "Other player stopped responding."
-msgstr ""
+msgstr "상대 플레이어가 응답하지 않습니다."
 
 #. 게임 메뉴 제목 (큰 글씨, 짧게). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.11.0"
 msgid "Game Menu"
-msgstr ""
+msgstr "게임 메뉴"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.11.1"
 msgid "Start Level"
-msgstr ""
+msgstr "출격"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.11.2"
 msgid "Options"
-msgstr ""
+msgstr "옵션"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.11.3"
 msgid "Quit Game"
-msgstr ""
+msgstr "게임 종료"
 
 #. 최고 기록 화면의 난이도 이름. 최대 60바이트 (한글 약 20자)
 msgctxt "help.difficultyNameB.0"
 msgid "Unranked"
-msgstr ""
+msgstr "등급 없음"
 
 #. 최고 기록 화면의 난이도 이름. 최대 60바이트 (한글 약 20자)
 msgctxt "help.difficultyNameB.1"
 msgid "Easy"
-msgstr ""
+msgstr "쉬움"
 
 #. 최고 기록 화면의 난이도 이름. 최대 60바이트 (한글 약 20자)
 msgctxt "help.difficultyNameB.2"
 msgid "Normal"
-msgstr ""
+msgstr "보통"
 
 #. 최고 기록 화면의 난이도 이름. 최대 60바이트 (한글 약 20자)
 msgctxt "help.difficultyNameB.3"
 msgid "Hard"
-msgstr ""
+msgstr "어려움"
 
 #. 최고 기록 화면의 난이도 이름. 최대 60바이트 (한글 약 20자)
 msgctxt "help.difficultyNameB.4"
 msgid "Impossible"
-msgstr ""
+msgstr "불가능"
 
 #. 최고 기록 화면의 난이도 이름. 최대 60바이트 (한글 약 20자)
 msgctxt "help.difficultyNameB.5"
 msgid "Insanity"
-msgstr ""
+msgstr "광기"
 
 #. 최고 기록 화면의 난이도 이름. 최대 60바이트 (한글 약 20자)
 msgctxt "help.difficultyNameB.6"
 msgid "Suicide"
-msgstr ""
+msgstr "자살 행위"
 
 #. 최고 기록 화면의 난이도 이름. 최대 60바이트 (한글 약 20자)
 msgctxt "help.difficultyNameB.7"
 msgid "Maniacal"
-msgstr ""
+msgstr "미치광이"
 
 #. 최고 기록 화면의 난이도 이름. 최대 60바이트 (한글 약 20자)
 msgctxt "help.difficultyNameB.8"
 msgid "Terror"
-msgstr ""
+msgstr "공포"
 
 #. 최고 기록 화면의 난이도 이름. 최대 60바이트 (한글 약 20자)
 msgctxt "help.difficultyNameB.9"
 msgid "Master"
-msgstr ""
+msgstr "달인"
 
 #. 최고 기록 화면의 난이도 이름. 최대 60바이트 (한글 약 20자)
 msgctxt "help.difficultyNameB.10"
 msgid "Zinglon"
-msgstr ""
+msgstr "징글론"
 
 #. 게임 메뉴 제목 (큰 글씨, 짧게). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.12.0"
 msgid "Options"
-msgstr ""
+msgstr "옵션"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.12.1"
 msgid "Joystick"
-msgstr ""
+msgstr "조이스틱"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.12.2"
 msgid "Keyboard"
-msgstr ""
+msgstr "키보드"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.12.3"
 msgid "Mouse"
-msgstr ""
+msgstr "마우스"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.12.4"
 msgid "Music"
-msgstr ""
+msgstr "음악"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.12.5"
 msgid "Sound"
-msgstr ""
+msgstr "효과음"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.12.6"
 msgid "Done"
-msgstr ""
+msgstr "완료"
 
 #. 게임 메뉴 제목 (큰 글씨, 짧게). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.13.0"
 msgid "Joystick"
-msgstr ""
+msgstr "조이스틱"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.13.1"
 msgid "Button1"
-msgstr ""
+msgstr "버튼 1"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.13.2"
 msgid "Button2"
-msgstr ""
+msgstr "버튼 2"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.13.3"
 msgid "Button3"
-msgstr ""
+msgstr "버튼 3"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.13.4"
 msgid "Button4"
-msgstr ""
+msgstr "버튼 4"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.13.5"
 msgid "Calibrate"
-msgstr ""
+msgstr "보정"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.13.6"
 msgid "Done"
-msgstr ""
+msgstr "완료"
 
 #. 조이스틱 버튼 기능 이름. 최대 60바이트 (한글 약 20자)
 msgctxt "help.joyButtonNames.0"
 msgid "Fire main weapons"
-msgstr ""
+msgstr "주 무기 발사"
 
 #. 조이스틱 버튼 기능 이름. 최대 60바이트 (한글 약 20자)
 msgctxt "help.joyButtonNames.1"
 msgid "Fire Left Sidekick"
-msgstr ""
+msgstr "왼쪽 사이드킥 발사"
 
 #. 조이스틱 버튼 기능 이름. 최대 60바이트 (한글 약 20자)
 msgctxt "help.joyButtonNames.2"
 msgid "Fire Right Sidekick"
-msgstr ""
+msgstr "오른쪽 사이드킥 발사"
 
 #. 조이스틱 버튼 기능 이름. 최대 60바이트 (한글 약 20자)
 msgctxt "help.joyButtonNames.3"
 msgid "Fire BOTH Sidekicks"
-msgstr ""
+msgstr "양쪽 사이드킥 발사"
 
 #. 조이스틱 버튼 기능 이름. 최대 60바이트 (한글 약 20자)
 msgctxt "help.joyButtonNames.4"
 msgid "Change rear weapon"
-msgstr ""
+msgstr "후방 무기 전환"
 
 #. 슈퍼 아케이드 모드의 함선 이름과 문구. 최대 75바이트 (한글 약 25자)
 msgctxt "help.superShips.0"
 msgid "Super Arcade Mode"
-msgstr ""
+msgstr "슈퍼 아케이드 모드"
 
 #. 슈퍼 아케이드 모드의 함선 이름과 문구. 최대 75바이트 (한글 약 25자)
 msgctxt "help.superShips.1"
 msgid "Ninja Star"
-msgstr ""
+msgstr "닌자 스타"
 
 #. 슈퍼 아케이드 모드의 함선 이름과 문구. 최대 75바이트 (한글 약 25자)
 msgctxt "help.superShips.2"
 msgid "StormWind - The Elemental"
-msgstr ""
+msgstr "스톰윈드 - 정령"
 
 #. 슈퍼 아케이드 모드의 함선 이름과 문구. 최대 75바이트 (한글 약 25자)
 msgctxt "help.superShips.3"
 msgid "The Experimental PQZ"
-msgstr ""
+msgstr "실험기 PQZ"
 
 #. 슈퍼 아케이드 모드의 함선 이름과 문구. 최대 75바이트 (한글 약 25자)
 msgctxt "help.superShips.4"
 msgid "Captured U-Fighter"
-msgstr ""
+msgstr "노획한 U-파이터"
 
 #. 슈퍼 아케이드 모드의 함선 이름과 문구. 최대 75바이트 (한글 약 25자)
 msgctxt "help.superShips.5"
 msgid "FoodShip Nine"
-msgstr ""
+msgstr "음식 함선 9호"
 
 #. 슈퍼 아케이드 모드의 함선 이름과 문구. 최대 75바이트 (한글 약 25자)
 msgctxt "help.superShips.6"
 msgid "TX SilverCloud"
-msgstr ""
+msgstr "TX 실버클라우드"
 
 #. 슈퍼 아케이드 모드의 함선 이름과 문구. 최대 75바이트 (한글 약 25자)
 msgctxt "help.superShips.7"
 msgid "Nort-Ship Z"
-msgstr ""
+msgstr "노트쉽 Z"
 
 #. 슈퍼 아케이드 모드의 함선 이름과 문구. 최대 75바이트 (한글 약 25자)
 msgctxt "help.superShips.8"
 msgid "Dragon"
-msgstr ""
+msgstr "드래곤"
 
 #. 슈퍼 아케이드 모드의 함선 이름과 문구. 최대 75바이트 (한글 약 25자)
 msgctxt "help.superShips.9"
 msgid "Pretzel Pete Truck"
-msgstr ""
+msgstr "프레첼 피트 트럭"
 
 #. 슈퍼 아케이드 모드의 함선 이름과 문구. 최대 75바이트 (한글 약 25자)
 msgctxt "help.superShips.10"
 msgid "Main Weapon:"
-msgstr ""
+msgstr "주 무기:"
 
 #. 슈퍼 아케이드 모드의 함선 이름과 문구. 최대 75바이트 (한글 약 25자)
 msgctxt "help.superShips.11"
 msgid "Special Weapon:"
-msgstr ""
+msgstr "특수 무기:"
 
 #. 슈퍼 아케이드 모드의 함선 이름과 문구. 최대 75바이트 (한글 약 25자)
 msgctxt "help.superShips.12"
 msgid "Stalker 21.126"
-msgstr ""
+msgstr "스토커 21.126"
 
 #. 숨겨진 미니게임 Destruct의 설명. 최대 63바이트 (한글 약 21자)
 msgctxt "help.destructHelp.0"
 msgid "Left Player"
-msgstr ""
+msgstr "왼쪽 플레이어"
 
 #. 숨겨진 미니게임 Destruct의 설명. 최대 63바이트 (한글 약 21자)
 msgctxt "help.destructHelp.1"
 msgid "(Toggle CPU with F10)"
-msgstr ""
+msgstr "(F10으로 CPU 전환)"
 
 #. 숨겨진 미니게임 Destruct의 설명. 최대 63바이트 (한글 약 21자)
 msgctxt "help.destructHelp.2"
 msgid "SHIFT or X"
-msgstr ""
+msgstr "SHIFT 또는 X"
 
 #. 숨겨진 미니게임 Destruct의 설명. 최대 63바이트 (한글 약 21자)
 msgctxt "help.destructHelp.3"
 msgid "Fire"
-msgstr ""
+msgstr "발사"
 
 #. 숨겨진 미니게임 Destruct의 설명. 최대 63바이트 (한글 약 21자)
 msgctxt "help.destructHelp.4"
 msgid "CTRL or space"
-msgstr ""
+msgstr "CTRL 또는 space"
 
 #. 숨겨진 미니게임 Destruct의 설명. 최대 63바이트 (한글 약 21자)
 msgctxt "help.destructHelp.5"
 msgid "Change weapon"
-msgstr ""
+msgstr "무기 바꾸기"
 
 #. 숨겨진 미니게임 Destruct의 설명. 최대 63바이트 (한글 약 21자)
 msgctxt "help.destructHelp.6"
 msgid "ALT"
-msgstr ""
+msgstr "ALT"
 
 #. 숨겨진 미니게임 Destruct의 설명. 최대 63바이트 (한글 약 21자)
 msgctxt "help.destructHelp.7"
 msgid "Switch vehicle"
-msgstr ""
+msgstr "차량 바꾸기"
 
 #. 숨겨진 미니게임 Destruct의 설명. 최대 63바이트 (한글 약 21자)
 msgctxt "help.destructHelp.8"
 msgid "A/Z"
-msgstr ""
+msgstr "A/Z"
 
 #. 숨겨진 미니게임 Destruct의 설명. 최대 63바이트 (한글 약 21자)
 msgctxt "help.destructHelp.9"
 msgid "Change velocity"
-msgstr ""
+msgstr "속도 조절"
 
 #. 숨겨진 미니게임 Destruct의 설명. 최대 63바이트 (한글 약 21자)
 msgctxt "help.destructHelp.10"
 msgid "C/V"
-msgstr ""
+msgstr "C/V"
 
 #. 숨겨진 미니게임 Destruct의 설명. 최대 63바이트 (한글 약 21자)
 msgctxt "help.destructHelp.11"
 msgid "Change angle"
-msgstr ""
+msgstr "각도 조절"
 
 #. 숨겨진 미니게임 Destruct의 설명. 최대 63바이트 (한글 약 21자)
 msgctxt "help.destructHelp.12"
 msgid "Right Player"
-msgstr ""
+msgstr "오른쪽 플레이어"
 
 #. 숨겨진 미니게임 Destruct의 설명. 최대 63바이트 (한글 약 21자)
 msgctxt "help.destructHelp.13"
 msgid "(Human - Numeric pad)"
-msgstr ""
+msgstr "(사람 - 숫자 키패드)"
 
 #. 숨겨진 미니게임 Destruct의 설명. 최대 63바이트 (한글 약 21자)
 msgctxt "help.destructHelp.14"
 msgid "INSERT or ENTER"
-msgstr ""
+msgstr "INSERT 또는 ENTER"
 
 #. 숨겨진 미니게임 Destruct의 설명. 최대 63바이트 (한글 약 21자)
 msgctxt "help.destructHelp.15"
 msgid "Fire"
-msgstr ""
+msgstr "발사"
 
 #. 숨겨진 미니게임 Destruct의 설명. 최대 63바이트 (한글 약 21자)
 msgctxt "help.destructHelp.16"
 msgid "PGUP and PGDN"
-msgstr ""
+msgstr "PGUP, PGDN"
 
 #. 숨겨진 미니게임 Destruct의 설명. 최대 63바이트 (한글 약 21자)
 msgctxt "help.destructHelp.17"
 msgid "Change weapon"
-msgstr ""
+msgstr "무기 바꾸기"
 
 #. 숨겨진 미니게임 Destruct의 설명. 최대 63바이트 (한글 약 21자)
 msgctxt "help.destructHelp.18"
 msgid "CENTER (5)"
-msgstr ""
+msgstr "가운데 (5)"
 
 #. 숨겨진 미니게임 Destruct의 설명. 최대 63바이트 (한글 약 21자)
 msgctxt "help.destructHelp.19"
 msgid "Change vehicle"
-msgstr ""
+msgstr "차량 바꾸기"
 
 #. 숨겨진 미니게임 Destruct의 설명. 최대 63바이트 (한글 약 21자)
 msgctxt "help.destructHelp.20"
 msgid "UP or DOWN"
-msgstr ""
+msgstr "위 또는 아래"
 
 #. 숨겨진 미니게임 Destruct의 설명. 최대 63바이트 (한글 약 21자)
 msgctxt "help.destructHelp.21"
 msgid "Change velocity"
-msgstr ""
+msgstr "속도 조절"
 
 #. 숨겨진 미니게임 Destruct의 설명. 최대 63바이트 (한글 약 21자)
 msgctxt "help.destructHelp.22"
 msgid "LEFT or RIGHT"
-msgstr ""
+msgstr "왼쪽 또는 오른쪽"
 
 #. 숨겨진 미니게임 Destruct의 설명. 최대 63바이트 (한글 약 21자)
 msgctxt "help.destructHelp.23"
 msgid "Change angle"
-msgstr ""
+msgstr "각도 조절"
 
 #. 숨겨진 미니게임 Destruct의 설명. 최대 63바이트 (한글 약 21자)
 msgctxt "help.destructHelp.24"
 msgid "BACKSPACE restarts"
-msgstr ""
+msgstr "BACKSPACE: 다시 시작"
 
 #. 숨겨진 미니게임 Destruct의 무기 이름. 최대 48바이트 (한글 약 16자)
 msgctxt "help.weaponNames.0"
 msgid "Tracer"
-msgstr ""
+msgstr "예광탄"
 
 #. 숨겨진 미니게임 Destruct의 무기 이름. 최대 48바이트 (한글 약 16자)
 msgctxt "help.weaponNames.1"
 msgid "Small"
-msgstr ""
+msgstr "소형탄"
 
 #. 숨겨진 미니게임 Destruct의 무기 이름. 최대 48바이트 (한글 약 16자)
 msgctxt "help.weaponNames.2"
 msgid "Large"
-msgstr ""
+msgstr "대형탄"
 
 #. 숨겨진 미니게임 Destruct의 무기 이름. 최대 48바이트 (한글 약 16자)
 msgctxt "help.weaponNames.3"
 msgid "Micro"
-msgstr ""
+msgstr "마이크로탄"
 
 #. 숨겨진 미니게임 Destruct의 무기 이름. 최대 48바이트 (한글 약 16자)
 msgctxt "help.weaponNames.4"
 msgid "Super"
-msgstr ""
+msgstr "슈퍼탄"
 
 #. 숨겨진 미니게임 Destruct의 무기 이름. 최대 48바이트 (한글 약 16자)
 msgctxt "help.weaponNames.5"
 msgid "Demolisher"
-msgstr ""
+msgstr "분쇄탄"
 
 #. 숨겨진 미니게임 Destruct의 무기 이름. 최대 48바이트 (한글 약 16자)
 msgctxt "help.weaponNames.6"
 msgid "Small Nuke"
-msgstr ""
+msgstr "소형 핵탄"
 
 #. 숨겨진 미니게임 Destruct의 무기 이름. 최대 48바이트 (한글 약 16자)
 msgctxt "help.weaponNames.7"
 msgid "Large Nuke"
-msgstr ""
+msgstr "대형 핵탄"
 
 #. 숨겨진 미니게임 Destruct의 무기 이름. 최대 48바이트 (한글 약 16자)
 msgctxt "help.weaponNames.8"
 msgid "Small Dirt"
-msgstr ""
+msgstr "소형 흙탄"
 
 #. 숨겨진 미니게임 Destruct의 무기 이름. 최대 48바이트 (한글 약 16자)
 msgctxt "help.weaponNames.9"
 msgid "Large Dirt"
-msgstr ""
+msgstr "대형 흙탄"
 
 #. 숨겨진 미니게임 Destruct의 무기 이름. 최대 48바이트 (한글 약 16자)
 msgctxt "help.weaponNames.10"
 msgid "Repulsor"
-msgstr ""
+msgstr "리펄서"
 
 #. 숨겨진 미니게임 Destruct의 무기 이름. 최대 48바이트 (한글 약 16자)
 msgctxt "help.weaponNames.11"
 msgid "MiniLaser"
-msgstr ""
+msgstr "미니레이저"
 
 #. 숨겨진 미니게임 Destruct의 무기 이름. 최대 48바이트 (한글 약 16자)
 msgctxt "help.weaponNames.12"
 msgid "MegaLaser"
-msgstr ""
+msgstr "메가레이저"
 
 #. 숨겨진 미니게임 Destruct의 무기 이름. 최대 48바이트 (한글 약 16자)
 msgctxt "help.weaponNames.13"
 msgid "Tracer"
-msgstr ""
+msgstr "예광탄"
 
 #. 숨겨진 미니게임 Destruct의 무기 이름. 최대 48바이트 (한글 약 16자)
 msgctxt "help.weaponNames.14"
 msgid "MegaBlast"
-msgstr ""
+msgstr "메가블래스트"
 
 #. 숨겨진 미니게임 Destruct의 무기 이름. 최대 48바이트 (한글 약 16자)
 msgctxt "help.weaponNames.15"
 msgid "Mini"
-msgstr ""
+msgstr "미니탄"
 
 #. 숨겨진 미니게임 Destruct의 무기 이름. 최대 48바이트 (한글 약 16자)
 msgctxt "help.weaponNames.16"
 msgid "Bomb"
-msgstr ""
+msgstr "폭탄"
 
 #. 숨겨진 미니게임 Destruct의 모드 이름. 최대 36바이트 (한글 약 12자)
 msgctxt "help.destructModeName.0"
 msgid "5-Card War"
-msgstr ""
+msgstr "5카드 전쟁"
 
 #. 숨겨진 미니게임 Destruct의 모드 이름. 최대 36바이트 (한글 약 12자)
 msgctxt "help.destructModeName.1"
 msgid "Traditional"
-msgstr ""
+msgstr "전통 방식"
 
 #. 숨겨진 미니게임 Destruct의 모드 이름. 최대 36바이트 (한글 약 12자)
 msgctxt "help.destructModeName.2"
 msgid "Heli Assault"
-msgstr ""
+msgstr "헬기 공격"
 
 #. 숨겨진 미니게임 Destruct의 모드 이름. 최대 36바이트 (한글 약 12자)
 msgctxt "help.destructModeName.3"
 msgid "Heli Defense"
-msgstr ""
+msgstr "헬기 방어"
 
 #. 숨겨진 미니게임 Destruct의 모드 이름. 최대 36바이트 (한글 약 12자)
 msgctxt "help.destructModeName.4"
 msgid "Outgunned"
-msgstr ""
+msgstr "화력 열세"
 
 #. 함선 설명 (함선 정보 화면, 상자 안에서 자동 줄바꿈). 최대 765바이트 (한글 약 255자)
 msgctxt "help.shipInfo.0.0"
@@ -1919,357 +1919,357 @@ msgstr "속도와 기동성에 특히 신경 써서 설계된 기체로, 비할 
 #. 함선 설명 (함선 정보 화면, 상자 안에서 자동 줄바꿈). 최대 765바이트 (한글 약 255자)
 msgctxt "help.shipInfo.1.0"
 msgid "The ~SuperCarrot FoodShip 9~ is one of the most advanced edible fighters ever produced.  You can't go wrong with a ~FoodShip~!"
-msgstr ""
+msgstr "~슈퍼당근 음식 함선 9호~는 지금까지 생산된 먹을 수 있는 전투기 가운데 가장 앞선 기종입니다. ~음식 함선~이라면 절대 후회하지 않습니다!"
 
 #. 함선 설명 (함선 정보 화면, 상자 안에서 자동 줄바꿈). 최대 765바이트 (한글 약 255자)
 msgctxt "help.shipInfo.1.1"
 msgid "~Foodships~ are usually complemented by either the ~Hotdog Mustard-spread Technology~, or the dreaded ~SuperBanana Bombs~."
-msgstr ""
+msgstr "~음식 함선~에는 보통 ~핫도그 머스터드 살포 기술~이나 공포의 ~슈퍼바나나 폭탄~이 함께 실립니다."
 
 #. 함선 설명 (함선 정보 화면, 상자 안에서 자동 줄바꿈). 최대 765바이트 (한글 약 255자)
 msgctxt "help.shipInfo.2.0"
 msgid "The ~Gencore Phoenix~ is the main advanced ~Gencore~ ~Solo~ ~Fighter~.  It's an extremely reliable craft that can take a good deal of punishment."
-msgstr ""
+msgstr "~젠코어 피닉스~는 ~젠코어~의 주력 고급 ~1인승~ ~전투기~입니다. 웬만한 공격은 거뜬히 버텨 내는, 더없이 믿음직한 기체입니다."
 
 #. 함선 설명 (함선 정보 화면, 상자 안에서 자동 줄바꿈). 최대 765바이트 (한글 약 255자)
 msgctxt "help.shipInfo.2.1"
 msgid "Standard on the ~Gencore~ ~Solo~ ~Fighter~ line is the new particle redefinition technology, which allows you to materialize extra armor on your outer hull.  Pilots are warned that the system is easily triggered and it completely drains your shields."
-msgstr ""
+msgstr "~젠코어~ ~1인승~ ~전투기~ 계열에는 새로운 입자 재정의 기술이 기본으로 탑재되어, 외부 선체에 추가 장갑을 물질화할 수 있습니다. 다만 이 장치는 쉽게 발동되고, 발동하면 보호막이 완전히 바닥나므로 조종사의 주의가 필요합니다."
 
 #. 함선 설명 (함선 정보 화면, 상자 안에서 자동 줄바꿈). 최대 765바이트 (한글 약 255자)
 msgctxt "help.shipInfo.3.0"
 msgid "The ~Gencore Maelstrom~ is a refined ~Phoenix~ with an additional ~2cm~ of main hull.  It also features deluxe plush seating with ~extra-wide~ ~armrests~ and ~synth-velour~ ~lining~."
-msgstr ""
+msgstr "~젠코어 메일스트롬~은 ~피닉스~의 개량형으로, 주 선체가 ~2cm~ 더 두껍습니다. ~특대형~ ~팔걸이~와 ~합성 벨루어~ ~안감~을 갖춘 푹신한 고급 좌석도 자랑거리입니다."
 
 #. 함선 설명 (함선 정보 화면, 상자 안에서 자동 줄바꿈). 최대 765바이트 (한글 약 255자)
 msgctxt "help.shipInfo.3.1"
 msgid "Standard on the ~Gencore~ ~Solo~ ~Fighter~ line is the new particle redefinition technology, which allows you to materialize extra armor on your outer hull.  Pilots are warned that the system is easily triggered and it completely drains your shields."
-msgstr ""
+msgstr "~젠코어~ ~1인승~ ~전투기~ 계열에는 새로운 입자 재정의 기술이 기본으로 탑재되어, 외부 선체에 추가 장갑을 물질화할 수 있습니다. 다만 이 장치는 쉽게 발동되고, 발동하면 보호막이 완전히 바닥나므로 조종사의 주의가 필요합니다."
 
 #. 함선 설명 (함선 정보 화면, 상자 안에서 자동 줄바꿈). 최대 765바이트 (한글 약 255자)
 msgctxt "help.shipInfo.4.0"
 msgid "~Microsol~.  What more do you need to convince you that their ~Stalker Solo Fighter~ is the ship you want?  Not so fast, though.  You'll pay a hefty premium for this ship or have to fill out a stack of forms two feet high."
-msgstr ""
+msgstr "~마이크로솔~. ~스토커 1인승 전투기~가 바로 당신이 찾던 함선이라는 데 무슨 설명이 더 필요할까요? 하지만 서두르지 마십시오. 이 함선을 손에 넣으려면 엄청난 웃돈을 얹어 주거나, 60cm 높이로 쌓인 서류 더미를 작성해야 합니다."
 
 #. 함선 설명 (함선 정보 화면, 상자 안에서 자동 줄바꿈). 최대 765바이트 (한글 약 255자)
 msgctxt "help.shipInfo.4.1"
 msgid "With its dense hull alloys and overall excellent defensive capability, you'll sleep safer at night with one of these on your side."
-msgstr ""
+msgstr "고밀도 선체 합금과 전반적으로 뛰어난 방어력을 갖춘 이 함선이 곁에 있다면 밤에도 한결 편히 잠들 수 있습니다."
 
 #. 함선 설명 (함선 정보 화면, 상자 안에서 자동 줄바꿈). 최대 765바이트 (한글 약 255자)
 msgctxt "help.shipInfo.5.0"
 msgid "~Microsol~ continues the ~Stalker~ line with the ~Stalker-B~.  This is the deluxe model preferred by Microsol's own Outer Scouts.  It's the ship of choice for those long, solo flights."
-msgstr ""
+msgstr "~마이크로솔~이 ~스토커~ 계열의 뒤를 이어 내놓은 ~스토커-B~입니다. 마이크로솔의 외곽 정찰대가 즐겨 쓰는 고급형 모델로, 길고 외로운 단독 비행에 안성맞춤입니다."
 
 #. 함선 설명 (함선 정보 화면, 상자 안에서 자동 줄바꿈). 최대 765바이트 (한글 약 255자)
 msgctxt "help.shipInfo.5.1"
 msgid "The ~Stalker-B~ adds an additional ~2~ ~structural~ ~units~ with its refined alloys, for an unheard-of ~28 SUs~ in a solo craft."
-msgstr ""
+msgstr "~스토커-B~는 개량 합금 덕분에 ~구조 단위~(SU)가 ~2~ 늘어나, 1인승 기체로는 전례 없는 ~28 SU~를 자랑합니다."
 
 #. 함선 설명 (함선 정보 화면, 상자 안에서 자동 줄바꿈). 최대 765바이트 (한글 약 255자)
 msgctxt "help.shipInfo.6.0"
 msgid "~TOP SECRET:~ The quest continues for the strongest ship available with the most powerful backup defense systems.  This is one of the only ships in existence with 3 defense bays!"
-msgstr ""
+msgstr "~일급 기밀:~ 가장 강력한 보조 방어 체계를 갖춘 최강의 함선을 향한 탐구는 계속됩니다. 이 함선은 방어 장착부가 3개나 되는, 현존하는 몇 안 되는 함선 가운데 하나입니다!"
 
 #. 함선 설명 (함선 정보 화면, 상자 안에서 자동 줄바꿈). 최대 765바이트 (한글 약 255자)
 msgctxt "help.shipInfo.6.1"
 msgid "An additional SU has been added to the armor value of this ship, and Microsol has retrofitted a ~Gencore~ ~auto-repair~ ~system~ into each ship, making these the definite superiority fighter!"
-msgstr ""
+msgstr "이 함선은 장갑 수치가 1 SU 더 높고, 마이크로솔이 기체마다 ~젠코어~ ~자동 수리~ ~장치~를 추가로 장착해 그야말로 최강의 제공 전투기가 되었습니다!"
 
 #. 함선 설명 (함선 정보 화면, 상자 안에서 자동 줄바꿈). 최대 765바이트 (한글 약 255자)
 msgctxt "help.shipInfo.7.0"
 msgid "~Microsol~.  What more do you need to convince you that their ~Stalker Solo Fighter~ is the ship you want?  Not so fast, though.  You'll pay a hefty premium for this ship or have to fill out a stack of forms two feet high."
-msgstr ""
+msgstr "~마이크로솔~. ~스토커 1인승 전투기~가 바로 당신이 찾던 함선이라는 데 무슨 설명이 더 필요할까요? 하지만 서두르지 마십시오. 이 함선을 손에 넣으려면 엄청난 웃돈을 얹어 주거나, 60cm 높이로 쌓인 서류 더미를 작성해야 합니다."
 
 #. 함선 설명 (함선 정보 화면, 상자 안에서 자동 줄바꿈). 최대 765바이트 (한글 약 255자)
 msgctxt "help.shipInfo.7.1"
 msgid "With its dense hull alloys and overall excellent defensive capability, you'll sleep safer at night with one of these on your side."
-msgstr ""
+msgstr "고밀도 선체 합금과 전반적으로 뛰어난 방어력을 갖춘 이 함선이 곁에 있다면 밤에도 한결 편히 잠들 수 있습니다."
 
 #. 함선 설명 (함선 정보 화면, 상자 안에서 자동 줄바꿈). 최대 765바이트 (한글 약 255자)
 msgctxt "help.shipInfo.8.0"
 msgid "The ~USP Fang~ is a standard ~Talon~ that has been retrofitted with additional armor and a more powerful secondary backup defense system."
-msgstr ""
+msgstr "~USP 팽~은 표준형 ~탤런~에 장갑을 덧대고 더 강력한 2차 보조 방어 장치를 개조 장착한 기체입니다."
 
 #. 함선 설명 (함선 정보 화면, 상자 안에서 자동 줄바꿈). 최대 765바이트 (한글 약 255자)
 msgctxt "help.shipInfo.8.1"
 msgid "As always, the ~USP~ invulnerability system is unique in its field and, if used properly, will let you take out anything else in the universe."
-msgstr ""
+msgstr "언제나처럼 ~USP~의 무적 장치는 이 분야에서 유일무이하며, 제대로만 쓴다면 우주의 그 무엇이든 해치울 수 있습니다."
 
 #. 함선 설명 (함선 정보 화면, 상자 안에서 자동 줄바꿈). 최대 765바이트 (한글 약 255자)
 msgctxt "help.shipInfo.9.0"
 msgid "The ~U-Drone~ is a standard mining drone which has been retrofitted with a manual-drive cockpit and twin rapid-fire vulcan cannons.  Space is limited on this craft, so it's limited to a single backup defense unit."
-msgstr ""
+msgstr "~U-드론~은 표준형 채굴 드론에 수동 조종석과 쌍열 속사 벌컨포를 개조 장착한 기체입니다. 공간이 좁아서 보조 방어 장치는 하나만 달 수 있습니다."
 
 #. 함선 설명 (함선 정보 화면, 상자 안에서 자동 줄바꿈). 최대 765바이트 (한글 약 255자)
 msgctxt "help.shipInfo.9.1"
 msgid "This ship isn't meant for flying around in, but with an infrared scrambler on board, it's a perfect way to sneak in behind enemy lines!"
-msgstr ""
+msgstr "이리저리 날아다니라고 만든 함선은 아니지만, 적외선 교란 장치를 싣고 있어 적진 뒤로 몰래 숨어들기에는 그만입니다!"
 
 #. 함선 설명 (함선 정보 화면, 상자 안에서 자동 줄바꿈). 최대 765바이트 (한글 약 255자)
 msgctxt "help.shipInfo.10.0"
 msgid "No info available on Player 1."
-msgstr ""
+msgstr "플레이어 1에 대한 정보가 없습니다."
 
 #. 함선 설명 (함선 정보 화면, 상자 안에서 자동 줄바꿈). 최대 765바이트 (한글 약 255자)
 msgctxt "help.shipInfo.10.1"
 msgid "Used in Arcade Mode."
-msgstr ""
+msgstr "아케이드 모드에서 쓰입니다."
 
 #. 함선 설명 (함선 정보 화면, 상자 안에서 자동 줄바꿈). 최대 765바이트 (한글 약 255자)
 msgctxt "help.shipInfo.11.0"
 msgid "~TOP SECRET:~ This ship is on loan from ~Nortaneous'~ personal hanger.  The rent on this ship is very high, but it's incredibly powerful."
-msgstr ""
+msgstr "~일급 기밀:~ 이 함선은 ~노르타니어스~의 개인 격납고에서 빌려 온 것입니다. 대여료가 무척 비싸지만, 그만큼 엄청나게 강력합니다."
 
 #. 함선 설명 (함선 정보 화면, 상자 안에서 자동 줄바꿈). 최대 765바이트 (한글 약 255자)
 msgctxt "help.shipInfo.11.1"
 msgid "The only way to describe what this ship does is to fly it and see for yourself.  Nothing on the screen is safe with its ~special~ ~weapon~ active."
-msgstr ""
+msgstr "이 함선의 성능은 직접 몰아 봐야만 알 수 있습니다. ~특수~ ~무기~가 작동하는 동안에는 화면 위의 그 무엇도 안전하지 않습니다."
 
 #. 함선 설명 (함선 정보 화면, 상자 안에서 자동 줄바꿈). 최대 765바이트 (한글 약 255자)
 msgctxt "help.shipInfo.12.0"
 msgid "After destroying the tyrranical might of ~Vykromod~ a second time, Trent found himself locked into the future through the Stargate.  But that's another story.  Now, though, he has returned with his modified ~Stalker C~ to reclaim his past."
-msgstr ""
+msgstr "~바이크로모드~의 폭압적인 힘을 두 번째로 무너뜨린 뒤, 트렌트는 스타게이트를 거쳐 미래에 갇히고 말았습니다. 하지만 그건 또 다른 이야기입니다. 이제 그는 직접 개조한 ~스토커 C~를 타고 자신의 과거를 되찾으러 돌아왔습니다."
 
 #. 함선 설명 (함선 정보 화면, 상자 안에서 자동 줄바꿈). 최대 765바이트 (한글 약 255자)
 msgctxt "help.shipInfo.12.1"
 msgid "The ~Modified Stalker~ is equipped with an advanced molecular generator which simulates many conventional weapons.  But, it also has the power to instantly generate any one of a number of side-ships and front attachments.  It's the power of the future."
-msgstr ""
+msgstr "~개조형 스토커~에는 여러 재래식 무기를 흉내 내는 고급 분자 생성기가 달려 있습니다. 게다가 여러 가지 측면 보조기와 전방 부착물 가운데 무엇이든 순식간에 만들어 낼 수도 있습니다. 이것이 바로 미래의 힘입니다."
 
 #. 함선 설명 (함선 정보 화면, 상자 안에서 자동 줄바꿈). 최대 765바이트 (한글 약 255자)
 msgctxt "help.shipInfo.13.0"
 msgid "The ~Storm~ is an older model fighter from the ~Bontoria~ ~War~ which erupted about 220 star-years ago.  Unique at its time, it was the first starfighter equipped with an experimental phase shift technology which rendered the craft impossible to hit."
-msgstr ""
+msgstr "~스톰~은 약 220항성년 전에 터진 ~본토리아~ ~전쟁~ 시절의 구형 전투기입니다. 당시로서는 독보적인 기체로, 실험적인 위상 변환 기술을 갖춰 공격이 전혀 맞지 않는 최초의 우주 전투기였습니다."
 
 #. 함선 설명 (함선 정보 화면, 상자 안에서 자동 줄바꿈). 최대 765바이트 (한글 약 255자)
 msgctxt "help.shipInfo.13.1"
 msgid "In later years, ~Microsol~ acquired the technology for its somewhat popular ~USP~ craft series.  Unfortunately, it required critical extra space, severely limited the size and weight of the craft, and required excessive energy boosts."
-msgstr ""
+msgstr "훗날 ~마이크로솔~은 그럭저럭 인기 있던 ~USP~ 기체 시리즈에 쓰려고 이 기술을 사들였습니다. 안타깝게도 이 기술은 귀중한 공간을 추가로 차지했고, 기체의 크기와 무게를 크게 제한했으며, 에너지를 지나치게 많이 잡아먹었습니다."
 
 #. 함선 설명 (함선 정보 화면, 상자 안에서 자동 줄바꿈). 최대 765바이트 (한글 약 255자)
 msgctxt "help.shipInfo.14.0"
 msgid "Dragon"
-msgstr ""
+msgstr "드래곤"
 
 #. 함선 설명 (함선 정보 화면, 상자 안에서 자동 줄바꿈). 최대 765바이트 (한글 약 255자)
 msgctxt "help.shipInfo.14.1"
 msgid "Toto"
-msgstr ""
+msgstr "정보 없음"
 
 #. 함선 설명 (함선 정보 화면, 상자 안에서 자동 줄바꿈). 최대 765바이트 (한글 약 255자)
 msgctxt "help.shipInfo.15.0"
 msgid "This craft is the result of ~Gencore~ raids on key ~Microsol~ research facilities following the recent conflicts in the ~Asteroid~ sectors."
-msgstr ""
+msgstr "이 기체는 최근 ~소행성~ 구역에서 벌어진 분쟁 이후, ~젠코어~가 ~마이크로솔~의 주요 연구 시설을 습격해 얻은 성과물입니다."
 
 #. 함선 설명 (함선 정보 화면, 상자 안에서 자동 줄바꿈). 최대 765바이트 (한글 약 255자)
 msgctxt "help.shipInfo.15.1"
 msgid "Taking an existing ship design, ~Gencore~ retrofitted it with an advanced armor design and power couplings, resulting in a more economical but worthy fighter craft.  This design radically improves ~Gencore~ military effectiveness."
-msgstr ""
+msgstr "~젠코어~는 기존 함선 설계에 고급 장갑 설계와 동력 연결 장치를 더해, 더 경제적이면서도 쓸 만한 전투기를 만들어 냈습니다. 이 설계로 ~젠코어~의 군사력은 비약적으로 높아졌습니다."
 
 #. 함선 설명 (함선 정보 화면, 상자 안에서 자동 줄바꿈). 최대 765바이트 (한글 약 255자)
 msgctxt "help.shipInfo.16.0"
 msgid "Todo"
-msgstr ""
+msgstr "정보 없음"
 
 #. 함선 설명 (함선 정보 화면, 상자 안에서 자동 줄바꿈). 최대 765바이트 (한글 약 255자)
 msgctxt "help.shipInfo.16.1"
 msgid "Todo"
-msgstr ""
+msgstr "정보 없음"
 
 #. 함선 설명 (함선 정보 화면, 상자 안에서 자동 줄바꿈). 최대 765바이트 (한글 약 255자)
 msgctxt "help.shipInfo.17.0"
 msgid "PeteZoomer"
-msgstr ""
+msgstr "피트주머"
 
 #. 함선 설명 (함선 정보 화면, 상자 안에서 자동 줄바꿈). 최대 765바이트 (한글 약 255자)
 msgctxt "help.shipInfo.17.1"
 msgid "Todo"
-msgstr ""
+msgstr "정보 없음"
 
 #. 함선 설명 (함선 정보 화면, 상자 안에서 자동 줄바꿈). 최대 765바이트 (한글 약 255자)
 msgctxt "help.shipInfo.18.0"
 msgid "Todo"
-msgstr ""
+msgstr "정보 없음"
 
 #. 함선 설명 (함선 정보 화면, 상자 안에서 자동 줄바꿈). 최대 765바이트 (한글 약 255자)
 msgctxt "help.shipInfo.18.1"
 msgid "RumBottle"
-msgstr ""
+msgstr "럼주 병"
 
 #. 함선 설명 (함선 정보 화면, 상자 안에서 자동 줄바꿈). 최대 765바이트 (한글 약 255자)
 msgctxt "help.shipInfo.19.0"
 msgid "Todo"
-msgstr ""
+msgstr "정보 없음"
 
 #. 함선 설명 (함선 정보 화면, 상자 안에서 자동 줄바꿈). 최대 765바이트 (한글 약 255자)
 msgctxt "help.shipInfo.19.1"
 msgid "Todo"
-msgstr ""
+msgstr "정보 없음"
 
 #. 게임 메뉴 제목 (큰 글씨, 짧게). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.14.0"
 msgid "Game Menu"
-msgstr ""
+msgstr "게임 메뉴"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.14.1"
 msgid "Start Level"
-msgstr ""
+msgstr "출격"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.14.2"
 msgid "Ship Specs"
-msgstr ""
+msgstr "함선 정보"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.14.3"
 msgid "Options"
-msgstr ""
+msgstr "옵션"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.14.4"
 msgid "Quit Game"
-msgstr ""
+msgstr "게임 종료"
 
 #. 시간제 전투 모드의 지역 이름. 최대 66바이트 (한글 약 22자)
 msgctxt "help.timed_battle_name.0"
 msgid "Timed Battle Selection"
-msgstr ""
+msgstr "시간제 전투"
 
 #. 시간제 전투 모드의 지역 이름. 최대 66바이트 (한글 약 22자)
 msgctxt "help.timed_battle_name.1"
 msgid "Deliani"
-msgstr ""
+msgstr "델리아니"
 
 #. 시간제 전투 모드의 지역 이름. 최대 66바이트 (한글 약 22자)
 msgctxt "help.timed_battle_name.2"
 msgid "Space Station"
-msgstr ""
+msgstr "우주 정거장"
 
 #. 시간제 전투 모드의 지역 이름. 최대 66바이트 (한글 약 22자)
 msgctxt "help.timed_battle_name.3"
 msgid "Savara"
-msgstr ""
+msgstr "사바라"
 
 #. 게임 메뉴 제목 (큰 글씨, 짧게). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.15.0"
 msgid "Mouse"
-msgstr ""
+msgstr "마우스"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.15.1"
 msgid "Button 1"
-msgstr ""
+msgstr "버튼 1"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.15.2"
 msgid "Button 2"
-msgstr ""
+msgstr "버튼 2"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.15.3"
 msgid "Button 3"
-msgstr ""
+msgstr "버튼 3"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.15.4"
 msgid "Reset"
-msgstr ""
+msgstr "초기화"
 
 #. 게임 메뉴 항목 (보통 글씨). 최대 51바이트 (한글 약 17자)
 msgctxt "help.menuInt.15.5"
 msgid "Done"
-msgstr ""
+msgstr "완료"
 
 #. 라이선스 안내 문구. 최대 135바이트 (한글 약 45자)
 msgctxt "help.licensingInfo.0"
 msgid "Copyright (c) 1999, Stealth Productions, Inc."
-msgstr ""
+msgstr "저작권 (c) 1999, Stealth Productions, Inc."
 
 #. 라이선스 안내 문구. 최대 135바이트 (한글 약 45자)
 msgctxt "help.licensingInfo.1"
 msgid "Game Copyright (c) 1999, Eclipse"
-msgstr ""
+msgstr "게임 저작권 (c) 1999, Eclipse"
 
 #. 라이선스 안내 문구. 최대 135바이트 (한글 약 45자)
 msgctxt "help.licensingInfo.2"
 msgid "All Rights Reserved"
-msgstr ""
+msgstr "모든 권리 보유"
 
 #. 최고 기록 표의 기본 이름 (사람 이름이라 그대로 둬도 됩니다). 최대 66바이트 (한글 약 22자)
 msgctxt "help.defaultHighScoreNames.0"
 msgid "The Prime Chair"
-msgstr ""
+msgstr "회장"
 
 #. 최고 기록 표의 기본 이름 (사람 이름이라 그대로 둬도 됩니다). 최대 66바이트 (한글 약 22자)
 msgctxt "help.defaultHighScoreNames.1"
 msgid "Transon Lohk"
-msgstr ""
+msgstr "트랜슨 로크"
 
 #. 최고 기록 표의 기본 이름 (사람 이름이라 그대로 둬도 됩니다). 최대 66바이트 (한글 약 22자)
 msgctxt "help.defaultHighScoreNames.2"
 msgid "Javi Onukala"
-msgstr ""
+msgstr "하비 오누칼라"
 
 #. 최고 기록 표의 기본 이름 (사람 이름이라 그대로 둬도 됩니다). 최대 66바이트 (한글 약 22자)
 msgctxt "help.defaultHighScoreNames.3"
 msgid "Mantori"
-msgstr ""
+msgstr "만토리"
 
 #. 최고 기록 표의 기본 이름 (사람 이름이라 그대로 둬도 됩니다). 최대 66바이트 (한글 약 22자)
 msgctxt "help.defaultHighScoreNames.4"
 msgid "Nortaneous"
-msgstr ""
+msgstr "노르타니어스"
 
 #. 최고 기록 표의 기본 이름 (사람 이름이라 그대로 둬도 됩니다). 최대 66바이트 (한글 약 22자)
 msgctxt "help.defaultHighScoreNames.5"
 msgid "Dougan"
-msgstr ""
+msgstr "더건"
 
 #. 최고 기록 표의 기본 이름 (사람 이름이라 그대로 둬도 됩니다). 최대 66바이트 (한글 약 22자)
 msgctxt "help.defaultHighScoreNames.6"
 msgid "Reid"
-msgstr ""
+msgstr "리드"
 
 #. 최고 기록 표의 기본 이름 (사람 이름이라 그대로 둬도 됩니다). 최대 66바이트 (한글 약 22자)
 msgctxt "help.defaultHighScoreNames.7"
 msgid "General Zinglon"
-msgstr ""
+msgstr "징글론 장군"
 
 #. 최고 기록 표의 기본 이름 (사람 이름이라 그대로 둬도 됩니다). 최대 66바이트 (한글 약 22자)
 msgctxt "help.defaultHighScoreNames.8"
 msgid "Late Gyges Phildren"
-msgstr ""
+msgstr "고 기게스 필드런"
 
 #. 최고 기록 표의 기본 이름 (사람 이름이라 그대로 둬도 됩니다). 최대 66바이트 (한글 약 22자)
 msgctxt "help.defaultHighScoreNames.9"
 msgid "Vykromod"
-msgstr ""
+msgstr "바이크로모드"
 
 #. 최고 기록 표의 기본 이름 (사람 이름이라 그대로 둬도 됩니다). 최대 66바이트 (한글 약 22자)
 msgctxt "help.defaultHighScoreNames.10"
 msgid "Beppo"
-msgstr ""
+msgstr "베포"
 
 #. 최고 기록 표의 기본 이름 (사람 이름이라 그대로 둬도 됩니다). 최대 66바이트 (한글 약 22자)
 msgctxt "help.defaultHighScoreNames.11"
 msgid "Borogar"
-msgstr ""
+msgstr "보로가르"
 
 #. 최고 기록 표의 기본 이름 (사람 이름이라 그대로 둬도 됩니다). 최대 66바이트 (한글 약 22자)
 msgctxt "help.defaultHighScoreNames.12"
 msgid "ShipMaster Carlos"
-msgstr ""
+msgstr "선장 카를로스"
 
 #. 최고 기록 표의 기본 이름 (사람 이름이라 그대로 둬도 됩니다). 최대 66바이트 (한글 약 22자)
 msgctxt "help.defaultHighScoreNames.13"
 msgid "Baker Bob"
-msgstr ""
+msgstr "제빵사 밥"
 
 #. 최고 기록 표의 기본 이름 (사람 이름이라 그대로 둬도 됩니다). 최대 66바이트 (한글 약 22자)
 msgctxt "help.defaultHighScoreNames.14"
 msgid "Pretzel Pete"
-msgstr ""
+msgstr "프레첼 피트"
 
 #. 최고 기록 표의 기본 이름 (사람 이름이라 그대로 둬도 됩니다). 최대 66바이트 (한글 약 22자)
 msgctxt "help.defaultHighScoreNames.15"
@@ -2349,7 +2349,7 @@ msgstr ""
 #. 최고 기록 표의 기본 이름 (사람 이름이라 그대로 둬도 됩니다). 최대 66바이트 (한글 약 22자)
 msgctxt "help.defaultHighScoreNames.30"
 msgid "Pib"
-msgstr ""
+msgstr "피브"
 
 #. 최고 기록 표의 기본 이름 (사람 이름이라 그대로 둬도 됩니다). 최대 66바이트 (한글 약 22자)
 msgctxt "help.defaultHighScoreNames.31"
@@ -2394,110 +2394,110 @@ msgstr ""
 #. 2인용 최고 기록 표의 기본 팀 이름. 최대 72바이트 (한글 약 24자)
 msgctxt "help.defaultTeamNames.0"
 msgid "Team Tyrian"
-msgstr ""
+msgstr "티리안 팀"
 
 #. 2인용 최고 기록 표의 기본 팀 이름. 최대 72바이트 (한글 약 24자)
 msgctxt "help.defaultTeamNames.1"
 msgid "Team Vykromod"
-msgstr ""
+msgstr "바이크로모드 팀"
 
 #. 2인용 최고 기록 표의 기본 팀 이름. 최대 72바이트 (한글 약 24자)
 msgctxt "help.defaultTeamNames.2"
 msgid "Gencore Growlers"
-msgstr ""
+msgstr "젠코어 그라울러스"
 
 #. 2인용 최고 기록 표의 기본 팀 이름. 최대 72바이트 (한글 약 24자)
 msgctxt "help.defaultTeamNames.3"
 msgid "Microsol Masters"
-msgstr ""
+msgstr "마이크로솔 마스터스"
 
 #. 2인용 최고 기록 표의 기본 팀 이름. 최대 72바이트 (한글 약 24자)
 msgctxt "help.defaultTeamNames.4"
 msgid "Beta Warriors"
-msgstr ""
+msgstr "베타 워리어스"
 
 #. 2인용 최고 기록 표의 기본 팀 이름. 최대 72바이트 (한글 약 24자)
 msgctxt "help.defaultTeamNames.5"
 msgid "Pretzel People"
-msgstr ""
+msgstr "프레첼 피플"
 
 #. 2인용 최고 기록 표의 기본 팀 이름. 최대 72바이트 (한글 약 24자)
 msgctxt "help.defaultTeamNames.6"
 msgid "Rampaging Limes"
-msgstr ""
+msgstr "날뛰는 라임"
 
 #. 2인용 최고 기록 표의 기본 팀 이름. 최대 72바이트 (한글 약 24자)
 msgctxt "help.defaultTeamNames.7"
 msgid "Canned Peaches                    "
-msgstr ""
+msgstr "복숭아 통조림"
 
 #. 2인용 최고 기록 표의 기본 팀 이름. 최대 72바이트 (한글 약 24자)
 msgctxt "help.defaultTeamNames.8"
 msgid "Bouftown"
-msgstr ""
+msgstr "부프타운"
 
 #. 2인용 최고 기록 표의 기본 팀 이름. 최대 72바이트 (한글 약 24자)
 msgctxt "help.defaultTeamNames.9"
 msgid "Felix Draconics"
-msgstr ""
+msgstr "펠릭스 드라코닉스"
 
 #. 구매 안내 문구 (셰어웨어 시절의 흔적). 최대 93바이트 (한글 약 31자)
 msgctxt "help.orderingInfo.0"
 msgid "To order direct:"
-msgstr ""
+msgstr "직접 주문:"
 
 #. 구매 안내 문구 (셰어웨어 시절의 흔적). 최대 93바이트 (한글 약 31자)
 msgctxt "help.orderingInfo.1"
 msgid "Visit the XSIV GAMES web site:"
-msgstr ""
+msgstr "XSIV 게임즈 웹사이트 방문:"
 
 #. 구매 안내 문구 (셰어웨어 시절의 흔적). 최대 93바이트 (한글 약 31자)
 msgctxt "help.orderingInfo.2"
 msgid "http://www.xsivgames.com"
-msgstr ""
+msgstr "http://www.xsivgames.com"
 
 #. 구매 안내 문구 (셰어웨어 시절의 흔적). 최대 93바이트 (한글 약 31자)
 msgctxt "help.orderingInfo.3"
 msgid "Or call us toll-free:"
-msgstr ""
+msgstr "또는 수신자 부담 전화:"
 
 #. 구매 안내 문구 (셰어웨어 시절의 흔적). 최대 93바이트 (한글 약 31자)
 msgctxt "help.orderingInfo.4"
 msgid "1-877-4STEALTH"
-msgstr ""
+msgstr "1-877-4STEALTH"
 
 #. 구매 안내 문구 (셰어웨어 시절의 흔적). 최대 93바이트 (한글 약 31자)
 msgctxt "help.orderingInfo.5"
 msgid "THANK YOU"
-msgstr ""
+msgstr "감사합니다"
 
-#. 슈퍼 타이리안 모드 문구. 최대 189바이트 (한글 약 63자)
+#. 슈퍼 티리안 모드 문구. 최대 189바이트 (한글 약 63자)
 msgctxt "help.superTyrianText.0"
 msgid "Cheat codes have been disabled."
-msgstr ""
+msgstr "치트 코드가 비활성화되었습니다."
 
-#. 슈퍼 타이리안 모드 문구. 최대 189바이트 (한글 약 63자)
+#. 슈퍼 티리안 모드 문구. 최대 189바이트 (한글 약 63자)
 msgctxt "help.superTyrianText.1"
 msgid "Difficulty level has been set to Lord of Game."
-msgstr ""
+msgstr "난이도가 게임의 지배자로 설정되었습니다."
 
-#. 슈퍼 타이리안 모드 문구. 최대 189바이트 (한글 약 63자)
+#. 슈퍼 티리안 모드 문구. 최대 189바이트 (한글 약 63자)
 msgctxt "help.superTyrianText.2"
 msgid "Difficulty level has been set to Suicide."
-msgstr ""
+msgstr "난이도가 자살 행위로 설정되었습니다."
 
-#. 슈퍼 타이리안 모드 문구. 최대 189바이트 (한글 약 63자)
+#. 슈퍼 티리안 모드 문구. 최대 189바이트 (한글 약 63자)
 msgctxt "help.superTyrianText.3"
 msgid "It is imperative that you discover the special codes."
-msgstr ""
+msgstr "특수 코드를 반드시 찾아내야 합니다."
 
-#. 슈퍼 타이리안 모드 문구. 최대 189바이트 (한글 약 63자)
+#. 슈퍼 티리안 모드 문구. 최대 189바이트 (한글 약 63자)
 msgctxt "help.superTyrianText.4"
 msgid "(Next time, for an easier challenge hold down SCROLL LOCK.)"
-msgstr ""
+msgstr "(다음에 좀 더 쉽게 도전하려면 SCROLL LOCK을 누르고 계세요.)"
 
-#. 슈퍼 타이리안 모드 문구. 최대 189바이트 (한글 약 63자)
+#. 슈퍼 티리안 모드 문구. 최대 189바이트 (한글 약 63자)
 msgctxt "help.superTyrianText.5"
 msgid "Prepare to play..."
-msgstr ""
+msgstr "출격 준비..."
 

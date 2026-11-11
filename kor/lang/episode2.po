@@ -14,55 +14,55 @@ msgstr ""
 #. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep2.109"
 msgid "First half of the sector wants you dead only because of\nwhat you know. Then, you seek help only to be suckered\ninto a scheme by them to wipe out the other half of the\nsector. Third, when you learn their plans, you're sent\nto prison! Now that you've blasted your way to freedom,\njust how free are you? There is an invasion at hand,\nand it looks like you're the only one who can stop it.\n\nOtherwise...     There won't be anyplace left to hide."
-msgstr ""
+msgstr "첫째, 섹터의 절반이 단지 당신이 아는 것 때문에\n당신을 죽이려 듭니다. 다음엔 도움을 청했다가\n그들의 꾐에 넘어가, 섹터의 나머지 절반을 쓸어버릴\n음모에 휘말립니다. 셋째, 그 계획을 알아채자 이번엔\n감옥행입니다! 이제 포화를 뚫고 자유를 되찾았지만,\n과연 얼마나 자유로울까요? 침공이 코앞에 닥쳤고,\n막을 수 있는 사람은 당신뿐인 듯합니다.\n\n그러지 못하면...     숨을 곳은 어디에도 남지 않습니다."
 
 #. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep2.122"
 msgid "Secret Hint 2-1-1:\n\nJungle Level\nA certain small scout craft is attacked by one of the\ndragons.  Wait until the last second to destroy it and\nyou might get a power-up."
-msgstr ""
+msgstr "비밀 힌트 2-1-1:\n\n정글 레벨\n어떤 작은 정찰기가 용 한 마리에게 공격받습니다.\n마지막 순간까지 기다렸다가 파괴하면\n파워업을 얻을 수도 있습니다."
 
 #. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep2.129"
 msgid "Secret Hint 2-1-2:\n\nTYRIAN  (First Level)\nThere is a secret to the first U-ship that attacks you."
-msgstr ""
+msgstr "비밀 힌트 2-1-2:\n\n티리안 (첫 레벨)\n처음 공격해 오는 U자 함선에는 비밀이 있습니다."
 
 #. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep2.134"
 msgid "Secret Hint 2-1-3:\n\nASTEROID LEVELS\nThe rock faces conceal two bonus levels."
-msgstr ""
+msgstr "비밀 힌트 2-1-3:\n\n소행성 레벨\n암벽 속에 보너스 레벨 두 개가 숨어 있습니다."
 
 #. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep2.139"
 msgid "Secret Hint 2-2-1:\n\nASTEROID 2\nThere is a secret to the first tank in the level."
-msgstr ""
+msgstr "비밀 힌트 2-2-1:\n\n소행성 2\n이 레벨의 첫 번째 탱크에는 비밀이 있습니다."
 
 #. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep2.144"
 msgid "Secret Hint 2-2-2:\n\nSECRET LEVEL\nThere is a way to go from one secret level to one other\nsecret level to maximize your score!"
-msgstr ""
+msgstr "비밀 힌트 2-2-2:\n\n비밀 레벨\n한 비밀 레벨에서 다른 비밀 레벨로 넘어가\n점수를 최대로 올리는 방법이 있습니다!"
 
 #. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep2.150"
 msgid "Secret Hint 2-2-3:\n\nASTEROID 2\nSeveral of the tanks in this level are worth more if\nyou wait a while before destroying them.  You can get\nextra power-ups this way."
-msgstr ""
+msgstr "비밀 힌트 2-2-3:\n\n소행성 2\n이 레벨의 탱크 몇 대는 잠시 기다렸다가 파괴하면\n점수를 더 줍니다. 이렇게 하면 파워업도\n더 얻을 수 있습니다."
 
 #. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep2.157"
 msgid "Secret Hint 2-3-1:\n\nTYRIAN  (First Level)\nThe rock formations conceal a secret fortune."
-msgstr ""
+msgstr "비밀 힌트 2-3-1:\n\n티리안 (첫 레벨)\n바위 지형 속에 비밀 보물이 숨어 있습니다."
 
 #. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep2.162"
 msgid "Secret Hint 2-3-2:\n\nIMPOSSIBLE\nType a capital G."
-msgstr ""
+msgstr "비밀 힌트 2-3-2:\n\n불가능 난이도\n대문자 G를 입력하십시오."
 
 #. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep2.167"
 msgid "Secret Hint 2-3-3:\n\nEPISODE 3\nPlay at the hard difficulty level for an extra reward."
-msgstr ""
+msgstr "비밀 힌트 2-3-3:\n\n에피소드 3\n어려움 난이도로 플레이하면 추가 보상이 있습니다."
 
 #. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep2.228"
 msgid "Warning:\nTrajectory heading intercepts hydroponic labs surrounding\nstation Gryphon.\n\nThe hydroponic laboratories are not as heavily guarded and\nmay allow easy access into the station.  Two routes are\navailable through the defenses.  The first is on the outer\nrim of the station and will allow room for ships to attack.\nThe second is, unfortunately, heavily guarded by automatic\nturrets."
-msgstr ""
+msgstr "경고:\n예정 항로가 그리폰 정거장 주변의 수경 재배\n연구소를 가로지릅니다.\n\n수경 재배 연구소는 경비가 비교적 허술하여 정거장\n내부로 쉽게 진입할 수 있을 것입니다. 방어망을\n통과하는 경로는 두 가지입니다. 첫 번째는 정거장\n외곽을 따라가는 경로로, 함선들이 공격할 공간이\n있습니다. 두 번째는 안타깝게도 자동 포탑이\n삼엄하게 지키고 있습니다."
 

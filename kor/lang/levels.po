@@ -14,315 +14,315 @@ msgstr ""
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.TYRIAN"
 msgid "TYRIAN"
-msgstr "타이리안"
+msgstr "티리안"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.ASTEROID1"
 msgid "ASTEROID1"
-msgstr ""
+msgstr "소행성 1"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.ASTEROID2"
 msgid "ASTEROID2"
-msgstr ""
+msgstr "소행성 2"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.SAVARA"
 msgid "SAVARA"
-msgstr ""
+msgstr "사바라"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.MINES"
 msgid "MINES"
-msgstr ""
+msgstr "기뢰밭"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.BUBBLES"
 msgid "BUBBLES"
-msgstr ""
+msgstr "버블"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.DELIANI"
 msgid "DELIANI"
-msgstr ""
+msgstr "델리아니"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.ASTEROID?"
 msgid "ASTEROID?"
-msgstr ""
+msgstr "소행성 ?"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.MINEMAZE"
 msgid "MINEMAZE"
-msgstr ""
+msgstr "기뢰 미로"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.BONUS"
 msgid "BONUS"
-msgstr ""
+msgstr "보너스"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.HOLES"
 msgid "HOLES"
-msgstr ""
+msgstr "구멍"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.SOH JIN"
 msgid "SOH JIN"
-msgstr ""
+msgstr "소진"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.WINDY"
 msgid "WINDY"
-msgstr ""
+msgstr "강풍"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.ASSASSIN"
 msgid "ASSASSIN"
-msgstr ""
+msgstr "암살자"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.SAVARA V"
 msgid "SAVARA V"
-msgstr ""
+msgstr "사바라 V"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.** ALE **"
 msgid "** ALE **"
-msgstr ""
+msgstr "** 에일 **"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.DELI"
 msgid "DELI"
-msgstr ""
+msgstr "델리"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.TORM"
 msgid "TORM"
-msgstr ""
+msgstr "토름"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.GYGES"
 msgid "GYGES"
-msgstr ""
+msgstr "기게스"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.ASTCITY"
 msgid "ASTCITY"
-msgstr ""
+msgstr "소행성 도시"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.GRYPHON"
 msgid "GRYPHON"
-msgstr ""
+msgstr "그리폰"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.GEM WAR"
 msgid "GEM WAR"
-msgstr ""
+msgstr "보석 전쟁"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.MARKERS"
 msgid "MARKERS"
-msgstr ""
+msgstr "표식"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.MISTAKES"
 msgid "MISTAKES"
-msgstr ""
+msgstr "실수투성이"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.BOTANY A"
 msgid "BOTANY A"
-msgstr ""
+msgstr "식물원 A"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.BOTANY B"
 msgid "BOTANY B"
-msgstr ""
+msgstr "식물원 B"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.GAUNTLET"
 msgid "GAUNTLET"
-msgstr ""
+msgstr "시련의 길"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.IXMUCANE"
 msgid "IXMUCANE"
-msgstr ""
+msgstr "익스무카네"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.STARGATE"
 msgid "STARGATE"
-msgstr ""
+msgstr "스타게이트"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.CAMANIS"
 msgid "CAMANIS"
-msgstr ""
+msgstr "카마니스"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.FLEET"
 msgid "FLEET"
-msgstr ""
+msgstr "함대"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.AST. CITY"
 msgid "AST. CITY"
-msgstr ""
+msgstr "소행성 도시"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.TYRIAN X"
 msgid "TYRIAN X"
-msgstr ""
+msgstr "티리안 X"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.SAWBLADES"
 msgid "SAWBLADES"
-msgstr ""
+msgstr "톱날"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.SAVARA Y"
 msgid "SAVARA Y"
-msgstr ""
+msgstr "사바라 Y"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.New Deli"
 msgid "New Deli"
-msgstr ""
+msgstr "뉴델리"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.MACES"
 msgid "MACES"
-msgstr ""
+msgstr "철퇴"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.SURFACE"
 msgid "SURFACE"
-msgstr ""
+msgstr "지표면"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.LAVA RUN"
 msgid "LAVA RUN"
-msgstr ""
+msgstr "용암 질주"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.CORE"
 msgid "CORE"
-msgstr ""
+msgstr "중심핵"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.?TUNNEL?"
 msgid "?TUNNEL?"
-msgstr ""
+msgstr "?터널?"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.ICE EXIT"
 msgid "ICE EXIT"
-msgstr ""
+msgstr "얼음 출구"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.HARVEST"
 msgid "HARVEST"
-msgstr ""
+msgstr "수확"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.UNDERDELI"
 msgid "UNDERDELI"
-msgstr ""
+msgstr "지하 델리"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.SAVARA IV"
 msgid "SAVARA IV"
-msgstr ""
+msgstr "사바라 IV"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.DREAD-NOT"
 msgid "DREAD-NOT"
-msgstr ""
+msgstr "드레드낫"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.EYESPY"
 msgid "EYESPY"
-msgstr ""
+msgstr "엿보는 눈"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.BRAINIAC"
 msgid "BRAINIAC"
-msgstr ""
+msgstr "두뇌왕"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.NOSE DRIP"
 msgid "NOSE DRIP"
-msgstr ""
+msgstr "콧물 줄줄"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.DESERTRUN"
 msgid "DESERTRUN"
-msgstr ""
+msgstr "사막 질주"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.LAVA EXIT"
 msgid "LAVA EXIT"
-msgstr ""
+msgstr "용암 출구"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.SIDE EXIT"
 msgid "SIDE EXIT"
-msgstr ""
+msgstr "측면 출구"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.TIME WAR"
 msgid "TIME WAR"
-msgstr ""
+msgstr "시간 전쟁"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.SQUADRON"
 msgid "SQUADRON"
-msgstr ""
+msgstr "편대"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.APPROACH"
 msgid "APPROACH"
-msgstr ""
+msgstr "접근"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.ICESECRET"
 msgid "ICESECRET"
-msgstr ""
+msgstr "얼음 비밀"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.ASTEROIDS"
 msgid "ASTEROIDS"
-msgstr ""
+msgstr "소행성 지대"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.STATION"
 msgid "STATION"
-msgstr ""
+msgstr "정거장"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.AST ROCK"
 msgid "AST ROCK"
-msgstr ""
+msgstr "소행성 바위"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.MINERS"
 msgid "MINERS"
-msgstr ""
+msgstr "광부들"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.CORAL"
 msgid "CORAL"
-msgstr ""
+msgstr "산호"
 
 #. 레벨 이름 (게임 화면 오른쪽 칸과 불러오기 메뉴, 작은 글씨, 아주 짧게)
 msgctxt "level.FRUIT"
 msgid "FRUIT"
-msgstr ""
+msgstr "과일"
 
 #. 에피소드를 마친 세이브의 레벨 칸에 나오는 말 (작은 글씨, 아주 짧게)
 msgctxt "level.Completed"
 msgid "Completed"
-msgstr ""
+msgstr "완료"
 

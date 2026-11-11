@@ -14,55 +14,55 @@ msgstr ""
 #. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep5.113"
 msgid "\nRelated by your onetime friendship with Buce, you were\nsought out by his people, the Hazudra Collectors, and sent\nto destroy the Zinglonites.\n\nWith none of their forces left and the deadly fruit weapons\ndestroyed, the universe as a whole is silent once again.  No\nresponse ever comes of your inquiry to the state of the\nHazudra or who sent you on this journey.  The secret haunts\nyou in your sleep.\n\nStill a hero once again, as always..."
-msgstr ""
+msgstr "\n한때 부스와 나눈 우정이 인연이 되어, 그의 동족인\n하주드라 수집단이 당신을 찾아와 징글론 신도들을\n섬멸하라는 임무를 맡겼습니다.\n\n징글론 신도들의 병력은 하나도 남지 않았고 치명적인\n과일 병기도 파괴되어, 온 우주는 다시 고요해졌습니다.\n하주드라의 근황이나 누가 당신을 이 여정에 보냈는지\n물었지만, 끝내 아무 답도 돌아오지 않았습니다.\n그 비밀은 꿈속에서도 당신을 괴롭힙니다.\n\n어쨌든 언제나처럼, 또다시 영웅입니다..."
 
 #. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep5.130"
 msgid "Congratulations!"
-msgstr ""
+msgstr "축하합니다!"
 
 #. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep5.137"
 msgid "Did you know?\nTyrian Purple is actually the name of an ancient purple\ndye?  Since they were obtained from vegetables and\nnatural sources, dyes were difficult to obtain and\nTyrian Purple disappeared around the 15th century."
-msgstr ""
+msgstr "알고 계셨나요?\n티리안 퍼플은 실제로 고대의 보라색 염료 이름입니다.\n염료는 채소와 천연 재료에서 얻었기 때문에 구하기\n어려웠고, 티리안 퍼플은 15세기 무렵 자취를 감췄습니다."
 
 #. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep5.143"
 msgid "Did you know?\nA Tyrian is the term for a person who lived in the\ncity of Tyre."
-msgstr ""
+msgstr "알고 계셨나요?\n티리안이란 티레라는 도시에 살던 사람을 가리키는\n말입니다."
 
 #. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep5.147"
 msgid "Did you know?\nAncient Tyre was a large Phonecian seaport from around\n2000BC up until the Romans came around.  It was\nlocated on the Mediterranean."
-msgstr ""
+msgstr "알고 계셨나요?\n고대 티레는 기원전 2000년경부터 로마인이 들어오기\n전까지 페니키아의 큰 항구 도시였습니다. 지중해\n연안에 있었습니다."
 
 #. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep5.152"
 msgid "Did you know?\nMelqart was a Phoenician god and the chief deity of\nTyre.  He was also called the Tyrian Baal and was\nequated with Nergal, god of the underworld and death."
-msgstr ""
+msgstr "알고 계셨나요?\n멜카르트는 페니키아의 신으로, 티레의 주신이었습니다.\n'티리안 바알'이라고도 불렸으며, 저승과 죽음의 신\n네르갈과 동일시되었습니다."
 
 #. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep5.157"
 msgid "Did you know?\nShakespeare's Pericles was a prince of Tyre."
-msgstr ""
+msgstr "알고 계셨나요?\n셰익스피어 작품 속 페리클레스는 티레의 왕자였습니다."
 
 #. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep5.160"
 msgid "Did you know?\nHiram, who appears in the Bible as David and Solomon's\nally, was a king of Tyre from 969-936BC."
-msgstr ""
+msgstr "알고 계셨나요?\n성경에 다윗과 솔로몬의 동맹으로 등장하는 히람은\n기원전 969년부터 936년까지 티레를 다스린 왕입니다."
 
 #. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep5.164"
 msgid "Did you know?\nTyre was finally conquered by Alexander the Great in\n332BC.  After an eight month seige, Alexander drove a\nmole into the sea from the mainland to the island.\nMost of the Tyrians were sold into slavery."
-msgstr ""
+msgstr "알고 계셨나요?\n티레는 기원전 332년, 마침내 알렉산드로스 대왕에게\n정복되었습니다. 여덟 달의 포위전 끝에, 알렉산드로스는\n본토에서 섬까지 바다를 메워 둑길을 쌓았습니다.\n티리안들은 대부분 노예로 팔려 갔습니다."
 
 #. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep5.170"
 msgid "Did you know?\nTyre was the site of an artificial harbor built by\nthe Phoneicians in the 13th century BC."
-msgstr ""
+msgstr "알고 계셨나요?\n티레에는 기원전 13세기에 페니키아인이 만든\n인공 항구가 있었습니다."
 
 #. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep5.178"
 msgid "Warning:\nWarning Beacon specifies level 5 automated resistance system.\n\nUnknown response to continued approach."
-msgstr ""
+msgstr "경고:\n경고 신호기가 5단계 자동 방어 시스템을 알리고 있습니다.\n\n계속 접근할 경우 어떤 반응이 있을지 알 수 없습니다."
 

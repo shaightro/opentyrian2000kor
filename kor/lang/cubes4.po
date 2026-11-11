@@ -14,1692 +14,1692 @@ msgstr ""
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.4.title"
 msgid "IXMUCANE - PRIVATE LINK"
-msgstr ""
+msgstr "익스무카네 - 개인 회선"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.4.header"
 msgid "Tech"
-msgstr ""
+msgstr "기술자"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.4.0"
 msgid "Tightbeam private coded message. Forwarded by Downstar at unknown link. Attached message included as second data message."
-msgstr ""
+msgstr "지향성 빔 개인 암호 메시지. 다운스타가 미상의 회선을 통해 전달함. 첨부 메시지는 두 번째 데이터 메시지로 포함됨."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.4.4"
 msgid "Decoded transmission follows:"
-msgstr ""
+msgstr "해독된 통신 내용은 다음과 같음:"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.4.6"
 msgid "This is ~Harble~ ~Wom~ at the ~Microsol~ planet ~Ixmucane~.  This is a ~Downstar~ emergency request by ~Downstar~ agent ID ~00329~, Tech ~IX9204~.  I am patched into a secure net and cannot explain fully."
-msgstr ""
+msgstr "여기는 ~마이크로솔~ 소유 행성 ~익스무카네~의 ~하블~ ~웜~입니다. ~다운스타~ 요원 ID ~00329~, 기술자 ~IX9204~가 보내는 ~다운스타~ 긴급 요청입니다. 보안망에 몰래 접속해 있어서 자세히 설명할 수가 없습니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.4.10"
 msgid "Through collaborating with other Techs, I have learned that ~Microsol~ has unlocked some of the ~Zica~ command codes.  The SCIs have activated the ancient computer system!  Temperature is 103° here in the service bay and rising.  Men are complaining but being turned away by the guards.  I fear that only armed conflict will prevent our massacre.  Several Techs are reported missing and we fear they were killed for trying to escape."
-msgstr ""
+msgstr "다른 기술자들과 힘을 합친 끝에, ~마이크로솔~이 ~지카~ 명령 코드 일부를 풀어냈다는 사실을 알아냈습니다. 과학자들이 그 고대 컴퓨터 시스템을 가동시켰습니다! 이곳 정비실 온도는 103도이고 계속 오르고 있습니다. 사람들이 항의해 보지만 경비병들에게 번번이 쫓겨나고 있습니다. 무력 충돌이라도 일어나지 않는 한 우리는 몰살당할 것 같습니다. 기술자 몇 명이 실종됐다는 보고가 있는데, 탈출하려다 살해당한 게 아닌가 싶습니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.4.17"
 msgid "I think..."
-msgstr ""
+msgstr "제 생각엔..."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.4.19"
 msgid "I think they're going to turn this planet into a sun."
-msgstr ""
+msgstr "놈들은 이 행성을 태양으로 만들려는 것 같습니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.4.21"
 msgid "GET ME OUT OF HERE!"
-msgstr ""
+msgstr "여기서 꺼내 줘요!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.4.23"
 msgid "I DON'T WANT TO BE CAUGHT OUT IN THE MIDDLE OF THIS PLANET WHEN THEY TURN IT INTO A SUN!!!!"
-msgstr ""
+msgstr "놈들이 이 행성을 태양으로 바꿀 때 행성 한복판에 갇혀 있긴 싫다고요!!!!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.4.26"
 msgid "~SEND~ ~SOMEONE~ ~OUT~ ~NOW~ ~YOU~ ~STUPID~"
-msgstr ""
+msgstr "~당장~ ~누구라도~ ~보내란~ ~말이야~ ~이~ ~멍청이들아~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.4.28"
 msgid "[End of File]"
-msgstr ""
+msgstr "[파일 끝]"
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.5.title"
 msgid "INCOMING TRANSMISSION from Gencore Command Ship IcoStar II"
-msgstr ""
+msgstr "젠코어 지휘함 아이코스타 II에서 온 통신"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.5.header"
 msgid "Transon"
-msgstr ""
+msgstr "트랜슨"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.5.0"
 msgid "You've probably read the message before this one, Trent.  I don't need to tell you that this is a problem, and it means doom."
-msgstr ""
+msgstr "아마 이 앞의 메시지를 읽었을 걸세, 트렌트. 이게 큰 문제라는 것도, 파멸을 뜻한다는 것도 굳이 말하지 않아도 알 테지."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.5.3"
 msgid "I know I am a boring old man and I dragged you back across the galaxy against your own will, but please hear me out."
-msgstr ""
+msgstr "내가 따분한 늙은이라는 것도, 자네 뜻을 거슬러 은하 저편에서 다시 끌고 왔다는 것도 아네. 그래도 부디 내 말을 끝까지 들어 주게."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.5.6"
 msgid "I am placed in the regrettible position of having to try and stop this insanity.  I hope ~Harble~ was wrong, but this is an alien technology more advanced than our own."
-msgstr ""
+msgstr "나는 어떻게든 이 미친 짓을 막아야 하는 안타까운 처지에 놓였네. ~하블~이 틀렸기를 바라지만, 이건 우리 기술보다 앞선 외계 기술일세."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.5.10"
 msgid "~Gencore~ believes that if ~Microsol~ can reactivate the computer systems, they will have a limitless power source and would certainly monopolize the energy trade."
-msgstr ""
+msgstr "~젠코어~는 ~마이크로솔~이 그 컴퓨터 시스템을 다시 가동하면 무한한 동력원을 손에 넣게 될 테고, 에너지 거래를 독점할 게 분명하다고 보고 있네."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.5.14"
 msgid "As regrettible as it would be, if that was all it was I would reluctantly have to allow them to activate the planet and keep their energy.  We could still fight them economically from other directions.  The problem is that there's a vast number of scientists and technicians from independent governments and education centers stationed on ~Ixmucane~ via the universal ~Free~ ~Education~ ~Act~.  At last count, there were about ~1.5~ ~million~ of the brightest minds in the universe centered on ~Ixmucane~.  Now, there's a giant military fleet flying around inside that blasted rock which has prevented nearly everyone from escaping!"
-msgstr ""
+msgstr "유감스럽지만 그게 전부라면, 마지못해서라도 놈들이 행성을 가동해 그 에너지를 차지하게 내버려 둘 수밖에 없을 걸세. 다른 방면에서 경제적으로 맞서 싸울 수도 있으니 말이야. 문제는 범우주 ~자유 교육법~에 따라 ~익스무카네~에 파견된 독립 정부와 교육 기관 소속 과학자와 기술자가 엄청나게 많다는 걸세. 마지막 집계로는 우주에서 가장 뛰어난 두뇌 약 ~150만~ 명이 ~익스무카네~에 모여 있었네. 그런데 지금 그 망할 바위 속을 거대한 군 함대가 날아다니면서 거의 아무도 빠져나가지 못하게 막고 있다네!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.5.24"
 msgid "If they turn that rock into a sun, it will mean a scientific setback that will last for millenia!  We have much of the information, but few outside the ~Free~ ~Education~ system have the ability to comprehend and utilize it.  While we're busy relearning all that has been lost, ~Microsol~ will undoubtedly push ahead and take over the rest of the colonized universe."
-msgstr ""
+msgstr "놈들이 그 바위를 태양으로 바꿔 버리면, 과학은 수천 년이나 뒷걸음질 치게 될 걸세! 정보는 우리도 많이 갖고 있지만, ~자유 교육~ 체계 바깥에서 그걸 이해하고 활용할 수 있는 사람은 드물다네. 우리가 잃어버린 지식을 다시 익히느라 허덕이는 사이, ~마이크로솔~은 틀림없이 앞서 나가 개척된 우주의 나머지를 몽땅 차지해 버릴 걸세."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.5.30"
 msgid "I can't let that happen, under any cost."
-msgstr ""
+msgstr "무슨 대가를 치르더라도 그렇게 둘 수는 없네."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.5.32"
 msgid "We, along with several other major corporations, have assembled an ~emergency~ ~fleet~ which will converge on ~Ixmucane~."
-msgstr ""
+msgstr "우리는 다른 주요 기업 몇 곳과 함께 ~비상 함대~를 꾸렸고, 이 함대가 ~익스무카네~로 집결할 걸세."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.5.35"
 msgid "Yes, Trent, you are part of the ~emergency~ ~fleet~.  During your last maintenance run, we planted some false programming into your computer banks.  After you receive my coded message, your viewscreen will be correctly reactivated. That vacation you were planning will just have to wait.  Glad to have you with us."
-msgstr ""
+msgstr "그렇다네, 트렌트, 자네도 그 ~비상 함대~의 일원일세. 지난번 정비 때 자네 컴퓨터 기억 장치에 가짜 프로그램을 좀 심어 두었네. 내 암호 메시지를 받고 나면 자네 화면이 제대로 다시 켜질 걸세. 계획하던 휴가는 좀 미뤄야겠군. 자네가 함께해 줘서 든든하네."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.5.41"
 msgid "We're counting on you to slow them down long enough for us to free the trapped people.  If they activate the planet, we'll somehow make sure they can't use it."
-msgstr ""
+msgstr "우리가 갇힌 사람들을 구해 낼 때까지 자네가 놈들의 발을 묶어 주리라 믿네. 만약 놈들이 행성을 가동한다면, 어떻게든 놈들이 그걸 쓰지 못하게 만들겠네."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.5.45"
 msgid "And Trent... I don't know if you'll accept this, but I'm sorry."
-msgstr ""
+msgstr "그리고 트렌트... 자네가 받아 줄지 모르겠네만, 미안하네."
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.6.title"
 msgid "INCOMING TRANSMISSION from Gencore Command Ship IcoStar II"
-msgstr ""
+msgstr "젠코어 지휘함 아이코스타 II에서 온 통신"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.6.header"
 msgid "Transon"
-msgstr ""
+msgstr "트랜슨"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.6.0"
 msgid "Recorded VidCom - GT 29:21"
-msgstr ""
+msgstr "녹화된 영상 통신 - GT 29:21"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.6.2"
 msgid "I wasn't sure if I was going to hear from you again, but you cleared out enough of the surface ships for us to break through and start rescuing the people trapped on the upper sections of the planet."
-msgstr ""
+msgstr "자네 소식을 다시 듣게 될지 자신이 없었는데, 자네가 지상 함선들을 충분히 쓸어 준 덕분에 우리가 포위를 뚫고 행성 상층부에 갇힌 사람들을 구조하기 시작했네."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.6.6"
 msgid "We need more time, Trent.  The temperature is rising even on the surface now, and it's a matter of minutes before it's deadly.  You've got to fly down into the planet and distract whatever's in the core.  We've destroyed enough of their jamming beacons to scan the interior of the planet and have located a central shaft leading deep into the planet.  The coordinates were downloaded into your computer with this message."
-msgstr ""
+msgstr "시간이 더 필요하네, 트렌트. 이제 지표면에서도 온도가 오르고 있어서, 치명적인 수준이 되기까지 몇 분 남지 않았네. 자네가 행성 안으로 날아 들어가 중심핵에 있는 뭔가의 주의를 끌어 줘야 하네. 놈들의 전파 방해 비컨을 충분히 부순 덕에 행성 내부를 스캔할 수 있었는데, 행성 깊숙이 이어지는 중앙 수직 통로를 찾아냈네. 좌표는 이 메시지와 함께 자네 컴퓨터로 내려보냈네."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.6.13"
 msgid "Good luck.  We'll try to save as many as possible before the planet goes."
-msgstr ""
+msgstr "행운을 비네. 행성이 끝장나기 전에 최대한 많은 사람을 구해 보겠네."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.6.15"
 msgid "Further communications won't be possible from me, but there's some friendly groups in the lower sections who have seized control.  They will probably try to contact you and may be able to provide assistance.  A robot service vehicle has been despatched to follow you down.  It's all we can spare."
-msgstr ""
+msgstr "이제 내 쪽에서는 더 연락할 수 없겠지만, 하층부에 통제권을 장악한 우호 세력이 몇 있네. 아마 자네에게 연락해 올 테고, 도움을 줄 수도 있을 걸세. 자네를 따라 내려가도록 로봇 정비선을 한 대 보냈네. 우리가 내줄 수 있는 건 그게 전부일세."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.6.20"
 msgid "We're all depending on you to distract them.  Do what you must."
-msgstr ""
+msgstr "모두 자네가 놈들의 주의를 끌어 주기만을 바라고 있네. 해야 할 일을 하게."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.6.22"
 msgid "Transon Lohk"
-msgstr ""
+msgstr "트랜슨 로크"
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.7.title"
 msgid "IXMUCANE - PRIVATE LINK"
-msgstr ""
+msgstr "익스무카네 - 개인 회선"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.7.header"
 msgid "Tech"
-msgstr ""
+msgstr "기술자"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.7.0"
 msgid "Tightbeam private coded message. Originating from Ixmucane internal section 12-9-4."
-msgstr ""
+msgstr "지향성 빔 개인 암호 메시지. 발신지: 익스무카네 내부 구역 12-9-4."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.7.3"
 msgid "This is Tech ~Harble~ ~Wom~ from level 12.  We have freed this section from Microsol control and have monitored your incoming ship."
-msgstr ""
+msgstr "여기는 12층의 기술자 ~하블~ ~웜~이에요. 우리가 이 구역을 마이크로솔의 통제에서 해방시켰고, 그쪽 함선이 들어오는 걸 지켜보고 있었어요."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.7.6"
 msgid "You appear to be piloting a neutral freemarket scout-class starship.  Are you here to help?  Did ~Downstar~ send you?"
-msgstr ""
+msgstr "보아하니 중립 자유 시장 소속의 정찰급 우주선을 몰고 있는 것 같군요. 도우러 온 건가요? ~다운스타~가 보냈어요?"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.7.9"
 msgid "We are trapped here in level 12 by a security lockout and can't break through the blast-shielding."
-msgstr ""
+msgstr "우린 보안 봉쇄 때문에 이곳 12층에 갇혀 있는데, 방폭 차폐벽을 뚫을 수가 없어요."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.7.12"
 msgid "Look, whoever you are, we're in a tight spot.  There's no time left for us to escape - the defense drones are inaccessible to these computer systems and none of us can override the security codes.  You gotta help us out. There's thousands of us trapped here in the middle of this rock.  We've got some sensors working and know that someone's up there evacuating the population, but there's no time."
-msgstr ""
+msgstr "이봐요, 누군지는 몰라도 우린 지금 궁지에 몰렸어요. 탈출할 시간이 없어요. 방어 드론은 이쪽 컴퓨터 시스템으로는 손댈 수가 없고, 보안 코드를 해제할 수 있는 사람도 없어요. 우릴 좀 도와줘야 해요. 이 바위 한가운데에 수천 명이 갇혀 있다고요. 센서 몇 개가 살아 있어서 누군가 위에서 주민들을 대피시키고 있다는 건 알지만, 시간이 없어요."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.7.19"
 msgid "This planet is going to vaporize in about 30 minutes, maybe an hour.  There's more of us trapped down below somewhere closer to the core and they can't get out either.  There's just no way you're gonna reach us down here."
-msgstr ""
+msgstr "이 행성은 30분, 길어야 한 시간 안에 증발해 버릴 거예요. 저 아래 중심핵에 더 가까운 어딘가에도 갇힌 사람들이 있는데, 그 사람들도 못 빠져나오고 있어요. 당신이 여기까지 내려올 방법은 도무지 없을 거예요."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.7.23"
 msgid "~Microsol's~ activated some old Zica system down there near the core, and it's raising the temperature something fierce.  You've got to take it out fast or we'll never make it!"
-msgstr ""
+msgstr "~마이크로솔~ 놈들이 저 아래 중심핵 근처에서 오래된 지카 시스템을 가동했는데, 그게 온도를 무섭게 올리고 있어요. 그걸 빨리 없애지 않으면 우린 끝장이에요!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.7.27"
 msgid "No time!  Just continue down that tunnel!  There's something massive down there burning a hole through the planet!  We sent another data cube with a sensor report of the core.  I hope you got it!"
-msgstr ""
+msgstr "시간 없어요! 그냥 그 터널을 따라 계속 내려가요! 저 아래서 뭔가 거대한 게 행성에 구멍을 태워 뚫고 있어요! 중심핵 센서 보고서를 담은 데이터 큐브를 하나 더 보냈어요. 받았으면 좋겠네요!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.7.31"
 msgid "For the love of Zinglon, save us!"
-msgstr ""
+msgstr "제발요, 징글론을 봐서라도 우릴 살려 줘요!"
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.8.title"
 msgid "ARCHIVE DATA"
-msgstr ""
+msgstr "기록 보관소 자료"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.8.header"
 msgid "Data"
-msgstr ""
+msgstr "데이터"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.8.0"
 msgid "Reference: Ixmucane Core sensor report"
-msgstr ""
+msgstr "항목: 익스무카네 중심핵 센서 보고서"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.8.2"
 msgid "Sensor arrays have detected 3 main types of anomalous readings."
-msgstr ""
+msgstr "센서 배열이 크게 세 종류의 이상 수치를 감지했다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.8.4"
 msgid "1 - Unknown Zica defense systems.  Most defense systems are radiating large amounts of infrared energy and are probably thermal based.  An unknown energy force appears to be directing the thermal energy flow."
-msgstr ""
+msgstr "1 - 미확인 지카 방어 시스템. 방어 시스템 대부분이 다량의 적외선 에너지를 방출하고 있어 열 기반일 가능성이 높다. 정체불명의 에너지가 열에너지의 흐름을 조종하는 것으로 보인다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.8.8"
 msgid "2 - Crystalline Ore.  A highly volatile, energy-rich crystal ore has been detected in this area.  Dralictite and Morenzinum are indicated in fairly high quantities near the center."
-msgstr ""
+msgstr "2 - 결정질 광석. 이 지역에서 불안정성이 매우 높고 에너지가 풍부한 결정 광석이 감지되었다. 중심부 근처에서 드랄릭타이트와 모렌지늄이 상당히 많이 검출된다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.8.12"
 msgid "3 - Large Unknown Energy Source.  A central energy source is producing unknown levels of heat energy.  This source is a critical threat and your heat shielding will last for approximately 30 seconds in contact with the device. You will have approximately 10 seconds to destroy the source when within critical range."
-msgstr ""
+msgstr "3 - 대형 미확인 에너지원. 중앙의 에너지원이 측정할 수 없는 수준의 열에너지를 내뿜고 있다. 이 에너지원은 심각한 위협이며, 장치와 접촉할 경우 기체의 열 차폐막은 약 30초 동안 버틸 것이다. 임계 범위 안에 들어가면 에너지원을 파괴할 시간은 약 10초다."
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.9.title"
 msgid "IXMUCANE - PRIVATE LINK"
-msgstr ""
+msgstr "익스무카네 - 개인 회선"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.9.header"
 msgid "Captain"
-msgstr ""
+msgstr "함장"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.9.0"
 msgid "Tightbeam private coded message. Originating from Ixmucane internal section 1-1-1."
-msgstr ""
+msgstr "지향성 빔 개인 암호 메시지. 발신지: 익스무카네 내부 구역 1-1-1."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.9.3"
 msgid "Who are you?  Don't I recognize you?"
-msgstr ""
+msgstr "넌 누구냐? 어디서 본 얼굴 같은데?"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.9.5"
 msgid "No matter.  This planet is going to be vaporized, intruder.  There's no hope for you to reach the core in time to destroy it."
-msgstr ""
+msgstr "상관없지. 이 행성은 곧 증발한다, 침입자. 네가 제때 중심핵까지 가서 그걸 파괴할 가망은 없다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.9.8"
 msgid "Leave now, whoever you are.  This is not your affair.  I'd kill you myself, but I'm not stupid enough to stay behind and die."
-msgstr ""
+msgstr "누군지 몰라도 당장 떠나라. 네가 끼어들 일이 아니다. 내 손으로 죽여 주고 싶지만, 여기 남아서 같이 죽을 만큼 멍청하진 않거든."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.9.12"
 msgid "~Captain~ ~Nob~"
-msgstr ""
+msgstr "~노브~ ~함장~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.9.14"
 msgid "~Ixmucane~ Task Force ~Alpha~"
-msgstr ""
+msgstr "~익스무카네~ 기동대 ~알파~"
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.10.title"
 msgid "ARCHIVE DATA"
-msgstr ""
+msgstr "기록 보관소 자료"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.10.header"
 msgid "Data"
-msgstr ""
+msgstr "데이터"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.10.0"
 msgid "Reference: People Pretzel Dough"
-msgstr ""
+msgstr "항목: 인간 프레첼 반죽"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.10.2"
 msgid "According to a disturbing interstellar transmission, a distant planet reports that people are being turned into ~People Pretzel Dough~.  Reports are unconfirmed what exactly that is, but scientists believe it's pretty tasty."
-msgstr ""
+msgstr "충격적인 성간 통신에 따르면, 머나먼 한 행성에서 사람들이 ~인간 프레첼 반죽~으로 변하고 있다는 보고가 들어왔다. 그것이 정확히 무엇인지는 확인되지 않았지만, 과학자들은 꽤 맛있을 것으로 보고 있다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.10.6"
 msgid "Any interested research party is instructed to locate Pretzel Pete for more information."
-msgstr ""
+msgstr "관심 있는 연구진은 더 자세한 정보를 원하면 프레첼 피트를 찾아가기 바란다."
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.11.title"
 msgid "ARCHIVE DATA"
-msgstr ""
+msgstr "기록 보관소 자료"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.11.header"
 msgid "Data"
-msgstr ""
+msgstr "데이터"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.11.0"
 msgid "Reference: Sonic Cannon"
-msgstr ""
+msgstr "항목: 소닉 캐논"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.11.2"
 msgid "Rated: ~Not~ ~Funny~"
-msgstr ""
+msgstr "평가: ~안~ ~웃김~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.11.4"
 msgid "The sonic cannon weapon creates a minute gravitational center using FPP (Forced Particle Packing technology) which allows a particle field to remain intact.  The gravitational center is destabilized with a hyper flux modulator before being released from the weapon.  The destabilized gravitational core modulates at a fixed frequency which is fast enough to create a shimmering field in the optical range around green.  The frequency generator uses a system of sound wave generators to help modulate the frequency for the maximum particle dispersal and energy so far possible - hence the damage from the weapon is caused by the sonic modulators before the weapon is fired."
-msgstr ""
+msgstr "소닉 캐논은 FPP(강제 입자 압축 기술)로 미세한 중력 중심을 만들어 내며, 이 기술 덕분에 입자장이 흩어지지 않고 유지된다. 이 중력 중심은 무기에서 발사되기 전에 하이퍼플럭스 변조기를 거치며 불안정해진다. 불안정해진 중력 핵은 일정한 주파수로 진동하는데, 그 속도가 충분히 빨라서 가시광선 중 녹색 부근 영역에서 일렁이는 장이 생긴다. 주파수 발생기는 여러 음파 발생기를 이용해 주파수를 변조하여 입자 분산과 에너지를 현재 가능한 최대치로 끌어올린다. 따라서 이 무기의 피해는 무기가 발사되기도 전에 음파 변조기에서 생기는 셈이다."
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.12.title"
 msgid "ARCHIVE DATA"
-msgstr ""
+msgstr "기록 보관소 자료"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.12.header"
 msgid "Data"
-msgstr ""
+msgstr "데이터"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.12.0"
 msgid "Reference: Zica Flamethrower"
-msgstr ""
+msgstr "항목: 지카 화염방사기"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.12.2"
 msgid "This weapon was found during an excavation of an ancient tunnel-world apparently build by these strange space-inhabiting creatures.  It is believed the Zica were not air-breathers but subsisted mostly on thermal radiation and various liquids for survival."
-msgstr ""
+msgstr "이 무기는 고대 터널 세계를 발굴하던 중에 발견되었는데, 그 세계는 우주에 사는 이 기묘한 생명체들이 건설한 것으로 보인다. 지카는 공기로 호흡하지 않았고, 주로 열복사와 여러 가지 액체를 섭취하며 살아간 것으로 여겨진다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.12.7"
 msgid "We believe this had a profound impact on their technological development, since they appear to have developed tools and devices to manipulate and take advantage of thermal and other radiation-based energies.  Their mastery of thermal energy appears to have led to the development of this unique null-space flamethrower."
-msgstr ""
+msgstr "우리는 이것이 그들의 기술 발전에 지대한 영향을 미쳤다고 본다. 그들은 열에너지를 비롯한 복사 기반 에너지를 조작하고 활용하는 도구와 장치를 개발했던 듯하기 때문이다. 이처럼 열에너지에 통달했기에 이 독특한 무공간 화염방사기도 탄생할 수 있었던 것으로 보인다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.12.13"
 msgid "What little information which has leaked out of Station Gryphon, where the only remaining samples of this device are stored, indicates the weapon uses an energy-based particle field to generate the flame without any external air or energy source."
-msgstr ""
+msgstr "이 장치의 마지막 남은 표본이 보관된 그리폰 정거장에서 새어 나온 얼마 안 되는 정보에 따르면, 이 무기는 에너지 기반 입자장을 이용해 외부 공기나 에너지원 없이 불꽃을 만들어 낸다고 한다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.12.18"
 msgid "Even this limited information would not have been available if it wasn't for the unfortunate accident which apparently occured when a researcher removed the outer covering to study the interior.  A large section of the left-rear portion of Station Gryphon is still missing to this day, a testimony to those who would fool with something they do not understand."
-msgstr ""
+msgstr "그나마 이 정도 정보도, 한 연구원이 내부를 살펴보려고 외피를 벗겨 냈을 때 일어났다는 불행한 사고가 아니었다면 알려지지 않았을 것이다. 그리폰 정거장의 좌측 후방 상당 부분은 오늘날까지도 떨어져 나간 채로 남아, 이해하지도 못하는 물건을 함부로 건드리는 자들에게 경종을 울리고 있다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.12.24"
 msgid "See The Not-so-Great Gryphon Explosion"
-msgstr ""
+msgstr "참조: 별로 대단하지 않았던 그리폰 대폭발"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.12.26"
 msgid "    Tunnel Worlds, Zica"
-msgstr ""
+msgstr "    터널 세계, 지카"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.12.28"
 msgid "    Pirate Activity, Gryphon Sector"
-msgstr ""
+msgstr "    해적 활동, 그리폰 섹터"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.12.30"
 msgid "    Weapons Research, Station Gryphon"
-msgstr ""
+msgstr "    무기 연구, 그리폰 정거장"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.12.32"
 msgid "    Zica Laser Weapon"
-msgstr ""
+msgstr "    지카 레이저 무기"
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.13.title"
 msgid "ARCHIVE DATA"
-msgstr ""
+msgstr "기록 보관소 자료"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.13.header"
 msgid "Data"
-msgstr ""
+msgstr "데이터"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.13.0"
 msgid "Reference: Pirate Activity, Gryphon Sector"
-msgstr ""
+msgstr "항목: 해적 활동, 그리폰 섹터"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.13.2"
 msgid "Rated: ~Not~ ~Funny~"
-msgstr ""
+msgstr "평가: ~안~ ~웃김~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.13.4"
 msgid "Gryphon Sector is the main secret weapons research center for Microsol. It was long rumored to be an ordinary military station, but since the Not-so-Great Gryphon Explosion, Microsol has decided to let it remain in public knowledge.  In fact, once a year, they invite members of competing industries to the Station to view how far behind they are in comparison to Microsol."
-msgstr ""
+msgstr "그리폰 섹터는 마이크로솔의 핵심 비밀 무기 연구 기지다. 오랫동안 평범한 군사 정거장이라는 소문이 돌았지만, 별로 대단하지 않았던 그리폰 대폭발 이후 마이크로솔은 그 존재를 굳이 감추지 않기로 했다. 실제로 마이크로솔은 해마다 한 번씩 경쟁 업계 사람들을 정거장으로 초대해, 자기들이 마이크로솔보다 얼마나 뒤처져 있는지 구경시켜 준다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.13.11"
 msgid "Still, the station has had it's share of hardships.  Many pirates of both the Mikal and Patrok clans have long looked upon it as the pinnacle of their career if they can infiltrate the station's defenses and land a raiding party within the research section, then return with something from their weapons labs.  Most never even make it to the station, destroyed by the dreaded Pong ships."
-msgstr ""
+msgstr "그렇다고 정거장에 시련이 없었던 것은 아니다. 미칼 일족과 파트록 일족의 수많은 해적들은 오래전부터, 정거장의 방어망을 뚫고 연구 구역에 습격대를 내려보낸 뒤 무기 연구소에서 뭔가를 챙겨 돌아오는 것을 해적 인생 최고의 업적으로 여겨 왔다. 하지만 대부분은 정거장 근처에도 가 보지 못하고 공포의 퐁 함선에 격파당한다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.13.18"
 msgid "One retired pirate of the Patrok clan, one ShipMaster Carlos, wrote a book detailing highlights of his extensive career.  One of which was the infiltration and removal of a weapon now commonly referred to as the Zica Laser Cannon.  He is believed to have been assassinated the next day, but they were too late to stop Gencore from transmitting his book over Fluxnet. In addition, his ship was never found, though it is believed to have been equipped with the Zica Laser.  Two months later, Gencore finished development of a device also called the Zica Laser."
-msgstr ""
+msgstr "파트록 일족의 은퇴한 해적 카를로스 선장은 자신의 화려한 경력 중 손꼽히는 순간들을 자세히 담은 책을 썼다. 그중 하나가 정거장에 잠입해 지금은 흔히 지카 레이저 캐논이라 불리는 무기를 빼내 온 일이다. 그는 이튿날 암살당한 것으로 여겨지지만, 이미 젠코어가 그의 책을 플럭스넷으로 퍼뜨린 뒤였다. 게다가 그의 함선은 끝내 발견되지 않았는데, 지카 레이저가 장착되어 있었던 것으로 추정된다. 두 달 뒤, 젠코어는 역시 지카 레이저라는 이름의 장치를 개발 완료했다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.13.27"
 msgid "See The Not-so-Great Gryphon Explosion"
-msgstr ""
+msgstr "참조: 별로 대단하지 않았던 그리폰 대폭발"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.13.29"
 msgid "    Weapons Research, Station Gryphon"
-msgstr ""
+msgstr "    무기 연구, 그리폰 정거장"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.13.31"
 msgid "    Zica Laser Weapon"
-msgstr ""
+msgstr "    지카 레이저 무기"
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.14.title"
 msgid "ARCHIVE DATA"
-msgstr ""
+msgstr "기록 보관소 자료"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.14.header"
 msgid "Data"
-msgstr ""
+msgstr "데이터"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.14.0"
 msgid "Reference: Zica Laser Weapon"
-msgstr ""
+msgstr "항목: 지카 레이저 무기"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.14.2"
 msgid "Rated: ~Not~ ~Funny~"
-msgstr ""
+msgstr "평가: ~안~ ~웃김~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.14.4"
 msgid "The Zica Laser Weapon was introduced by Gencore after several years of successful introduction of Zica products by Microsol.  It is still unknown why so many of these products were named after the Zica, an ancient race which used to inhabit Gyges, among other tunnel worlds.  However, it is possible that some of these devices are not simply part of the marketing frenzy but are actually unique technologies from Gyges."
-msgstr ""
+msgstr "지카 레이저 무기는 마이크로솔이 몇 년에 걸쳐 지카 제품을 성공적으로 출시한 뒤에 젠코어가 내놓은 것이다. 지카는 기게스를 비롯한 여러 터널 세계에 살았던 고대 종족인데, 그토록 많은 제품에 왜 그 이름이 붙었는지는 아직도 알려지지 않았다. 다만 이 장치들 중 일부는 단순한 마케팅 광풍의 산물이 아니라 실제로 기게스에서 나온 독특한 기술일 가능성도 있다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.14.11"
 msgid "This weapon is the most likely to be linked to the Gyges excavation, though oddly enough, Gencore was not involved in the archaeological research.  Still, the weapon generates forced laser bursts which independent scientists have not been able to fully explain.  Laser effects are well known for the blue range of light, but the forced pulse patterns are totally unreasonable."
-msgstr ""
+msgstr "이 무기는 기게스 발굴과 관련이 있을 가능성이 가장 높지만, 묘하게도 젠코어는 그 고고학 연구에 참여하지 않았다. 그런데도 이 무기는 독립 과학자들조차 완전히 설명하지 못하는 강제 레이저 연사를 만들어 낸다. 청색 영역의 빛에서 일어나는 레이저 효과는 잘 알려져 있지만, 이 강제 펄스 패턴은 도무지 이치에 맞지 않는다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.14.17"
 msgid "The only answer that has been given so far is that there may be some unknown energy working to distort the laser.  Research is still being conducted on the effects and reactions of the energy, though little has been accomplished."
-msgstr ""
+msgstr "지금까지 나온 유일한 답은 미지의 에너지가 레이저를 왜곡하고 있을지도 모른다는 것이다. 이 에너지의 효과와 반응에 대한 연구가 여전히 진행 중이지만, 이렇다 할 성과는 거의 없다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.14.21"
 msgid "See Tunnel World, Zica"
-msgstr ""
+msgstr "참조: 터널 세계, 지카"
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.15.title"
 msgid "ARCHIVE DATA"
-msgstr ""
+msgstr "기록 보관소 자료"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.15.header"
 msgid "Data"
-msgstr ""
+msgstr "데이터"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.15.0"
 msgid "Reference: Tunnel World, Zica"
-msgstr ""
+msgstr "항목: 터널 세계, 지카"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.15.2"
 msgid "~Ixmucane~ is the only known tunnel world to have been excavated.  Even though the ~Zica~ had apparently been dead for 421965032 standard years, 14 days, and 32 minutes (~SCI~ estimation), their internal defenses were still partially active and destroyed many ships who came to investigate the tunnel world."
-msgstr ""
+msgstr "~익스무카네~는 발굴된 것으로 알려진 유일한 터널 세계다. ~지카~는 멸망한 지 421965032 표준년 14일 32분(~과학자~ 추정)이 지난 것으로 보이는데도, 내부 방어 시스템이 여전히 일부 작동하고 있어 터널 세계를 조사하러 온 함선을 수없이 파괴했다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.15.7"
 msgid "~Microsol~ launched a giant excavation of the planet, equipped with powerful destroyers as well as research vessels.  Even still, 241 died trying to stop the defensive systems.  ~General~ ~Zinglon~ reportedly sacrificed ships to get through to the control centers, rather than allow the defensive weapons to be destroyed."
-msgstr ""
+msgstr "~마이크로솔~은 강력한 구축함과 연구선을 갖춘 대규모 발굴단을 이 행성에 보냈다. 그런데도 방어 시스템을 멈추려다 241명이 목숨을 잃었다. 전하는 바에 따르면 ~징글론~ ~장군~은 방어 무기가 파괴되도록 두느니 차라리 함선을 희생시켜 가며 통제 센터까지 밀고 들어갔다고 한다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.15.13"
 msgid "To this day, the tunnel world is a center of ~Microsol~ activity.  Its open tunnels allow for easy shipbuilding and mining of mineral deposits, as well as the powerful geothermal energy radiation near the core.  Scientists, however, are still not certain of the exact second that the last member of the ~Zica~ race on ~Gyges~ died, but believe it is about 25 additional seconds from their previous estimate (calculated from their exact time of arrival for final excavation)."
-msgstr ""
+msgstr "오늘날까지도 이 터널 세계는 ~마이크로솔~ 활동의 중심지다. 뚫려 있는 터널 덕분에 함선 건조와 광맥 채굴이 쉽고, 중심핵 근처에서 나오는 강력한 지열 에너지 복사도 활용할 수 있다. 그러나 과학자들은 ~기게스~의 마지막 ~지카~가 정확히 몇 초에 죽었는지 아직 확정하지 못했으며, 기존 추정치에 25초쯤 더해야 할 것으로 보고 있다(최종 발굴을 위해 도착한 정확한 시각으로 계산한 결과)."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.15.20"
 msgid "Researchers quote advances in dating techniques to determine more accurately the events on ~Gyges~.  Also, they claim the fact that many of their researchers are still being killed by accidents involving the alien technology hampers their ability to conduct more tests."
-msgstr ""
+msgstr "연구자들은 연대 측정 기술이 발전한 덕분에 ~기게스~에서 일어난 일을 더 정확히 밝힐 수 있게 되었다고 말한다. 또한 외계 기술과 관련된 사고로 연구원들이 여전히 죽어 나가는 탓에 실험을 더 하기가 어렵다고 주장한다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.15.25"
 msgid "One anonymous ~SCI~ has reported that the advances in dating technology here were worth the lives expended to reach the core.  In a tightbeam interview he said, \"This timing solution will be the crowning moment in my career.  It's the most important goal to us.  The ~Sun~ ~Project~ is entirely overrated\"."
-msgstr ""
+msgstr "한 익명의 ~과학자~는 이곳의 연대 측정 기술 발전이 중심핵에 도달하느라 희생된 목숨들만큼의 가치가 있었다고 밝혔다. 그는 지향성 빔 인터뷰에서 이렇게 말했다. \"이 시간 측정 해법은 제 경력의 정점이 될 겁니다. 우리에게는 그게 가장 중요한 목표예요. ~태양 프로젝트~는 완전히 과대평가됐습니다.\""
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.16.title"
 msgid "ARCHIVE DATA"
-msgstr ""
+msgstr "기록 보관소 자료"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.16.header"
 msgid "Data"
-msgstr ""
+msgstr "데이터"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.16.0"
 msgid "Reference: Weapons Research, Station Gryphon"
-msgstr ""
+msgstr "항목: 무기 연구, 그리폰 정거장"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.16.2"
 msgid "Rated: ~Not~ ~Funny~"
-msgstr ""
+msgstr "평가: ~안~ ~웃김~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.16.4"
 msgid "~Station~ ~Gryphon~ has recently been the main output of ~Microsol's~ advanced weapon design program.  They have released a number of high powered weapon systems, including several advancements on their ~Pulse~ ~Cannon~ systems, and their unique ~Starburst~ defense field."
-msgstr ""
+msgstr "최근 ~그리폰 정거장~은 ~마이크로솔~ 첨단 무기 설계 프로그램의 주요 산실이 되었다. 이곳에서는 고출력 무기 체계를 여럿 내놓았는데, 여러 차례 개량된 ~펄스 캐논~ 체계와 독특한 ~스타버스트~ 방어장도 그중 하나다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.16.9"
 msgid "After the ~Not-so-Great~ ~Gryphon~ ~Explosion~, some aspects of their research were turned over to public scrutiny, believed to be because of investigations by families and friends of the twelve thousand crew members that died.  It is now rumored that they have just developed a new field of weapons technology which will allow them to build much bigger weapons onto conventional battle cruisers."
-msgstr ""
+msgstr "~별로 대단하지 않았던 그리폰 대폭발~ 이후, 연구의 일부가 대중의 감시를 받게 되었는데, 목숨을 잃은 승무원 1만 2천 명의 가족과 친구들이 진상 조사에 나섰기 때문으로 보인다. 이제는 그들이 기존 전투 순양함에 훨씬 더 큰 무기를 탑재할 수 있게 해 주는 새로운 무기 기술 분야를 막 개발해 냈다는 소문이 돌고 있다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.16.16"
 msgid "See The Not-so-Great Gryphon Explosion"
-msgstr ""
+msgstr "참조: 별로 대단하지 않았던 그리폰 대폭발"
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.17.title"
 msgid "INCOMING TRANSMISSION from Gencore Command Ship IcoStar II"
-msgstr ""
+msgstr "젠코어 지휘함 아이코스타 II에서 온 통신"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.17.header"
 msgid "Transon"
-msgstr ""
+msgstr "트랜슨"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.17.0"
 msgid "~Trent!~  We've picked up a giant energy buildup in your area!  It seems the planet conversion has started!"
-msgstr ""
+msgstr "~트렌트!~ 자네가 있는 곳에서 거대한 에너지가 쌓이는 게 포착됐네! 행성 변환이 시작된 것 같네!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.17.3"
 msgid "We've only been able to retrieve about 9000 people so far, but we must disengage to prevent our own destruction.  What's going on down there?"
-msgstr ""
+msgstr "지금까지 겨우 9000명쯤 구해 냈지만, 우리까지 파괴되지 않으려면 물러나야 하네. 그 아래서 대체 무슨 일이 벌어지고 있는 건가?"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.17.6"
 msgid "We can't read you very well, but we're sending down the coordinates of a tunnel which should provide you with an escape route."
-msgstr ""
+msgstr "자네 신호가 잘 잡히지 않네만, 탈출로가 되어 줄 터널의 좌표를 내려보내겠네."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.17.9"
 msgid "I know you did your best, Trent."
-msgstr ""
+msgstr "자네가 최선을 다했다는 건 아네, 트렌트."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.17.11"
 msgid "I..."
-msgstr ""
+msgstr "나는..."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.17.13"
 msgid "I wish we could have saved them all."
-msgstr ""
+msgstr "모두 구할 수 있었다면 좋았을 텐데."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.17.15"
 msgid "Trent..."
-msgstr ""
+msgstr "트렌트..."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.17.17"
 msgid "Did you hear from ~Harble~?  He was an agent of ours somewhere down there. I'm sure he's dead now, but I hope he was able to help you.  We received a final transmission from him after we knocked out the last of the jamming beacons."
-msgstr ""
+msgstr "~하블~에게서 연락은 받았나? 그 아래 어딘가에 있던 우리 요원일세. 지금쯤은 죽었겠지만, 자네에게 도움이 되었기를 바라네. 마지막 남은 전파 방해 비컨을 무너뜨린 뒤에 그에게서 마지막 통신을 받았네."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.17.22"
 msgid "He said: \"Whoever you are... um... Thanks anyway.  ~AAAAUUUGGGHHH!~  ~THE~ ~CONTROL~ ~PANEL'S~ ~ON~ ~FIRE!~\""
-msgstr ""
+msgstr "그가 이렇게 말하더군. \"누군지는 모르겠지만... 음... 아무튼 고마워요. ~으아아아아악!~ ~제어판에~ ~불이~ ~붙었어!~\""
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.17.26"
 msgid "Nothing left to do, Trent.  Get out of there before the place explodes!"
-msgstr ""
+msgstr "이제 할 수 있는 일은 없네, 트렌트. 그곳이 폭발하기 전에 어서 빠져나오게!"
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.18.title"
 msgid "INCOMING TRANSMISSION from Gencore Command Ship IcoStar II"
-msgstr ""
+msgstr "젠코어 지휘함 아이코스타 II에서 온 통신"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.18.header"
 msgid "Transon"
-msgstr ""
+msgstr "트랜슨"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.18.0"
 msgid "You did it!"
-msgstr ""
+msgstr "해냈군!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.18.2"
 msgid "The energy source we detected is fading fast and the temperature is dropping back to normal."
-msgstr ""
+msgstr "우리가 감지했던 에너지원이 빠르게 약해지고 있고, 온도도 정상으로 떨어지고 있네."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.18.5"
 msgid "Actually, we have a new problem."
-msgstr ""
+msgstr "그런데 실은, 새로운 문제가 생겼네."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.18.7"
 msgid "The temperature is falling so fast, you must have blown up the central energy source for the core.  We estimate the planet is going to freeze in about 6 hours.  We will continue the relief efforts, but there's a number of people trapped on the lower levels we'll never reach."
-msgstr ""
+msgstr "온도가 이렇게 빨리 떨어지는 걸 보니, 자네가 중심핵의 중앙 에너지원을 날려 버린 모양이네. 우리 예상으로는 약 6시간 뒤면 행성이 얼어붙을 걸세. 구조 작업은 계속하겠지만, 하층부에 갇힌 사람들 중에는 끝내 손이 닿지 않을 이들도 꽤 있을 걸세."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.18.12"
 msgid "Also, Trent, we received a transmission from ~Harble~ ~Wom~, a Gencore agent we've got stashed down there.  Seems he detected your ship and tried to send some sensor data your way.  Try and contact him if you need help.  He's trapped in level 12."
-msgstr ""
+msgstr "그리고 트렌트, 우리가 그 아래 숨겨 둔 젠코어 요원 ~하블~ ~웜~에게서 통신이 왔네. 자네 함선을 감지하고 센서 데이터를 보내려 했던 모양일세. 도움이 필요하면 그에게 연락해 보게. 12층에 갇혀 있다네."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.18.17"
 msgid "It's the best we can hope for.  There's nothing else you can do down there. We sent the coordinates of a probable escape tunnel for you to use. Try and get yourself out of there in one piece, will you?  I don't need another corpse on my conscience."
-msgstr ""
+msgstr "우리가 바랄 수 있는 최선은 그 정도일세. 그 아래서 자네가 더 할 수 있는 일은 없네. 탈출 터널로 쓸 만한 곳의 좌표를 보냈으니 이용하게. 몸 성히 거기서 빠져나오게, 알겠나? 내 양심에 시체를 하나 더 얹고 싶지는 않네."
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.19.title"
 msgid "IXMUCANE - PRIVATE LINK"
-msgstr ""
+msgstr "익스무카네 - 개인 회선"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.19.header"
 msgid "Captain"
-msgstr ""
+msgstr "함장"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.19.0"
 msgid "Tightbeam private coded message. Originating from Ixmucane internal section [unknown]."
-msgstr ""
+msgstr "지향성 빔 개인 암호 메시지. 발신지: 익스무카네 내부 구역 [미상]."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.19.3"
 msgid "What in the name of the 29 hells of ~Dai-Zan~ are you doing here?"
-msgstr ""
+msgstr "~다이잔~의 스물아홉 지옥에 걸고 묻겠다. 네놈이 여기서 대체 뭘 하는 거냐?"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.19.5"
 msgid "How did you find our null-shielded ship?!  We've got the most sophisticated equipment in the universe down here!  It cost a lot of money.  Now I'll have to kill that dealer on Savara..."
-msgstr ""
+msgstr "탐지 차단막으로 숨긴 우리 함선을 어떻게 찾아낸 거냐?! 여기엔 우주에서 가장 정교한 장비가 있단 말이다! 돈도 엄청나게 들었다고. 이제 사바라에 있는 그 장사꾼 놈을 죽여야겠군..."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.19.9"
 msgid "I'm not about to give up my life to some pitiful scout pilot like you!  Come and attack me if you dare."
-msgstr ""
+msgstr "너 같은 한심한 정찰기 조종사 따위에게 내 목숨을 내줄 생각은 없다! 덤빌 테면 덤벼 봐라."
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.20.title"
 msgid "IXMUCANE - PRIVATE LINK"
-msgstr ""
+msgstr "익스무카네 - 개인 회선"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.20.header"
 msgid "Captain"
-msgstr ""
+msgstr "함장"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.20.0"
 msgid "Tightbeam private coded message. Originating from Ixmucane internal section [unknown]."
-msgstr ""
+msgstr "지향성 빔 개인 암호 메시지. 발신지: 익스무카네 내부 구역 [미상]."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.20.3"
 msgid "Go ahead, take all the junk you want from that ship, you cretin! Nothing there will save you from a cold death in this hole."
-msgstr ""
+msgstr "그래, 그 배에서 원하는 고물은 몽땅 가져가라, 이 얼간이야! 그런다고 이 구덩이에서 얼어 죽는 걸 면할 수는 없을 테니까."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.20.6"
 msgid "I hope you freeze."
-msgstr ""
+msgstr "꽁꽁 얼어 죽어 버려라."
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.21.title"
 msgid "IXMUCANE - PRIVATE LINK"
-msgstr ""
+msgstr "익스무카네 - 개인 회선"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.21.header"
 msgid "Tech"
-msgstr ""
+msgstr "기술자"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.21.0"
 msgid "Tightbeam private coded message. Originating from Ixmucane internal section 12-9-4."
-msgstr ""
+msgstr "지향성 빔 개인 암호 메시지. 발신지: 익스무카네 내부 구역 12-9-4."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.21.3"
 msgid "Hey, buddy, we've got you back on our sensors.  What's going on out there?"
-msgstr ""
+msgstr "이봐요, 친구, 센서에 다시 잡혔네요. 거기 무슨 일이에요?"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.21.5"
 msgid "This place is getting so cold now our display panels are starting to crack from the temperature stress!"
-msgstr ""
+msgstr "여기가 어찌나 추워졌는지, 온도 변화를 못 견디고 디스플레이 패널에 금이 가기 시작했어요!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.21.8"
 msgid "Look, buddy.  We've got one of those cursed ~Microsol~ SCIs down here with us, and with a little friendly laser probing we've got him to talking.  He says that they've got an escape tunnel out there - the one you're on - which contains their main tech center."
-msgstr ""
+msgstr "이봐요, 친구. 그 빌어먹을 ~마이크로솔~ 과학자 놈 하나가 여기 우리랑 같이 있는데, 레이저로 살짝 '다정하게' 쑤셔 줬더니 입을 열더라고요. 놈 말로는 거기 탈출 터널이 있대요. 지금 당신이 있는 바로 그 터널인데, 놈들의 주 기술 센터가 거기 있다나 봐요."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.21.13"
 msgid "He says you can reactivate the core with one of the consoles in that sector. The access code has been attached to this message and should be in your computer banks.  You've gotta deactivate this crazy place and reactivate the main system.  Just like an ~SCI~ to mess up the whole planet trying to get one dang thing to work right!"
-msgstr ""
+msgstr "놈 말로는 그 구역에 있는 콘솔 하나로 중심핵을 다시 가동할 수 있대요. 접속 코드는 이 메시지에 첨부했으니 당신 컴퓨터 기억 장치에 들어가 있을 거예요. 이 미쳐 돌아가는 곳을 멈추고 주 시스템을 다시 켜야 해요. 하여간 ~과학자~ 놈들은 망할 것 하나 제대로 돌려 보겠다고 행성을 통째로 망쳐 놓는다니까요!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.21.19"
 msgid "And, do it ~FAST~, will ya!?  I don't want to die down here in this ~Microsol~ dungeon!"
-msgstr ""
+msgstr "그리고 ~빨리~ 좀 해 줘요, 네?! 이 ~마이크로솔~ 지하 감옥에서 죽긴 싫다고요!"
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.22.title"
 msgid "INCOMING TRANSMISSION from Gencore Command Ship IcoStar II"
-msgstr ""
+msgstr "젠코어 지휘함 아이코스타 II에서 온 통신"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.22.header"
 msgid "Transon"
-msgstr ""
+msgstr "트랜슨"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.22.0"
 msgid "The temperature is dropping to the critical point near your section.  I don't think we'll be able to save everyone in the lower levels, but you gave us the valuable time we needed.  I thank you for it."
-msgstr ""
+msgstr "자네가 있는 구역 근처의 온도가 임계점까지 떨어지고 있네. 하층부 사람들을 모두 구하지는 못할 것 같지만, 자네가 우리에게 꼭 필요했던 귀중한 시간을 벌어 주었네. 고맙네."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.22.4"
 msgid "About ~7500~ people ~lived~ because of your diversion."
-msgstr ""
+msgstr "자네가 놈들의 주의를 돌린 덕분에 약 ~7500~명이 ~살았네~."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.22.6"
 msgid "As I said, the air near you is reaching a critical point and we believe the atmosphere down there is going to literally freeze solid.  There's still a group of combat drones near you, but it's the only quick way out from there."
-msgstr ""
+msgstr "말했듯이 자네 근처의 공기가 임계점에 다다르고 있어서, 그 아래 대기가 말 그대로 꽁꽁 얼어붙을 걸로 보이네. 자네 근처에 아직 전투 드론 무리가 남아 있지만, 거기서 빨리 빠져나갈 길은 그쪽뿐일세."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.22.10"
 msgid "Oh yes, we received a brief trasmission from ~Harble~."
-msgstr ""
+msgstr "아, 그렇지. ~하블~에게서 짧은 통신을 받았네."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.22.12"
 msgid "He said: \"Whoever you are... um... Thanks anyway.  ~AAAAUUUGGGHHH!~  ~THE~ ~CONTROL~ ~PANEL~ ~SHATTERED!~\""
-msgstr ""
+msgstr "그가 이렇게 말하더군. \"누군지는 모르겠지만... 음... 아무튼 고마워요. ~으아아아아악!~ ~제어판이~ ~박살 났어!~\""
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.22.16"
 msgid "Nothing left to do, Trent.  Get out of there before the place freezes solid!"
-msgstr ""
+msgstr "이제 할 수 있는 일은 없네, 트렌트. 그곳이 꽁꽁 얼어붙기 전에 어서 빠져나오게!"
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.23.title"
 msgid "INCOMING TRANSMISSION from Gencore Command Ship IcoStar II"
-msgstr ""
+msgstr "젠코어 지휘함 아이코스타 II에서 온 통신"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.23.header"
 msgid "Transon"
-msgstr ""
+msgstr "트랜슨"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.23.0"
 msgid "I can't believe my eyes!"
-msgstr ""
+msgstr "내 눈을 믿을 수가 없군!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.23.2"
 msgid "Our sensors tell us the central core has come back online somehow and the core temperature is returning to normal.  What did you do?  We detected a skirmish and a release of many large protron explosions."
-msgstr ""
+msgstr "센서를 보니 중심핵이 어찌 된 일인지 다시 가동되어 온도가 정상으로 돌아오고 있네. 대체 무슨 일을 한 건가? 교전이 벌어지고 대형 프로트론 폭발이 잇달아 일어난 게 감지됐네."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.23.6"
 msgid "I don't know how you managed it, but we can now extend our efforts toward those trapped in the lower levels.  I think we're going to be able to save these people after all."
-msgstr ""
+msgstr "어떻게 해낸 건지는 모르겠지만, 이제 하층부에 갇힌 사람들에게까지 구조의 손길을 뻗을 수 있게 됐네. 결국 이 사람들을 구할 수 있을 것 같네."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.23.10"
 msgid "No way is this ever going to be a ~Microsol~ world again.  I think I'm going to be able to convince the other corporations to join me now.  There's no telling what they would have done if this place became active."
-msgstr ""
+msgstr "이곳이 다시 ~마이크로솔~의 세계가 되는 일은 절대 없을 걸세. 이제는 다른 기업들도 설득해서 내 편으로 끌어들일 수 있을 것 같네. 이곳이 가동됐다면 놈들이 무슨 짓을 했을지 누가 알겠나."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.23.14"
 msgid "I can tell you now, Trent."
-msgstr ""
+msgstr "이제는 말해도 되겠군, 트렌트."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.23.16"
 msgid "I believe there's no way in this universe we could have stopped ~Microsol~ if this planet was activated.  It might have taken a decade or two, but there's no way to compete with an unlimited energy source like this.  Best we could have hoped for was to keep them from controlling it.  With all our best SCIs dead, though, we couldn't have stopped them."
-msgstr ""
+msgstr "이 행성이 가동됐다면, 이 우주의 그 무엇으로도 ~마이크로솔~을 막지 못했을 거라고 나는 믿네. 10년이나 20년쯤 걸렸을지는 몰라도, 이런 무한한 에너지원과 경쟁할 길은 없으니 말일세. 기껏해야 놈들이 그걸 마음대로 주무르지 못하게 막는 게 우리가 바랄 수 있는 최선이었겠지. 하지만 우리 최고의 과학자들이 모두 죽었다면, 그마저도 막지 못했을 걸세."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.23.22"
 msgid "Trent, the air out there is still at the critical freezing point, so you'd better get out of there before the coldwave reaches you.  Don't worry about the people trapped below.  They're pretty safe behind this Zica shielding, and the energy conduits will reach them first.  You're out there in the open!"
-msgstr ""
+msgstr "트렌트, 그쪽 공기는 아직 동결 임계점에 머물러 있으니, 한파가 닥치기 전에 어서 빠져나오는 게 좋을 걸세. 아래에 갇힌 사람들은 걱정 말게. 이 지카 차폐벽 뒤에 있으면 꽤 안전하고, 에너지 도관의 온기도 그들에게 먼저 닿을 걸세. 자네는 바깥에 훤히 드러나 있지 않나!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.23.28"
 msgid "I don't need a frozen cadaver on my hands!"
-msgstr ""
+msgstr "꽁꽁 언 시체를 떠안고 싶지는 않네!"
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.24.title"
 msgid "DELIANI PRIORITY UPLINK A2"
-msgstr ""
+msgstr "델리아니 우선 업링크 A2"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.24.header"
 msgid "Mondus"
-msgstr ""
+msgstr "몬더스"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.24.0"
 msgid "Tightbeam private coded message. Forwarded by Gencore Command Ship IcoStar II - Priortily UpLink A1."
-msgstr ""
+msgstr "지향성 빔 개인 암호 메시지. 젠코어 지휘함 아이코스타 II가 전달함 - 우선 업링크 A1."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.24.3"
 msgid "Attached messages included as second and third data messages."
-msgstr ""
+msgstr "첨부 메시지는 두 번째, 세 번째 데이터 메시지로 포함됨."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.24.5"
 msgid "~Transon~.  We are under attack by a giant ~Microsol~ combat fleet."
-msgstr ""
+msgstr "~트랜슨~ 의장님. 우리는 지금 ~마이크로솔~의 거대한 전투 함대에게 공격받고 있습니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.24.7"
 msgid "I have sealed off the planet surface with a fleet of battle cruisers, but someone seems to be playing havoc up there with our security codes.  Our defense net has been turned against us, and I'm not in control of the main computer system anymore."
-msgstr ""
+msgstr "전투 순양함 함대로 행성 지표를 봉쇄했지만, 누군가가 위에서 우리 보안 코드를 마구 헤집어 놓고 있는 것 같습니다. 우리 방어망이 도리어 우리를 겨누고 있으며, 저는 더 이상 주 컴퓨터 시스템을 통제하지 못하고 있습니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.24.12"
 msgid "An elite group of guards and I have sealed off the secret command center and are prepared to activate the escape system.  We are cut off from the main system and no longer control the planet.  It is all I could do to get this coded channel out to you before they override the private comm links."
-msgstr ""
+msgstr "저는 정예 경비대와 함께 비밀 지휘 센터를 봉쇄했으며, 탈출 시스템을 가동할 준비를 마쳤습니다. 우리는 주 시스템과 단절되어 더 이상 행성을 통제하지 못합니다. 놈들이 개인 통신 회선을 장악하기 전에 이 암호 채널을 의장님께 보내는 것이 제가 할 수 있는 전부였습니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.24.17"
 msgid "We know little about what is happening up there, but we have managed to detect a giant ship moving through the underground of the planet.  This thing is unusually large, and is tapping into our power systems.  I do not think we could stop it now if we even had the means to try."
-msgstr ""
+msgstr "위에서 무슨 일이 벌어지는지는 거의 모르지만, 거대한 함선 한 척이 행성 지하를 지나가는 것을 간신히 감지했습니다. 그것은 이례적으로 거대하며, 우리 동력 체계에서 에너지를 빼내 가고 있습니다. 설령 시도해 볼 수단이 있다 해도, 이제는 그것을 막을 수 없을 것 같습니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.24.22"
 msgid "You must seal off the planet."
-msgstr ""
+msgstr "행성을 봉쇄하셔야 합니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.24.24"
 msgid "Or else..."
-msgstr ""
+msgstr "그러지 않으면..."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.24.26"
 msgid "~Transon~.  We have made it our primary concern to keep the ~A1~ ~UPLINK~ open.  If you can not stop the fleet from taking total control of the planet, you will have to activate the ~Nova~ system.  I do not think it will take them too long to find us once we jettison ourselves from the planet core."
-msgstr ""
+msgstr "~트랜슨~ 의장님. 우리는 ~A1~ ~업링크~를 열어 두는 것을 최우선 과제로 삼았습니다. 함대가 행성을 완전히 장악하는 것을 막지 못한다면, ~노바~ 시스템을 가동하셔야 합니다. 우리가 행성 중심핵에서 사출되어 빠져나가면, 놈들이 우리를 찾아내는 데 그리 오래 걸리지 않을 것입니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.24.31"
 msgid "Make them suffer, ~Transon~.  I... would."
-msgstr ""
+msgstr "놈들에게 고통을 안겨 주십시오, ~트랜슨~ 의장님. 저라면... 그리하겠습니다."
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.25.title"
 msgid "DELIANI TRANSMISSION FLUX 02975"
-msgstr ""
+msgstr "델리아니 통신 흐름 02975"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.25.header"
 msgid "Javi"
-msgstr ""
+msgstr "하비"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.25.0"
 msgid "Thanks, ~Transon~.  While the mice are away, the cat will play.  Heh."
-msgstr ""
+msgstr "고맙군, ~트랜슨~. 쥐들이 자리를 비웠으니 이제 고양이가 놀 차례지. 흐흐."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.25.2"
 msgid "I trust you've enjoyed playing with ~Ixmucane~.  Now, we're going to do a little playing around with your planet."
-msgstr ""
+msgstr "~익스무카네~에서는 재미있게 놀았겠지. 이번엔 우리가 당신네 행성을 좀 가지고 놀아 주마."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.25.5"
 msgid "I can see you're still too trusting, ~Transon~.  Can't believe you still left some of those old security codes in place.  They don't make 'em like you anymore."
-msgstr ""
+msgstr "아직도 남을 너무 잘 믿는군, ~트랜슨~. 그 낡은 보안 코드를 아직도 몇 개 그대로 남겨 뒀다니 믿기지가 않아. 요즘 세상에 영감 같은 사람은 찾아보기도 힘들지."
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.26.title"
 msgid "INCOMING TRANSMISSION from Gencore Command Ship IcoStar II"
-msgstr ""
+msgstr "젠코어 지휘함 아이코스타 II에서 온 통신"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.26.header"
 msgid "Transon"
-msgstr ""
+msgstr "트랜슨"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.26.0"
 msgid "Something's going on down there on ~Deliani~!"
-msgstr ""
+msgstr "~델리아니~에서 무슨 일이 벌어지고 있네!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.26.2"
 msgid "I'm sure you read the two previous messages."
-msgstr ""
+msgstr "앞서 온 메시지 두 개는 자네도 읽었을 걸세."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.26.4"
 msgid "What can we do?  You've got to fly ahead and distract them until we arrive, somehow.  We've sent out a droneship to attach some booster packs to your ship.  They should be enough to get you to ~Deliani~.  We'll try to get some equipment to you along the way and once you reach the planet."
-msgstr ""
+msgstr "우리가 뭘 할 수 있겠나? 우리가 도착할 때까지 자네가 먼저 날아가서 어떻게든 놈들의 주의를 끌어 줘야 하네. 자네 함선에 부스터 팩을 달아 줄 드론선을 보냈네. 그거면 ~델리아니~까지는 충분히 갈 수 있을 걸세. 가는 길에, 그리고 행성에 도착하면 장비를 좀 보내 보겠네."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.26.9"
 msgid "You now know as much as I do, ~Trent~.  I can't believe they were able to get this fleet out undetected.  Something's going on - I don't like this one bit.  We've been picking up ~unknown~, strange ships and energy patterns the whole time while in orbit around this planet."
-msgstr ""
+msgstr "이제 자네도 나만큼은 알게 되었네, ~트렌트~. 놈들이 들키지 않고 이런 함대를 빼돌렸다니 믿을 수가 없군. 뭔가 꿍꿍이가 있어. 영 마음에 들지 않네. 이 행성 궤도에 머무는 내내 ~정체불명의~ 이상한 함선과 에너지 패턴이 계속 잡혔다네."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.26.14"
 msgid "The universe is erupting into chaos, ~Trent~!  This is the only chance to save what's left!  If you fail, we'll never be able to reach the planet in time, even if we wanted to destroy it.  I can't tell you what the ~Nova~ system is on this link, but suffice it to say - it was our final hope in case we couldn't stop Microsol someday.  It seems that day has passed me by - the blind fool I've been!"
-msgstr ""
+msgstr "우주가 혼돈에 휩싸이고 있네, ~트렌트~! 남은 것을 지킬 기회는 이번뿐일세! 자네가 실패하면, 설령 우리가 그 행성을 파괴하려 한다 해도 제때 닿을 수 없을 걸세. 이 통신망으로는 ~노바~ 시스템이 무엇인지 말해 줄 수 없지만, 이것만 말해 두지. 언젠가 마이크로솔을 막지 못할 때를 대비한 우리의 마지막 희망이었네. 그날이 나도 모르는 새 와 버린 모양이군. 이 눈먼 늙은 바보 같으니!"
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.27.title"
 msgid "DELIANI TRANSMISSION FLUX 02975"
-msgstr ""
+msgstr "델리아니 통신 흐름 02975"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.27.header"
 msgid "Javi"
-msgstr ""
+msgstr "하비"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.27.0"
 msgid "~Trent!?~  Is that you?"
-msgstr ""
+msgstr "~트렌트!?~ 정말 너야?"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.27.2"
 msgid "I never thought I'd get to see you again so soon.  I can't believe you've decided to forfeit yourself to try and stop me from taking over this place!"
-msgstr ""
+msgstr "이렇게 빨리 다시 보게 될 줄은 몰랐는데. 내가 여길 접수하는 걸 막겠다고 목숨까지 내던지기로 하다니, 믿을 수가 없군!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.27.5"
 msgid "With ~Vykromod~ crippled from the blast you gave his ship, I've taken command of the fleet."
-msgstr ""
+msgstr "네가 날린 일격에 ~바이크로모드~ 녀석이 반송장이 되는 바람에, 함대 지휘권은 내가 넘겨받았지."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.27.8"
 msgid "I've got a nasty surprise waiting down here.  So come on, ~Trent~, be the hero you've always wanted to be and come after me.  I've got other engagements, though, once I've blasted the irritating fool in this escape pod."
-msgstr ""
+msgstr "여기 아래에 끔찍한 깜짝 선물을 준비해 뒀어. 그러니 어서 와, ~트렌트~. 늘 꿈꾸던 영웅답게 날 쫓아와 보라고. 물론 난 이 탈출 포드에 탄 성가신 멍청이를 날려 버리고 나면 다른 볼일이 있지만."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.27.12"
 msgid "You're too insignificant to be a part of my plan.  I'd be amazed if you make it past the missile bays."
-msgstr ""
+msgstr "넌 내 계획에 끼기엔 너무 하찮아. 미사일 발사대나 통과하면 용하겠다."
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.28.title"
 msgid "DELIANI PRIORITY UPLINK A2 [code P]"
-msgstr ""
+msgstr "델리아니 우선 업링크 A2 [코드 P]"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.28.header"
 msgid "Mondus"
-msgstr ""
+msgstr "몬더스"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.28.0"
 msgid "Tightbeam private coded message."
-msgstr ""
+msgstr "지향성 빔 개인 암호 메시지."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.28.2"
 msgid "Are you Trent?  I have heard of you from ~Transon~."
-msgstr ""
+msgstr "트렌트 씨입니까? ~트랜슨~ 의장님께 말씀 들었습니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.28.4"
 msgid "Forgive me for not introducing myself, but a certain ~crazed~ ~lunatic~ is hammering on my pod's shielding with ~Lightning~ blasts.  I do not believe there is a very good probability we will survive much longer, but I need to tell you what you are up against."
-msgstr ""
+msgstr "제 소개를 드리지 못하는 점 양해해 주십시오. 지금 웬 ~정신 나간~ ~미치광이~가 ~번개~ 포격으로 제 포드의 보호막을 두들기고 있습니다. 저희가 오래 버틸 확률은 그리 높지 않다고 판단됩니다만, 당신이 무엇과 맞서게 될지는 알려 드려야겠습니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.28.9"
 msgid "The main defense net consists of ~battle~ ~platforms~.  Most of these launch ~semi-guided~ ~micro~ ~missiles~, though some fire more mundane ~energy~ ~blasts~.  The missiles are what you should first look out for, though.  I would suggest equipping some direct ~side-firing~ ~weaponry~ if you have it available."
-msgstr ""
+msgstr "주 방어망은 ~전투~ ~플랫폼~으로 이루어져 있습니다. 대부분은 ~반유도~ ~마이크로~ ~미사일~을 발사하고, 일부는 그보다 평범한 ~에너지~ ~포~를 쏩니다. 그래도 가장 먼저 경계해야 할 것은 미사일입니다. 가지고 계시다면 ~측면~ ~직사~ ~무기~를 장착하시길 권합니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.28.14"
 msgid "Halfway through the core you will encounter a large ~battle~ ~section~ which you should take out first.  This is fairly straightforward, but afterward you will be attacked with a number of ~giant~ ~semi-guided~ ~missiles~ from behind.  Do not attempt to destroy these.  Instead, try to conserve your energy and find a way around them, while keeping a hold on those ~micro~ ~missiles~."
-msgstr ""
+msgstr "핵심부 중간쯤에서 대형 ~전투~ ~구획~과 마주칠 텐데, 이것부터 먼저 제거하십시오. 비교적 간단한 일이지만, 그 뒤에는 ~거대한~ ~반유도~ ~미사일~ 여러 발이 뒤에서 공격해 올 것입니다. 이것들을 파괴하려 하지 마십시오. 대신 에너지를 아끼면서 피해 갈 길을 찾으십시오. 또한 ~마이크로~ ~미사일~에 대한 경계도 늦추지 마십시오."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.28.20"
 msgid "The final ~fleet~ ~ship~ seems to be a multi-stage defense    -.  - ip. When it - . . ..- -. it will release a .- .. - -.  - ~must~ ~shoot~."
-msgstr ""
+msgstr "마지막 ~함대~ ~함선~은 다단계 방어    -.  - 선인 것 같습니다. 그것이 - . . ..- -. 하면 .- .. - -.  - 을 방출하니 ~반드시~ ~쏴야~."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.28.23"
 msgid "Goodbye, Trent. --. - . - like this makes - -. happy I'm only an androi"
-msgstr ""
+msgstr "안녕히 계십시오, 트렌트. --. - . - 이런 일이 - -. 기쁘 저는 그저 안드로이"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.28.25"
 msgid "[End of Transmission]"
-msgstr ""
+msgstr "[통신 종료]"
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.29.title"
 msgid "INCOMING TRANSMISSION from Gencore Command Ship IcoStar II"
-msgstr ""
+msgstr "젠코어 지휘함 아이코스타 II에서 온 통신"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.29.header"
 msgid "Transon"
-msgstr ""
+msgstr "트랜슨"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.29.0"
 msgid "We've picked up your transmission of success in defeating the main defense ship.  I don't mean to criticize your ability, but that seemed too easy."
-msgstr ""
+msgstr "자네가 주 방어함을 격파했다는 통신을 받았네. 자네 실력을 깎아내리려는 건 아니지만, 너무 쉬웠던 것 같군."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.29.3"
 msgid "I think we can repair the damage you did to Deliani without too much trouble. At least, once we get back into the computer net.  With Mondus, the head of ~Deliani~ ~Control~, destroyed, we're going to have a tough time trying to reinterface with the computer.  With all the people you helped us rescue, the ~IcoStar~ ~II~ should have enough brainpower to crack the security fairly soon, I hope."
-msgstr ""
+msgstr "자네가 델리아니에 입힌 피해는 큰 어려움 없이 복구할 수 있을 걸세. 적어도 컴퓨터망에 다시 들어가기만 하면 말이야. ~델리아니~ ~관제부~의 수장인 몬더스가 파괴되었으니, 컴퓨터와 다시 연결하는 데 꽤 애를 먹겠지. 그래도 자네 덕에 구출한 사람들이 있으니, ~아이코스타~ ~II~에는 머지않아 보안을 뚫을 만한 두뇌가 충분할 걸세. 그러길 바라네."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.29.10"
 msgid "This definitely wasn't their main objective.  We tried to pick up a ~Captain~ ~Nob~ escaping from ~Ixmucane~, but were unable to stop him.  All we know is that he was heading in the direction of ~Savara~.  We sent some supply ships on ahead to rendezvous with you and some other fighter ships we just dispatched."
-msgstr ""
+msgstr "이게 놈들의 주목표가 아니었던 건 분명하네. ~익스무카네~에서 달아나는 ~노브~ ~함장~이란 자를 붙잡으려 했지만 막지 못했네. 아는 것이라곤 그자가 ~사바라~ 쪽으로 향했다는 것뿐일세. 보급선 몇 척을 먼저 보냈으니, 자네와 방금 출격시킨 다른 전투기들과 합류할 걸세."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.29.15"
 msgid "They'll be moving in first to take out the chemical processing plants, which should draw their energy production systems to a halt.  I'm afraid I rebuilt the ~Z-29~ ~Central~ ~Defense~ ~Ship~ again, and we improved on the design. ~Microsol's~ probably already captured it with the same security backdoors they used here.  Sorry.  I need you to go and destroy it again."
-msgstr ""
+msgstr "그 전투기들이 먼저 들어가 화학 처리 공장을 칠 걸세. 그러면 놈들의 에너지 생산 체계가 멈출 테지. 그런데 미안하게도, 내가 ~Z-29~ ~중앙~ ~방어함~을 또 만들었고 설계까지 개선해 버렸네. ~마이크로솔~이 여기서 써먹은 것과 똑같은 보안 뒷문으로 벌써 그걸 빼앗았을 걸세. 미안하네. 가서 그걸 다시 한번 부숴 주게."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.29.21"
 msgid "Once we get back in and get our sensor grid up we'll be able to help you some more in locating ~Microsol's~ main target."
-msgstr ""
+msgstr "우리가 다시 접속해서 센서망을 복구하면, ~마이크로솔~의 주목표를 찾는 일을 좀 더 도와줄 수 있을 걸세."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.29.24"
 msgid "Good luck, Trent."
-msgstr ""
+msgstr "행운을 비네, 트렌트."
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.30.title"
 msgid "BENO CRACKERS"
-msgstr ""
+msgstr "베노 크래커"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.30.header"
 msgid "Ad"
-msgstr ""
+msgstr "광고"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.30.0"
 msgid "New, from Omara corp."
-msgstr ""
+msgstr "오마라 사의 신제품!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.30.2"
 msgid "Just when you thought you would never see another Beno again, comes ~Beno~ ~Crackers~.  Made in a reasonable facsimile of the real creatures, these tasty snack crackers are a real treat!"
-msgstr ""
+msgstr "다시는 베노를 볼 수 없을 거라 생각하셨나요? 바로 그때 ~베노~ ~크래커~가 찾아왔습니다. 진짜 베노와 꽤 그럴듯하게 닮은 모양으로 만든 이 맛있는 과자는 그야말로 별미랍니다!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.30.6"
 msgid "Pick up a holo-bowl of them today and feast down on the life forms too cute to survive [The Editor]."
-msgstr ""
+msgstr "오늘 홀로볼 가득 사 가셔서, 너무 귀여워서 살아남지 못한 생명체를 마음껏 씹어 드세요 [편집자]."
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.31.title"
 msgid "UNKNOWN FLUX 02975"
-msgstr ""
+msgstr "미확인 흐름 02975"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.31.header"
 msgid "Javi"
-msgstr ""
+msgstr "하비"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.31.0"
 msgid "What in the universe are you doing still alive?!  I thought I told you to die the last time you showed up!"
-msgstr ""
+msgstr "도대체 넌 어떻게 아직도 살아 있는 거야?! 지난번에 나타났을 때 죽으라고 했잖아!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.31.3"
 msgid "~HOW~ ~MANY~ ~TIMES~ ~MUST~ ~I~ ~KILL~ ~YOU?!?~"
-msgstr ""
+msgstr "~대체~ ~몇~ ~번을~ ~죽여야~ ~하는~ ~거냐?!?~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.31.5"
 msgid "This time, Trent, there is no escape!"
-msgstr ""
+msgstr "이번엔 도망칠 곳도 없다, 트렌트!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.31.7"
 msgid "I will take you out with my personal ~DREADNAUGHT!~  You are nothing to me, do you hear me!  ~NOTHING!!!~"
-msgstr ""
+msgstr "내 전용 ~드레드노트~로 널 끝장내 주마! 넌 나한테 아무것도 아니야, 알아들어?! ~아무것도!!!~"
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.32.title"
 msgid "SHIP ID 000 IN SAVARA FLUX 00000"
-msgstr ""
+msgstr "사바라 흐름 00000의 함선 ID 000"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.32.header"
 msgid "Ninja"
-msgstr ""
+msgstr "닌자"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.32.0"
 msgid "This is your old friend, Trent.  I've managed to take out the ~chemical~ ~processing~ ~plants~ here on Savara, but I think we have a problem."
-msgstr ""
+msgstr "트렌트, 네 오랜 친구야. 여기 사바라의 ~화학~ ~처리~ ~공장~은 간신히 박살 냈는데, 문제가 생긴 것 같아."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.32.3"
 msgid "My long-range sensors have detected a ~gigantic~ ~ship~ heading our way.  It's not the size that bothers me, though.  It's not really all that big in size, but the ~energy~ ~readings~ I'm getting from it are off the ~scale~."
-msgstr ""
+msgstr "장거리 센서에 이쪽으로 오는 ~거대한~ ~함선~이 잡혔어. 하지만 신경 쓰이는 건 크기가 아니야. 사실 크기는 그렇게 크지도 않아. 문제는 거기서 나오는 ~에너지~ ~수치~가 ~측정~ ~한계~를 넘어섰다는 거지."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.32.7"
 msgid "It appears to also have an ~insane~ ~mass~ ~analysis~ ~reading~, like it was something as massive as a ~planet~.  I don't like this, Trent.  I must deal with the ships down here on Savara, but it appears to be interested only in you, as it's ~matching~ ~your~ ~course~ exactly."
-msgstr ""
+msgstr "~질량~ ~분석~ ~수치~도 ~말도~ ~안~ ~되게~ 나와. 마치 ~행성~만큼 무거운 물체처럼 말이야. 영 불길해, 트렌트. 나는 여기 사바라에서 함선들을 상대해야 하지만, 저건 너한테만 관심이 있는 것 같아. ~네~ ~항로~를 정확히 ~따라가고~ 있거든."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.32.12"
 msgid "There's about one hour left before it reaches orbit.  My ship is... damaged. I must humbly admit I won't be able to achieve orbit on my own.  I'm sorry I couldn't help you out this time, but it is best that I stay and help these innocents here on Savara, anyway."
-msgstr ""
+msgstr "저게 궤도에 도착하기까지 한 시간쯤 남았어. 내 함선은... 손상을 입었어. 부끄럽지만 혼자 힘으로는 궤도에 오를 수 없을 것 같아. 이번엔 도와주지 못해서 미안해. 그래도 어차피 나는 여기 남아서 사바라의 무고한 사람들을 돕는 게 맞아."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.32.17"
 msgid "You will be remembered always, Trent."
-msgstr ""
+msgstr "넌 영원히 기억될 거야, 트렌트."
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.33.title"
 msgid "SHIP ID 184-3C IN SAVARA FLUX 12002"
-msgstr ""
+msgstr "사바라 흐름 12002의 함선 ID 184-3C"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.33.header"
 msgid "Dougan"
-msgstr ""
+msgstr "더건"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.33.0"
 msgid "How's the war going?  I'm down here with the rest of this rag-tag band trying to sort things out."
-msgstr ""
+msgstr "전쟁은 어떻게 돼 가? 난 여기 아래에서 오합지졸들이랑 같이 뒷수습하느라 정신없어."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.33.3"
 msgid "I intercepted the other trasmissions you received and don't like either of them very much, ~Javi~ more so.  I think I can help you out, though.  My ship isn't equipped for combat, but I've got a heavy-duty ~VLR~ ~sensor~ ~grid~ and a ~TQ930~ ~comm~ ~system~ packed in this baby.  If you keep your comm channel open, I'll try to feed your computer some holographic data on the dreadnought's weak points."
-msgstr ""
+msgstr "네가 받은 다른 통신들도 가로채서 봤는데, 둘 다 영 마음에 안 들어. ~하비~ 쪽은 더더욱. 그래도 내가 좀 도와줄 수 있을 것 같아. 내 함선은 전투용은 아니지만, 이 녀석 안에 고성능 ~VLR~ ~센서망~이랑 ~TQ930~ ~통신~ ~시스템~을 꽉 채워 놨거든. 통신 채널을 열어 두면 드레드노트의 약점에 관한 홀로그램 데이터를 네 컴퓨터로 보내 줄게."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.33.10"
 msgid "It seems that the shielding on that ship is being disrupted by the weird ~gravity~ ~field~, and whenever certain systems are activated, it draws a lot of power from the shields.  I'll try to pinpoint the ~weaknesses~ for you.  Your computer will display them on your vidscreen with ~green~, ~holographic~ ~arrows~."
-msgstr ""
+msgstr "저 함선의 보호막이 이상한 ~중력장~ 때문에 흐트러지는 것 같아. 특정 시스템이 작동할 때마다 보호막에서 동력을 잔뜩 끌어가거든. 내가 ~약점~을 정확히 짚어 줄게. 네 컴퓨터가 화면에 ~초록색~ ~홀로그램~ ~화살표~로 표시해 줄 거야."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.33.15"
 msgid "I wish I could be there to see you kick that ~tin~ ~can~ back across the galaxy where it came from.  ~Javi's~ a fool if he thinks some big ship is going to save him!"
-msgstr ""
+msgstr "네가 저 ~깡통~을 걷어차서 왔던 은하 저편으로 돌려보내는 꼴을 직접 봤으면 좋겠다. 덩치 큰 배 하나가 자길 구해 줄 거라고 믿는다면 ~하비~ 녀석은 바보야!"
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.34.title"
 msgid "WANTED"
-msgstr ""
+msgstr "현상수배"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.34.header"
 msgid "Ad"
-msgstr ""
+msgstr "광고"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.34.0"
 msgid "Have you seen this man?"
-msgstr ""
+msgstr "이 남자를 본 적이 있습니까?"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.34.2"
 msgid "If so, fly immediately to your nearest ~Brownie~ ~Patrol~ ~Station~ and report his position."
-msgstr ""
+msgstr "보았다면 즉시 가까운 ~브라우니~ ~순찰대~ ~초소~로 날아가 그의 위치를 신고하십시오."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.34.5"
 msgid "This man should be considered armed and dangerous!  He is wanted for ~Grand~ ~Planetary~ ~Treason~ against Savara.  This man was formerly known as ~Emperor~ ~Milktoe~."
-msgstr ""
+msgstr "이 남자는 무장한 위험인물로 간주해야 합니다! 사바라에 대한 ~행성~ ~대역죄~로 수배 중입니다. 이 남자는 한때 ~밀크토~ ~황제~라고 불렸습니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.34.9"
 msgid "Don't kid yourself!  ~Run~ ~away!~"
-msgstr ""
+msgstr "섣불리 나서지 마십시오! ~도망치십시오!~"
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.35.title"
 msgid "BENO CRACKERS"
-msgstr ""
+msgstr "베노 크래커"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.35.header"
 msgid "Ad"
-msgstr ""
+msgstr "광고"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.35.0"
 msgid "New, from Omara corp."
-msgstr ""
+msgstr "오마라 사의 신제품!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.35.2"
 msgid "What you need"
-msgstr ""
+msgstr "하루를 열기 전에"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.35.4"
 msgid "before the day"
-msgstr ""
+msgstr "꼭 필요한 건"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.35.6"
 msgid "are ~Beno~ ~Crackers~"
-msgstr ""
+msgstr "바로 ~베노~ ~크래커~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.35.8"
 msgid "the ~Omara~ way!"
-msgstr ""
+msgstr "~오마라~ 스타일로!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.35.11"
 msgid "Pick up a holo-bowl today!"
-msgstr ""
+msgstr "오늘 바로 홀로볼 가득 사 가세요!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.35.13"
 msgid "Contact Fluxnet @15003-00421-92431-19327 for an Omara distributor near you."
-msgstr ""
+msgstr "가까운 오마라 대리점은 플럭스넷 @15003-00421-92431-19327로 문의하세요."
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.36.title"
 msgid "SHIP ID 000 IN SAVARA FLUX 00000"
-msgstr ""
+msgstr "사바라 흐름 00000의 함선 ID 000"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.36.header"
 msgid "Ninja"
-msgstr ""
+msgstr "닌자"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.36.0"
 msgid "Hello, Trent.  I have picked you up on my comm link again."
-msgstr ""
+msgstr "안녕, 트렌트. 통신망에 또 네가 잡혔어."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.36.2"
 msgid "Things aren't going too well down here.  Without an outside energy boost, I'm not sure if our ships are going to hold out.  About half of our group is gone already and the rest are damaged."
-msgstr ""
+msgstr "여기 아래 상황은 별로 좋지 않아. 외부에서 에너지를 보충받지 못하면 우리 함선들이 버틸 수 있을지 모르겠어. 우리 쪽은 절반이 벌써 당했고 나머지도 손상을 입었어."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.36.6"
 msgid "Without outside help, we will not have enough fuel to return home."
-msgstr ""
+msgstr "바깥의 도움이 없으면 집에 돌아갈 연료도 모자랄 거야."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.36.8"
 msgid "Sigh..."
-msgstr ""
+msgstr "하아..."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.36.10"
 msgid "Anyway, let's talk some more about hot dogs.  Did you pick some up for me back on Ixmucane before you took out the ~Microsol~ fleet?  I could really use one of those right now."
-msgstr ""
+msgstr "아무튼, 핫도그 얘기나 좀 더 하자. ~마이크로솔~ 함대를 해치우기 전에 익스무카네에서 내 것도 좀 사 왔어? 지금 딱 하나 먹고 싶은데."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.36.14"
 msgid "Signing off."
-msgstr ""
+msgstr "그럼 이만."
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.37.title"
 msgid "SHIP ID 184-3C IN SAVARA FLUX 12002"
-msgstr ""
+msgstr "사바라 흐름 12002의 함선 ID 184-3C"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.37.header"
 msgid "Dougan"
-msgstr ""
+msgstr "더건"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.37.0"
 msgid "Great job!  We could see the explosion all the way back down here on Savara! Javi won't be heading any ~Microsol~ attack fleets anymore."
-msgstr ""
+msgstr "잘했어! 여기 사바라에서도 폭발이 다 보이더라! 이제 하비가 ~마이크로솔~ 공격 함대를 이끌 일은 없겠군."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.37.3"
 msgid "Trent, the others down here aren't doing so well.  I can't help them out directly, so I've gone back into orbit to try and contact Transon.  Have you heard anything?"
-msgstr ""
+msgstr "트렌트, 여기 아래 다른 사람들은 사정이 별로 안 좋아. 내가 직접 도와줄 수는 없어서, 트랜슨이랑 연락해 보려고 다시 궤도로 올라왔어. 혹시 뭐 들은 거 있어?"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.37.7"
 msgid "I hope I can get through for backup before we're taken out.  Almost none of us have operational interstellar drives, and it doesn't look like anyone down here can help us."
-msgstr ""
+msgstr "우리가 당하기 전에 지원 요청이 닿았으면 좋겠는데. 우리 중에 성간 드라이브가 제대로 돌아가는 사람은 거의 없고, 여기 있는 누구도 우릴 도와줄 수 없을 것 같아."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.37.11"
 msgid "Anyway, I've got a long-range sensor report for you.  Their main battle ships are headed toward ~Gyges~ for some reason.  If you can, head for ~Gyges~.  I think they're getting ready to do something really bad now that we've stopped their main assault.  I'd rather not be here when they're ready."
-msgstr ""
+msgstr "그건 그렇고, 장거리 센서 보고가 있어. 놈들의 주력 전함들이 무슨 이유에선지 ~기게스~로 향하고 있어. 할 수 있으면 ~기게스~로 가 줘. 우리가 주력 공세를 막아 냈으니, 이제 놈들이 정말 끔찍한 짓을 벌일 준비를 하는 것 같아. 놈들이 준비를 마칠 때쯤엔 여기 있고 싶지 않아."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.37.16"
 msgid "I may lose contact with you if we can't capture ~Fluxnet~ here on Savara. Without it, my comm signals won't have the range to reach you out there."
-msgstr ""
+msgstr "여기 사바라의 ~플럭스넷~을 장악하지 못하면 너랑 연락이 끊길지도 몰라. 그게 없으면 내 통신 신호로는 거기까지 닿지 않거든."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.37.19"
 msgid "From now on, I'm afraid you're flying blind.  I pray to ~Zinglon~ that ~Transon~ can get the Deli back online."
-msgstr ""
+msgstr "안타깝지만 이제부터 넌 눈 감고 비행하는 셈이야. ~트랜슨~이 델리를 다시 살려 내길 ~징글론~께 빌어야지."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.37.22"
 msgid "I hope I hear from you again."
-msgstr ""
+msgstr "또 연락이 닿으면 좋겠다."
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.38.title"
 msgid "GYGES SECTOR - PRIVATE TRANSMISSION ID 11432"
-msgstr ""
+msgstr "기게스 섹터 - 개인 통신 ID 11432"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.38.header"
 msgid "Muldar"
-msgstr ""
+msgstr "멀다르"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.38.0"
 msgid "[Message Amplified]"
-msgstr ""
+msgstr "[메시지 증폭됨]"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.38.2"
 msgid "This is a priority distress."
-msgstr ""
+msgstr "최우선 조난 신호입니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.38.4"
 msgid "We are being attacked by a ~Microsol~ attack fleet."
-msgstr ""
+msgstr "~마이크로솔~ 공격 함대의 공격을 받고 있습니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.38.6"
 msgid "Can anyone out there hear me?  I'm trapped by a large ~Microsol~ fleet out here in ~Gyges~!"
-msgstr ""
+msgstr "누구 제 말 들리십니까? 여기 ~기게스~에서 ~마이크로솔~ 대함대에 갇혀 버렸습니다!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.38.9"
 msgid "We were picking up a shipment of organics when a huge stream of ships came hurtling out of nowhere towards us.  They're not responding to our communications! We have no combat systems!"
-msgstr ""
+msgstr "유기물 화물을 싣던 중에 엄청난 함선 무리가 난데없이 저희 쪽으로 돌진해 왔습니다. 저희 통신에 응답하지 않습니다! 저희에겐 전투 장비가 없습니다!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.38.13"
 msgid "Someone help us!  ~THEY'RE~ ~CLOSING~ ~IN!~"
-msgstr ""
+msgstr "누가 좀 도와주십시오! ~놈들이~ ~포위해~ ~옵니다!~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.38.15"
 msgid "[Message Repeats]"
-msgstr ""
+msgstr "[메시지 반복]"
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.39.title"
 msgid "DELIANI PRIORITY UPLINK A1 [code A]"
-msgstr ""
+msgstr "델리아니 우선 업링크 A1 [코드 A]"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.39.header"
 msgid "Transon"
-msgstr ""
+msgstr "트랜슨"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.39.0"
 msgid "Trent?  Are you receiving me?"
-msgstr ""
+msgstr "트렌트? 내 말 들리나?"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.39.2"
 msgid "We've got part of Deliani operational again and have picked you up inside ~Gyges~!?  ~What~ ~are~ ~you~ ~doing~ ~out~ ~there?!?~"
-msgstr ""
+msgstr "델리아니 일부를 다시 가동했더니 자네가 ~기게스~ 안에서 잡히다니!? ~자네~ ~거기서~ ~뭘~ ~하고~ ~있는~ ~건가?!?~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.39.5"
 msgid "A merchant drone will rendezvous with you - about all we can do.  We just picked up distress calls from Savara as well and will try to help them out."
-msgstr ""
+msgstr "상선 드론 한 대가 자네와 합류할 걸세. 우리가 해 줄 수 있는 건 그 정도뿐이네. 방금 사바라에서도 조난 신호가 들어와서 그쪽도 도와 보려 하네."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.39.8"
 msgid "Dougan said something about a bunch of ships leaving towards ~Gyges~, and something about a dreadnought being taken out near Savara.  We have no additional information about what's going on out there, so give it your best."
-msgstr ""
+msgstr "더건이 함선 무리가 ~기게스~ 쪽으로 떠났다느니, 사바라 근처에서 드레드노트가 격파되었다느니 하는 얘기를 하더군. 그쪽 상황에 대해 더 아는 건 없으니, 최선을 다해 주게."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.39.12"
 msgid "Transon out."
-msgstr ""
+msgstr "이상, 트랜슨."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.39.15"
 msgid "Cursed computer net..."
-msgstr ""
+msgstr "망할 놈의 컴퓨터망 같으니..."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.39.17"
 msgid "What in the heck is going on out there, Almos?  Don't we have ~ANYTHING~ working?"
-msgstr ""
+msgstr "대체 밖에서 무슨 일이 벌어지는 건가, 알모스? 제대로 돌아가는 게 ~하나도~ 없단 말인가?"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.39.20"
 msgid "[Unknown ID:] No, Commander."
-msgstr ""
+msgstr "[미확인 ID:] 없습니다, 사령관님."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.39.22"
 msgid "I can't even get any reports on what's going on the surface here much less off on Savara or... ~Gyges!?~  I want to know what's going on, Almos.  I want ~ANSWERS!~"
-msgstr ""
+msgstr "사바라나... ~기게스!?~ 쪽은 말할 것도 없고, 여기 지상 상황 보고조차 받을 수가 없네. 무슨 일인지 알아야겠네, 알모스. ~대답~을 내놓게!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.39.26"
 msgid "[Unknown ID:] Sorry, Commander.  I'll see what I can do.  Oh, and you're needed in command station 2.  Something about a computer authorization."
-msgstr ""
+msgstr "[미확인 ID:] 죄송합니다, 사령관님. 할 수 있는 데까지 알아보겠습니다. 아, 그리고 2번 지휘소에서 사령관님을 찾습니다. 컴퓨터 인증 문제라던데요."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.39.29"
 msgid "For ~Zinglon's~ sake, Almos.  Why didn't you ~tell~ me?"
-msgstr ""
+msgstr "~징글론~이시여, 알모스. 그걸 왜 이제야 ~말~하나?"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.39.31"
 msgid "[Unknown ID:] Sorry.  I'll look after the communications center."
-msgstr ""
+msgstr "[미확인 ID:] 죄송합니다. 통신실은 제가 맡겠습니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.39.33"
 msgid "Good luck.  I can't make heads or rubniks of what's going on.  I was amazed to pick up even ~Dougan~ out there, with his accursed, fancy little ship, much less ~Trent~."
-msgstr ""
+msgstr "잘 부탁하네. 무슨 일이 벌어지는 건지 루브닉 한 닢어치도 모르겠군. ~트렌트~는 고사하고, 그 망할 놈의 번드르르한 작은 배를 타고 다니는 ~더건~이 거기서 잡힌 것만도 놀라운 일이야."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.39.37"
 msgid "[Unknown ID:] Everything will be fine here.  Goodbye, commander."
-msgstr ""
+msgstr "[미확인 ID:] 여기는 아무 문제 없을 겁니다. 안녕히 가십시오, 사령관님."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.39.39"
 msgid "[Unknown ID:] Hmm?  What's this still doing on?"
-msgstr ""
+msgstr "[미확인 ID:] 응? 이게 왜 아직 켜져 있지?"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.39.41"
 msgid "[Transmission End]"
-msgstr ""
+msgstr "[통신 종료]"
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.40.title"
 msgid "GYGES SECTOR - PRIVATE TRANSMISSION ID 11432"
-msgstr ""
+msgstr "기게스 섹터 - 개인 통신 ID 11432"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.40.header"
 msgid "Muldar"
-msgstr ""
+msgstr "멀다르"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.40.0"
 msgid "~Goodbye~, Trent.  I ~control~ ~the~ fleets ~now.~  ~Glad~ you ~could~ ~drop~ ~by~ ~to~ ~receive~ ~my~ ~message.~"
-msgstr ""
+msgstr "~잘~ ~가라~, 트렌트. 이제 함대는 ~내가~ ~지휘~한다. 내 ~메시지를~ ~받으러~ 이렇게 ~들러~ ~주다니~ ~반갑군.~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.40.4"
 msgid "~<cough>~"
-msgstr ""
+msgstr "~<콜록>~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.40.7"
 msgid "You saved me the trouble of ~detonating~ ~Javi~, but I had hoped he would be closer to ~Savara~.  No matter, just a slight alteration.  You pretty much wiped them out for me already."
-msgstr ""
+msgstr "네 덕분에 ~하비~를 ~폭파~하는 수고는 덜었다만, 놈이 ~사바라~에 좀 더 가까이 있을 때였으면 했지. 상관없다. 계획을 살짝 바꾸면 그만이니까. 어차피 네가 놈들을 거의 다 쓸어버려 줬으니."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.40.11"
 msgid "With Deliani in chaos, there won't be anyone who can stop me from taking over the other free worlds.  I was beginning ~to~ think everyone ~out~ there ~was~ incompetent, ~but~ you ~managed~ ~to~ ~find~ us.  ~Interesting.~"
-msgstr ""
+msgstr "델리아니가 혼란에 빠졌으니, 다른 자유 세계들을 손에 넣는 나를 막을 자는 아무도 없겠지. 바깥 놈들은 ~죄다~ 무능하다고 ~생각하던~ 참이었는데, ~용케도~ 우리를 ~찾아냈군~. ~흥미롭다.~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.40.16"
 msgid "<hack>"
-msgstr ""
+msgstr "<쿨럭>"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.40.18"
 msgid "~<hack>~"
-msgstr ""
+msgstr "~<쿨럭>~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.40.20"
 msgid "<cough>"
-msgstr ""
+msgstr "<콜록>"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.40.23"
 msgid "I'll enjoy watching my ~microborers~ drain your mind, Trent."
-msgstr ""
+msgstr "내 ~미세~ ~천공충~이 네 정신을 빨아먹는 꼴을 즐겁게 지켜봐 주마, 트렌트."
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.41.title"
 msgid "FLUXNET 21 PRESENTS"
-msgstr ""
+msgstr "플럭스넷 21 특선"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.41.header"
 msgid "Ad"
-msgstr ""
+msgstr "광고"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.41.0"
 msgid "Almo and Zik-Nar X3"
-msgstr ""
+msgstr "알모와 직나르 X3"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.41.2"
 msgid "The touching tale of a ~Zik-Nar~ ~X3~, boy cybernoid, and his loving, parasitic dog ~Almo~. Join their epic tale as they careen through the galaxy, righting the wrongs of unjust space pirates."
-msgstr ""
+msgstr "사이버노이드 소년 ~직나르~ ~X3~와 그를 사랑하는 기생충 강아지 ~알모~의 감동 스토리. 은하계를 종횡무진 누비며 악랄한 우주 해적들의 만행을 바로잡는 두 친구의 대서사시에 함께하세요."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.41.6"
 msgid "But ~Zik-Nar~ has a soft side for ~Blibbo~, a female slug from the far reaches of the galaxy.  Watch them fall in love as ~Zik-Nar~ ~X3~ journeys with her to find her lost home."
-msgstr ""
+msgstr "그런 ~직나르~에게도 약한 구석이 있었으니, 바로 은하계 저 먼 변방에서 온 암컷 민달팽이 ~블리보~! 잃어버린 그녀의 고향을 찾아 함께 여행하며 사랑에 빠지는 ~직나르~ ~X3~의 모습을 지켜보세요."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.41.10"
 msgid "But if you're looking for action, look no further than ~Almo~.  He'll suck the very heart right out of you in this once in a century family show."
-msgstr ""
+msgstr "하지만 액션을 원하신다면 ~알모~만 한 게 없습니다. 백 년에 한 번 나올까 말까 한 이 가족 프로그램에서, 알모가 여러분의 심장을 쪽쪽 빨아먹을 테니까요."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.41.13"
 msgid "~Almo~ and ~Zik-Nar~ ~X3~, coming to a holo-screen next rotation."
-msgstr ""
+msgstr "~알모~와 ~직나르~ ~X3~, 다음 자전 주기에 홀로스크린에서 만나요!"
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.42.title"
 msgid "FLUXNET 21 PRESENTS"
-msgstr ""
+msgstr "플럭스넷 21 특선"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.42.header"
 msgid "Ad"
-msgstr ""
+msgstr "광고"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.42.0"
 msgid "Swiss Family Cheese"
-msgstr ""
+msgstr "스위스 치즈 가족"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.42.2"
 msgid "Another family spectacle for one and all."
-msgstr ""
+msgstr "온 가족이 함께 즐기는 또 하나의 대작."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.42.4"
 msgid "This memorable series about a family of ~cheese~ ~mold~ will bring a tear to your eye and a glow to your heart.  Through ~wind~, ~rain~, ~drought~, and ~competing~ ~parasites~, this family will persevere.  Not because they are strong but because they have the will to survive."
-msgstr ""
+msgstr "~치즈~ ~곰팡이~ 가족을 그린 이 잊지 못할 시리즈는 여러분의 눈시울을 적시고 가슴을 따뜻하게 할 것입니다. ~바람~, ~비~, ~가뭄~, 그리고 ~라이벌~ ~기생충~ 속에서도 이 가족은 꿋꿋이 버텨 냅니다. 강해서가 아니라, 살아남겠다는 의지가 있기 때문입니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.42.9"
 msgid "It's another ~Fluxnet~ 21 show you won't wanna miss!"
-msgstr ""
+msgstr "놓치면 후회할 또 하나의 ~플럭스넷~ 21 프로그램!"
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.43.title"
 msgid "FLUXNET 21 PRESENTS"
-msgstr ""
+msgstr "플럭스넷 21 특선"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.43.header"
 msgid "Ad"
-msgstr ""
+msgstr "광고"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.43.0"
 msgid "Back by popular damand, it's the hilarious antics of ~My~ ~Uncle~ ~the~ ~Sloth~!"
-msgstr ""
+msgstr "시청자 여러분의 성원에 힘입어 돌아왔습니다! 배꼽 잡는 소동극 ~우리~ ~삼촌은~ ~나무늘보~!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.43.2"
 msgid "Follow ~Uncle~ ~Sloth~ on his journeys across the forests of ~Torm~ as he skillfully waits for giant ~dragons~ to fly by, eats vegetation, and learns what it is to be a ~Sloth~."
-msgstr ""
+msgstr "~토름~의 숲을 누비는 ~나무늘보~ ~삼촌~의 여정을 따라가 보세요. 거대한 ~용~이 날아가기를 능숙하게 기다리고, 풀을 뜯어 먹고, ~나무늘보~로 산다는 것이 무엇인지 깨달아 갑니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.43.6"
 msgid "This special series is presented in its full, uncut format with 2,890 10-hour episodes!"
-msgstr ""
+msgstr "이번 특별 시리즈는 회당 10시간, 총 2,890회 분량을 무삭제 완전판으로 방영합니다!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.43.9"
 msgid "Another ~Fluxnet~ 21 show.  Don't miss it!"
-msgstr ""
+msgstr "또 하나의 ~플럭스넷~ 21 프로그램. 놓치지 마세요!"
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.44.title"
 msgid "FLUXNET 21 PRESENTS"
-msgstr ""
+msgstr "플럭스넷 21 특선"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.44.header"
 msgid "Ad"
-msgstr ""
+msgstr "광고"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.44.0"
 msgid "Another production from the leaders in holo-entertainment..."
-msgstr ""
+msgstr "홀로 엔터테인먼트의 선두 주자가 선보이는 또 하나의 작품..."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.44.2"
 msgid "~The~ ~Eleven~ ~Commandments~"
-msgstr ""
+msgstr "~십일계명~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.44.4"
 msgid "The most incredible screen epic ever made - presented in the original ~holobox~ format."
-msgstr ""
+msgstr "역사상 가장 놀라운 스크린 대서사극 - 오리지널 ~홀로박스~ 포맷으로 상영합니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.44.7"
@@ -1709,92 +1709,92 @@ msgstr ""
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.44.9"
 msgid "Monses walked upon Savara and said:"
-msgstr ""
+msgstr "몬세가 사바라 땅을 거닐며 이르되:"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.44.11"
 msgid "\"Let there be a group of laws for people to follow, so that they might learn to be virtuous and live with honor.\""
-msgstr ""
+msgstr "\"백성이 따를 율법을 내려 주시어, 그들이 덕을 배우고 명예롭게 살게 하소서.\""
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.44.14"
 msgid "And ~Zinglon~ said:"
-msgstr ""
+msgstr "그러자 ~징글론~이 이르시되:"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.44.16"
 msgid "\"Lo, let be it, for now when Tuesday then cometh with not again, be it another less more it be.  Be faith giveth whence came me unto, yet not needeth for unto me, for yet be learn to be.\""
-msgstr ""
+msgstr "\"보라, 그리 될지어다. 이제 화요일이 임하되 다시는 아니 임할 때에, 또 다른 덜 더한 것이 될지니라. 믿음이 내게로 온 곳에서 주어질지나 내게는 쓸데없나니, 아직 배워 될지어다.\""
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.44.20"
 msgid "And Monses raised his hands aloft to take the ~holocubes~, but lowered them again and said:"
-msgstr ""
+msgstr "몬세가 ~홀로큐브~를 받으려 두 손을 높이 들었다가, 다시 내리고 말하되:"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.44.23"
 msgid "\"Huh?\""
-msgstr ""
+msgstr "\"예?\""
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.44.25"
 msgid "And ~Zinglon~ spake:"
-msgstr ""
+msgstr "~징글론~이 가라사대:"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.44.27"
 msgid "\"Look.  Here's the stuff you asked for.  Take it and leave me alone.\""
-msgstr ""
+msgstr "\"자, 네가 달라던 거. 받아 가고 나 좀 내버려 둬.\""
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.44.29"
 msgid "Monses took the ~holocubes~ from the sky but saw that there was an extra cube, a cube he had not expected.  He interrupted again and spake to the heavens:"
-msgstr ""
+msgstr "몬세가 하늘에서 ~홀로큐브~를 받았으나, 생각지도 못한 큐브 하나가 더 있음을 보았더라. 그가 다시 말을 끊고 하늘을 향해 이르되:"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.44.32"
 msgid "\"What's the other cube for?\""
-msgstr ""
+msgstr "\"이 남는 큐브 하나는 뭡니까?\""
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.44.34"
 msgid "And ~Zinglon~ spake:"
-msgstr ""
+msgstr "~징글론~이 가라사대:"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.44.36"
 msgid "\"You know when the people have learned but the ten cubes just aren't enough? This is for that extra push when ten just isn't enough.\""
-msgstr ""
+msgstr "\"왜, 백성들이 다 배웠는데도 큐브 열 개로는 영 부족할 때 있잖아? 열 개로는 모자랄 때 한 번 더 밀어 주는 용도야.\""
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.44.39"
 msgid "Monses scratched his head and replied:"
-msgstr ""
+msgstr "몬세가 머리를 긁적이며 대답하되:"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.44.41"
 msgid "\"Surely you could make the other ten stronger?\""
-msgstr ""
+msgstr "\"그냥 나머지 열 개를 더 세게 만드시면 되지 않습니까?\""
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.44.43"
 msgid "And ~Zinglon~ spake:"
-msgstr ""
+msgstr "~징글론~이 가라사대:"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.44.45"
 msgid "\"But mine go up to ~eleven~.  Now go away.\""
-msgstr ""
+msgstr "\"근데 내 건 ~11~까지 올라가거든. 이제 가 봐.\""
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.44.47"
 msgid "And, ~Zinglon~ blew Monses and the ~holocubes~ off the mountain..."
-msgstr ""
+msgstr "그리고 ~징글론~은 몬세와 ~홀로큐브~를 산 아래로 날려 버렸더라..."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.44.49"
 msgid "Enjoy these scenes and more from the greatest production of all time!"
-msgstr ""
+msgstr "역사상 최고의 대작에서 이 장면들과 더 많은 명장면을 만나 보세요!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.44.51"
@@ -1804,1302 +1804,1302 @@ msgstr ""
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.44.53"
 msgid "~Monses~ and the ~Eleven~ ~Commandments~"
-msgstr ""
+msgstr "~몬세~와 ~십일계명~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.44.55"
 msgid "Coming to holoscreens in 13.5553.231!"
-msgstr ""
+msgstr "13.5553.231, 홀로스크린 대개봉!"
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.45.title"
 msgid "GRUEL: THE MODERN WAY"
-msgstr ""
+msgstr "죽: 현대식 조리법"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.45.header"
 msgid "Ad"
-msgstr ""
+msgstr "광고"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.45.0"
 msgid "Gencore research labs presents the quintissential cookbook for the gourmet gruelist."
-msgstr ""
+msgstr "젠코어 연구소가 죽 미식가들을 위한 궁극의 요리책을 선보입니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.45.3"
 msgid "In this tome of good taste are presented such undying classics as:"
-msgstr ""
+msgstr "고상한 미각이 담긴 이 두툼한 책에는 다음과 같은 불후의 명작 요리들이 실려 있습니다:"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.45.5"
 msgid "The ~7-Day~ Gruel"
-msgstr ""
+msgstr "~7일~ 숙성 죽"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.45.7"
 msgid "~Swiss~ ~Cheese~ Gruel"
-msgstr ""
+msgstr "~스위스~ ~치즈~ 죽"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.45.9"
 msgid "~Rainbow~ ~Trout~ Gruel"
-msgstr ""
+msgstr "~무지개~ ~송어~ 죽"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.45.11"
 msgid "~Black~ ~Zest~ Gruel"
-msgstr ""
+msgstr "~검은~ ~제스트~ 죽"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.45.13"
 msgid "Annie's ~Marbelized~ ~Mealy~ ~Mottled~ ~Mango~ Gruel"
-msgstr ""
+msgstr "애니의 ~마블링~ ~물컹물컹~ ~멍투성이~ ~망고~ 죽"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.45.15"
 msgid "The Mad Chef's ~Lump~-O-~Gruel~"
-msgstr ""
+msgstr "미친 요리사의 ~덩어리~ 범벅 ~죽~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.45.17"
 msgid "~Magic~ Gruel of ~Slaying~, ~Vorpal~ Lumpy +2"
-msgstr ""
+msgstr "~처단~의 ~마법~ 죽, ~보팔~ 덩어리 +2"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.45.19"
 msgid "Gruel for ~2000~ : ~A~ ~Gruel~ ~For~ ~All~ ~Time~"
-msgstr ""
+msgstr "~2000~을 위한 죽: ~시대를~ ~초월한~ ~죽~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.45.22"
 msgid "In this book you'll find ~Gruel~ for ~any~ ~season~!"
-msgstr ""
+msgstr "이 책 한 권이면 ~사계절~ ~언제나~ ~죽~!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.45.24"
 msgid "So download ~Gruel~: The ~Modern~ ~Way~ today and be ready to turn away that next great family gathering."
-msgstr ""
+msgstr "오늘 바로 ~죽~: ~현대식~ ~조리법~을 내려받으세요. 다가올 성대한 가족 모임에서 친척들을 돌려보낼 준비 끝!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.45.27"
 msgid "Only from ~Gencore~.  Presented by the ~Interstellar~ ~House~ of ~Gruel~."
-msgstr ""
+msgstr "오직 ~젠코어~에서만. ~성간~ ~죽~ ~하우스~ 제공."
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.46.title"
 msgid "WHO ARE YOU?"
-msgstr ""
+msgstr "너는 누구냐?"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.46.header"
 msgid "Vykromod"
-msgstr ""
+msgstr "바이크로모드"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.46.0"
 msgid "I... I feel your presence, Trent.  Where are you?  I cannot see."
-msgstr ""
+msgstr "나... 네 존재가 느껴진다, 트렌트. 어디 있느냐? 보이지 않는다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.46.2"
 msgid "What have you done to me, Trent?  I feel... nothing."
-msgstr ""
+msgstr "나에게 무슨 짓을 한 거냐, 트렌트? 아무것도... 느껴지지 않는다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.46.4"
 msgid "Where is my body?  Who am I?  Am I still me?"
-msgstr ""
+msgstr "내 몸은 어디 있지? 나는 누구지? 나는 아직 나인가?"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.46.6"
 msgid "I want to die.  Why can't I move?"
-msgstr ""
+msgstr "죽고 싶다. 왜 움직일 수가 없지?"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.46.8"
 msgid "Kill me.  Someone?"
-msgstr ""
+msgstr "날 죽여 다오. 누구 없나?"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.46.10"
 msgid "Trent?"
-msgstr ""
+msgstr "트렌트?"
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.47.title"
 msgid "HELP ME."
-msgstr ""
+msgstr "도와 다오."
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.47.header"
 msgid "Vykromod"
-msgstr ""
+msgstr "바이크로모드"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.47.0"
 msgid "Again, I feel your presence, Trent.  I can move now.  I don't know quite what I have become, but I know what I must do.  I feel you are the cause of my pain."
-msgstr ""
+msgstr "또다시 네 존재가 느껴진다, 트렌트. 이제는 움직일 수 있다. 내가 무엇이 되어 버렸는지는 잘 모르겠지만, 무엇을 해야 하는지는 안다. 내 고통의 원인이 너라는 것이 느껴진다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.47.4"
 msgid "Come to me, Trent.  One of us must die before the other can become whole."
-msgstr ""
+msgstr "내게 와라, 트렌트. 우리 중 하나가 죽어야만 다른 하나가 온전해질 수 있다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.47.6"
 msgid "I... don't know what that means.  You must come.  I... must be me again."
-msgstr ""
+msgstr "나는... 그게 무슨 뜻인지 모르겠다. 너는 와야 한다. 나는... 다시 내가 되어야 한다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.47.8"
 msgid "Something is about to happen.  I can feel it."
-msgstr ""
+msgstr "곧 무슨 일이 일어날 것이다. 느낄 수 있다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.47.10"
 msgid "What... have ~I~ ~BECOME?!?~"
-msgstr ""
+msgstr "~나~는... 대체 무엇이 ~되어~ ~버린~ ~거냐?!?~"
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.48.title"
 msgid "DELIANI PRIORITY UPLINK A1 [code A]"
-msgstr ""
+msgstr "델리아니 우선 업링크 A1 [코드 A]"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.48.header"
 msgid "Transon"
-msgstr ""
+msgstr "트랜슨"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.48.0"
 msgid "Trent, this is Transon Lohk."
-msgstr ""
+msgstr "트렌트, 트랜슨 로크일세."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.48.2"
 msgid "I hope you are able to get this message.  We've lost you on our sensors. Your ship disappeared about 8 minutes ago.  Where are you?"
-msgstr ""
+msgstr "이 메시지가 자네에게 닿기를 바라네. 센서에서 자네를 놓쳤네. 자네 함선이 8분쯤 전에 사라졌어. 지금 어디 있나?"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.48.5"
 msgid "Your life is in danger.  I am sure of it."
-msgstr ""
+msgstr "자네 목숨이 위험하네. 틀림없어."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.48.7"
 msgid "A great power surge is building from within Gyges.  I don't know what it is, but you must investigate.  Perhaps you already know.  There is no time to send any backup to help you.  You'll have to make do with what you can find around there."
-msgstr ""
+msgstr "기게스 내부에서 거대한 에너지 파동이 점점 커지고 있네. 정체는 모르겠지만 자네가 조사해 줘야 하네. 어쩌면 이미 알고 있을지도 모르겠군. 지원군을 보낼 시간이 없네. 그 근처에서 구할 수 있는 것으로 어떻게든 버텨 주게."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.48.12"
 msgid "The fleet at Savara has been disabled - many were lost.  We don't have the specific details, but we're looking for survivors.  Anyway, there is no-one left who can reach you that far out there.  You're on your own."
-msgstr ""
+msgstr "사바라의 함대는 무력화되었네. 많은 이가 목숨을 잃었지. 자세한 상황은 모르지만 생존자를 찾고 있네. 어쨌든 그렇게 먼 곳까지 자네에게 갈 수 있는 사람은 아무도 남지 않았네. 이제 자네 혼자일세."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.48.16"
 msgid "Good luck, Trent.  I only wish I knew what was going on out there.  I know you will do your best.  We will try to contact you again later."
-msgstr ""
+msgstr "행운을 비네, 트렌트. 그곳에서 무슨 일이 벌어지고 있는지 알 수만 있다면 좋으련만. 자네라면 최선을 다하리라 믿네. 나중에 다시 연락해 보겠네."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.48.19"
 msgid "Transon out."
-msgstr ""
+msgstr "이상, 트랜슨."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.48.22"
 msgid "[Unknown ID:]  Commander, quick, what's the square root of 4?  I think the computer is down and we can't figure out how to fix it!"
-msgstr ""
+msgstr "[미확인 ID:] 사령관님, 급합니다, 4의 제곱근이 뭡니까? 컴퓨터가 고장 난 것 같은데 어떻게 고쳐야 할지 모르겠습니다!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.48.25"
 msgid "[Transon:]  Two.  You know, ensign, you have the brain of a pea.  If I was to collect your mind and hold it for ransom, I wouldn't be able to prove it was anything but a grain of sand."
-msgstr ""
+msgstr "[트랜슨:] 2일세. 이보게, 소위. 자네 뇌는 완두콩만 하군. 자네 정신을 납치해서 몸값을 요구한다 해도, 그게 모래알 한 톨이 아니라는 걸 증명할 길이 없을 걸세."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.48.29"
 msgid "[Unknown ID:]  Sorry, Commander."
-msgstr ""
+msgstr "[미확인 ID:] 죄송합니다, 사령관님."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.48.31"
 msgid "[Transon:]  Do you have any idea what's going on out there?"
-msgstr ""
+msgstr "[트랜슨:] 저 바깥에서 무슨 일이 벌어지고 있는지 알기나 하나?"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.48.33"
 msgid "[Unknown ID:]  Sorry, Commander?"
-msgstr ""
+msgstr "[미확인 ID:] 죄송합니다만... 사령관님?"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.48.35"
 msgid "[Transon:]  About Trent."
-msgstr ""
+msgstr "[트랜슨:] 트렌트 말일세."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.48.37"
 msgid "[Unknown iD:]  Ooo.  Sorry, Commander."
-msgstr ""
+msgstr "[미확인 ID:] 아아. 죄송합니다, 사령관님."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.48.39"
 msgid "[Transon:]  He's going to [~chuckle~] save the universe again.  And then, do you know what he'll probably do?"
-msgstr ""
+msgstr "[트랜슨:] 그 친구는 또 [~킬킬~] 우주를 구하겠지. 그다음엔 뭘 할 것 같나?"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.48.42"
 msgid "[Unknown ID:]  Sorry, Commander?"
-msgstr ""
+msgstr "[미확인 ID:] 죄송합니다만... 사령관님?"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.48.44"
 msgid "[Transon:]  He'll save the universe again, and again, and again!  He'll do anything I want him to do to help the universe and I won't have to lift a finger to do anything except send him these little messages like... oops..."
-msgstr ""
+msgstr "[트랜슨:] 또 우주를 구할 걸세. 또, 또, 또! 우주를 돕는 일이라면 내가 바라는 건 뭐든 해 줄 테고, 나는 손가락 하나 까딱할 필요 없이 이런 짤막한 메시지만 보내면 되지. 바로 이런... 어이쿠..."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.48.48"
 msgid "[Transmission End]"
-msgstr ""
+msgstr "[통신 종료]"
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.49.title"
 msgid "MICROSOL ALPHA LINK 1"
-msgstr ""
+msgstr "마이크로솔 알파 링크 1"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.49.header"
 msgid "Admiral"
-msgstr ""
+msgstr "제독"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.49.0"
 msgid "You may have killed all the others, but I am still alive!"
-msgstr ""
+msgstr "다른 놈들은 다 죽였을지 몰라도, 나는 아직 살아 있다!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.49.2"
 msgid "I, Nob, am now admiral of all that I see!"
-msgstr ""
+msgstr "나, 노브는 이제 눈에 보이는 모든 것의 제독이다!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.49.4"
 msgid "No, wait."
-msgstr ""
+msgstr "아니, 잠깐."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.49.6"
 msgid "~General!~"
-msgstr ""
+msgstr "~장군!~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.49.8"
 msgid "Hmmm..."
-msgstr ""
+msgstr "흐음..."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.49.10"
 msgid "~Emperor!~"
-msgstr ""
+msgstr "~황제!~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.49.12"
 msgid "No.  No.  Bigger."
-msgstr ""
+msgstr "아니. 아니야. 더 거창하게."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.49.14"
 msgid "~Supreme~ ~Intergalactic~ ~Ruler~ ~of~ ~Everything!~"
-msgstr ""
+msgstr "~전 은하~ ~만물~의 ~최고~ ~통치자!~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.49.16"
 msgid "Haha!"
-msgstr ""
+msgstr "하하!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.49.18"
 msgid "You are too late to stop my rule.  I will now activate project ~Vykromod~!"
-msgstr ""
+msgstr "내 통치를 막기엔 너무 늦었다. 이제 ~바이크로모드~ 프로젝트를 가동하겠다!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.49.20"
 msgid "These will be the last moments you spend alive.  Cherish them."
-msgstr ""
+msgstr "지금이 네가 살아서 보내는 마지막 순간이 될 것이다. 소중히 음미해라."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.49.22"
 msgid "~Captain~ ~Nob~"
-msgstr ""
+msgstr "~노브~ ~함장~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.49.24"
 msgid "~Ixmucane~ Task Force ~Alpha~"
-msgstr ""
+msgstr "~익스무카네~ 기동대 ~알파~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.49.27"
 msgid "Oops... Wait a sec..."
-msgstr ""
+msgstr "이런... 잠깐만..."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.49.29"
 msgid "...where's the stupid Y key on this keypad?  I don't have 8 fingers, how am I supposed to type with this thing?  Maybe if I use my toe to hold down the... ~ahhhhhh!!!~"
-msgstr ""
+msgstr "...이놈의 키패드에 Y 키는 대체 어디 있는 거야? 손가락이 8개씩 달린 것도 아닌데, 이걸로 어떻게 치라는 거지? 발가락으로 누르고 있으면 혹시... ~으아아아악!!!~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.49.33"
 msgid "Now... bear witness!"
-msgstr ""
+msgstr "자... 똑똑히 보아라!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.49.35"
 msgid "~Supreme~ ~Intergalactic~ ~Ruler~ of ~Everything~ ~Nob~"
-msgstr ""
+msgstr "~전 은하~ ~만물~의 ~최고~ ~통치자~ ~노브~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.49.37"
 msgid "~Commander~ of ~Microsol~ ~Super~ ~Fleet~ ~Alpha~"
-msgstr ""
+msgstr "~마이크로솔~ ~슈퍼~ ~함대~ ~알파~ ~사령관~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.49.39"
 msgid "~Leader~ of ~Everyone~"
-msgstr ""
+msgstr "~만인~의 ~지도자~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.49.41"
 msgid "~Master~ of ~All~"
-msgstr ""
+msgstr "~모든~ 것의 ~주인~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.49.43"
 msgid "~Well~-~Liked~ by ~Animals~"
-msgstr ""
+msgstr "~동물~들에게 ~인기~ ~만점~"
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.50.title"
 msgid "HOLO NEWS - XP9 v123-02-39"
-msgstr ""
+msgstr "홀로 뉴스 - XP9 v123-02-39"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.50.header"
 msgid "News"
-msgstr ""
+msgstr "뉴스"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.50.0"
 msgid "This is Rob Neither with the daily news."
-msgstr ""
+msgstr "오늘의 뉴스, 롭 니더입니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.50.2"
 msgid "~Zinglon's~ ~Nose~ ~Stolen~"
-msgstr ""
+msgstr "~징글론~의 ~코~ ~도난~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.50.4"
 msgid "A holy artifact believed to be the nose of Zinglon himself was stolen from the Torm Orbiting Museum.  Religious followers are in an uproar and demand that the party responsible return the nose immediately.  A full-scale investigation has been launched and several planets are fully mobilizing for jihad - holy war."
-msgstr ""
+msgstr "징글론 본인의 코로 여겨지는 성물이 토름 궤도 박물관에서 도난당했다. 신도들은 크게 분노하며 범인에게 코를 즉시 돌려놓으라고 요구하고 있다. 전면 수사가 시작되었으며, 여러 행성이 지하드, 즉 성전을 위한 총동원 태세에 들어갔다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.50.9"
 msgid "~Ixmucane~ ~Threatened~ ~With~ ~Destruction~ - ~1.5~ ~Million~ ~to~ ~Be~ ~Killed~"
-msgstr ""
+msgstr "~익스무카네~ ~파괴~ ~위협~ - ~150만~ ~명~ ~몰살~ ~위기~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.50.12"
 msgid "In other news, Microsol has reportedly threatened the extinction of 1.5 million scientists and engineers on the planet Ixmucane.  A small relief fleet has been called in, headed mainly by Gencore, to save as many people as possible."
-msgstr ""
+msgstr "한편, 마이크로솔이 익스무카네 행성의 과학자와 기술자 150만 명을 몰살하겠다고 위협한 것으로 알려졌다. 최대한 많은 사람을 구하기 위해 젠코어를 주축으로 한 소규모 구호 함대가 소집되었다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.50.16"
 msgid "[Clara, Co-reporter [~CC~]] : Does it really matter, Rob?  I'm beginning to think there's nowhere in the galaxy not under some mysterious threat, but somehow it all seems to work out fairly easily with no deaths on our side.  Isn't this some kind of a hoax?"
-msgstr ""
+msgstr "[클라라, 공동 진행자 [~CC~]] : 그게 정말 중요한가요, 롭? 은하계에 정체 모를 위협을 받지 않는 곳은 한 군데도 없는 것 같은데, 어째선지 매번 우리 쪽 사망자 하나 없이 꽤 쉽게 해결되잖아요. 이거 무슨 조작극 아닌가요?"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.50.21"
 msgid "[Rob, Reporter [~RR~]] : Seems that way to me.  I can remember when a war was something you could ~feel~.  Not just some report on how many scraps of metal were found.  To date, there has been no real evidence of any Gencore or other alliance ships participating in any major conflict.  Just minor skirmishes with scout ships on our side."
-msgstr ""
+msgstr "[롭, 진행자 [~RR~]] : 제가 보기에도 그래요. 전쟁이 피부로 ~느껴지던~ 시절이 기억나네요. 고철 조각이 몇 개 발견됐다는 보도 따위가 아니었죠. 지금까지 젠코어나 다른 동맹 함선이 대규모 전투에 참여했다는 실제 증거는 전혀 없어요. 우리 쪽 정찰선들이 소규모 교전을 벌였을 뿐이죠."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.50.27"
 msgid "[~CC~] : So this ~is~ some kind of hoax?"
-msgstr ""
+msgstr "[~CC~] : 그럼 이거 ~정말~ 조작극이란 거예요?"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.50.29"
 msgid "[~RR~] : Probably.  It's this lack of standards that make me wish I was back in holo-sports.  Now that had a future.  This fake war is making me sick.  There's nothing worse than someone manufacturing a war by exploding tons of robot starships.  Nothing but a big fireworks display."
-msgstr ""
+msgstr "[~RR~] : 아마도요. 이렇게 수준 낮은 걸 보고 있으면 홀로 스포츠 시절로 돌아가고 싶어진다니까요. 그쪽은 그래도 미래가 있었죠. 이 가짜 전쟁엔 신물이 나요. 로봇 우주선을 잔뜩 터뜨려서 전쟁을 지어내는 것보다 더 나쁜 짓은 없어요. 그냥 거대한 불꽃놀이일 뿐이라고요."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.50.34"
 msgid "[~CC~] : ~OH?~ Are we still on the air?"
-msgstr ""
+msgstr "[~CC~] : ~어머?~ 우리 아직 방송 중이에요?"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.50.36"
 msgid "[Program stopped due to technical fault]"
-msgstr ""
+msgstr "[기술적 결함으로 방송 중단]"
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.51.title"
 msgid "TYRIAN - THE HOLO MOVIE"
-msgstr ""
+msgstr "티리안 - 홀로 영화"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.51.header"
 msgid "Ad"
-msgstr ""
+msgstr "광고"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.51.0"
 msgid "Coming soon to ~Fluxnet~ ~21~: ~Tyrian~!  The made-for-holo movie!"
-msgstr ""
+msgstr "~플럭스넷~ ~21~에서 곧 공개! ~티리안~! 홀로 전용 영화!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.51.2"
 msgid "Follow the journeys of Trent Hawkins as he saves the universe time and time again.  In the fourth volume in this Eclipse series, you'll see him save the giant world Ixmucane from destruction by destroying the ~giant~ ~lava~ ~ship~ on level 3.  Then, fly with him as he restores peace to Gencore and takes on the final Microsol center.  It's a movie you won't want to miss!"
-msgstr ""
+msgstr "우주를 몇 번이고 거듭 구해 내는 트렌트 호킨스의 여정을 따라가 보세요. 이클립스 시리즈 제4편에서는 그가 레벨 3의 ~거대~ ~용암선~을 파괴하고 거대 행성 익스무카네를 멸망에서 구해 내는 모습을 볼 수 있습니다. 이어서 젠코어에 평화를 되찾아 주고 마이크로솔 최후의 본거지에 맞서는 그와 함께 날아 보세요. 절대 놓칠 수 없는 영화입니다!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.51.8"
 msgid "On sale now at Asteroid Charlies."
-msgstr ""
+msgstr "지금 소행성 찰리네 매장에서 판매 중!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.51.10"
 msgid "~Note~: Due to extreme demand, we are temporarily out of stock.  Thank you for choosing ~Fluxnet~ ~21~."
-msgstr ""
+msgstr "~알림~: 폭발적인 수요로 일시 품절되었습니다. ~플럭스넷~ ~21~을 이용해 주셔서 감사합니다."
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.52.title"
 msgid "PERSONAL LOG"
-msgstr ""
+msgstr "개인 일지"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.52.header"
 msgid "Self"
-msgstr ""
+msgstr "나 자신"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.52.0"
 msgid "Hello, self.  We're going to die, we know.  I thought we knew that."
-msgstr ""
+msgstr "안녕, 나 자신. 우린 죽을 거다. 우리도 안다. 아니, 알고 있는 줄 알았다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.52.2"
 msgid "I must admit, I am rather tired of saving the universe again and again.  That idiot Transon will find me no matter where I go and force me to take on huge fleets until I either die or grow old.  Maybe he'll find a way around that. I've got to get out of here!  There must be somewhere I can go where people won't expect me to take out entire planets by myself."
-msgstr ""
+msgstr "솔직히 우주를 구하고 또 구하는 일에는 이제 진저리가 난다. 그 멍청한 트랜슨은 내가 어디로 가든 찾아내서, 내가 죽거나 늙어 꼬부라질 때까지 거대한 함대와 싸우게 만들 거다. 어쩌면 그것조차 피해 갈 방법을 찾아낼지도 모르지. 여기서 벗어나야 한다! 나 혼자서 행성을 통째로 쓸어버리길 사람들이 기대하지 않는 곳이 어딘가엔 분명 있을 거다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.52.8"
 msgid "But where?"
-msgstr ""
+msgstr "하지만 어디로?"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.52.10"
 msgid "I must find a way!  Otherwise I'll be stuck fighting these Microsol ships for the rest of eternity!  ~Aaaaarrrrrggghhh!~"
-msgstr ""
+msgstr "방법을 찾아야 한다! 안 그러면 영원토록 마이크로솔 함선들과 싸우는 신세가 될 거다! ~으아아아아악!~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.52.13"
 msgid "Self out."
-msgstr ""
+msgstr "이상, 나 자신."
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.53.title"
 msgid "HOW TO PLAY"
-msgstr ""
+msgstr "게임 방법"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.53.header"
 msgid "Game"
-msgstr ""
+msgstr "게임"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.53.0"
 msgid "How to play the secret ending game ~ZINGLON'S~ ~REVENGE~:"
-msgstr ""
+msgstr "비밀 엔딩 게임 ~징글론의~ ~복수~ 플레이 방법:"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.53.2"
 msgid "A giant ship projects a horizontal field of energy.  Small enemies fall down from above and bounce around the edges of the screen and against the energy field.  Touching the field or one of the little enemies means almost certain instant death."
-msgstr ""
+msgstr "거대한 함선이 가로로 에너지장을 펼칩니다. 작은 적들이 위에서 떨어져 내려와 화면 가장자리와 에너지장에 부딪히며 튀어 다닙니다. 에너지장이나 작은 적에 닿으면 거의 틀림없이 즉사합니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.53.7"
 msgid "You must shoot all the small enemies to advance to the next level."
-msgstr ""
+msgstr "작은 적을 모두 쏘아 없애야 다음 레벨로 넘어갈 수 있습니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.53.9"
 msgid "There are 4 kinds of enemies:"
-msgstr ""
+msgstr "적은 4종류입니다:"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.53.11"
 msgid "~Roobles~ : Round Fireballs - Low damage - Move left to right"
-msgstr ""
+msgstr "~루블~ : 둥근 불덩이 - 피해 낮음 - 좌우로 이동"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.53.13"
 msgid "~Tokkies~ : Spikey Balls - Low damage - Move up and down quickly"
-msgstr ""
+msgstr "~토키~ : 가시 공 - 피해 낮음 - 위아래로 빠르게 이동"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.53.15"
 msgid "~Zimbles~ : Eyeballs - Moderate damage - Move diagonally slowly"
-msgstr ""
+msgstr "~짐블~ : 눈알 - 피해 보통 - 대각선으로 느리게 이동"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.53.17"
 msgid "~Blottes~ : Blood Cells - High damage - Descend slowly and then bounce up quickly diagonally"
-msgstr ""
+msgstr "~블로트~ : 혈구 - 피해 높음 - 천천히 내려오다가 대각선으로 빠르게 튀어 오름"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.53.21"
 msgid "This game consists of 6 levels, starting on ~level~ ~5~ and descending in order to the final level."
-msgstr ""
+msgstr "이 게임은 6개 레벨로 이루어져 있으며, ~레벨~ ~5~에서 시작해 마지막 레벨까지 차례로 내려갑니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.53.24"
 msgid "Level 5 : Mostly Roobles"
-msgstr ""
+msgstr "레벨 5 : 주로 루블"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.53.26"
 msgid "Level 4 : Mostly Tokkies"
-msgstr ""
+msgstr "레벨 4 : 주로 토키"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.53.28"
 msgid "Extra ship received after Level 5."
-msgstr ""
+msgstr "레벨 5를 마치면 추가 함선을 받습니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.53.30"
 msgid "Level 3 : Zimbles and Blottes"
-msgstr ""
+msgstr "레벨 3 : 짐블과 블로트"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.53.32"
 msgid "Level 2 : Roobles, Tokkies, and Blottes"
-msgstr ""
+msgstr "레벨 2 : 루블, 토키, 블로트"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.53.34"
 msgid "Level 1 : Mostly Zimbles"
-msgstr ""
+msgstr "레벨 1 : 주로 짐블"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.53.36"
 msgid "Extra ship received after Level 1."
-msgstr ""
+msgstr "레벨 1을 마치면 추가 함선을 받습니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.53.38"
 msgid "Level 0 : Blottes - Destroy the energy field?"
-msgstr ""
+msgstr "레벨 0 : 블로트 - 에너지장을 파괴하라?"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.53.40"
 msgid "Extra ship received after Level 0."
-msgstr ""
+msgstr "레벨 0을 마치면 추가 함선을 받습니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.53.42"
 msgid "Level -1 : ???"
-msgstr ""
+msgstr "레벨 -1 : ???"
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.54.title"
 msgid "STRATEGY"
-msgstr ""
+msgstr "공략법"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.54.header"
 msgid "Game"
-msgstr ""
+msgstr "게임"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.54.0"
 msgid "Strategy Guide for ~ZINGLON'S~ ~REVENGE~:"
-msgstr ""
+msgstr "~징글론의~ ~복수~ 공략법:"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.54.2"
 msgid "Obviously the main point to the game is to dodge the little enemies as well as possible."
-msgstr ""
+msgstr "당연한 얘기지만, 이 게임의 핵심은 작은 적들을 최대한 잘 피하는 것입니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.54.5"
 msgid "~Roobles~ : Round Fireballs - These are very easy to destroy but get in your way easily once they descend fairly low.  Try to take these out quickly if you can unless a Blotte is coming."
-msgstr ""
+msgstr "~루블~ : 둥근 불덩이 - 아주 쉽게 파괴되지만, 꽤 낮게 내려오면 걸리적거리기 쉽습니다. 블로트가 다가오는 중이 아니라면 되도록 빨리 처치하세요."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.54.9"
 msgid "~Tokkies~ : Spikey Balls - These can be avoided fairly easily since they move very slowly across the screen.  You can usually position a sidekick to stay underneath them long enough to take them out."
-msgstr ""
+msgstr "~토키~ : 가시 공 - 화면을 아주 느리게 가로지르므로 꽤 쉽게 피할 수 있습니다. 보통은 사이드킥이 그 아래에 충분히 오래 머물도록 자리를 잡으면 처치할 수 있습니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.54.13"
 msgid "~Zimbles~ : Eyeballs - These are pretty slow and you can usually delay shooting them until they start filling the screen.  Try to take out the faster-moving enemies first if you can."
-msgstr ""
+msgstr "~짐블~ : 눈알 - 꽤 느려서, 화면을 채우기 시작할 때까지 대개 공격을 미뤄도 됩니다. 가능하면 더 빨리 움직이는 적부터 처치하세요."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.54.17"
 msgid "~Blottes~ : Blood Cells - These are the hardest enemies to destroy in the game. They are fairly easy to take out while descending, so try to at least to damage them fairly well.  Once they reach bottom, they'll start bouncing quickly and can be hard to destroy."
-msgstr ""
+msgstr "~블로트~ : 혈구 - 이 게임에서 가장 파괴하기 어려운 적입니다. 내려오는 동안에는 비교적 쉽게 처치할 수 있으니, 적어도 피해를 충분히 입혀 두세요. 바닥에 닿으면 빠르게 튀어 다니기 시작해서 파괴하기 어려워집니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.54.22"
 msgid "~SECRET~:"
-msgstr ""
+msgstr "~비밀~:"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.54.24"
 msgid "Yes, of course there are secret moves in this game.  ~21~ of them, in fact."
-msgstr ""
+msgstr "네, 물론 이 게임에도 비밀 기술이 있습니다. 사실 무려 ~21~가지나 됩니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.54.26"
 msgid "Several of the more common ones are detailed below:"
-msgstr ""
+msgstr "그중 비교적 흔한 몇 가지를 아래에 소개합니다:"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.54.28"
 msgid "~Sidekicks:~ Attach one or two of these to your ship."
-msgstr ""
+msgstr "~사이드킥:~ 함선에 사이드킥을 한두 개 붙입니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.54.30"
 msgid "  Red sidekick : Press Right,Down,Left, then hold Fire and press Up."
-msgstr ""
+msgstr "  빨간 사이드킥 : 오른쪽, 아래, 왼쪽을 누른 다음 발사를 누른 채 위를 누릅니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.54.32"
 msgid "~Hot Dog:~ A blast of deadly dogs.  Uses up your armor slowly, though."
-msgstr ""
+msgstr "~핫도그:~ 치명적인 핫도그 세례를 퍼붓습니다. 다만 장갑이 서서히 닳습니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.54.34"
 msgid "  Press Up, then hold Fire and press Down."
-msgstr ""
+msgstr "  위를 누른 다음 발사를 누른 채 아래를 누릅니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.54.36"
 msgid "Of course, ~all~ other special moves are also available here."
-msgstr ""
+msgstr "물론 다른 특수 기술도 ~모두~ 여기서 쓸 수 있습니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.54.38"
 msgid "Good luck!"
-msgstr ""
+msgstr "행운을 빕니다!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.54.40"
 msgid "So far, even the designer has problems winning this game, as it should be! My general time to beat is ~3:30~, without using many secret moves."
-msgstr ""
+msgstr "지금까지는 설계자조차 이 게임을 깨기 힘들어합니다. 그래야 마땅하죠! 제 평소 클리어 시간은 비밀 기술을 별로 쓰지 않고 ~3:30~입니다."
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.55.title"
 msgid "Scenic guide to the universe: ~Savara~"
-msgstr ""
+msgstr "우주 관광 안내서: ~사바라~"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.55.header"
 msgid "Windy"
-msgstr ""
+msgstr "윈디"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.55.0"
 msgid "  ~SAVARA:~"
-msgstr ""
+msgstr "  ~사바라:~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.55.2"
 msgid "~Dining:~"
-msgstr ""
+msgstr "~먹거리:~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.55.4"
 msgid "Come and visit the interstellar dining halls in the underwater city of ~Ploo~.  Dozens of aquatic fish swim about the domed windows, and you can simply point to the fish of your desire and it will be captured and cooked for you in under 30 seconds!"
-msgstr ""
+msgstr "수중 도시 ~플루~의 성간 식당가에 들러 보라. 돔형 유리창 밖으로 수십 종의 물고기가 헤엄쳐 다니는데, 먹고 싶은 물고기를 손가락으로 가리키기만 하면 30초 안에 잡아서 요리해 준다!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.55.9"
 msgid "Also remarkable is the bewildering variety of ethnic restauraunts located on the surface.  Many also cater to the more exotic tastes by serving the patrons of competing restauraunts, literally!  Anything edible [and some things that aren't] can be purchased here at a competitive price."
-msgstr ""
+msgstr "지상에 늘어선, 어리둥절할 만큼 다양한 민족 음식점들도 눈여겨볼 만하다. 상당수는 좀 더 이국적인 입맛을 위해 경쟁 식당의 손님을 대접하기도 한다. 말 그대로 접시에 올려서! 먹을 수 있는 것이라면 무엇이든 [먹을 수 없는 것도 일부] 이곳에서 경쟁력 있는 가격에 살 수 있다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.55.14"
 msgid "~Culture:~"
-msgstr ""
+msgstr "~문화:~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.55.16"
 msgid "Savara is the eclectic hub of the sector, where many varied cultures live together in apparent peace and harmony, though you'll want to avoid these areas since few tourists leave them alive.  However, you can sit behind glass enclosures as you watch the race of your choice go about their daily tasks, unable to stop you from prying into their private affairs."
-msgstr ""
+msgstr "사바라는 이 섹터의 다채로운 중심지로, 수많은 문화가 겉보기에는 평화롭고 조화롭게 어울려 산다. 다만 그런 지역에 들어갔다가 살아 나오는 관광객은 드물기 때문에 피하는 편이 좋다. 그 대신 유리 칸막이 뒤에 앉아 원하는 종족이 일상을 보내는 모습을 구경할 수 있다. 그들은 당신이 사생활을 엿보는 것을 막을 도리가 없다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.55.22"
 msgid "Also available is the Bring it to You service, where for a small fee the locals will run out and round up a few ethnic groups of your choice who will be forced to act as if they enjoy your presence.  A must for the self-conscious traveller!"
-msgstr ""
+msgstr "'배달해 드립니다' 서비스도 이용할 수 있다. 약간의 요금만 내면 현지인들이 달려 나가 당신이 고른 민족 몇 무리를 잡아 오는데, 이들은 당신과 함께 있는 것이 즐거운 척 연기해야 한다. 소심한 여행자라면 필수!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.55.27"
 msgid "~Entertainment:~"
-msgstr ""
+msgstr "~즐길 거리:~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.55.29"
 msgid "Savara is the merchant center of the sector, where just about anything you want and everything you don't want can be found at an agressive price.  Price fixing and Mob control have seen that no individual merchants will ever charge anything that isn't fair."
-msgstr ""
+msgstr "사바라는 이 섹터의 상업 중심지로, 원하는 것은 거의 다, 원하지 않는 것은 전부 공격적인 가격에 구할 수 있다. 가격 담합과 조직폭력배의 관리 덕분에 어느 상인도 공정하지 않은 값을 부르는 일은 결코 없다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.55.34"
 msgid "Also, you will definitely want to visit the ~Interstellar~ ~House~ ~of~ ~Gruel~ wherein you will see the fascinating history and story behind the great world of Gruel.  A fun affair for the whole family!"
-msgstr ""
+msgstr "또한 ~성간~ ~죽~ ~하우스~에는 꼭 들러 보라. 위대한 죽의 세계에 얽힌 흥미진진한 역사와 이야기를 볼 수 있다. 온 가족이 즐길 수 있는 곳!"
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.56.title"
 msgid "Scenic guide to the universe: ~Deliani~"
-msgstr ""
+msgstr "우주 관광 안내서: ~델리아니~"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.56.header"
 msgid "Windy"
-msgstr ""
+msgstr "윈디"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.56.0"
 msgid "  ~DELIANI:~"
-msgstr ""
+msgstr "  ~델리아니:~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.56.2"
 msgid "~Travel Tip:~"
-msgstr ""
+msgstr "~여행 팁:~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.56.4"
 msgid "Though most areas of the planet are restricted and guards are often ordered to shoot unidentified personnel on sight, if you stay in the Light Green Zone you should have no problems avoiding personal injury and death.  Be sure to avoid the Blue-Green and Turquoise Zones as well as the Stix Zone.  The Red and Yellow Zones are safe for travel, though the Yellow is often confused with the Off-White and Peach Deadly Areas.  Many a color-blind traveller has been killed by accident."
-msgstr ""
+msgstr "이 행성은 대부분 출입 제한 구역이고 경비병들은 신원 불명자를 보는 즉시 사살하라는 명령을 받는 일이 잦지만, 연두색 구역 안에만 머문다면 다치거나 죽을 걱정은 없을 것이다. 청록색 구역과 터키옥색 구역, 그리고 스틱스 구역은 반드시 피하라. 빨간색 구역과 노란색 구역은 안전하게 여행할 수 있지만, 노란색 구역은 미색 및 복숭아색 사망 지대와 헷갈리기 쉽다. 수많은 색맹 여행자가 그렇게 어이없이 목숨을 잃었다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.56.12"
 msgid "~Dining:~"
-msgstr ""
+msgstr "~먹거리:~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.56.14"
 msgid "Deliani provides the most technically advanced cooking systems in the known universe.  Dishes that simply aren't palatable anywhere else still won't be very good here, but Chef Yo of Deliani's motto is:  If it's matter, we can make you eat it.  A unique experience you'll never be able to repeat!"
-msgstr ""
+msgstr "델리아니는 알려진 우주에서 가장 앞선 조리 기술을 자랑한다. 다른 곳에서 도저히 못 먹을 요리는 여기서도 그다지 맛있지는 않겠지만, 델리아니의 요 주방장은 이렇게 장담한다. \"물질이기만 하면, 먹게 만들어 드립니다.\" 두 번 다시 겪을 수 없는 특별한 경험!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.56.19"
 msgid "~Culture:~"
-msgstr ""
+msgstr "~문화:~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.56.21"
 msgid "One word: Robotics.  Anyone's fetish for robotics can be satisfied here. Androbots, Lobots, Robots, Androids, Redroids, Droid Droids, and many other varieties of metallic life forms are welcome here, as long as they stay in the Burnt Sienna or Brick Red Zones."
-msgstr ""
+msgstr "한마디로 로봇 공학이다. 로봇에 대한 그 어떤 집착도 이곳에서라면 채울 수 있다. 안드로봇, 로보트, 로봇, 안드로이드, 레드로이드, 드로이드 드로이드를 비롯한 온갖 금속 생명체가 이곳에서 환영받는다. 단, 번트 시에나 구역이나 벽돌색 구역 안에만 머문다면 말이다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.56.26"
 msgid "Deliani is the home of such ~Fluxnet~ ~21~ favorites as Honey, I Shorted-Out the Kidforms - Almo and Zik-Nar X3 - My Mother the Lobot."
-msgstr ""
+msgstr "델리아니는 '여보, 애들이 합선됐어요', '알모와 직나르 X3', '우리 엄마는 로보트' 같은 ~플럭스넷~ ~21~ 인기 프로그램의 고향이다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.56.29"
 msgid "~Entertainment:~"
-msgstr ""
+msgstr "~즐길 거리:~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.56.31"
 msgid "Gencore always has a number of exciting entertainment opportunities available for tourists.  Any number of military drills, parades, and barbaric information torture drills can be found here.  A must for military buffs."
-msgstr ""
+msgstr "젠코어는 관광객을 위해 언제나 신나는 즐길 거리를 다양하게 마련해 둔다. 이곳에서는 군사 훈련과 열병식, 야만적인 정보 고문 훈련을 얼마든지 볼 수 있다. 밀리터리 마니아라면 꼭 가 볼 곳!"
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.57.title"
 msgid "Scenic guide to the universe: ~Ixmucane~"
-msgstr ""
+msgstr "우주 관광 안내서: ~익스무카네~"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.57.header"
 msgid "Windy"
-msgstr ""
+msgstr "윈디"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.57.0"
 msgid "  ~IXMUCANE:~"
-msgstr ""
+msgstr "  ~익스무카네:~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.57.2"
 msgid "The original headquarters of Microsol.  This planet has a very dry and desert-like surface with the occasional mountain range.  The advantage of this world is its weak inner crust, allowing Microsol to build gigantic research facilities undergound.  Immense domed cities can be seen in major research and production locations.  The tragedy of Ixmucane is that it was originally the home of the ~Zica~, an unknown race of alien that originally carved immeasurable labrynthine tunnel systems under the surface. The ~Zica~ are feared by xenoscientists, who believe that the they have fled to the outer reaches of the sector where they plan to launch a massive attack on Deliani and Microsol, using outer-dimensional technology. But is it true...?"
-msgstr ""
+msgstr "마이크로솔의 원래 본사가 있던 곳. 이 행성의 표면은 매우 건조한 사막 지대이며 이따금 산맥이 솟아 있다. 이 행성의 장점은 내부 지각이 약하다는 것으로, 덕분에 마이크로솔은 지하에 거대한 연구 시설을 지을 수 있었다. 주요 연구 및 생산 거점에서는 거대한 돔 도시를 볼 수 있다. 익스무카네의 비극은 이곳이 원래 ~지카~의 고향이었다는 점이다. 지카는 정체가 알려지지 않은 외계 종족으로, 지표 아래에 헤아릴 수 없이 넓은 미로 같은 터널망을 파 놓았다. 외계학자들은 ~지카~를 두려워한다. 지카가 이 섹터의 변두리로 달아나, 다른 차원의 기술로 델리아니와 마이크로솔에 대규모 공격을 감행하려 한다고 믿기 때문이다. 하지만 과연 사실일까...?"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.57.15"
 msgid "And, if so, will I, the writer, ever grow bored enough to write the sequel using this suggested plotline?"
-msgstr ""
+msgstr "그리고 만약 사실이라면, 필자인 내가 언젠가 이 줄거리로 속편을 쓸 만큼 심심해질 날이 올까?"
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.58.title"
 msgid "Scenic guide to the universe: ~Torm~"
-msgstr ""
+msgstr "우주 관광 안내서: ~토름~"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.58.header"
 msgid "Windy"
-msgstr ""
+msgstr "윈디"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.58.0"
 msgid "  ~TORM:~"
-msgstr ""
+msgstr "  ~토름:~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.58.2"
 msgid "A rubnik is worth a thousand words on this planet."
-msgstr ""
+msgstr "이 행성에서는 루브닉 한 닢이 천 마디 말보다 낫다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.58.4"
 msgid "Sector capital and regional chapter of the Interplanetary Government.  Torm is  one of the largest worlds in the sector, surpassed in size only by the ice  world of Camanis. The surface is similar to Savara's, though consisting of  grasslands and heavily forested mountain regions.  The city capital, Portoch,  is a metropolis of corruption and dark, rainy days."
-msgstr ""
+msgstr "이 섹터의 수도이자 행성 간 정부의 지역 지부가 있는 곳. 토름은 이 섹터에서 가장 큰 행성 중 하나로, 크기로는 얼음 행성 카마니스에만 뒤진다. 표면은 사바라와 비슷하지만 초원과 숲이 울창한 산악 지대로 이루어져 있다. 수도 포르토크는 부패와 어둡게 비 내리는 나날로 가득한 대도시다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.58.10"
 msgid "~Dining:~"
-msgstr ""
+msgstr "~먹거리:~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.58.12"
 msgid "Torm is a vegetarian's delight or worst nightmare.  Twenty-eight thousand types of vegetarian dishes are served daily, with another Sixty thousand on request.  Also prevalent is a large selection of animal dishes with the ever-popular and expensive ~dragon~ ~succotash~.  Many people save up their whole lives just to order this dish once.  Many others succumb to the toxic nature of the dish, but what a way to go."
-msgstr ""
+msgstr "토름은 채식주의자에게 천국이자 최악의 악몽이다. 매일 2만 8천 가지 채식 요리가 나오고, 주문하면 6만 가지를 더 맛볼 수 있다. 동물 요리도 폭넓게 갖추고 있는데, 그중에서도 변함없는 인기를 누리는 고가 요리 ~용고기~ ~콩볶음~이 유명하다. 이 요리를 한 번 주문하려고 평생 돈을 모으는 사람도 많다. 요리의 독성에 쓰러지는 사람 또한 많지만, 이 얼마나 근사한 최후인가."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.58.19"
 msgid "~Culture:~"
-msgstr ""
+msgstr "~문화:~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.58.21"
 msgid "Only make a visit to be depressed, since the buildings are so neglected they are streaked with dirt.  It is said that the chapter lords are so decadent  that they seldom emerge from the local simulation clubs.  The city itself is  an example of why Microsol holds so much sway in governmental policies: bribery."
-msgstr ""
+msgstr "우울해지고 싶을 때만 방문하라. 건물들은 방치된 나머지 온통 때 자국으로 얼룩져 있다. 지부의 영주들은 너무나 타락해서 동네 시뮬레이션 클럽 밖으로 나오는 일이 드물다고 한다. 이 도시 자체가 마이크로솔이 정부 정책을 좌지우지하는 이유를 보여 주는 본보기다. 바로 뇌물이다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.58.26"
 msgid "~Entertainment:~"
-msgstr ""
+msgstr "~즐길 거리:~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.58.28"
 msgid "On Torm, you can partake of the most degrading sports and acts known in the universe.  Few ever leave this planet the same, and fewer even leave - or can. A visit to this planet is one you won't easily miss.  Be sure to bring a bodyguard.  Actually, bring a whole army.  You'll need them."
-msgstr ""
+msgstr "토름에서는 우주에서 가장 저질스러운 스포츠와 공연을 즐길 수 있다. 이 행성을 떠날 때 예전과 같은 사람은 거의 없고, 떠나는 사람 자체가 더 적다. 아니, 떠날 수 있는 사람이. 이곳에 다녀오면 다시 그리워질 일은 좀처럼 없을 것이다. 경호원을 꼭 데려가라. 아니, 아예 군대를 통째로 데려가라. 필요할 테니까."
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.59.title"
 msgid "HOW TO PLAY"
-msgstr ""
+msgstr "게임 방법"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.59.header"
 msgid "Game"
-msgstr ""
+msgstr "게임"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.59.0"
 msgid "How to play the secret ending game ~ZINGLON'S~ ~SQUADRONS~: [~ZINGALA~]"
-msgstr ""
+msgstr "비밀 엔딩 게임 ~징글론의~ ~편대~ 플레이 방법: [~징갈라~]"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.59.2"
 msgid "Large formations of ships fly down to attack you.  Individual ships in the groups break off to fly down in various ways.  You must destroy the entire fleet to advance to the next fleet.  Basically, just shoot everything you can."
-msgstr ""
+msgstr "대규모 함선 편대가 날아 내려와 공격합니다. 편대에서 함선이 하나씩 떨어져 나와 여러 방식으로 내려옵니다. 편대 전체를 파괴해야 다음 편대로 넘어갈 수 있습니다. 간단히 말해, 보이는 건 다 쏘면 됩니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.59.7"
 msgid "You must shoot all the small enemies to advance to the next level."
-msgstr ""
+msgstr "작은 적을 모두 쏘아 없애야 다음 레벨로 넘어갈 수 있습니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.59.9"
 msgid "There are 7 kinds of enemies:"
-msgstr ""
+msgstr "적은 7종류입니다:"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.59.11"
 msgid "~Zimbles~ : 10 pts / 20 pts attacking : Damage 4 : Eyeballs"
-msgstr ""
+msgstr "~짐블~ : 10점 / 공격 중 20점 : 피해 4 : 눈알"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.59.13"
 msgid "~Blottes~ : 15 pts / 30 pts attacking : Damage 6 : Blood Cells"
-msgstr ""
+msgstr "~블로트~ : 15점 / 공격 중 30점 : 피해 6 : 혈구"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.59.15"
 msgid "~Zoomers~ : 20 pts / 40 pts attacking : Damage 5 : Bombs"
-msgstr ""
+msgstr "~주머~ : 20점 / 공격 중 40점 : 피해 5 : 폭탄"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.59.17"
 msgid "~Roobles~ : 25 pts / 50 pts attacking : Damage 5 : Fireballs"
-msgstr ""
+msgstr "~루블~ : 25점 / 공격 중 50점 : 피해 5 : 불덩이"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.59.19"
 msgid "~Tokkies~ : 50 pts / 100 pts attacking : Damage 7 : Little Spikey Balls"
-msgstr ""
+msgstr "~토키~ : 50점 / 공격 중 100점 : 피해 7 : 작은 가시 공"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.59.21"
 msgid "~Garmons~ : 100 pts / 200-300 pts attacking : Damage 10 : Big Spikey Balls"
-msgstr ""
+msgstr "~가몬~ : 100점 / 공격 중 200-300점 : 피해 10 : 큰 가시 공"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.59.23"
 msgid "~Widgets~ : 250 pts / 500-??? pts attacking : Damage 20 : Big Brown Ship"
-msgstr ""
+msgstr "~위젯~ : 250점 / 공격 중 500-???점 : 피해 20 : 큰 갈색 함선"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.59.25"
 msgid "Your ship is armed with a simple rail gun which cannot be increased.  Also, you have no shields and merely subsist on armor.  However, the armor ship will still come down to help you."
-msgstr ""
+msgstr "함선에는 강화할 수 없는 단순한 레일건 하나만 달려 있습니다. 게다가 보호막도 없이 장갑에만 의지해야 합니다. 그래도 장갑 보급선은 여전히 내려와 도와줍니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.59.29"
 msgid "Extra lives are earned at 10000, 20000, and every 25000 pts thereafter."
-msgstr ""
+msgstr "추가 목숨은 10000점과 20000점, 그 뒤로는 25000점마다 얻습니다."
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.60.title"
 msgid "STRATEGY"
-msgstr ""
+msgstr "공략법"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.60.header"
 msgid "Game"
-msgstr ""
+msgstr "게임"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.60.0"
 msgid "Strategy Guide for ~ZINGLON'S~ ~SQUADRONS~: [~ZINGALA~]"
-msgstr ""
+msgstr "~징글론의~ ~편대~ 공략법: [~징갈라~]"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.60.2"
 msgid "There are four types of enemy formations:"
-msgstr ""
+msgstr "적 편대는 네 가지 유형이 있습니다:"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.60.4"
 msgid "Type 1 : ~Block~ : A simple four row mass of enemies.  They attack quickly but if you don't care about your score you can blast through them pretty quickly."
-msgstr ""
+msgstr "유형 1 : ~블록~ : 적들이 네 줄로 늘어선 단순한 무리입니다. 공격이 빠르지만, 점수에 신경 쓰지 않는다면 꽤 빨리 쓸어버릴 수 있습니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.60.7"
 msgid "Type 2 : ~Bombs~ : This block variation has a row of bombs in the front which are difficult to destroy and fly down quickly.  If you can blast through them, you can get a clear shot at the Garmons.  The center Garmon will not move, so try to take it out before the formation leaves for extra points."
-msgstr ""
+msgstr "유형 2 : ~폭탄~ : 블록의 변형으로, 맨 앞줄에 폭탄이 늘어서 있습니다. 폭탄은 파괴하기 어렵고 빠르게 날아 내려옵니다. 폭탄 줄을 뚫어 내면 가몬을 정면으로 노릴 수 있습니다. 가운데 가몬은 움직이지 않으니, 편대가 떠나기 전에 처치해 추가 점수를 챙기세요."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.60.12"
 msgid "Type 3 : ~Delta~ : This is not a difficult formation at first, as you can take out the side enemies fairly quickly.  Unfortunately, the center Tokkies will fly out at you extremely quickly and are difficult to anticipate.  Don't let the Zimbles get close to the bottom or else you may have difficulty maneuvering."
-msgstr ""
+msgstr "유형 3 : ~델타~ : 양옆의 적을 꽤 빨리 처치할 수 있어서 처음에는 어렵지 않은 편대입니다. 하지만 가운데 토키들이 엄청난 속도로 튀어나오기 때문에 예측하기 어렵습니다. 짐블이 바닥 가까이 내려오지 못하게 하세요. 안 그러면 움직이기 힘들어질 수 있습니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.60.17"
 msgid "Type 4 : ~Bonus~ : This is a very quick formation for extra points.  The Zoomers and Roobles will attack in force first.  Then, the Widget will attack. Make sure you destroy this!  After the Widget will come some more small ships and the two remaining Garmons."
-msgstr ""
+msgstr "유형 4 : ~보너스~ : 추가 점수를 위한 아주 짧은 편대입니다. 먼저 주머와 루블이 한꺼번에 공격해 옵니다. 그다음 위젯이 공격합니다. 반드시 파괴하세요! 위젯 다음에는 작은 함선 몇 대와 남은 가몬 두 대가 나옵니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.60.22"
 msgid "There are no special moves available in this game."
-msgstr ""
+msgstr "이 게임에는 특수 기술이 없습니다."
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.61.title"
 msgid "REMINDER"
-msgstr ""
+msgstr "알림"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.61.header"
 msgid "Game"
-msgstr ""
+msgstr "게임"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.61.0"
 msgid "You do not need to play this game to continue.  It is merely an extra game for your enjoyment.  If you want to continue on to Episode 5, simply select ~Skip~ ~It~ in the Next Level menu."
-msgstr ""
+msgstr "이 게임은 하지 않아도 계속 진행할 수 있습니다. 즐기라고 넣은 보너스 게임일 뿐입니다. 에피소드 5로 넘어가려면 다음 레벨 메뉴에서 ~건너뛰기~를 고르기만 하면 됩니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.61.4"
 msgid "Also, this game can not be played by two players and will only be available in the full game."
-msgstr ""
+msgstr "또한 이 게임은 2인용으로는 할 수 없으며, 정식 게임에서만 즐길 수 있습니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.61.7"
 msgid "Enjoy!"
-msgstr ""
+msgstr "즐거운 시간 보내세요!"
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.62.title"
 msgid "SHIP ID 184-3C IN SAVARA FLUX 12002"
-msgstr ""
+msgstr "사바라 흐름 12002의 함선 ID 184-3C"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.62.header"
 msgid "Dougan"
-msgstr ""
+msgstr "더건"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.62.0"
 msgid "Trent?  I've picked you up on my sensors."
-msgstr ""
+msgstr "트렌트? 내 센서에 네가 잡혔어."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.62.2"
 msgid "No time to talk!  There's a ~Microsol~ freak on my tail and I'm flying unarmed. I'll be ok as long as I can stay out of range.  That weird ninja guy with the stealth ship is moving in to help."
-msgstr ""
+msgstr "얘기할 시간 없어! ~마이크로솔~ 미치광이 하나가 꼬리에 붙었는데, 난 무장도 없이 날고 있거든. 사정거리 밖에만 있으면 괜찮을 거야. 스텔스 함선을 모는 그 괴상한 닌자 녀석이 도우러 오고 있어."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.62.6"
 msgid "I'll contact you again when I'm able.  Good luck."
-msgstr ""
+msgstr "여유가 생기면 다시 연락할게. 행운을 빌어."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.62.8"
 msgid "Dougan out."
-msgstr ""
+msgstr "이상, 더건."
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.63.title"
 msgid "SCRAMBLED TRANSMISSION CODE 445-A1-A1-Jack"
-msgstr ""
+msgstr "암호화 통신 코드 445-A1-A1-Jack"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.63.header"
 msgid "Reid"
-msgstr ""
+msgstr "리드"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.63.0"
 msgid "Trent, am I glad to see you!  Microsol has destroyed most of the defenses on Savara and the rest have been taken over.  They came quickly.  Someone has sold our planet out to them.  Who?"
-msgstr ""
+msgstr "트렌트, 당신을 보니 정말 반갑습니다! 마이크로솔이 사바라의 방어 시설을 대부분 파괴했고, 나머지는 놈들 손에 넘어갔습니다. 놈들은 순식간에 들이닥쳤습니다. 누군가 우리 행성을 놈들에게 팔아넘긴 겁니다. 대체 누가?"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.63.4"
 msgid "I am glad to know you are out there.  I and many others have taken refuge in shelters below ground.  They have control of the ~Central~ ~Defense~ ~Ship~."
-msgstr ""
+msgstr "당신이 그곳에 있다니 다행입니다. 저를 비롯한 많은 사람이 지하 대피소로 피신했습니다. 놈들이 ~중앙~ ~방어함~을 장악했습니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.63.7"
 msgid "A handful of others are already fighting on the surface, but we are sorely outnumbered."
-msgstr ""
+msgstr "이미 몇몇 사람이 지상에서 싸우고 있지만, 수적으로 크게 밀리고 있습니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.63.10"
 msgid "I must go.  We need to conserve battery power for the hospitals.  They have severely damaged the fusion generators."
-msgstr ""
+msgstr "이만 가 봐야겠습니다. 병원에 쓸 배터리 전력을 아껴야 합니다. 놈들이 핵융합 발전기를 심하게 망가뜨렸습니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.63.13"
 msgid "Reid"
-msgstr ""
+msgstr "리드"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.63.15"
 msgid "Acting President of Savara"
-msgstr ""
+msgstr "사바라 대통령 권한 대행"
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.64.title"
 msgid "Weapons Research, Camanis"
-msgstr ""
+msgstr "무기 연구, 카마니스"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.64.header"
 msgid "TOP SECRET"
-msgstr ""
+msgstr "일급 기밀"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.64.0"
 msgid "Confidential memo #4410-303-TDCam"
-msgstr ""
+msgstr "기밀 메모 #4410-303-TDCam"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.64.2"
 msgid "Laser research is progressing steadily, according to projections."
-msgstr ""
+msgstr "레이저 연구는 예측대로 순조롭게 진행되고 있습니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.64.4"
 msgid "Project Thermos has completed stage 2 and is moving to the final stage 3.  We anticipate having a prototype stage 3 laser cannon very soon."
-msgstr ""
+msgstr "써모스 프로젝트는 2단계를 마치고 마지막 3단계에 들어갑니다. 곧 3단계 레이저 캐논 시제품을 완성할 수 있을 것으로 예상합니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.64.7"
 msgid "Camanis research station Loopy is prepared to ship 3 modified battle cruisers to you as soon as we receive word from you.  Planetary coordinates for pickup are 399 x 21."
-msgstr ""
+msgstr "카마니스 연구 기지 '루피'는 귀측의 연락을 받는 즉시 개조 전투 순양함 3척을 보낼 준비가 되어 있습니다. 인수 지점의 행성 좌표는 399 x 21입니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.64.11"
 msgid "We need confirmation immediately.  So far, we don't believe any enemy forces have learned of our position, but we only have a skeleton defense force.  No main battle cruisers are currently online.  This leaves us especially vulnerable to outside attack."
-msgstr ""
+msgstr "즉시 확인 바랍니다. 아직은 적군이 우리 위치를 알아낸 것 같지 않지만, 방어 병력이 최소한밖에 없습니다. 현재 가동 중인 주력 전투 순양함은 한 척도 없습니다. 그래서 외부 공격에 특히 취약한 상태입니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.64.16"
 msgid "This is Mycroft Dalo, Microsol Research Control, signing off."
-msgstr ""
+msgstr "이상, 마이크로솔 연구 통제부의 마이크로프트 달로였습니다."
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.65.title"
 msgid "Alambusol"
-msgstr ""
+msgstr "알람부솔"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.65.header"
 msgid "Ad"
-msgstr ""
+msgstr "광고"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.65.0"
 msgid "[Cheerful, brightly lit living room.  Late 103rd century decor.]"
-msgstr ""
+msgstr "[환하게 불이 켜진 화사한 거실. 103세기 후반풍 인테리어.]"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.65.2"
 msgid "When dreaded alien parasites are drilling into my head, I reach for ~Alambusol~."
-msgstr ""
+msgstr "무시무시한 외계 기생충이 머릿속을 파고들 때, 저는 ~알람부솔~을 찾아요."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.65.4"
 msgid "~Alambusol~ is the only anti-parasite xeno-spray which I trust.  Two squirts and ten minutes later, my head is clear and free of infestation once again."
-msgstr ""
+msgstr "~알람부솔~은 제가 믿는 유일한 외계 기생충 퇴치 스프레이예요. 칙칙 두 번 뿌리고 10분만 지나면 머릿속이 다시 말끔해지고 기생충도 싹 사라지죠."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.65.7"
 msgid "[Cut to Medical office.  Very modern.]"
-msgstr ""
+msgstr "[화면 전환: 진료실. 아주 현대적이다.]"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.65.9"
 msgid "Yes, four out of our five doctors recommend ~Alambusol~ to their infested patients.  The other doctor was fired.  So, you can see that we are firmly commited to using this spray on our patients."
-msgstr ""
+msgstr "네, 저희 의사 다섯 명 중 네 명이 기생충에 감염된 환자에게 ~알람부솔~을 권합니다. 나머지 한 명은 해고됐고요. 그러니 저희가 환자들에게 이 스프레이를 쓰는 데 얼마나 확고한지 아시겠죠."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.65.13"
 msgid "[Quick wipe down to scene of rendered Spray bottle floating in a stasis field.]"
-msgstr ""
+msgstr "[화면이 빠르게 아래로 넘어가며, 정지장 속에 떠 있는 스프레이 병 CG가 나온다.]"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.65.15"
 msgid "So transmit a bottle of ~Alambusol~ to yourself today!  You won't be sorry."
-msgstr ""
+msgstr "오늘 바로 ~알람부솔~ 한 병을 내 앞으로 전송하세요! 절대 후회하지 않으실 거예요."
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.66.title"
 msgid "Ressurectos"
-msgstr ""
+msgstr "리저렉토스"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.66.header"
 msgid "Ad"
-msgstr ""
+msgstr "광고"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.66.0"
 msgid "Are you feeling down in the dumps... deceased?  Have friends and family stopped calling you now that you're 6 feet under?"
-msgstr ""
+msgstr "요즘 기분이 축 처지시나요... 아니, 숨이 멎으셨나요? 땅속 6피트 아래에 묻히고 나니 친구도 가족도 연락을 끊었나요?"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.66.3"
 msgid "Well, fret no more!"
-msgstr ""
+msgstr "이제 걱정 마세요!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.66.5"
 msgid "Dansen Technologies has the answer to all your afterlife problems."
-msgstr ""
+msgstr "댄슨 테크놀로지가 사후 세계의 모든 고민을 해결해 드립니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.66.7"
 msgid "~Ressurectos~!"
-msgstr ""
+msgstr "~리저렉토스~!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.66.9"
 msgid "Within these little pills is a potent life-giving recipe which is guaranteed to bring you back to life.  Simply take one in the morning after a full moon on your planet (or moons) and drink a glass of water.  You'll be your old self in no time."
-msgstr ""
+msgstr "이 작은 알약에는 당신을 확실하게 되살려 줄 강력한 생명의 비법이 담겨 있습니다. 당신 행성의 달(또는 달들)이 보름달이 된 다음 날 아침에 한 알을 물 한 잔과 함께 드시기만 하면 됩니다. 금세 예전의 당신으로 돌아올 거예요."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.66.14"
 msgid "Check us out at ~FLUXNET~: 405-4003-3030."
-msgstr ""
+msgstr "~플럭스넷~: 405-4003-3030에서 확인하세요!"
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.67.title"
 msgid "Scenic guide to the universe: ~Camanis~"
-msgstr ""
+msgstr "우주 관광 안내서: ~카마니스~"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.67.header"
 msgid "Guidebook"
-msgstr ""
+msgstr "안내서"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.67.0"
 msgid "  ~CAMANIS:~"
-msgstr ""
+msgstr "  ~카마니스:~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.67.2"
 msgid "~Dining:~"
-msgstr ""
+msgstr "~먹거리:~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.67.4"
 msgid "Located 2 miles east of the Ultra-secret Microsol research station is the All-powerful Bob Hartley's ~IceCream-O-Matic~.  The ultimate in high-powered instant cryo manufacturing facilities, the ICOM system can instantaneously generate up to 3 cubic miles of ice cream, in any of 24 billion flavors."
-msgstr ""
+msgstr "초극비 마이크로솔 연구 기지에서 동쪽으로 2마일 떨어진 곳에 전능하신 밥 하틀리의 ~아이스크림-오-매틱~이 있다. 고출력 즉석 냉동 제조 시설의 끝판왕인 ICOM 시스템은 240억 가지 맛 중 어떤 맛이든 최대 3세제곱마일 분량의 아이스크림을 순식간에 만들어 낸다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.67.9"
 msgid "Microsol has made this possible by purchasing out all other ice cream manufacturing facilities and amassing the recipes of every vendor who has ever existed."
-msgstr ""
+msgstr "마이크로솔은 다른 아이스크림 제조 시설을 모조리 사들이고, 지금까지 존재했던 모든 판매업자의 조리법을 긁어모아 이를 가능하게 했다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.67.12"
 msgid "This bewildering decision rocked the world of ice cream futures but made Microsol the undisputed master of all the ice cream in the universe.  They take their ice seriously."
-msgstr ""
+msgstr "이 황당한 결정은 아이스크림 선물 시장을 뒤흔들었지만, 마이크로솔을 우주의 모든 아이스크림을 거느린 명실상부한 지배자로 만들었다. 그들은 얼음에 진심이다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.67.16"
 msgid "~Culture:~"
-msgstr ""
+msgstr "~문화:~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.67.18"
 msgid "Not many people enjoy living in the sub-zero confines of this planet.  Because of this, they are an extremely proud people, prone to bawling out wimps like you who have climate control.  If you visit, be sure not to mention how cold it is unless you want a very one-sided conversation.  Steer your topics toward their lovely scenery and extensive museums of ice sculptures."
-msgstr ""
+msgstr "이 행성의 영하의 환경에서 사는 걸 즐기는 사람은 많지 않다. 그래서인지 이곳 사람들은 자존심이 무척 세고, 냉난방 시설 속에서 사는 당신 같은 겁쟁이를 보면 호통부터 치기 일쑤다. 방문하더라도 일방적으로 혼나고 싶지 않다면 춥다는 말은 절대 꺼내지 마라. 아름다운 경치와 방대한 얼음 조각 박물관 쪽으로 화제를 돌려라."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.67.24"
 msgid "~Entertainment:~"
-msgstr ""
+msgstr "~즐길 거리:~"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.67.26"
 msgid "A skiiers dream.  This is the cold vacation spot of the universe.  Millions of ski slopes litter the world, providing entertainment to endless visitors each year.  Camanis boasts year-round snow and optional near-zero visibility for the ultra-suicidal skiier.  What more could one ask for?"
-msgstr ""
+msgstr "스키어의 꿈. 이곳은 우주에서 가장 추운 휴양지다. 수백만 개의 스키 슬로프가 행성 곳곳에 널려 있어 해마다 끝없이 몰려드는 방문객을 즐겁게 한다. 카마니스는 일 년 내내 눈이 쌓여 있으며, 목숨을 우습게 아는 극한의 스키어를 위해 시야가 거의 0에 가까운 옵션도 제공한다. 무엇을 더 바라겠는가?"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.67.31"
 msgid "For the friends of those suicidal skiiers who are dragged along on vacation, try out your hand at massive free-form laser ice sculpture.  For a small fee per hour, you can have the enjoyment of carving up your very own mountain. If you simply must take it back home with you, Camanis even offers 2nd minute delivery!  All you have to do is to find a place to store your mountain and keep it cool.  An adventure for the whole family!"
-msgstr ""
+msgstr "그런 자살 행위 같은 스키어에게 휴가 동안 끌려다니는 친구들이라면 초대형 자유형 레이저 얼음 조각에 도전해 보라. 시간당 약간의 요금만 내면 나만의 산을 통째로 깎아 내는 즐거움을 누릴 수 있다. 꼭 집에 가져가야겠다면, 카마니스는 무려 2분 배송까지 제공한다! 산을 보관하면서 차갑게 유지할 장소만 찾으면 된다. 온 가족을 위한 모험!"
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.68.title"
@@ -3114,5 +3114,5 @@ msgstr ""
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube4.68.0"
 msgid "Faces 1,2  *: Miscellaneous reporters 3    *: Merchant 4    *: Mondus - Random scientist 5    -: Green mottled dying person - unused 6    *: Reid - Leader of resistance against using Hazudra as slaves 7    *: Vykromod 8    *: Transon 9    *: Ninja - Sneezei - Mysterious Person 10   *: Captain - Random human 11   *: Dougan - Friend on Torm 12   *: Beppo - Pirate from Torm - stupid"
-msgstr ""
+msgstr "얼굴 1,2  *: 기타 기자들 3    *: 상인 4    *: 몬더스 - 평범한 과학자 5    -: 초록 얼룩이 진 죽어 가는 사람 - 미사용 6    *: 리드 - 하주드라 노예화에 반대하는 저항군 지도자 7    *: 바이크로모드 8    *: 트랜슨 9    *: 닌자 - 스니제이 - 수수께끼의 인물 10   *: 함장 - 평범한 인간 11   *: 더건 - 토름의 친구 12   *: 베포 - 토름 출신 해적 - 멍청함"
 

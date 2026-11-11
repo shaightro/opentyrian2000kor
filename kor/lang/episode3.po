@@ -14,60 +14,60 @@ msgstr ""
 #. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep3.110"
 msgid "Your ship streams from the incandescent glow of the\nexplosions you have just created in the midst of the\nMicrosol fleet, and hunts down the final escape pod\nfrom the mother ship just as it punches into hyperspace. \n\nIt is finally over. The people of Deliani are saved,\nand you have stopped a galaxy wide catastrophe."
-msgstr ""
+msgstr "마이크로솔 함대 한복판에서 방금 일으킨 폭발의\n눈부신 불길을 뚫고 나온 당신의 함선은, 모함의\n마지막 탈출정이 초공간으로 뛰어드는 찰나에\n그것을 따라잡아 격추합니다.\n\n마침내 끝났습니다. 델리아니 사람들은 구원받았고,\n은하 전체를 덮칠 뻔한 대재앙도 막아 냈습니다."
 
 #. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep3.121"
 msgid "\"Congratulations!\" shouts Transon Lohk over the comm\nscreen. \"Our forces were ready to defend the city\nafter your last transmission, but thanks to you we\nhaven't even suffered a scratch. I will make sure you\nare richly rewarded for this...\""
-msgstr ""
+msgstr "\"축하하네!\" 트랜슨 로크가 통신 화면 너머로 외칩니다.\n\"자네의 지난번 통신을 받고 우리 군은 도시를 지킬\n준비를 하고 있었네만, 자네 덕분에 생채기 하나\n나지 않았네. 이번 일은 반드시 후하게 보상하도록\n하겠네...\""
 
 #. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep3.130"
 msgid "You smile and flick off the comm, your mouth twisting\ninto a frown. No reward could bring back your parents,\nand your best friend. Though you have saved millions of\nlives, why did the people closest to you have to suffer?\nStill, there's nothing you can do about it, and you vow\nto make sure that the same thing never happens again.\nFrom now on Tyrian sector will be a name synonymous\nwith peace..."
-msgstr ""
+msgstr "미소를 지으며 통신을 끄지만, 입가는 이내 일그러집니다.\n어떤 보상도 부모님과 가장 친한 친구를 되돌려 주지는\n못합니다. 수백만 명의 목숨을 구했건만, 어째서 가장\n가까운 사람들이 고통받아야 했을까요? 그래도 이제 와서\n어쩔 수는 없는 일. 다시는 이런 일이 일어나지 않게\n하겠다고 맹세합니다. 이제부터 티리안 섹터는 평화와\n같은 뜻의 이름이 될 것입니다..."
 
 #. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep3.142"
 msgid "Secret Hint 3-1-1:\n\nBONUS ROUND\nThere are two sections where a solid row of ships move\ndown and wait.  The first purple ship that comes down\neach time has a power-up.  Others carry gems."
-msgstr ""
+msgstr "비밀 힌트 3-1-1:\n\n보너스 라운드\n함선들이 한 줄로 빽빽이 내려와 기다리는 구간이\n두 군데 있습니다. 매번 처음 내려오는 보라색 함선은\n파워업을, 나머지 함선은 보석을 갖고 있습니다."
 
 #. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep3.149"
 msgid "Secret Hint 3-1-2:\n\nCAMANIS\nIn the section where enemies fly straight up behind you,\nthere is a slow-moving enemy that has a power-up."
-msgstr ""
+msgstr "비밀 힌트 3-1-2:\n\n카마니스\n적들이 뒤에서 곧장 위로 날아오르는 구간에\n파워업을 가진 느릿느릿한 적이 있습니다."
 
 #. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep3.155"
 msgid "Secret Hint 3-1-3:\n\nSECRET LEVEL : SAWBLADES\nThe spiders, while hard to reach, contain 10000 pts in\ngems."
-msgstr ""
+msgstr "비밀 힌트 3-1-3:\n\n비밀 레벨: 톱날\n거미들은 닿기 어려운 곳에 있지만, 10000점어치\n보석을 품고 있습니다."
 
 #. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep3.161"
 msgid "Secret Hint 3-2-1:\n\n?SECRET LEVELS?\nTwo secret levels in Episode 3 are in the same place.\n(Mull that one over.)"
-msgstr ""
+msgstr "비밀 힌트 3-2-1:\n\n?비밀 레벨?\n에피소드 3의 비밀 레벨 두 개는 같은 곳에 있습니다.\n(곰곰이 생각해 보십시오.)"
 
 #. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep3.167"
 msgid "Secret Hint 3-2-2:\n\nSTARGATE\nTwo of the flying spikes can be destroyed.  Each is\nworth 10000 pts."
-msgstr ""
+msgstr "비밀 힌트 3-2-2:\n\n스타게이트\n날아다니는 가시 중 두 개는 파괴할 수 있습니다.\n하나에 10000점입니다."
 
 #. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep3.173"
 msgid "Secret Hint 3-2-3:\n\nEPISODE 3\nPlay at the hard difficulty level for an extra reward."
-msgstr ""
+msgstr "비밀 힌트 3-2-3:\n\n에피소드 3\n어려움 난이도로 플레이하면 추가 보상이 있습니다."
 
 #. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep3.178"
 msgid "Secret Hint 3-3-1:\n\nEPISODE 3\nThere are three secret levels you can access with the\nwarp bubbles."
-msgstr ""
+msgstr "비밀 힌트 3-3-1:\n\n에피소드 3\n워프 버블로 갈 수 있는 비밀 레벨이 세 개 있습니다."
 
 #. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep3.184"
 msgid "Secret Hint 3-3-2:\n\nGOD MODE\nType a capital G, then type a SHIFT-RIGHT BRACKET."
-msgstr ""
+msgstr "비밀 힌트 3-3-2:\n\n갓 모드\n대문자 G를 입력한 다음, SHIFT를 누른 채 ]를\n누르십시오."
 
 #. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep3.189"
 msgid "Secret Hint 3-3-3:\n\nINSANE DETAIL\nIn the Setup program, type a W when you have detail\nlevel selected."
-msgstr ""
+msgstr "비밀 힌트 3-3-3:\n\n미친 디테일\n설정 프로그램에서 디테일 수준을 선택한 상태로\nW를 입력하십시오."
 

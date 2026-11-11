@@ -19,85 +19,85 @@ msgstr "경고:\n예정 항로가 델리아니 주변의\n기뢰밭을 가로지
 #. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep1.212"
 msgid "Secret Hint 1-1-1:\n\nBONUS ROUND\nIncrease your score in the bonus level by waiting for\nenemies to attack you.  One of the ships is carrying a\n5000-point gem!"
-msgstr ""
+msgstr "비밀 힌트 1-1-1:\n\n보너스 라운드\n보너스 레벨에서는 적이 공격해 올 때까지 기다리면\n점수를 더 올릴 수 있습니다. 적 함선 중 하나는\n5000점짜리 보석을 싣고 있습니다!"
 
 #. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep1.219"
 msgid "Secret Hint 1-1-2:\n\nTYRIAN  (First Level)\nThere is a secret to the first U-ship that attacks you."
-msgstr ""
+msgstr "비밀 힌트 1-1-2:\n\n티리안 (첫 레벨)\n처음 공격해 오는 U자 함선에는 비밀이 있습니다."
 
 #. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep1.224"
 msgid "Secret Hint 1-1-3:\n\nASTEROID LEVELS\nThe rock faces conceal two bonus levels."
-msgstr ""
+msgstr "비밀 힌트 1-1-3:\n\n소행성 레벨\n암벽 속에 보너스 레벨 두 개가 숨어 있습니다."
 
 #. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep1.229"
 msgid "Secret Hint 1-2-1:\n\nASTEROID 2\nThere is a secret to the first tank in the level."
-msgstr ""
+msgstr "비밀 힌트 1-2-1:\n\n소행성 2\n이 레벨의 첫 번째 탱크에는 비밀이 있습니다."
 
 #. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep1.234"
 msgid "Secret Hint 1-2-2:\n\nSECRET LEVEL\nThere is a way to go from one secret level to one other\nsecret level to maximize your score!"
-msgstr ""
+msgstr "비밀 힌트 1-2-2:\n\n비밀 레벨\n한 비밀 레벨에서 다른 비밀 레벨로 넘어가\n점수를 최대로 올리는 방법이 있습니다!"
 
 #. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep1.240"
 msgid "Secret Hint 1-2-3:\n\nASTEROID 2\nSeveral of the tanks in this level are worth more if\nyou wait a while before destroying them.  You can get\nextra power-ups this way."
-msgstr ""
+msgstr "비밀 힌트 1-2-3:\n\n소행성 2\n이 레벨의 탱크 몇 대는 잠시 기다렸다가 파괴하면\n점수를 더 줍니다. 이렇게 하면 파워업도\n더 얻을 수 있습니다."
 
 #. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep1.247"
 msgid "Secret Hint 1-3-1:\n\nTYRIAN  (First Level)\nThe rock formations conceal a secret fortune."
-msgstr ""
+msgstr "비밀 힌트 1-3-1:\n\n티리안 (첫 레벨)\n바위 지형 속에 비밀 보물이 숨어 있습니다."
 
 #. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep1.252"
 msgid "Secret Hint 1-3-2:\n\nIMPOSSIBLE\nType a capital G at difficulty selection screen."
-msgstr ""
+msgstr "비밀 힌트 1-3-2:\n\n불가능 난이도\n난이도 선택 화면에서 대문자 G를 입력하십시오."
 
 #. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep1.257"
 msgid "Secret Hint 1-3-3:\n\nEPISODE 3\nPlay at the hard difficulty level for an extra reward."
-msgstr ""
+msgstr "비밀 힌트 1-3-3:\n\n에피소드 3\n어려움 난이도로 플레이하면 추가 보상이 있습니다."
 
 #. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep1.262"
 msgid "\n Ship   1 2 3 4\n WeapF  1 2 3 7 17 20\n WeapR  10 11 12 15 18 22\n Power  1 2 3 4\n Engine 1 2 3\n Opt1   1 2 6 7 8 9 10\n Opt2   1 2 6 7 8 9 10\n Armor  1 2 3\n Shield 1 2 3 4 5 8 9\n"
-msgstr ""
+msgstr " 함선   1 2 3 4\n 전방   1 2 3 7 17 20\n 후방   10 11 12 15 18 22\n 발전기  1 2 3 4\n 엔진   1 2 3\n 옵션1  1 2 6 7 8 9 10\n 옵션2  1 2 6 7 8 9 10\n 장갑   1 2 3\n 보호막  1 2 3 4 5 8 9"
 
 #. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep1.370"
 msgid "Now that you've saved the crisis on Savara and earned the\nhelp of Transon Lohk, you head back to Tyrian to find out\nmore about this new power.\n\nHow could such an innocent pile of rocks be used to\ndevastate planets?\n\nYou must locate a sample of this new energy.  If nothing\nelse, perhaps it could be harnessed back against Microsol's\nnew device."
-msgstr ""
+msgstr "사바라의 위기를 넘기고 트랜슨 로크의 도움까지 얻었으니,\n이제 이 새로운 힘에 대해 더 알아보러 티리안으로\n돌아갑니다.\n\n저 순진해 보이는 돌무더기가 어떻게 행성을\n초토화하는 데 쓰일 수 있단 말입니까?\n\n이 새로운 에너지의 표본을 찾아내야 합니다. 적어도\n그 힘을 역이용해 마이크로솔의 새 장치에 맞설\n수는 있을지도 모릅니다."
 
 #. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep1.384"
 msgid "There, on the far side of Tyrian.  A sample?\n\nLooks like a fairly substantial... oh no!\n\n\n                     MICROSOL!"
-msgstr ""
+msgstr "저기, 티리안 반대편이다. 표본일까?\n\n양이 꽤 많아 보이는데... 이런!\n\n\n                     마이크로솔!"
 
 #. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep1.420"
 msgid "That was too close. You've been nearly vaporized, crushed,\nblown to pieces, flame broiled, and electrocuted one too\nmany times. Only your incredible targeting skills and class\n1 fancy flying has kept you alive.\n\nThose boys at Deliani clearly have some even more hair \nraising missions for you up their sleeve. Why were YOU\nchosen to be their errand boy?  Why is half the galaxy after\nyour head? Can you beat the odds and, most importantly, can\nyou survive without becoming space bacon?"
-msgstr ""
+msgstr "정말 아슬아슬했습니다. 증발하고, 짓눌리고, 산산조각 나고,\n숯불에 구워지고, 감전될 뻔한 게 한두 번이 아닙니다.\n오로지 놀라운 사격 솜씨와 일급 곡예비행 덕분에\n아직 살아 있는 겁니다.\n\n델리아니의 친구들은 분명 이보다 더 등골 오싹한\n임무를 잔뜩 준비해 두었을 겁니다. 왜 하필 당신이\n그들의 심부름꾼으로 뽑혔을까요? 왜 은하의 절반이\n당신 목을 노리는 걸까요? 이 역경을 이겨 낼 수 있을까요?\n그리고 무엇보다, 우주 베이컨 신세를 면할 수 있을까요?"
 
 #. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep1.434"
 msgid "If not, things could become unpleasant."
-msgstr ""
+msgstr "그러지 못한다면, 상황이 좀 곤란해질 수 있습니다."
 
 #. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep1.442"
 msgid "This is Rob Neither with the daily news.\n\nZinglon's Ale has been stolen!\n\nThe Grand Moolah Yimbo revealed today that all of their\ngod, Zinglon's, holy ale has been abducted.  Millions of\nthirsty worshippers fled in panic when the news hit."
-msgstr ""
+msgstr "오늘의 뉴스, 롭 니더입니다.\n\n징글론의 에일이 도난당했습니다!\n\n대 물라 임보는 오늘, 그들의 신 징글론의 성스러운\n에일이 모조리 납치되었다고 밝혔습니다. 소식이\n전해지자 목마른 신도 수백만 명이 공황에 빠져\n달아났습니다."
 
 #. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep1.452"
 msgid "A panic-stricken Savaran citizen:\n\n\"I nearly fainted when I heard the news.  How can we\ncontinue to believe in a just universe and freedom to\neat crackers if we have no ale?  I don't know yet what\nI'm going to do.\""
-msgstr ""
+msgstr "공황에 빠진 한 사바라 시민:\n\n\"소식을 듣고 기절할 뻔했어요. 에일도 없는데\n어떻게 정의로운 우주와 크래커를 먹을 자유를\n계속 믿을 수 있겠어요? 이제 어떻게 해야 할지\n아직 모르겠어요.\""
 
 #. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep1.461"
 msgid "This is certainly a crisis of grand proportions.  All\nother work has stopped.\n\nThe Grand Moolah has told us that someone must retrieve\nthe ale from the clutches of Dai-Zan, the god of deceit\nand bad form.  Who will save us from this torment?\n\nMy Zinglon, I need a drink!"
-msgstr ""
+msgstr "이는 분명 엄청난 규모의 위기입니다. 다른 모든 일이\n멈췄습니다.\n\n대 물라는 누군가 기만과 꼴불견의 신 다이잔의\n손아귀에서 에일을 되찾아 와야 한다고 말했습니다.\n누가 우리를 이 고통에서 구해 줄까요?\n\n오 마이 징글론, 한잔 걸쳐야겠습니다!"
 
