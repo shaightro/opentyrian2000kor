@@ -61,9 +61,13 @@ function Find-MSBuild {
 }
 
 function Get-BuildVersion {
-  $sha = (git -C $repo rev-parse --short HEAD).Trim()
-  if (git -C $repo status --porcelain) { $sha += "-dirty" }
-  return "v2.1-kor.$(Get-Date -Format yyyyMMdd).$sha"
+  $version = "v2.1-kor.$(Get-Date -Format yyyyMMdd)"
+  # The commit is optional: Git may be missing, or the source may come from a zip.
+  try { $sha = (& git -C $repo rev-parse --short HEAD 2>$null) } catch { $sha = $null }
+  if (-not $sha) { return $version }
+  $sha = "$sha".Trim()
+  if (& git -C $repo status --porcelain) { $sha += "-dirty" }
+  return "$version.$sha"
 }
 
 Install-SDL2
