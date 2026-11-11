@@ -1,0 +1,68 @@
+# OpenTyrian2000 한국어 번역: episode5.po
+#
+# - msgctxt는 게임이 문장을 찾는 열쇠입니다. 바꾸지 마세요.
+# - msgid는 영어 원문, msgstr에 한국어 번역을 씁니다. 비워 두면 영어가 나옵니다.
+# - ~로 감싼 부분은 강조(더 밝게) 표시입니다. ~ 기호는 그대로 두세요.
+# - %d 같은 자리 표시자는 그대로 두세요.
+# - "최대 N바이트"는 게임 안의 칸 크기입니다. 한글 한 글자는 3바이트입니다.
+# - 확인이 필요한 번역은 앞에 "#, fuzzy" 줄을 두면 게임이 쓰지 않습니다.
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ko\n"
+
+#. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep5.113"
+msgid "\nRelated by your onetime friendship with Buce, you were\nsought out by his people, the Hazudra Collectors, and sent\nto destroy the Zinglonites.\n\nWith none of their forces left and the deadly fruit weapons\ndestroyed, the universe as a whole is silent once again.  No\nresponse ever comes of your inquiry to the state of the\nHazudra or who sent you on this journey.  The secret haunts\nyou in your sleep.\n\nStill a hero once again, as always..."
+msgstr ""
+
+#. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep5.130"
+msgid "Congratulations!"
+msgstr ""
+
+#. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep5.137"
+msgid "Did you know?\nTyrian Purple is actually the name of an ancient purple\ndye?  Since they were obtained from vegetables and\nnatural sources, dyes were difficult to obtain and\nTyrian Purple disappeared around the 15th century."
+msgstr ""
+
+#. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep5.143"
+msgid "Did you know?\nA Tyrian is the term for a person who lived in the\ncity of Tyre."
+msgstr ""
+
+#. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep5.147"
+msgid "Did you know?\nAncient Tyre was a large Phonecian seaport from around\n2000BC up until the Romans came around.  It was\nlocated on the Mediterranean."
+msgstr ""
+
+#. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep5.152"
+msgid "Did you know?\nMelqart was a Phoenician god and the chief deity of\nTyre.  He was also called the Tyrian Baal and was\nequated with Nergal, god of the underworld and death."
+msgstr ""
+
+#. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep5.157"
+msgid "Did you know?\nShakespeare's Pericles was a prince of Tyre."
+msgstr ""
+
+#. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep5.160"
+msgid "Did you know?\nHiram, who appears in the Bible as David and Solomon's\nally, was a king of Tyre from 969-936BC."
+msgstr ""
+
+#. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep5.164"
+msgid "Did you know?\nTyre was finally conquered by Alexander the Great in\n332BC.  After an eight month seige, Alexander drove a\nmole into the sea from the mainland to the island.\nMost of the Tyrians were sold into slavery."
+msgstr ""
+
+#. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep5.170"
+msgid "Did you know?\nTyre was the site of an artificial harbor built by\nthe Phoneicians in the 13th century BC."
+msgstr ""
+
+#. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep5.178"
+msgid "Warning:\nWarning Beacon specifies level 5 automated resistance system.\n\nUnknown response to continued approach."
+msgstr ""
+

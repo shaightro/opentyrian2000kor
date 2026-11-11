@@ -1,0 +1,323 @@
+# OpenTyrian2000 한국어 번역: cubes2.po
+#
+# - msgctxt는 게임이 문장을 찾는 열쇠입니다. 바꾸지 마세요.
+# - msgid는 영어 원문, msgstr에 한국어 번역을 씁니다. 비워 두면 영어가 나옵니다.
+# - ~로 감싼 부분은 강조(더 밝게) 표시입니다. ~ 기호는 그대로 두세요.
+# - %d 같은 자리 표시자는 그대로 두세요.
+# - "최대 N바이트"는 게임 안의 칸 크기입니다. 한글 한 글자는 3바이트입니다.
+# - 확인이 필요한 번역은 앞에 "#, fuzzy" 줄을 두면 게임이 쓰지 않습니다.
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ko\n"
+
+#. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
+msgctxt "cube2.1.title"
+msgid "MISSION BRIEFING FLUX 0473"
+msgstr ""
+
+#. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
+msgctxt "cube2.1.header"
+msgid "Javi"
+msgstr ""
+
+#. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
+msgctxt "cube2.1.0"
+msgid "Gencore Security Chief"
+msgstr ""
+
+#. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
+msgctxt "cube2.1.2"
+msgid "We have been monitoring some unusual freighter shipments between the derelict planet of Gyges and the capital planet of Torm. Both planets are marked on your Navigation Screen. Insight into these shipments may give us a clue to  the whereabouts of Microsol's base of operations. First, set course for Torm  and investigate. Then return to Deliani to report your findings and to await further instructions."
+msgstr ""
+
+#. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
+msgctxt "cube2.1.9"
+msgid "You will be given a Gencore Hawk to fly for this mission and greater weapon clearance priority. Good luck!"
+msgstr ""
+
+#. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
+msgctxt "cube2.2.title"
+msgid "DELIANI TRANSMISSION FLUX 2894"
+msgstr ""
+
+#. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
+msgctxt "cube2.2.header"
+msgid "Javi"
+msgstr ""
+
+#. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
+msgctxt "cube2.2.0"
+msgid "Some warnings about Torm. There are dragons there. Yes, dragons. These tree dragons enjoy feeding on metal and berillium ore of which your ship is built, so once awakened they'll munch you right out of the sky. The best  weapon against them is a fire or flame based weapon. "
+msgstr ""
+
+#. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
+msgctxt "cube2.2.5"
+msgid "Also beware of space pirates who have made a number of secret bases there and can strike without warning. Their ships are usually camouflaged in shades of green and can be difficult to spot amongst Torm's thick jungles."
+msgstr ""
+
+#. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
+msgctxt "cube2.3.title"
+msgid "TORM TRANSMISSION FLUX"
+msgstr ""
+
+#. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
+msgctxt "cube2.3.header"
+msgid "Dougan"
+msgstr ""
+
+#. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
+msgctxt "cube2.3.0"
+msgid "Well, well, well. Looks like you've gotten yourself into too much trouble, as usual. Torm is no place to be investigating for Microsol shipments. "
+msgstr ""
+
+#. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
+msgctxt "cube2.3.3"
+msgid "Hmm... perhaps the reason you've been tracked this far is because there was a homing device planted on your ship's undercarriage. Pretty high signal one, too. Don't worry. I removed it, but whoever has been sending you on these missions sounds like they have no idea what's going on. Microsol's activities are centered around Savara and the Stargate. I'd say you've been sent on a  wild goose chase. Have a word with that Javi Onukala you mentioned. Ask for  answers."
+msgstr ""
+
+#. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
+msgctxt "cube2.4.title"
+msgid "DELIANI TRANSMISSION FLUX 02975"
+msgstr ""
+
+#. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
+msgctxt "cube2.4.header"
+msgid "Javi"
+msgstr ""
+
+#. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
+msgctxt "cube2.4.0"
+msgid "I see you have investigated Torm without success. There HAS to be something there. "
+msgstr ""
+
+#. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
+msgctxt "cube2.4.3"
+msgid "Homing device? I know nothing about that, but I will run an investigation. We can't have people trying to murder our agents. Now..."
+msgstr ""
+
+#. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
+msgctxt "cube2.4.6"
+msgid "I have been receiving reports from the Ixmucane sector that something  unusual is going on there. Your next mission will be to fly there and  investigate. Please select anything you like from our supply stocks."
+msgstr ""
+
+#. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
+msgctxt "cube2.5.title"
+msgid "DELIANI TRANSMISSION FLUX 02976"
+msgstr ""
+
+#. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
+msgctxt "cube2.5.header"
+msgid "Javi"
+msgstr ""
+
+#. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
+msgctxt "cube2.5.0"
+msgid "Beware on this mission of rebels from the Mendivian C sector, near Ixmucane. These are human pirates who are aiding the Hazudra forces there led by a faction leader named Reid. Be careful in there or they'll destroy you, thinking you are a Microsol scout."
+msgstr ""
+
+#. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
+msgctxt "cube2.5.5"
+msgid "Microsol is attempting to gain control of the Hazudra territory there, thus the rebel forces. But they will make no exceptions when it comes to an  intruder."
+msgstr ""
+
+#. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
+msgctxt "cube2.6.title"
+msgid "STARGATE TRANSMISSION FLUX 13619"
+msgstr ""
+
+#. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
+msgctxt "cube2.6.header"
+msgid "???"
+msgstr ""
+
+#. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
+msgctxt "cube2.6.0"
+msgid "Your life is forfeit, human. We know of your plans to sweep the Tyrian sector and destroy all life. We are going to attack your fleet and obliterate your merciless ships until you are no longer a threat to us. Your only hope of escape is to call off the attack. Now."
+msgstr ""
+
+#. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
+msgctxt "cube2.6.5"
+msgid "I will enjoy your destruction."
+msgstr ""
+
+#. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
+msgctxt "cube2.7.title"
+msgid "DELIANI TRANSMISSION FLUX 23920"
+msgstr ""
+
+#. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
+msgctxt "cube2.7.header"
+msgid "Javi"
+msgstr ""
+
+#. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
+msgctxt "cube2.7.0"
+msgid "We have been notified of a course change. You must immediately head for the Mendivian C sector and the home city of the rebel forces there. Obliterate them and return to us. They are threatening to overtake the sector. "
+msgstr ""
+
+#. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
+msgctxt "cube2.7.4"
+msgid "Be careful, Trent. You'll need all the firepower you can get."
+msgstr ""
+
+#. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
+msgctxt "cube2.8.title"
+msgid "ASTEROID CITY TRANSMISSION 37238"
+msgstr ""
+
+#. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
+msgctxt "cube2.8.header"
+msgid "Reid"
+msgstr ""
+
+#. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
+msgctxt "cube2.8.0"
+msgid "I am Reid, head of the rebel Mendivian and Anti Microsol league. We do not know why you have attacked. I would like an explanation."
+msgstr ""
+
+#. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
+msgctxt "cube2.8.3"
+msgid "What?? WE are not the ones planning an attack against the sector for total domination. It is Microsol, stationed in Savara and ready to launch within  the next 10 days! You have been tricked! Apparently you were decieved by  Javi, who is a Hazudra traitor. He was stolen at birth and placed under  holographic mind control by Microsol. The most we have been able to uncover  about him is that he is apparently an infiltrator into Gencore Tech Alliance.  You MUST return to Deliani and stop him! He is probably the means for Microsol  to overthrow Gencore. "
+msgstr ""
+
+#. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
+msgctxt "cube2.8.12"
+msgid "Quickly.. restock your ship and head for Deliani before Javi has another chance to signal Microsol for the start of the attack!"
+msgstr ""
+
+#. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
+msgctxt "cube2.8.15"
+msgid "You may be able to reach them before they form a strategic defense."
+msgstr ""
+
+#. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
+msgctxt "cube2.9.title"
+msgid "DELIANI TRANSMISSION FLUX 83278"
+msgstr ""
+
+#. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
+msgctxt "cube2.9.header"
+msgid "Javi"
+msgstr ""
+
+#. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
+msgctxt "cube2.9.0"
+msgid "I see you have discovered the truth. I was going to use you as a scout for the fleet before I had your brain scanned for knowledge of the Gravitium.  Well, no matter. You have served your purpose. Our scientists have uncovered  its secrets and installed new engines into our fleet ships, giving them far  more power to distribute to the weapon banks. The invasion will begin soon  and you will have only a few precious days left before we execute you. You are  being sent by tractor beam to the Impound Station at Gryphon, a little known and desolate edge of the sector where you will be unable to help your friends in the Asteroid City. Enjoy your last hours, Trent."
+msgstr ""
+
+#. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
+msgctxt "cube2.10.title"
+msgid "TRANSMISSION SOURCE: MagVend 004-55506W"
+msgstr ""
+
+#. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
+msgctxt "cube2.10.header"
+msgid "MagVend"
+msgstr ""
+
+#. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
+msgctxt "cube2.10.0"
+msgid "Congratulations, Mr. Trent Hawkins"
+msgstr ""
+
+#. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
+msgctxt "cube2.10.2"
+msgid "MagVend 004-55506 is proud to congratulate our first-place winner in our grand sweepstakes."
+msgstr ""
+
+#. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
+msgctxt "cube2.10.5"
+msgid "However, since you haven't ordered anything recently and you're currently wanted for galactic treason, we've demoted you to third-place to avoid bad publicity."
+msgstr ""
+
+#. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
+msgctxt "cube2.10.9"
+msgid "To collect your winnings, type in the secret code:"
+msgstr ""
+
+#. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
+msgctxt "cube2.10.11"
+msgid "FILE0001 LOOT"
+msgstr ""
+
+#. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
+msgctxt "cube2.10.13"
+msgid "After the word LOOT, type in ALT-254 to acknowledge the secret code and press enter.  We regret that you cannot transmit this code over modem/network due to its top-secret nature."
+msgstr ""
+
+#. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
+msgctxt "cube2.10.17"
+msgid "MagVend 004-55506B thanks you for your patronage."
+msgstr ""
+
+#. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
+msgctxt "cube2.11.title"
+msgid "ARCHIVE DATA"
+msgstr ""
+
+#. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
+msgctxt "cube2.11.header"
+msgid "Data"
+msgstr ""
+
+#. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
+msgctxt "cube2.11.0"
+msgid "Reference: The Not-so-Great Gryphon Explosion"
+msgstr ""
+
+#. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
+msgctxt "cube2.11.2"
+msgid "While under the leadership of General Zinglon, station commander at Gryphon, a group of scientists excavated what is now called planet Gyges, after the late Doctor of Metacology, Gyges Phildren.  It is believed they excavated a number of artifacts and devices which were then transferred to the secret research station, Gryphon."
+msgstr ""
+
+#. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
+msgctxt "cube2.11.8"
+msgid "Full details were never released, but it is known that Gyges was conducting some unorthodox research into the abnormal meta-physical energy invoved in the firing of a secret weapon nicknamed the Zica Flamethrower.  He apparently removed the outer casing of the device.  This mistake cost him his life and the lives of over twelve thousand crewmembers serving in that section of the station at the time.  Sections of the station are still missing, since it was deemed too expensive and inefficient to repair the damaged sections than build newer, better designed sections."
+msgstr ""
+
+#. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
+msgctxt "cube2.11.17"
+msgid "Incidentally, General Zinglon is believed to have been demonstrating a new matter transporter at the time of the explosion, but never arrived at his destination. A surge of energy occured as the fusion generator near the research section exploded.  The transporter was linked to that generator since it required additional power to function than was available with the standard reactors."
+msgstr ""
+
+#. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
+msgctxt "cube2.11.23"
+msgid "At that same time, billions of people reported seeing an image remarkably like his on their vidscreens.  This in turn produced a fanatical faction of divine seekers, frustrated with their attempts to convince people that circular shapes should be worshipped as gods.  They called themselves the Cult of Zinglon and now work in secret to bring Zinglon, \"Master of All\", back from whatever dimension his molecules were scattered to."
+msgstr ""
+
+#. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
+msgctxt "cube2.11.30"
+msgid "See Tunnel World, Zica     Weapons Research, Station Gryphon     Zica Flamethrower"
+msgstr ""
+
+#. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
+msgctxt "cube2.12.title"
+msgid "GRYPHON TRANSMISSION FLUX 02333"
+msgstr ""
+
+#. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
+msgctxt "cube2.12.header"
+msgid "Vykromod"
+msgstr ""
+
+#. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
+msgctxt "cube2.12.0"
+msgid "Who do you think you are, you insignificant scum?  Do you know what lies in store for you here?  The entire Gryphon fleet is mobilized and ready to attack."
+msgstr ""
+
+#. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
+msgctxt "cube2.12.3"
+msgid "Only one pirate has ever made it past our defenses.  We killed him one month later."
+msgstr ""
+
+#. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
+msgctxt "cube2.12.7"
+msgid "Playtime will not be interrupted by the likes of you."
+msgstr ""
+
+#. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
+msgctxt "cube2.13.title"
+msgid ""
+msgstr ""
+

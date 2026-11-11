@@ -1,0 +1,218 @@
+# OpenTyrian2000 한국어 번역: ui.po
+#
+# - msgctxt는 게임이 문장을 찾는 열쇠입니다. 바꾸지 마세요.
+# - msgid는 영어 원문, msgstr에 한국어 번역을 씁니다. 비워 두면 영어가 나옵니다.
+# - ~로 감싼 부분은 강조(더 밝게) 표시입니다. ~ 기호는 그대로 두세요.
+# - %d 같은 자리 표시자는 그대로 두세요.
+# - "최대 N바이트"는 게임 안의 칸 크기입니다. 한글 한 글자는 3바이트입니다.
+# - 확인이 필요한 번역은 앞에 "#, fuzzy" 줄을 두면 게임이 쓰지 않습니다.
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ko\n"
+
+#. 메인 메뉴 항목 (보통 글씨). OpenTyrian이 추가한 설정 메뉴. 최대 84바이트 (한글 약 28자)
+msgctxt "ui.menu.setup"
+msgid "Setup"
+msgstr "설정"
+
+#. 설정 메뉴 제목 (큰 글씨)
+msgctxt "ui.setup.title"
+msgid "Setup"
+msgstr "설정"
+
+#. 설정 메뉴 항목 (보통 글씨, 약 130픽셀)
+msgctxt "ui.setup.graphics"
+msgid "Graphics..."
+msgstr "그래픽..."
+
+#. 화면 아래 설명 (작은 글씨, 한 줄)
+msgctxt "ui.setup.graphics_desc"
+msgid "Change the graphics settings."
+msgstr "그래픽 설정을 바꿉니다."
+
+#. 설정 메뉴 항목
+msgctxt "ui.setup.sound"
+msgid "Sound..."
+msgstr "소리..."
+
+#. 화면 아래 설명
+msgctxt "ui.setup.sound_desc"
+msgid "Change the sound settings."
+msgstr "소리 설정을 바꿉니다."
+
+#. 설정 메뉴 항목 (게임 음악 듣기)
+msgctxt "ui.setup.jukebox"
+msgid "Jukebox"
+msgstr "음악 감상"
+
+#. 화면 아래 설명
+msgctxt "ui.setup.jukebox_desc"
+msgid "Listen to the music of Tyrian."
+msgstr "타이리안의 음악을 들어 봅니다."
+
+#. 메뉴를 닫는 항목
+msgctxt "ui.setup.done"
+msgid "Done"
+msgstr "완료"
+
+#. 화면 아래 설명
+msgctxt "ui.setup.done_desc"
+msgid "Return to the main menu."
+msgstr "메인 메뉴로 돌아갑니다."
+
+#. 그래픽 설정 메뉴 제목 (큰 글씨)
+msgctxt "ui.graphics.title"
+msgid "Graphics"
+msgstr "그래픽"
+
+#. 그래픽 설정 항목 이름 (보통 글씨, 약 130픽셀)
+msgctxt "ui.graphics.display"
+msgid "Display:"
+msgstr "화면:"
+
+#. 화면 아래 설명
+msgctxt "ui.graphics.display_desc"
+msgid "Change the display mode."
+msgstr "화면 모드를 바꿉니다."
+
+#. 그래픽 설정 항목 이름
+msgctxt "ui.graphics.window_size"
+msgid "Window Size:"
+msgstr "창 크기:"
+
+#. 화면 아래 설명
+msgctxt "ui.graphics.window_size_desc"
+msgid "Change the window size (in Window mode)."
+msgstr "창 크기를 바꿉니다 (창 모드일 때)."
+
+#. 그래픽 설정 항목 이름 (픽셀 확대 방식)
+msgctxt "ui.graphics.scaler"
+msgid "Scaler:"
+msgstr "확대 방식:"
+
+#. 화면 아래 설명
+msgctxt "ui.graphics.scaler_desc"
+msgid "Change the pixel art scaling algorithm."
+msgstr "픽셀을 확대하는 방식을 바꿉니다."
+
+#. 그래픽 설정 항목 이름 (화면 맞춤 방식)
+msgctxt "ui.graphics.scaling_mode"
+msgid "Scaling Mode:"
+msgstr "화면 맞춤:"
+
+#. 화면 아래 설명
+msgctxt "ui.graphics.scaling_mode_desc"
+msgid "Change the scaling mode."
+msgstr "화면에 맞추는 방식을 바꿉니다."
+
+#. 화면 아래 설명
+msgctxt "ui.done_previous_desc"
+msgid "Return to the previous menu."
+msgstr "이전 메뉴로 돌아갑니다."
+
+#. 소리 설정 메뉴 제목 (큰 글씨)
+msgctxt "ui.sound.title"
+msgid "Sound"
+msgstr "소리"
+
+#. 소리 설정 항목 이름
+msgctxt "ui.sound.music_volume"
+msgid "Music Volume"
+msgstr "음악 음량"
+
+#. 소리 설정 항목 이름 (효과음)
+msgctxt "ui.sound.effects_volume"
+msgid "Sound Volume"
+msgstr "효과음 음량"
+
+#. 화면 아래 설명
+msgctxt "ui.sound.volume_desc"
+msgid "Change volume with the left/right arrow keys."
+msgstr "왼쪽/오른쪽 방향키로 음량을 바꿉니다."
+
+#. 화면 모드 값: 창 모드 (보통 글씨, 약 95픽셀)
+msgctxt "ui.display.window"
+msgid "Window"
+msgstr "창 모드"
+
+#. 화면 모드 값: n번 모니터 전체 화면. %d(모니터 번호)는 그대로 두세요
+msgctxt "ui.display.n"
+msgid "Display %d"
+msgstr "%d번 화면"
+
+#. 창 크기 값: 자동. %d(배수)는 그대로 두세요
+msgctxt "ui.window_size.auto"
+msgid "Auto (%dx)"
+msgstr "자동 (%dx)"
+
+#. 화면 맞춤 방식 값: 확대하지 않고 가운데
+msgctxt "ui.scaling.center"
+msgid "Center"
+msgstr "가운데"
+
+#. 화면 맞춤 방식 값: 정수배로만 확대
+msgctxt "ui.scaling.integer"
+msgid "Integer"
+msgstr "정수배"
+
+#. 화면 맞춤 방식 값: 8:5 비율로 꽉 차게
+msgctxt "ui.scaling.fit_8_5"
+msgid "Fit 8:5"
+msgstr "8:5 맞춤"
+
+#. 화면 맞춤 방식 값: 4:3 비율(옛 CRT)로 꽉 차게
+msgctxt "ui.scaling.fit_4_3"
+msgid "Fit 4:3"
+msgstr "4:3 맞춤"
+
+#. 음악 감상 화면 아래 안내 (작은 글씨, 한 줄)
+msgctxt "ui.jukebox.quit"
+msgid "Press ESC to quit the jukebox."
+msgstr "ESC를 누르면 음악 감상을 끝냅니다."
+
+#. 음악 감상 화면 아래 안내
+msgctxt "ui.jukebox.keys"
+msgid "Arrow keys change the song being played."
+msgstr "방향키로 곡을 바꿉니다."
+
+#. 게임 중 경고 표시 (작은 글씨, 짧게)
+msgctxt "ui.warning"
+msgid "WARNING"
+msgstr "경고"
+
+#. 치트를 쓴 사람에게 보이는 농담 문구
+msgctxt "ui.cheaters"
+msgid "Cheaters always prosper."
+msgstr "치트를 쓰는 자가 늘 이기는 법."
+
+#. 숨겨진 미니게임 Destruct의 모드 이름
+msgctxt "ui.destruct.custom"
+msgid "Custom"
+msgstr "사용자 정의"
+
+#. 다음 레벨 선택 메뉴의 제목 (큰 글씨, 짧게)
+msgctxt "ui.next_level"
+msgid "Next Level"
+msgstr ""
+
+#. 상점의 아이템 가격 (작은 글씨). %d(가격)는 그대로 두세요
+msgctxt "ui.cost"
+msgid "Cost: %d"
+msgstr ""
+
+#. 상점의 사용자 정의 함선 이름. %d(번호)는 그대로 두세요
+msgctxt "ui.custom_ship"
+msgid "Custom Ship %d"
+msgstr ""
+
+#. 슈퍼 아케이드 모드를 마친 뒤 나오는 안내. %s는 미니게임 이름입니다
+msgctxt "ui.or_play"
+msgid "Or play... %s"
+msgstr ""
+
+#. 슈퍼 아케이드 모드를 마친 뒤 나오는 비밀 코드 안내. %s는 타이틀 화면에서 입력할 코드입니다 (영어 그대로)
+msgctxt "ui.type_at_title"
+msgid "Type %s at Title"
+msgstr ""
+

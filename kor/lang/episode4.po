@@ -1,0 +1,148 @@
+# OpenTyrian2000 한국어 번역: episode4.po
+#
+# - msgctxt는 게임이 문장을 찾는 열쇠입니다. 바꾸지 마세요.
+# - msgid는 영어 원문, msgstr에 한국어 번역을 씁니다. 비워 두면 영어가 나옵니다.
+# - ~로 감싼 부분은 강조(더 밝게) 표시입니다. ~ 기호는 그대로 두세요.
+# - %d 같은 자리 표시자는 그대로 두세요.
+# - "최대 N바이트"는 게임 안의 칸 크기입니다. 한글 한 글자는 3바이트입니다.
+# - 확인이 필요한 번역은 앞에 "#, fuzzy" 줄을 두면 게임이 쓰지 않습니다.
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ko\n"
+
+#. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep4.203"
+msgid "\n\n                      The End"
+msgstr ""
+
+#. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep4.210"
+msgid "Slipping deep into your Mega Soundchair, you sip down an\ninsta-cocoa from your dispenser.  The whole universe is\nerupting in a fanfare of joy and hope.\n\nStill, one burning thought enters your mind:\nWhy am I reading this?\n\nIf only you could find a way out of this crazy universe and\navoid the horrible, smiling face of Transon Lohk."
+msgstr ""
+
+#. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep4.222"
+msgid "The universe has asked you to save them one too many times,\nand you've decided to hide out on Tyrian and reflect on\nyour Hazudra friend who died way back in Episode 1.\n\nDang.  Can't even remember his name now."
+msgstr ""
+
+#. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep4.231"
+msgid "\n\n\n                     ~BUT~ ~THEN!!!~"
+msgstr ""
+
+#. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep4.239"
+msgid "Incoming message from...\n\n                      VYKROMOD!?\n                     "
+msgstr ""
+
+#. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep4.326"
+msgid "You patch in your HoloComm to the Zica computer and transmit\nthe access codes from your ship's computer.\n\nA few seconds later you are rewarded with a few chirps and a\ngrowing, low hum.  It will take a while to heat this planet\nback up, and you don't want to become an insta-freeze snack,\nso you race back to your waiting Mega Soundchair and blast\noff!"
+msgstr ""
+
+#. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep4.381"
+msgid "\nPoor Vykromod.  I feel sorry for him now.  What a waste.\n\nStill, that should be the last of the war for now.  At least\nit better be.  Is there no way out of this war?\n\nI am...\n\n            alone."
+msgstr ""
+
+#. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep4.399"
+msgid "All of a sudden, your prototype starship's computer springs\nto life!  The advanced sensor array has picked up a spatial\ndisturbance far out in the distant planet Soh Jin.\n\nThat mysterious planet has always been shrouded by the\nMicrosol forces.  Only twice have you had the chance to near\nthe planet.\n\nWhat new threat can this be?  Only one way to find out..."
+msgstr ""
+
+#. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep4.437"
+msgid "This is no work of Microsol!  Who could have built that\nincredible ship?  What has this planet done to my ship?\n\nWhatever it was, you have no time to ponder, for in front\nof you stands a giant purple stargate!\n\nCan it be... a way out?"
+msgstr ""
+
+#. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep4.447"
+msgid "With no effort to decide, you know you must enter the gate,\nfor it may be the only way out.\n\nYour ships' engines screaming against the atmosphere of the\nplanet, you plunge into the gateway.\n\nJust at the crucial moment you yell:"
+msgstr ""
+
+#. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep4.458"
+msgid "NOT ZINGLON!!!"
+msgstr ""
+
+#. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep4.466"
+msgid "The madness has stopped for now.\n\nPerhaps I will be given a chance to rest.\n\nSomeday I may find my way out.\n\n\nSomeday..."
+msgstr ""
+
+#. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep4.480"
+msgid "Secret Hint 4-1-1:\n\nSAVE IXMUCANE\nThere are three possible outcomes to the saving of\nIxmucane.  Only one will save the people on the\nplanet."
+msgstr ""
+
+#. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep4.487"
+msgid "Secret Hint 4-1-2:\n\nPOWERUPS\nThere are only two black powerups in all of Episode 4.\nBoth are in the middle of the Harvest level."
+msgstr ""
+
+#. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep4.493"
+msgid "Secret Hint 4-1-3:\n\nSECRET LEVEL : WINDY 2\nThis secret level contains many ? boxes.  Each is worth\nthousands of points."
+msgstr ""
+
+#. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep4.499"
+msgid "Secret Hint 4-2-1:\n\n?SECRET LEVELS?\nOnly 2 warp balls exist in episode 4.  Most levels are\nfound in other special ways."
+msgstr ""
+
+#. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep4.505"
+msgid "Secret Hint 4-2-2:\n\nLAVA EXIT\nWhat happens when the boss stops?"
+msgstr ""
+
+#. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep4.510"
+msgid "Secret Hint 4-2-3:\n\nDESERT (FIRST LEVEL)\nTest of courage:\n\nDo not shoot ANY of the black ship formations in the\nbeginning of the level, up to the first two arches."
+msgstr ""
+
+#. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep4.518"
+msgid "Secret Hint 4-3-1:\n\n?TUNNEL?\nTest of courage:\n\nDon't kill the tunnel boss until the explosions stop."
+msgstr ""
+
+#. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep4.525"
+msgid "Secret Hint 4-3-2:\n\nLORD OF GAME\nAfter GOD MODE is displayed, hold down L+O+R+D all at\none time to revel a new challenge."
+msgstr ""
+
+#. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep4.531"
+msgid "Secret Hint 4-3-3:\n\nSECRET TO EPISODE 4\nFind the 13th ship, the Stalker 21.126!"
+msgstr ""
+
+#. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep4.583"
+msgid "Now that I have won the war, I can return to Savara\nand receive a hero's welcome!  Millions of\nHolo-viewers will bow at my feet and bless the very\nchannels I appear on.\n\nSages will cross a thousand desert streams to be\nat my side.  Streams of small dwarves will dance the\njig of a thousand hours at my celebration.  I could\nbe made into anything."
+msgstr ""
+
+#. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep4.595"
+msgid "But I don't want to be a hero.  I hate this life.\n\nWhy, O me, do I strut upon this stage once more?\n\nThat's it...\n\n   I won't go!"
+msgstr ""
+
+#. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep4.606"
+msgid "Computer, lock in to a random galaxy at least 100\nyears away!\n\nEarth?  Funny name for a planet.  Wonder if it's\ninhabited.\n\nWho cares?  I'll jump into cryofreeze and sit in\nstasis until we reach this... Earth.\n\nNobody will EVER find me!"
+msgstr ""
+
+#. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep4.619"
+msgid "And so, space-pilot Trent Hawkins straps down in his\nlittle craft and sets the thermostat to CRYO.\n\nHis ship streams off at maximum speed to his unknown\ndestination.  For 101 years, he waits deep within\nhis frozen ship.  The galaxy searches for his body\nbut he is considered lost and given a hero's\nfuneral."
+msgstr ""
+
+#. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep4.630"
+msgid "Little do they know...\n\nYou'll soon be on Earth, ready to slip unnoticed\ninto whatever life lurks there."
+msgstr ""
+
+#. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep4.638"
+msgid "In stasis, it's best to keep the mind still active.\n\nYour computer has programmed an endless game to\nkeep your mind active those 101 years.\n\nInstructions are located in the data cubes for your\nreference.\n\nAnd here it is..."
+msgstr ""
+

@@ -1,0 +1,103 @@
+# OpenTyrian2000 한국어 번역: episode1.po
+#
+# - msgctxt는 게임이 문장을 찾는 열쇠입니다. 바꾸지 마세요.
+# - msgid는 영어 원문, msgstr에 한국어 번역을 씁니다. 비워 두면 영어가 나옵니다.
+# - ~로 감싼 부분은 강조(더 밝게) 표시입니다. ~ 기호는 그대로 두세요.
+# - %d 같은 자리 표시자는 그대로 두세요.
+# - "최대 N바이트"는 게임 안의 칸 크기입니다. 한글 한 글자는 3바이트입니다.
+# - 확인이 필요한 번역은 앞에 "#, fuzzy" 줄을 두면 게임이 쓰지 않습니다.
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ko\n"
+
+#. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep1.78"
+msgid "Warning:\nTrajectory heading intercepts minefield surrounding Deliani.\n\nNavigation through minefield necessary to reach Deliani.\n\nUnknown magnetic forces detected ahead.  "
+msgstr "경고:\n예정 항로가 델리아니 주변의\n기뢰밭을 가로지릅니다.\n\n델리아니에 가려면 기뢰밭을\n통과해야 합니다.\n\n전방에서 정체불명의 자기력 감지."
+
+#. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep1.212"
+msgid "Secret Hint 1-1-1:\n\nBONUS ROUND\nIncrease your score in the bonus level by waiting for\nenemies to attack you.  One of the ships is carrying a\n5000-point gem!"
+msgstr ""
+
+#. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep1.219"
+msgid "Secret Hint 1-1-2:\n\nTYRIAN  (First Level)\nThere is a secret to the first U-ship that attacks you."
+msgstr ""
+
+#. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep1.224"
+msgid "Secret Hint 1-1-3:\n\nASTEROID LEVELS\nThe rock faces conceal two bonus levels."
+msgstr ""
+
+#. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep1.229"
+msgid "Secret Hint 1-2-1:\n\nASTEROID 2\nThere is a secret to the first tank in the level."
+msgstr ""
+
+#. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep1.234"
+msgid "Secret Hint 1-2-2:\n\nSECRET LEVEL\nThere is a way to go from one secret level to one other\nsecret level to maximize your score!"
+msgstr ""
+
+#. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep1.240"
+msgid "Secret Hint 1-2-3:\n\nASTEROID 2\nSeveral of the tanks in this level are worth more if\nyou wait a while before destroying them.  You can get\nextra power-ups this way."
+msgstr ""
+
+#. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep1.247"
+msgid "Secret Hint 1-3-1:\n\nTYRIAN  (First Level)\nThe rock formations conceal a secret fortune."
+msgstr ""
+
+#. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep1.252"
+msgid "Secret Hint 1-3-2:\n\nIMPOSSIBLE\nType a capital G at difficulty selection screen."
+msgstr ""
+
+#. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep1.257"
+msgid "Secret Hint 1-3-3:\n\nEPISODE 3\nPlay at the hard difficulty level for an extra reward."
+msgstr ""
+
+#. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep1.262"
+msgid "\n Ship   1 2 3 4\n WeapF  1 2 3 7 17 20\n WeapR  10 11 12 15 18 22\n Power  1 2 3 4\n Engine 1 2 3\n Opt1   1 2 6 7 8 9 10\n Opt2   1 2 6 7 8 9 10\n Armor  1 2 3\n Shield 1 2 3 4 5 8 9\n"
+msgstr ""
+
+#. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep1.370"
+msgid "Now that you've saved the crisis on Savara and earned the\nhelp of Transon Lohk, you head back to Tyrian to find out\nmore about this new power.\n\nHow could such an innocent pile of rocks be used to\ndevastate planets?\n\nYou must locate a sample of this new energy.  If nothing\nelse, perhaps it could be harnessed back against Microsol's\nnew device."
+msgstr ""
+
+#. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep1.384"
+msgid "There, on the far side of Tyrian.  A sample?\n\nLooks like a fairly substantial... oh no!\n\n\n                     MICROSOL!"
+msgstr ""
+
+#. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep1.420"
+msgid "That was too close. You've been nearly vaporized, crushed,\nblown to pieces, flame broiled, and electrocuted one too\nmany times. Only your incredible targeting skills and class\n1 fancy flying has kept you alive.\n\nThose boys at Deliani clearly have some even more hair \nraising missions for you up their sleeve. Why were YOU\nchosen to be their errand boy?  Why is half the galaxy after\nyour head? Can you beat the odds and, most importantly, can\nyou survive without becoming space bacon?"
+msgstr ""
+
+#. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep1.434"
+msgid "If not, things could become unpleasant."
+msgstr ""
+
+#. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep1.442"
+msgid "This is Rob Neither with the daily news.\n\nZinglon's Ale has been stolen!\n\nThe Grand Moolah Yimbo revealed today that all of their\ngod, Zinglon's, holy ale has been abducted.  Millions of\nthirsty worshippers fled in panic when the news hit."
+msgstr ""
+
+#. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep1.452"
+msgid "A panic-stricken Savaran citizen:\n\n\"I nearly fainted when I heard the news.  How can we\ncontinue to believe in a just universe and freedom to\neat crackers if we have no ale?  I don't know yet what\nI'm going to do.\""
+msgstr ""
+
+#. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
+msgctxt "ep1.461"
+msgid "This is certainly a crisis of grand proportions.  All\nother work has stopped.\n\nThe Grand Moolah has told us that someone must retrieve\nthe ale from the clutches of Dai-Zan, the god of deceit\nand bad form.  Who will save us from this torment?\n\nMy Zinglon, I need a drink!"
+msgstr ""
+

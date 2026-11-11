@@ -1,0 +1,973 @@
+# OpenTyrian2000 한국어 번역: items.po
+#
+# - msgctxt는 게임이 문장을 찾는 열쇠입니다. 바꾸지 마세요.
+# - msgid는 영어 원문, msgstr에 한국어 번역을 씁니다. 비워 두면 영어가 나옵니다.
+# - ~로 감싼 부분은 강조(더 밝게) 표시입니다. ~ 기호는 그대로 두세요.
+# - %d 같은 자리 표시자는 그대로 두세요.
+# - "최대 N바이트"는 게임 안의 칸 크기입니다. 한글 한 글자는 3바이트입니다.
+# - 확인이 필요한 번역은 앞에 "#, fuzzy" 줄을 두면 게임이 쓰지 않습니다.
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ko\n"
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.0"
+msgid "None"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.1"
+msgid "Pulse-Cannon"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.2"
+msgid "Multi-Cannon"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.3"
+msgid "Mega Cannon"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.4"
+msgid "Laser"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.5"
+msgid "Zica Laser"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.6"
+msgid "Protron Z"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.7"
+msgid "Vulcan Cannon"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.8"
+msgid "Lightning Cannon"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.9"
+msgid "Starburst"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.10"
+msgid "Multi-Cannon"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.11"
+msgid "Sonic Wave"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.12"
+msgid "Protron"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.13"
+msgid "Protron"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.14"
+msgid "Wild Ball"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.15"
+msgid "Vulcan Cannon"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.16"
+msgid "Miscellaneous Option Weapons"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.17"
+msgid "Missile Launcher"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.18"
+msgid "Fireball"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.19"
+msgid "Mega Pulse"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.20"
+msgid "Heavy Missile Launcher"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.21"
+msgid "Rear Heavy Missile Launcher"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.22"
+msgid "Rear Mega Pulse"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.23"
+msgid "Banana Blast"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.24"
+msgid "Banana Blast Rear"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.25"
+msgid "HotDog Front"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.26"
+msgid "HotDog Rear"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.27"
+msgid "Hyper Pulse"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.28"
+msgid "Guided Micro Bombs"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.29"
+msgid "Heavy Guided Bombs"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.30"
+msgid "Scatter Wave"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.31"
+msgid "Guided Bombs"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.32"
+msgid "Shuruiken Field"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.33"
+msgid "Poison Bomb"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.34"
+msgid "Protron Wave"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.35"
+msgid "The Orange Juicer"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.36"
+msgid "NortShip Super Pulse"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.37"
+msgid "NortShip Spreader"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.38"
+msgid "NortShip Spreader B"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.39"
+msgid "Atomic RailGun"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.40"
+msgid "Widget Beam"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.41"
+msgid "Sonic Impulse"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.42"
+msgid "RetroBall"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.43"
+msgid "Needle Laser"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.44"
+msgid "Pretzel Missile"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.45"
+msgid "Dragon Frost"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.46"
+msgid "People Pretzels"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.47"
+msgid "Dragon Flame"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.48"
+msgid "Test"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.49"
+msgid "Test"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.50"
+msgid "Test"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.51"
+msgid "Test"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.52"
+msgid "Test"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.53"
+msgid "Test"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.54"
+msgid "Test"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.55"
+msgid "Test"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.56"
+msgid "Test"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.57"
+msgid "Test"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.58"
+msgid "Test"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.59"
+msgid "Test"
+msgstr ""
+
+#. 무기 이름 (상점과 함선 정보 화면). 최대 90바이트 (한글 약 30자)
+msgctxt "item.weapon.60"
+msgid "Test"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.0"
+msgid "None"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.1"
+msgid "Repulsor"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.2"
+msgid "Pearl Wind"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.3"
+msgid "Soul of Zinglon"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.4"
+msgid "Attractor"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.5"
+msgid "Ice Beam"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.6"
+msgid "Flare"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.7"
+msgid "Blade Field"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.8"
+msgid "SandStorm"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.9"
+msgid "MineField"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.10"
+msgid "Dual Vulcan"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.11"
+msgid "Banana Bomb"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.12"
+msgid "Protron Dispersal"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.13"
+msgid "Astral Zone"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.14"
+msgid "Xega Ball"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.15"
+msgid "MegaLaser Dual"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.16"
+msgid "Orange Shield"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.17"
+msgid "Pulse Blast"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.18"
+msgid "MegaLaser"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.19"
+msgid "Missile Pod"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.20"
+msgid "Minefield"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.21"
+msgid "Post-It Blast"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.22"
+msgid "Drone **"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.23"
+msgid "Repair Player 1"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.24"
+msgid "Super Bomb"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.25"
+msgid "Hot Dog"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.26"
+msgid "Lightning UP"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.27"
+msgid "Lightning UP+LEFT"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.28"
+msgid "Lightning UP+RIGHT"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.29"
+msgid "Lightning LEFT"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.30"
+msgid "Lightning RIGHT"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.31"
+msgid "MicroSol Option"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.32"
+msgid "MicroSol Option2"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.33"
+msgid "MicroSol Option3"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.34"
+msgid "MicroSol Option4"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.35"
+msgid "MicroSol Option5"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.36"
+msgid "MicroSol Option6"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.37"
+msgid "Invulnerability"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.38"
+msgid "Atom Bomb"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.39"
+msgid "Seeker Bombs"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.40"
+msgid "Lightning Zone"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.41"
+msgid "SDF Main Gun"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.42"
+msgid "Ice Blast"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.43"
+msgid "Repair Player 1"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.44"
+msgid "Pearl Wind"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.45"
+msgid "8-Way Microbomb"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.46"
+msgid "Protron Field"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.47"
+msgid "Super Pretzel"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.48"
+msgid "Dragon Lightning"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.49"
+msgid "None"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.50"
+msgid "None"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.51"
+msgid "None"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.52"
+msgid "None"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.53"
+msgid "None"
+msgstr ""
+
+#. 특수 무기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.special.54"
+msgid "None"
+msgstr ""
+
+#. 발전기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.generator.0"
+msgid "None"
+msgstr ""
+
+#. 발전기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.generator.1"
+msgid "Standard MR-9"
+msgstr ""
+
+#. 발전기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.generator.2"
+msgid "Advanced MR-12"
+msgstr ""
+
+#. 발전기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.generator.3"
+msgid "Gencore Custom MR-12"
+msgstr ""
+
+#. 발전기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.generator.4"
+msgid "Standard MicroFusion"
+msgstr ""
+
+#. 발전기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.generator.5"
+msgid "Advanced MircoFusion"
+msgstr ""
+
+#. 발전기 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.generator.6"
+msgid "Gravitron Pulse-Wave"
+msgstr ""
+
+#. 함선 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.ship.0"
+msgid "None"
+msgstr ""
+
+#. 함선 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.ship.1"
+msgid "USP Talon   Light Fighter"
+msgstr "USP 탤런 경전투기"
+
+#. 함선 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.ship.2"
+msgid "SuperCarrot"
+msgstr ""
+
+#. 함선 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.ship.3"
+msgid "Gencore Phoenix"
+msgstr ""
+
+#. 함선 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.ship.4"
+msgid "Gencore Maelstrom"
+msgstr ""
+
+#. 함선 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.ship.5"
+msgid "MicroCorp Stalker"
+msgstr ""
+
+#. 함선 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.ship.6"
+msgid "MicroCorp Stalker-B"
+msgstr ""
+
+#. 함선 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.ship.7"
+msgid "Prototype Stalker-C"
+msgstr ""
+
+#. 함선 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.ship.8"
+msgid "Stalker"
+msgstr ""
+
+#. 함선 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.ship.9"
+msgid "USP Fang    Light Fighter"
+msgstr ""
+
+#. 함선 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.ship.10"
+msgid "U-Ship"
+msgstr ""
+
+#. 함선 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.ship.11"
+msgid "Silver Ship"
+msgstr ""
+
+#. 함선 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.ship.12"
+msgid "Nort Ship"
+msgstr ""
+
+#. 함선 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.ship.13"
+msgid "The Stalker 21.126"
+msgstr ""
+
+#. 함선 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.ship.14"
+msgid "Storm"
+msgstr ""
+
+#. 함선 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.ship.15"
+msgid "Red Dragon"
+msgstr ""
+
+#. 함선 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.ship.16"
+msgid "Gencore II"
+msgstr ""
+
+#. 함선 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.ship.17"
+msgid "PeteZoomer"
+msgstr ""
+
+#. 함선 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.ship.18"
+msgid "Rum Bottle"
+msgstr ""
+
+#. 사이드킥(보조 무기) 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.sidekick.0"
+msgid "None"
+msgstr ""
+
+#. 사이드킥(보조 무기) 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.sidekick.1"
+msgid "Single Shot Option"
+msgstr ""
+
+#. 사이드킥(보조 무기) 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.sidekick.2"
+msgid "Dual Shot Option"
+msgstr ""
+
+#. 사이드킥(보조 무기) 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.sidekick.3"
+msgid "Charge Cannon"
+msgstr ""
+
+#. 사이드킥(보조 무기) 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.sidekick.4"
+msgid "Vulcan Shot Option"
+msgstr ""
+
+#. 사이드킥(보조 무기) 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.sidekick.5"
+msgid "Wobbley"
+msgstr ""
+
+#. 사이드킥(보조 무기) 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.sidekick.6"
+msgid "MegaMissile    Ammo 5"
+msgstr ""
+
+#. 사이드킥(보조 무기) 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.sidekick.7"
+msgid "Atom Bombs     Ammo 20"
+msgstr ""
+
+#. 사이드킥(보조 무기) 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.sidekick.8"
+msgid "Phoenix Device Ammo 8"
+msgstr ""
+
+#. 사이드킥(보조 무기) 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.sidekick.9"
+msgid "Plasma Storm   Ammo 6"
+msgstr ""
+
+#. 사이드킥(보조 무기) 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.sidekick.10"
+msgid "Mini-Missile   Ammo 100"
+msgstr ""
+
+#. 사이드킥(보조 무기) 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.sidekick.11"
+msgid "Buster Rocket  Ammo 30"
+msgstr ""
+
+#. 사이드킥(보조 무기) 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.sidekick.12"
+msgid "Zica SuperCharger"
+msgstr ""
+
+#. 사이드킥(보조 무기) 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.sidekick.13"
+msgid "MicroBomb      Ammo 60"
+msgstr ""
+
+#. 사이드킥(보조 무기) 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.sidekick.14"
+msgid "8-Way MicroBomb  Ammo 30"
+msgstr ""
+
+#. 사이드킥(보조 무기) 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.sidekick.15"
+msgid "Post-It Mine   Ammo 20"
+msgstr ""
+
+#. 사이드킥(보조 무기) 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.sidekick.16"
+msgid "Mint-O-Ship"
+msgstr ""
+
+#. 사이드킥(보조 무기) 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.sidekick.17"
+msgid "Zica Flamethrower"
+msgstr ""
+
+#. 사이드킥(보조 무기) 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.sidekick.18"
+msgid "Side Ship      Ammo 100"
+msgstr ""
+
+#. 사이드킥(보조 무기) 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.sidekick.19"
+msgid "Companion Ship Warfly"
+msgstr ""
+
+#. 사이드킥(보조 무기) 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.sidekick.20"
+msgid "MicroSol FrontBlaster"
+msgstr ""
+
+#. 사이드킥(보조 무기) 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.sidekick.21"
+msgid "Companion Ship Gerund"
+msgstr ""
+
+#. 사이드킥(보조 무기) 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.sidekick.22"
+msgid "BattleShip-Class Firebomb"
+msgstr ""
+
+#. 사이드킥(보조 무기) 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.sidekick.23"
+msgid "Protron Cannon Indigo"
+msgstr ""
+
+#. 사이드킥(보조 무기) 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.sidekick.24"
+msgid "Companion Ship Quicksilver"
+msgstr ""
+
+#. 사이드킥(보조 무기) 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.sidekick.25"
+msgid "Protron Cannon Tangerine"
+msgstr ""
+
+#. 사이드킥(보조 무기) 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.sidekick.26"
+msgid "MicroSol FrontBlaster II"
+msgstr ""
+
+#. 사이드킥(보조 무기) 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.sidekick.27"
+msgid "Beno Wallop Beam"
+msgstr ""
+
+#. 사이드킥(보조 무기) 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.sidekick.28"
+msgid "Beno Protron System -B-"
+msgstr ""
+
+#. 사이드킥(보조 무기) 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.sidekick.29"
+msgid "Tropical Cherry Companion"
+msgstr ""
+
+#. 사이드킥(보조 무기) 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.sidekick.30"
+msgid "Satellite Marlo"
+msgstr ""
+
+#. 사이드킥(보조 무기) 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.sidekick.31"
+msgid "Bubble Gum-Gun"
+msgstr ""
+
+#. 사이드킥(보조 무기) 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.sidekick.32"
+msgid "Flying Punch"
+msgstr ""
+
+#. 사이드킥(보조 무기) 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.sidekick.33"
+msgid "None"
+msgstr ""
+
+#. 사이드킥(보조 무기) 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.sidekick.34"
+msgid "None"
+msgstr ""
+
+#. 사이드킥(보조 무기) 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.sidekick.35"
+msgid "None"
+msgstr ""
+
+#. 사이드킥(보조 무기) 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.sidekick.36"
+msgid "None"
+msgstr ""
+
+#. 사이드킥(보조 무기) 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.sidekick.37"
+msgid "None"
+msgstr ""
+
+#. 보호막 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.shield.0"
+msgid "None"
+msgstr ""
+
+#. 보호막 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.shield.1"
+msgid "Structural Integrity Field"
+msgstr ""
+
+#. 보호막 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.shield.2"
+msgid "Advanced Integrity Field"
+msgstr ""
+
+#. 보호막 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.shield.3"
+msgid "Gencore Low Energy Shield"
+msgstr ""
+
+#. 보호막 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.shield.4"
+msgid "Gencore High Energy Shield"
+msgstr ""
+
+#. 보호막 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.shield.5"
+msgid "MicroCorp LXS Class A"
+msgstr ""
+
+#. 보호막 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.shield.6"
+msgid "MicroCorp LXS Class B"
+msgstr ""
+
+#. 보호막 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.shield.7"
+msgid "MicroCorp LXS Class C"
+msgstr ""
+
+#. 보호막 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.shield.8"
+msgid "Gencore Solar Shield"
+msgstr ""
+
+#. 보호막 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.shield.9"
+msgid "MicroCorp HXS Class A"
+msgstr ""
+
+#. 보호막 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.shield.10"
+msgid "MicroCorp HXS Class B"
+msgstr ""
+
+#. 보호막 이름. 최대 90바이트 (한글 약 30자)
+msgctxt "item.shield.11"
+msgid "MicroCorp HXS Class C"
+msgstr ""
+
