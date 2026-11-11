@@ -25,6 +25,7 @@
 #include "file.h"
 #include "font.h"
 #include "fonthand.h"
+#include "hangul.h"
 #include "game_menu.h"
 #include "helptext.h"
 #include "helptext.h"
@@ -47,6 +48,8 @@
 #include "shots.h"
 #include "sndmast.h"
 #include "sprite.h"
+#include "textlayer.h"
+#include "translate.h"
 #include "varz.h"
 #include "vga256d.h"
 #include "video.h"
@@ -83,10 +86,15 @@ void JE_drawTextWindow(const char *text)
 
 void JE_outCharGlow(JE_word x, JE_word y, const char *s)
 {
+	// Works on characters rather than bytes, so that translated (UTF-8) text,
+	// whose characters the text layer draws, glows in the same way.
+	enum { MAX_CHARS = 256 };
 	JE_integer maxloc, loc, z;
-	JE_shortint glowcol[60]; /* [1..60] */
-	JE_shortint glowcolc[60]; /* [1..60] */
-	JE_word textloc[60]; /* [1..60] */
+	JE_shortint glowcol[MAX_CHARS];
+	JE_shortint glowcolc[MAX_CHARS];
+	JE_word textloc[MAX_CHARS];
+	Uint32 chars[MAX_CHARS];   // byte (CP437) or, if wide, Unicode code point
+	bool wide[MAX_CHARS];
 	JE_byte bank;
 
 	setDelay2(1);
@@ -103,8 +111,18 @@ void JE_outCharGlow(JE_word x, JE_word y, const char *s)
 	}
 	else
 	{
-		maxloc = strlen(s);
-		for (z = 0; z < 60; z++)
+		maxloc = 0;
+		for (const char *p = s; *p != '\0' && maxloc < MAX_CHARS; )
+		{
+			Uint32 codepoint;
+			const int len = text_decode_char(p, &codepoint);
+			wide[maxloc] = len > 1;
+			chars[maxloc] = len > 1 ? codepoint : (unsigned char)*p;
+			p += len;
+			++maxloc;
+		}
+
+		for (z = 0; z < MAX_CHARS; z++)
 		{
 			glowcol[z] = -8;
 			glowcolc[z] = 1;
@@ -115,15 +133,23 @@ void JE_outCharGlow(JE_word x, JE_word y, const char *s)
 		{
 			textloc[z] = loc;
 
-			int sprite_id = font_ascii[(unsigned char)s[z]];
+			if (wide[z])
+			{
+				const int advance = textlayer_glyph_advance(TINY_FONT, chars[z]);
+				if (advance > 0)
+					loc += advance;
+				continue;
+			}
 
-			if (s[z] == ' ')
-				loc += 6;
+			int sprite_id = font_ascii[chars[z]];
+
+			if (chars[z] == ' ')
+				loc += JE_spaceWidth(TINY_FONT, z > 0 && wide[z - 1], z + 1 < maxloc && wide[z + 1]);
 			else if (sprite_id != -1)
 				loc += sprite(TINY_FONT, sprite_id)->width + 1;
 		}
 
-		for (loc = 0; (unsigned)loc < strlen(s) + 28; loc++)
+		for (loc = 0; loc < maxloc + 28; loc++)
 		{
 			if (!ESCPressed)
 			{
@@ -131,26 +157,38 @@ void JE_outCharGlow(JE_word x, JE_word y, const char *s)
 
 				NETWORK_KEEP_ALIVE();
 
-				int sprite_id = -1;
-
 				for (z = loc - 28; z <= loc; z++)
 				{
 					if (z >= 0 && z < maxloc)
 					{
-						sprite_id = font_ascii[(unsigned char)s[z]];
-
-						if (sprite_id != -1)
+						bool drawn = false;
+						if (wide[z])
 						{
-							blit_sprite_hv(VGAScreen, textloc[z], y, TINY_FONT, sprite_id, bank, glowcol[z]);
+							drawn = textlayer_draw_glyph(VGAScreen, textloc[z], y, TINY_FONT, chars[z], TEXT_MODE_HV, bank, glowcol[z]) >= 0;
+						}
+						else if (font_ascii[chars[z]] != -1)
+						{
+							blit_sprite_hv(VGAScreen, textloc[z], y, TINY_FONT, font_ascii[chars[z]], bank, glowcol[z]);
+							drawn = true;
+						}
 
+						if (drawn)
+						{
 							glowcol[z] += glowcolc[z];
 							if (glowcol[z] > 9)
 								glowcolc[z] = -1;
 						}
 					}
 				}
-				if (sprite_id != -1 && --z < maxloc)
-					blit_sprite_dark(VGAScreen, textloc[z] + 1, y + 1, TINY_FONT, sprite_id, true);
+
+				// shadow of the newest character
+				if (loc < maxloc)
+				{
+					if (wide[loc])
+						textlayer_draw_glyph(VGAScreen, textloc[loc] + 1, y + 1, TINY_FONT, chars[loc], TEXT_MODE_BLACK, 0, 0);
+					else if (font_ascii[chars[loc]] != -1)
+						blit_sprite_dark(VGAScreen, textloc[loc] + 1, y + 1, TINY_FONT, font_ascii[chars[loc]], true);
+				}
 
 				if (JE_anyButton())
 					frameCountMax = 0;
@@ -227,7 +265,7 @@ void JE_helpSystem(JE_byte startTopic)
 		}
 
 		// Restore background.
-		memcpy(VGAScreen->pixels, VGAScreen2->pixels, (size_t)VGAScreen->pitch * VGAScreen->h);
+		surface_copy(VGAScreen, VGAScreen2);
 
 		// Draw header.
 		draw_font_hv_shadow(VGAScreen, xCenter, yMenuHeader, topicName[0], large_font, centered, 15, -3, false, 2);
@@ -406,7 +444,7 @@ static bool helpSystemPage(Uint8 *topic, bool *restart)
 		}
 
 		// Restore background.
-		memcpy(VGAScreen->pixels, VGAScreen2->pixels, (size_t)VGAScreen->pitch * VGAScreen->h);
+		surface_copy(VGAScreen, VGAScreen2);
 
 		fill_rectangle_wh(VGAScreen, 0, 192, 320, 8, 0);
 
@@ -416,7 +454,7 @@ static bool helpSystemPage(Uint8 *topic, bool *restart)
 		draw_font_hv_shadow(VGAScreen, xCenter, 1, text, normal_font, centered, 15, -3, false, 2);
 
 		// Draw footer.
-		JE_char buffer[128];
+		JE_char buffer[TEXT_SIZE(42) + 32];
 
 		snprintf(buffer, sizeof buffer, "%s %d", miscText[24], page - topicStart[*topic - 1] + 1);
 		draw_font_hv(VGAScreen, 10, 192, buffer, small_font, left_aligned, 13, 5);
@@ -660,7 +698,7 @@ bool JE_loadScreen(void)
 		}
 
 		// Restore background.
-		memcpy(VGAScreen->pixels, VGAScreen2->pixels, (size_t)VGAScreen->pitch * VGAScreen->h);
+		surface_copy(VGAScreen, VGAScreen2);
 
 		// Draw header.
 		draw_font_hv_shadow(VGAScreen, xCenter, yMenuHeader, miscText[38 + playersIndex], large_font, centered, 15, -3, false, 2);
@@ -683,7 +721,7 @@ bool JE_loadScreen(void)
 
 			const bool disabled = saveFile->level == 0;
 
-			char buffer[22];
+			char buffer[TEXT_SIZE(12) + TEXT_SIZE(11) + 8];
 
 			if (disabled)
 			{
@@ -696,7 +734,7 @@ bool JE_loadScreen(void)
 			{
 				JE_textShade(VGAScreen, xMenuItemName, y, saveFile->name, 13, selected ? 6 : 2, FULL_SHADE);
 
-				snprintf(buffer, sizeof buffer, "%s %s", miscTextB[2], saveFile->levelName);
+				snprintf(buffer, sizeof buffer, "%s %s", miscTextB[2], tr_level_name(saveFile->levelName));
 				JE_textShade(VGAScreen, xMenuItemLastLevel, y, buffer, 5, selected ? 6 : 2, FULL_SHADE);
 
 				snprintf(buffer, sizeof buffer, "%s %u", miscTextB[1], saveFile->episode);
@@ -1086,7 +1124,7 @@ void JE_initPlayerData(void)
 	mainLevel = FIRST_LEVEL;
 	saveLevel = FIRST_LEVEL;
 
-	strcpy(lastLevelName, miscText[19]);
+	tr_copy_text(lastLevelName, sizeof(lastLevelName), miscText[19]);  // saved in 11 bytes
 }
 
 void JE_sortHighScores(void)
@@ -1134,7 +1172,7 @@ void JE_highScoreScreen(void)
 	const int wControl = 24;
 	const int yControls = 179;
 
-	char buffer[64];
+	char buffer[TEXT_SIZE(31) + TEXT_SIZE(23) * 2];
 	int boardOnePlayer, boardTwoPlayer;
 
 	for (; ; )
@@ -1149,7 +1187,7 @@ void JE_highScoreScreen(void)
 		}
 
 		// Restore background and header.
-		memcpy(VGAScreen->pixels, VGAScreen2->pixels, (size_t)VGAScreen->pitch * VGAScreen->h);
+		surface_copy(VGAScreen, VGAScreen2);
 
 		if (episodeIndex < 5)
 		{
@@ -1564,7 +1602,7 @@ JE_boolean JE_inGameSetup(void)
 			JE_barShade(VGAScreen, 3, 143, 257, 157);
 			JE_barShade(VGAScreen, 5, 145, 255, 155);
 
-			memcpy(VGAScreen2->pixels, VGAScreen->pixels, VGAScreen2->pitch * VGAScreen2->h);
+			surface_copy(VGAScreen2, VGAScreen);
 
 			mouseCursor = MOUSE_POINTER_NORMAL;
 
@@ -1572,7 +1610,7 @@ JE_boolean JE_inGameSetup(void)
 		}
 
 		// Restore background.
-		memcpy(VGAScreen->pixels, VGAScreen2->pixels, (size_t)VGAScreen->pitch * VGAScreen->h);
+		surface_copy(VGAScreen, VGAScreen2);
 
 		// Draw menu items.
 		for (size_t i = 0; i < menuItemsCount; ++i)
@@ -2110,7 +2148,7 @@ void JE_highScoreCheck(void)
 
 					if (twoPlayerMode)
 					{
-						sprintf(buffer, "%s %s", miscText[48 + p], miscText[53]);
+						snprintf(buffer, sizeof(buffer), "%s %s", miscText[48 + p], miscText[53]);
 						JE_textShade(VGAScreen, 60, 55, buffer, 11, 4, FULL_SHADE);
 					}
 					else
@@ -2118,7 +2156,7 @@ void JE_highScoreCheck(void)
 						JE_textShade(VGAScreen, 60, 55, miscText[53], 11, 4, FULL_SHADE);
 					}
 
-					sprintf(buffer, "%s %d", miscText[37], temp_score);
+					snprintf(buffer, sizeof(buffer), "%s %d", miscText[37], temp_score);
 					JE_textShade(VGAScreen, 70, 70, buffer, 11, 4, FULL_SHADE);
 
 					do
@@ -2523,7 +2561,7 @@ void JE_playCredits(void)
 	enum { lines_max = 126 };
 	enum { line_max_length = 65 };
 
-	char credstr[lines_max][line_max_length + 1];
+	char credstr[lines_max][TEXT_SIZE(line_max_length + 1)];
 
 	int lines = 0;
 
@@ -2543,7 +2581,11 @@ void JE_playCredits(void)
 	FILE *f = dir_fopen_die(data_dir(), "tyrian.cdt", "rb");
 	for (lines = 0; lines < lines_max; ++lines)
 	{
-		read_encrypted_pascal_string(credstr[lines], sizeof(credstr[lines]), f);
+		{
+			char key[32];
+			snprintf(key, sizeof(key), "credits.%d", lines);
+			tr_read_encrypted(credstr[lines], sizeof(credstr[lines]), f, key);
+		}
 	}
 	fclose(f);
 
@@ -2737,12 +2779,12 @@ void JE_endLevelAni(void)
 	}
 	else if (all_players_alive())
 	{
-		sprintf(tempStr, "%s %s", miscText[27-1], levelName); // "Completed"
+		snprintf(tempStr, sizeof(tempStr), "%s %s", miscText[27-1], tr_level_name(levelName)); // "Completed"
 		JE_outTextGlow(VGAScreenSeg, 20, 20, tempStr);
 	}
 	else
 	{
-		sprintf(tempStr, "%s %s", miscText[62-1], levelName); // "Exiting"
+		snprintf(tempStr, sizeof(tempStr), "%s %s", miscText[62-1], tr_level_name(levelName)); // "Exiting"
 		JE_outTextGlow(VGAScreenSeg, 20, 20, tempStr);
 	}
 
@@ -2756,20 +2798,20 @@ void JE_endLevelAni(void)
 	}
 	else
 	{
-		sprintf(tempStr, "%s %lu", miscText[28-1], player[0].cash);
+		snprintf(tempStr, sizeof(tempStr), "%s %lu", miscText[28-1], player[0].cash);
 		JE_outTextGlow(VGAScreenSeg, 30, 50, tempStr);
 	}
 
 	if (timedBattleMode)
 	{
 		x = (levelTimerCountdown / 10) * 100;
-		sprintf(tempStr, "%s %d", miscTextB[6], x);
+		snprintf(tempStr, sizeof(tempStr), "%s %d", miscTextB[6], x);
 		JE_outTextGlow(VGAScreenSeg, 40, 75, tempStr);
 		player[0].cash += x;
 	}
 
 	temp = (totalEnemy == 0) ? 0 : roundf(enemyKilled * 100 / totalEnemy);
-	sprintf(tempStr, "%s %d%%", miscText[63-1], temp);
+	snprintf(tempStr, sizeof(tempStr), "%s %d%%", miscText[63-1], temp);
 	JE_outTextGlow(VGAScreenSeg, 40, 90, tempStr);
 
 	if (!constantPlay)
@@ -2811,7 +2853,7 @@ void JE_endLevelAni(void)
 			}
 		}
 		x = *player[0].lives * 1000;
-		sprintf(tempStr, "%s %d", miscTextB[7], x);
+		snprintf(tempStr, sizeof(tempStr), "%s %d", miscTextB[7], x);
 		JE_outTextGlow(VGAScreenSeg, 120, 120, tempStr);
 		player[0].cash += x;
 	}
@@ -2941,7 +2983,7 @@ void JE_operation(JE_byte slot)
 {
 	JE_byte flash;
 	char stemp[21];
-	char tempStr[51];
+	char tempStr[TEXT_SIZE(42) + 32];  // translated text + save name
 
 	if (!performSave)
 	{
@@ -2973,7 +3015,7 @@ void JE_operation(JE_byte slot)
 			blit_sprite(VGAScreen, 50, 50, OPTION_SHAPES, 35);  // message box
 
 			JE_textShade(VGAScreen, 60, 55, miscText[1-1], 11, 4, DARKEN);
-			JE_textShade(VGAScreen, 70, 70, levelName, 11, 4, DARKEN);
+			JE_textShade(VGAScreen, 70, 70, tr_level_name(levelName), 11, 4, DARKEN);
 
 			do
 			{
@@ -3071,7 +3113,7 @@ void JE_operation(JE_byte slot)
 
 void JE_inGameDisplays(void)
 {
-	char stemp[21];
+	char stemp[TEXT_SIZE(42)];  // translated text or a player name
 	char tempstr[256];
 
 	for (uint i = 0; i < ((twoPlayerMode && !galagaMode) ? 2 : 1); ++i)
@@ -3140,7 +3182,7 @@ void JE_inGameDisplays(void)
 
 	if (youAreCheating)
 	{
-		JE_outText(VGAScreen, 90, 170, "Cheaters always prosper.", 3, 4);
+		JE_outText(VGAScreen, 90, 170, ui_text(UI_CHEATERS), 3, 4);
 	}
 }
 

@@ -18,14 +18,78 @@
  */
 #include "fonthand.h"
 
+#include "hangul.h"
 #include "network.h"
 #include "nortsong.h"
 #include "nortvars.h"
 #include "opentyr.h"
 #include "params.h"
 #include "sprite.h"
+#include "textlayer.h"
 #include "vga256d.h"
 #include "video.h"
+
+/** Whether a font sprite has no visible pixels (the normal font has such placeholders, e.g. for parentheses). */
+static bool sprite_is_blank(unsigned int font, int sprite_id)
+{
+	const Sprite *s = sprite(font, sprite_id);
+	for (unsigned int i = 0; i < s->size; ++i)
+	{
+		if (s->data[i] == 255)
+			++i;  // run of transparent pixels; next byte is its length
+		else if (s->data[i] < 253)
+			return false;
+	}
+	return true;
+}
+
+bool JE_nextTextChar(const char **s, unsigned int font, Uint32 *codepoint)
+{
+	const char *c = *s;
+	const int len = text_decode_char(c, codepoint);
+	*s += MAX(1, len);
+
+	if (len > 1)
+		return true;  // multi-byte (UTF-8): not in the sprite fonts
+
+	// ASCII symbols missing from this sprite font (e.g. parentheses in the
+	// normal font) are taken from the Korean fonts.
+	const unsigned char ch = (unsigned char)*c;
+	if (ch > ' ' && ch < 0x7f && ch != '~')
+	{
+		const int sprite_id = font_ascii[ch];
+		if (sprite_id == -1 || !sprite_exists(font, sprite_id) || sprite_is_blank(font, sprite_id))
+			return textlayer_glyph_advance(font, ch) >= 0;
+	}
+	return false;
+}
+
+bool JE_isWideChar(const char *s)
+{
+	return (unsigned char)*s >= 0x80;
+}
+
+int JE_spaceWidth(unsigned int font, bool after_wide, bool before_wide)
+{
+	// A Korean syllable of the small font is about as wide as a normal
+	// space, so spaces between Korean words are narrower.
+	const bool small = font != FONT_SHAPES && font != SMALL_FONT_SHAPES;
+	return small && (after_wide || before_wide) ? 3 : 6;
+}
+
+/**
+ * Like JE_nextTextChar() for loops over s[i]: if the character at s[i] is to
+ * be drawn by the text layer, advances i to its last byte and returns true.
+ */
+static bool next_layer_char(const char *s, int *i, unsigned int font, Uint32 *codepoint)
+{
+	const char *p = &s[*i];
+	if (!JE_nextTextChar(&p, font, codepoint))
+		return false;
+
+	*i = (int)(p - s) - 1;
+	return true;
+}
 
 const int font_ascii[256] =
 {
@@ -54,7 +118,7 @@ JE_byte textGlowFont, textGlowBrightness = 6;
 
 JE_boolean levelWarningDisplay;
 JE_byte levelWarningLines;
-char levelWarningText[12][61]; /* [1..10] of string [60] */
+char levelWarningText[12][TEXT_SIZE(61)]; /* [1..10] of string [60] */
 JE_boolean warningRed;
 
 JE_byte warningSoundDelay;
@@ -68,14 +132,29 @@ void JE_dString(SDL_Surface * screen, int x, int y, const char *s, unsigned int 
 
 	int bright = 0;
 
+	bool after_wide = false;
+
 	for (int i = 0; s[i] != '\0'; ++i)
 	{
+		Uint32 codepoint;
+		if (next_layer_char(s, &i, font, &codepoint))
+		{
+			textlayer_draw_glyph(screen, x + 2, y + 2, font, codepoint, TEXT_MODE_DARK, 0, 0);
+			const int advance = textlayer_draw_glyph(screen, x, y, font, codepoint, TEXT_MODE_HV_UNSAFE, 0xf, defaultBrightness + bright);
+			if (advance > 0)
+				x += advance;
+			after_wide = codepoint >= 0x80;
+			continue;
+		}
+		if (s[i] != ' ' && s[i] != '~')
+			after_wide = false;
+
 		int sprite_id = font_ascii[(unsigned char)s[i]];
 
 		switch (s[i])
 		{
 		case ' ':
-			x += 6;
+			x += JE_spaceWidth(font, after_wide, JE_isWideChar(&s[i + 1]));
 			break;
 
 		case '~':
@@ -104,12 +183,26 @@ int JE_textWidth(const char *s, unsigned int font)
 {
 	int x = 0;
 
+	bool after_wide = false;
+
 	for (int i = 0; s[i] != '\0'; ++i)
 	{
+		Uint32 codepoint;
+		if (next_layer_char(s, &i, font, &codepoint))
+		{
+			const int advance = textlayer_glyph_advance(font, codepoint);
+			if (advance > 0)
+				x += advance;
+			after_wide = codepoint >= 0x80;
+			continue;
+		}
+		if (s[i] != ' ' && s[i] != '~')
+			after_wide = false;
+
 		int sprite_id = font_ascii[(unsigned char)s[i]];
 
 		if (s[i] == ' ')
-			x += 6;
+			x += JE_spaceWidth(font, after_wide, JE_isWideChar(&s[i + 1]));
 		else if (sprite_id != -1)
 			x += sprite(font, sprite_id)->width + 1;
 	}
@@ -145,14 +238,30 @@ void JE_outText(SDL_Surface * screen, int x, int y, const char *s, unsigned int 
 {
 	int bright = 0;
 
+	bool after_wide = false;
+
 	for (int i = 0; s[i] != '\0'; ++i)
 	{
+		Uint32 codepoint;
+		if (next_layer_char(s, &i, TINY_FONT, &codepoint))
+		{
+			const int advance = brightness >= 0
+				? textlayer_draw_glyph(screen, x, y, TINY_FONT, codepoint, TEXT_MODE_HV_UNSAFE, colorbank, brightness + bright)
+				: textlayer_draw_glyph(screen, x, y, TINY_FONT, codepoint, TEXT_MODE_BLACK, 0, 0);
+			if (advance > 0)
+				x += advance;
+			after_wide = codepoint >= 0x80;
+			continue;
+		}
+		if (s[i] != ' ' && s[i] != '~')
+			after_wide = false;
+
 		int sprite_id = font_ascii[(unsigned char)s[i]];
 
 		switch (s[i])
 		{
 		case ' ':
-			x += 6;
+			x += JE_spaceWidth(TINY_FONT, after_wide, JE_isWideChar(&s[i + 1]));
 			break;
 
 		case '~':
@@ -176,13 +285,27 @@ void JE_outText(SDL_Surface * screen, int x, int y, const char *s, unsigned int 
 
 void JE_outTextModify(SDL_Surface * screen, int x, int y, const char *s, unsigned int filter, unsigned int brightness, unsigned int font)
 {
+	bool after_wide = false;
+
 	for (int i = 0; s[i] != '\0'; ++i)
 	{
+		Uint32 codepoint;
+		if (next_layer_char(s, &i, font, &codepoint))
+		{
+			const int advance = textlayer_draw_glyph(screen, x, y, font, codepoint, TEXT_MODE_BLEND, filter, brightness);
+			if (advance > 0)
+				x += advance;
+			after_wide = codepoint >= 0x80;
+			continue;
+		}
+		if (s[i] != ' ' && s[i] != '~')
+			after_wide = false;
+
 		int sprite_id = font_ascii[(unsigned char)s[i]];
 
 		if (s[i] == ' ')
 		{
-			x += 6;
+			x += JE_spaceWidth(font, after_wide, JE_isWideChar(&s[i + 1]));
 		}
 		else if (sprite_id != -1)
 		{
@@ -197,14 +320,30 @@ void JE_outTextAdjust(SDL_Surface * screen, int x, int y, const char *s, unsigne
 {
 	int bright = 0;
 
+	bool after_wide = false;
+
 	for (int i = 0; s[i] != '\0'; ++i)
 	{
+		Uint32 codepoint;
+		if (next_layer_char(s, &i, font, &codepoint))
+		{
+			if (shadow)
+				textlayer_draw_glyph(screen, x + 2, y + 2, font, codepoint, TEXT_MODE_DARK, 0, 0);
+			const int advance = textlayer_draw_glyph(screen, x, y, font, codepoint, TEXT_MODE_HV, filter, brightness + bright);
+			if (advance > 0)
+				x += advance;
+			after_wide = codepoint >= 0x80;
+			continue;
+		}
+		if (s[i] != ' ' && s[i] != '~')
+			after_wide = false;
+
 		int sprite_id = font_ascii[(unsigned char)s[i]];
 
 		switch (s[i])
 		{
 		case ' ':
-			x += 6;
+			x += JE_spaceWidth(font, after_wide, JE_isWideChar(&s[i + 1]));
 			break;
 
 		case '~':
@@ -229,14 +368,29 @@ void JE_outTextAndDarken(SDL_Surface * screen, int x, int y, const char *s, unsi
 {
 	int bright = 0;
 
+	bool after_wide = false;
+
 	for (int i = 0; s[i] != '\0'; ++i)
 	{
+		Uint32 codepoint;
+		if (next_layer_char(s, &i, font, &codepoint))
+		{
+			textlayer_draw_glyph(screen, x + 1, y + 1, font, codepoint, TEXT_MODE_DARK, 0, 0);
+			const int advance = textlayer_draw_glyph(screen, x, y, font, codepoint, TEXT_MODE_HV_UNSAFE, colorbank, brightness + bright);
+			if (advance > 0)
+				x += advance;
+			after_wide = codepoint >= 0x80;
+			continue;
+		}
+		if (s[i] != ' ' && s[i] != '~')
+			after_wide = false;
+
 		int sprite_id = font_ascii[(unsigned char)s[i]];
 
 		switch (s[i])
 		{
 		case ' ':
-			x += 6;
+			x += JE_spaceWidth(font, after_wide, JE_isWideChar(&s[i + 1]));
 			break;
 
 		case '~':

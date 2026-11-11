@@ -50,7 +50,7 @@ typedef struct
 
 typedef struct
 {
-	char    name[31]; /* string [30] */
+	char    name[TEXT_SIZE(31)]; /* string [30] */
 	JE_byte opnum;
 	JE_word op[2][11]; /* [1..2, 1..11] */
 	JE_word cost;
@@ -60,7 +60,7 @@ typedef struct
 
 typedef struct
 {
-	char        name[31]; /* string [30] */
+	char        name[TEXT_SIZE(31)]; /* string [30] */
 	JE_word     itemgraphic;
 	JE_byte     power;
 	JE_shortint speed;
@@ -69,7 +69,7 @@ typedef struct
 
 typedef struct
 {
-	char    name[31]; /* string [30] */
+	char    name[TEXT_SIZE(31)]; /* string [30] */
 	JE_word itemgraphic;
 	JE_byte pwr;
 	JE_byte stype;
@@ -78,7 +78,7 @@ typedef struct
 
 typedef struct
 {
-	char        name[31]; /* string [30] */
+	char        name[TEXT_SIZE(31)]; /* string [30] */
 	JE_byte     pwr;
 	JE_word     itemgraphic;
 	JE_word     cost;
@@ -95,7 +95,7 @@ typedef struct
 
 typedef struct
 {
-	char    name[31]; /* string [30] */
+	char    name[TEXT_SIZE(31)]; /* string [30] */
 	JE_byte tpwr;
 	JE_byte mpwr;
 	JE_word itemgraphic;
@@ -104,7 +104,7 @@ typedef struct
 
 typedef struct
 {
-	char        name[31]; /* string [30] */
+	char        name[TEXT_SIZE(31)]; /* string [30] */
 	JE_word     shipgraphic;
 	JE_word     itemgraphic;
 	JE_byte     ani;

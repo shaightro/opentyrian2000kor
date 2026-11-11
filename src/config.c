@@ -26,6 +26,7 @@
 #include "nortsong.h"
 #include "opentyr.h"
 #include "player.h"
+#include "translate.h"
 #include "varz.h"
 #include "vga256d.h"
 #include "video.h"
@@ -98,8 +99,8 @@ static const char *const mouseSettingValues[] =
 	"change rear mode",
 };
 
-char defaultHighScoreNames[39][23]; /* [1..39] of string [22] */
-char defaultTeamNames[10][25]; /* [1..22] of string [24] */
+char defaultHighScoreNames[39][TEXT_SIZE(23)]; /* [1..39] of string [22] */
+char defaultTeamNames[10][TEXT_SIZE(25)]; /* [1..22] of string [24] */
 
 const JE_EditorItemAvailType initialItemAvail =
 {
@@ -212,6 +213,7 @@ bool load_opentyrian_config(void)
 {
 	// defaults
 	fullscreen_display = -1;
+	window_scale = WINDOW_SCALE_AUTO;
 	set_scaler_by_name("Scale2x");
 	memcpy(keySettings, defaultKeySettings, sizeof(keySettings));
 	memcpy(mouseSettings, defaultMouseSettings, sizeof(mouseSettings));
@@ -243,6 +245,11 @@ bool load_opentyrian_config(void)
 		const char *scaling_mode;
 		if (config_get_string_option(section, "scaling_mode", &scaling_mode))
 			set_scaling_mode_by_name(scaling_mode);
+
+		int scale;
+		if (config_get_int_option(section, "window_scale", &scale) &&
+		    scale >= WINDOW_SCALE_AUTO && scale <= WINDOW_SCALE_MAX)
+			window_scale = scale;
 	}
 
 	section = config_find_section(config, "keyboard", NULL);
@@ -300,6 +307,8 @@ bool save_opentyrian_config(void)
 	config_set_string_option(section, "scaler", scalers[scaler].name);
 	
 	config_set_string_option(section, "scaling_mode", scaling_mode_names[scaling_mode]);
+
+	config_set_int_option(section, "window_scale", window_scale);  // 0 = auto
 
 	section = config_find_or_add_section(config, "keyboard", NULL);
 	if (section == NULL)
@@ -762,10 +771,34 @@ const char *get_user_directory(void)
 			}
 		}
 #else
-		strcpy(user_dir, ".");
+		// Portable install: keep settings and saves next to the executable when
+		// that folder is writable; otherwise (e.g. under Program Files) use the
+		// per-user application data folder.
+		const char *base = base_dir();
+		if (base[0] != '\0' && dir_is_writable(base))
+		{
+			snprintf(user_dir, sizeof(user_dir), "%s", base);
+		}
+		else
+		{
+			char *pref_path = SDL_GetPrefPath("OpenTyrian", "OpenTyrian2000");
+			if (pref_path != NULL)
+			{
+				snprintf(user_dir, sizeof(user_dir), "%s", pref_path);
+				SDL_free(pref_path);
+
+				size_t len = strlen(user_dir);
+				if (len > 1 && (user_dir[len - 1] == '\\' || user_dir[len - 1] == '/'))
+					user_dir[len - 1] = '\0';
+			}
+			else
+			{
+				strcpy(user_dir, ".");
+			}
+		}
 #endif
 	}
-	
+
 	return user_dir;
 }
 
@@ -967,11 +1000,11 @@ void JE_loadConfiguration(void)
 			if (z % 6 > 2)
 			{
 				saveFiles[z].highScore2 = ((mt_rand() % 20) + 1) * 1000;
-				strcpy(saveFiles[z].highScoreName, defaultTeamNames[mt_rand() % COUNTOF(defaultTeamNames)]);
+				tr_copy_text(saveFiles[z].highScoreName, sizeof(saveFiles[z].highScoreName), defaultTeamNames[mt_rand() % COUNTOF(defaultTeamNames)]);  // (names may be translated)
 			}
 			else
 			{
-				strcpy(saveFiles[z].highScoreName, defaultHighScoreNames[mt_rand() % COUNTOF(defaultHighScoreNames)]);
+				tr_copy_text(saveFiles[z].highScoreName, sizeof(saveFiles[z].highScoreName), defaultHighScoreNames[mt_rand() % COUNTOF(defaultHighScoreNames)]);  // (names may be translated)
 			}
 		}
 
@@ -981,7 +1014,7 @@ void JE_loadConfiguration(void)
 			{
 				// Timed Battle scores
 				t2kHighScores[z][y].score = ((mt_rand() % 50) + 1) * 100;
-				strcpy(t2kHighScores[z][y].playerName, defaultHighScoreNames[mt_rand() % COUNTOF(defaultHighScoreNames)]);
+				tr_copy_text(t2kHighScores[z][y].playerName, sizeof(t2kHighScores[z][y].playerName), defaultHighScoreNames[mt_rand() % COUNTOF(defaultHighScoreNames)]);  // (names may be translated)
 			}
 		}
 		for (z = 10; z < 20; ++z)
@@ -991,9 +1024,9 @@ void JE_loadConfiguration(void)
 				// Main Game scores
 				t2kHighScores[z][y].score = ((mt_rand() % 20) + 1) * 1000;
 				if (z & 1)
-					strcpy(t2kHighScores[z][y].playerName, defaultTeamNames[mt_rand() % COUNTOF(defaultTeamNames)]);
+					tr_copy_text(t2kHighScores[z][y].playerName, sizeof(t2kHighScores[z][y].playerName), defaultTeamNames[mt_rand() % COUNTOF(defaultTeamNames)]);  // (names may be translated)
 				else
-					strcpy(t2kHighScores[z][y].playerName, defaultHighScoreNames[mt_rand() % COUNTOF(defaultHighScoreNames)]);
+					tr_copy_text(t2kHighScores[z][y].playerName, sizeof(t2kHighScores[z][y].playerName), defaultHighScoreNames[mt_rand() % COUNTOF(defaultHighScoreNames)]);  // (names may be translated)
 			}
 		}
 	}

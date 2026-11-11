@@ -25,6 +25,13 @@
 #include <stdbool.h>
 
 #define COUNTOF(x) ((unsigned)(sizeof(x) / sizeof *(x)))  // use only on arrays!
+
+/*
+ * Size of a buffer for game text that took n bytes (including the terminator)
+ * in the original game: room for as many characters of translated text in
+ * UTF-8, where a Korean syllable takes 3 bytes.
+ */
+#define TEXT_SIZE(n) (((n) - 1) * 3 + 1)
 #define MIN(a, b) ((a) < (b) ? (a) : (b))
 #define MAX(a, b) ((a) > (b) ? (a) : (b))
 

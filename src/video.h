@@ -39,6 +39,13 @@ extern const char *const scaling_mode_names[ScalingMode_MAX];
 extern int fullscreen_display; // -1 means windowed
 extern ScalingMode scaling_mode;
 
+#define WINDOW_SCALE_AUTO 0
+#define WINDOW_SCALE_MAX 10
+
+// Integer scale of the game screen for the window size in windowed mode,
+// or WINDOW_SCALE_AUTO to pick one that suits the display.
+extern int window_scale;
+
 extern SDL_Surface *VGAScreen, *VGAScreenSeg;
 extern SDL_Surface *game_screen;
 extern SDL_Surface *VGAScreen2;
@@ -49,6 +56,11 @@ extern SDL_PixelFormat *main_window_tex_format;
 void init_video(void);
 
 void video_on_win_resize(void);
+int get_max_window_scale(void);
+int get_auto_window_scale(void);
+int get_effective_window_scale(void);
+void set_window_scale(int new_scale);
+void reset_window_size(void);
 void reinit_fullscreen(int new_display);
 void toggle_fullscreen(void);
 bool init_scaler(unsigned int new_scaler);

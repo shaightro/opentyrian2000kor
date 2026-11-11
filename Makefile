@@ -8,7 +8,7 @@ else
     TYRIAN_DIR = $(gamesdir)/opentyrian2000
 endif
 
-WITH_NETWORK := true
+WITH_NETWORK := false
 
 ################################################################################
 
@@ -95,6 +95,9 @@ ALL_LDFLAGS = $(SDL_LDFLAGS) \
 ALL_LDLIBS = -lm \
              $(SDL_LDLIBS) \
              $(LDLIBS)
+ifeq ($(PLATFORM), WIN32)
+    ALL_LDLIBS += -lbcrypt -lurlmon -lole32
+endif
 
 ###
 

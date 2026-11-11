@@ -37,6 +37,8 @@
 #include "player.h"
 #include "shots.h"
 #include "sprite.h"
+#include "textlayer.h"
+#include "translate.h"
 #include "tyrian2.h"
 #include "varz.h"
 #include "vga256d.h"
@@ -66,10 +68,10 @@ enum
 /*** Structs ***/
 struct cube_struct
 {
-	char title[81];
-	char header[13];
+	char title[TEXT_SIZE(81)];
+	char header[TEXT_SIZE(13)];
 	int face_sprite;
-	char text[90][36];
+	char text[90][108];  // room for UTF-8 Korean (3 bytes per syllable)
 	int last_line;
 };
 
@@ -211,7 +213,7 @@ void JE_itemScreen(void)
 		}
 	}
 
-	memcpy(VGAScreen2->pixels, VGAScreen->pixels, VGAScreen2->pitch * VGAScreen2->h);
+	surface_copy(VGAScreen2, VGAScreen);
 
 	keyboardUsed = false;
 	firstMenu9 = false;
@@ -263,7 +265,7 @@ void JE_itemScreen(void)
 		/* SYN: note reindexing... "firstMenu9" refers to Menu 8 here :( */
 		if (curMenu != MENU_DATA_CUBE_SUB || firstMenu9)
 		{
-			memcpy(VGAScreen->pixels, VGAScreen2->pixels, VGAScreen->pitch * VGAScreen->h);
+			surface_copy(VGAScreen, VGAScreen2);
 		}
 
 		if (curMenu == MENU_UPGRADES &&
@@ -374,9 +376,9 @@ void JE_itemScreen(void)
 					}
 					else
 					{
-						char buf[20];
+						char buf[64];
 
-						strcpy(tempStr, saveFiles[x-2].levelName);
+						snprintf(tempStr, sizeof(tempStr), "%s", tr_level_name(saveFiles[x-2].levelName));
 
 						snprintf(buf, sizeof buf, "%s%d", miscTextB[1-1], saveFiles[x-2].episode);
 						JE_textShade(VGAScreen, 297, tempY, buf, temp2 / 16, temp2 % 16 - 8, DARKEN);
@@ -558,7 +560,7 @@ void JE_itemScreen(void)
 				{
 					case 1: /* ship */
 						if (temp > 90)
-							snprintf(tempStr, sizeof(tempStr), "Custom Ship %d", temp - 90);
+							tr_format(tempStr, sizeof(tempStr), ui_text(UI_CUSTOM_SHIP), NULL, temp - 90);
 						else
 							strcpy(tempStr, ships[temp].name);
 						break;
@@ -610,9 +612,9 @@ void JE_itemScreen(void)
 				/* Draw Cost: if it's not the DONE option */
 				if (tempW != menuChoices[curMenu]-1)
 				{
-					char buf[20];
+					char buf[64];
 
-					snprintf(buf, sizeof buf, "Cost: %d", temp_cost);
+					tr_format(buf, sizeof(buf), ui_text(UI_COST), NULL, temp_cost);
 					JE_textShade(VGAScreen, 187, tempY+10, buf, temp2 / 16, temp2 % 16 - 8 - afford_shade, DARKEN);
 				}
 			}
@@ -648,7 +650,7 @@ void JE_itemScreen(void)
 		{
 			if (twoPlayerMode)
 			{
-				char buf[50];
+				char buf[TEXT_SIZE(42) + 16];
 
 				for (uint i = 0; i < 2; ++i)
 				{
@@ -769,9 +771,9 @@ void JE_itemScreen(void)
 
 				char temp[64];
 				if (joysticks > 1 && inputDevice[i] > 2)
-					sprintf(temp, "%s %d", inputDevices[2], inputDevice[i] - 2);
+					snprintf(temp, sizeof(temp), "%s %d", inputDevices[2], inputDevice[i] - 2);
 				else
-					sprintf(temp, "%s", inputDevices[inputDevice[i] - 1]);
+					snprintf(temp, sizeof(temp), "%s", inputDevices[inputDevice[i] - 1]);
 				JE_dString(VGAScreen, 186, 38 + 2 * (i + 1) * 16, temp, SMALL_FONT_SHAPES);
 			}
 		}
@@ -873,7 +875,7 @@ void JE_itemScreen(void)
 					                   ? 100
 					                   : (yLoc * 100) / ((cube[currentCube].last_line - 9) * 12);
 
-					char buf[55];
+					char buf[TEXT_SIZE(42) + 16];
 					snprintf(buf, sizeof(buf), "%s %d%%", miscText[11], percent_read);
 					JE_outTextAndDarken(VGAScreen, 176, 160, buf, 14, 1, TINY_FONT);
 
@@ -1333,7 +1335,7 @@ void JE_itemScreen(void)
 						break;
 					}
 
-					memcpy(VGAScreen2->pixels, VGAScreen->pixels, VGAScreen2->pitch * VGAScreen2->h);
+					surface_copy(VGAScreen2, VGAScreen);
 
 					curPal = newPal;
 					memcpy(colors, palettes[newPal-1], sizeof(colors));
@@ -1768,7 +1770,10 @@ bool load_cube(int cube_slot, int cube_index)
 {
 	FILE *f = dir_fopen_die(data_dir(), cube_file, "rb");
 
-	char buf[256];
+	// A translated paragraph (see translate.h) can be much longer than a line.
+	char buf[4096];
+	char key[48];
+	const int cube_number = cube_index;
 
 	// seek to the cube
 	while (cube_index > 0)
@@ -1781,16 +1786,41 @@ bool load_cube(int cube_slot, int cube_index)
 	str_pop_int(&buf[4], &cube[cube_slot].face_sprite);
 	--cube[cube_slot].face_sprite;
 
-	read_encrypted_pascal_string(cube[cube_slot].title, sizeof(cube[cube_slot].title), f);
-	read_encrypted_pascal_string(cube[cube_slot].header, sizeof(cube[cube_slot].header), f);
+	snprintf(key, sizeof(key), "cube%d.%d.title", episodeNum, cube_number);
+	tr_read_encrypted(cube[cube_slot].title, sizeof(cube[cube_slot].title), f, key);
+	snprintf(key, sizeof(key), "cube%d.%d.header", episodeNum, cube_number);
+	tr_read_encrypted(cube[cube_slot].header, sizeof(cube[cube_slot].header), f, key);
 
 	uint line = 0, line_chars = 0, line_width = 0;
 
+	// The text is stored hard-wrapped.  Translations are of whole paragraphs,
+	// keyed by their first line, and replace the rest of the paragraph.
+	bool rest_of_translated_paragraph = false;
+
 	// for each line of decrypted text, split the line into words
 	// and add them individually to the lines of wrapped text
-	for (; ; )
+	for (int text_line = 0; ; ++text_line)
 	{
 		read_encrypted_pascal_string(buf, sizeof(buf), f);
+
+		if (buf[0] == '*' || buf[0] == '\0')
+		{
+			rest_of_translated_paragraph = false;
+		}
+		else if (rest_of_translated_paragraph)
+		{
+			continue;
+		}
+		else
+		{
+			snprintf(key, sizeof(key), "cube%d.%d.%d", episodeNum, cube_number, text_line);
+			const char *translation = tr_lookup(key);
+			if (translation != NULL)
+			{
+				tr_copy_text(buf, sizeof(buf), translation);
+				rest_of_translated_paragraph = true;
+			}
+		}
 
 		// end of data
 		if (buf[0] == '*')
@@ -2343,7 +2373,7 @@ void JE_doShipSpecs(void)
 
 void JE_drawMainMenuHelpText(void)
 {
-	char tempStr[67];
+	char tempStr[sizeof(*mainMenuHelp)];
 	JE_byte temp;
 
 	temp = curSel[curMenu] - 2;
@@ -2605,7 +2635,7 @@ void JE_genItemMenu(JE_byte itemNum)
 	temp3 = 2;
 	temp2 = *playeritem_map(&player[0].items, itemNum - 2);
 
-	strcpy(menuInt[5][0], menuInt[2][itemNum - 1]);
+	tr_copy_text(menuInt[5][0], sizeof(menuInt[5][0]), menuInt[2][itemNum - 1]);
 
 	for (tempW = 0; tempW < itemAvailMax[itemAvailMap[itemNum - 2] - 1]; tempW++)
 	{
@@ -2634,10 +2664,10 @@ void JE_genItemMenu(JE_byte itemNum)
 		{
 			temp3 = tempW + 2;
 		}
-		strcpy(menuInt[5][tempW], tempStr);
+		tr_copy_text(menuInt[5][tempW], sizeof(menuInt[5][tempW]), tempStr);
 	}
 
-	strcpy(menuInt[5][tempW], miscText[13]);
+	tr_copy_text(menuInt[5][tempW], sizeof(menuInt[5][tempW]), miscText[13]);
 
 	curSel[MENU_UPGRADE_SUB] = temp3;
 }
@@ -2654,6 +2684,11 @@ void JE_scaleInPicture(SDL_Surface *dst, const SDL_Surface *src)
 
 		SDL_Delay(1);
 	}
+
+	// End with an exact copy, which brings along the text drawn by the text
+	// layer (shown as coarse stand-ins while scaling).
+	surface_copy(dst, (SDL_Surface *)src);
+	JE_showVGA();
 }
 
 void JE_drawScore(void)
@@ -2705,13 +2740,13 @@ void JE_menuFunction(JE_byte select)
 			newNavY = navY;
 			menuChoices[MENU_PLAY_NEXT_LEVEL] = mapPNum + 2;
 			curSel[MENU_PLAY_NEXT_LEVEL] = 2;
-			strcpy(menuInt[4][0], "Next Level");
+			tr_copy_text(menuInt[4][0], sizeof(menuInt[4][0]), ui_text(UI_NEXT_LEVEL));
 			for (x = 0; x < mapPNum; x++)
 			{
 				temp = mapPlanet[x];
-				strcpy(menuInt[4][x + 1], pName[temp - 1]);
+				tr_copy_text(menuInt[4][x + 1], sizeof(menuInt[4][x + 1]), pName[temp - 1]);
 			}
-			strcpy(menuInt[4][x + 1], miscText[5]);
+			tr_copy_text(menuInt[4][x + 1], sizeof(menuInt[4][x + 1]), miscText[5]);
 			break;
 		case 7: //quit
 			if (JE_quitRequest())
@@ -3235,7 +3270,7 @@ void JE_drawShipSpecs(SDL_Surface * screen, SDL_Surface * temp_screen)
 
 void JE_weaponSimUpdate(void)
 {
-	char buf[32];
+	char buf[TEXT_SIZE(12) + 16];
 
 	JE_weaponViewFrame();
 
@@ -3271,7 +3306,7 @@ void JE_weaponSimUpdate(void)
 				JE_outText(VGAScreen, 108, 137, buf, (rightPowerAfford) ? 1 : 7, 4);
 			}
 
-			sprintf(buf, "%s %d", miscTextB[5], temp);
+			snprintf(buf, sizeof(buf), "%s %d", miscTextB[5], temp);
 			JE_outText(VGAScreen, 58, 137, buf, 15, 4);
 		}
 

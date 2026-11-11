@@ -34,12 +34,26 @@ extern const int font_ascii[256];
 extern JE_byte textGlowFont, textGlowBrightness;
 extern JE_boolean levelWarningDisplay;
 extern JE_byte levelWarningLines;
-extern char levelWarningText[12][61];
+extern char levelWarningText[12][TEXT_SIZE(61)];
 extern JE_boolean warningRed;
 extern JE_byte warningSoundDelay;
 extern JE_word armorShipDelay;
 extern JE_byte warningCol;
 extern JE_shortint warningColChange;
+
+/**
+ * Advances *s past the character it points at.  Returns true (with its code
+ * point) if the character is drawn by the text layer rather than the sprite
+ * font: Korean and other multi-byte characters, and ASCII symbols that the
+ * sprite font lacks.
+ */
+bool JE_nextTextChar(const char **s, unsigned int font, Uint32 *codepoint);
+
+/** Whether the character at s is multi-byte (Korean). */
+bool JE_isWideChar(const char *s);
+
+/** Width of a space between the given kinds of characters. */
+int JE_spaceWidth(unsigned int font, bool after_wide, bool before_wide);
 
 void JE_dString(SDL_Surface * screen, int x, int y, const char *s, unsigned int font);
 

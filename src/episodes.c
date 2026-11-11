@@ -23,6 +23,7 @@
 #include "lvllib.h"
 #include "lvlmast.h"
 #include "opentyr.h"
+#include "translate.h"
 
 /* MAIN Weapons Data */
 JE_WeaponPortType weaponPort;
@@ -50,6 +51,14 @@ JE_boolean bonusLevel;
 
 /* Tells if the game jumped back to Episode 1 */
 JE_boolean jumpBackToEpisode1;
+
+/** Translates an item name ("item.<kind>.<i>"; see translate.h). */
+static void translate_item_name(char *name, size_t size, const char *kind, int i)
+{
+	char key[32];
+	snprintf(key, sizeof(key), "item.%s.%d", kind, i);
+	tr_apply(name, size, key);
+}
 
 void JE_loadItemDat(void)
 {
@@ -106,6 +115,7 @@ void JE_loadItemDat(void)
 		fread_u8_die( &nameLen,                   1, f);
 		fread_die(    &weaponPort[i].name,    1, 30, f);
 		weaponPort[i].name[MIN(nameLen, 30)] = '\0';
+		translate_item_name(weaponPort[i].name, sizeof(weaponPort[i].name), "weapon", i);
 		fread_u8_die( &weaponPort[i].opnum,       1, f);
 		fread_u16_die( weaponPort[i].op[0],      11, f);
 		fread_u16_die( weaponPort[i].op[1],      11, f);
@@ -120,6 +130,7 @@ void JE_loadItemDat(void)
 		fread_u8_die( &nameLen,                1, f);
 		fread_die(    &special[i].name,    1, 30, f);
 		special[i].name[MIN(nameLen, 30)] = '\0';
+		translate_item_name(special[i].name, sizeof(special[i].name), "special", i);
 		fread_u16_die(&special[i].itemgraphic, 1, f);
 		fread_u8_die( &special[i].pwr,         1, f);
 		fread_u8_die( &special[i].stype,       1, f);
@@ -132,6 +143,7 @@ void JE_loadItemDat(void)
 		fread_u8_die( &nameLen,                 1, f);
 		fread_die(    &powerSys[i].name,    1, 30, f);
 		powerSys[i].name[MIN(nameLen, 30)] = '\0';
+		translate_item_name(powerSys[i].name, sizeof(powerSys[i].name), "generator", i);
 		fread_u16_die(&powerSys[i].itemgraphic, 1, f);
 		fread_u8_die( &powerSys[i].power,       1, f);
 		fread_s8_die( &powerSys[i].speed,       1, f);
@@ -144,6 +156,7 @@ void JE_loadItemDat(void)
 		fread_u8_die( &nameLen,                 1, f);
 		fread_die(    &ships[i].name,       1, 30, f);
 		ships[i].name[MIN(nameLen, 30)] = '\0';
+		translate_item_name(ships[i].name, sizeof(ships[i].name), "ship", i);
 		fread_u16_die(&ships[i].shipgraphic,    1, f);
 		fread_u16_die(&ships[i].itemgraphic,    1, f);
 		fread_u8_die( &ships[i].ani,            1, f);
@@ -159,6 +172,7 @@ void JE_loadItemDat(void)
 		fread_u8_die(  &nameLen,                1, f);
 		fread_die(     &options[i].name,    1, 30, f);
 		options[i].name[MIN(nameLen, 30)] = '\0';
+		translate_item_name(options[i].name, sizeof(options[i].name), "sidekick", i);
 		fread_u8_die(  &options[i].pwr,         1, f);
 		fread_u16_die( &options[i].itemgraphic, 1, f);
 		fread_u16_die( &options[i].cost,        1, f);
@@ -180,6 +194,7 @@ void JE_loadItemDat(void)
 		fread_u8_die( &nameLen,                1, f);
 		fread_die(    &shields[i].name,    1, 30, f);
 		shields[i].name[MIN(nameLen, 30)] = '\0';
+		translate_item_name(shields[i].name, sizeof(shields[i].name), "shield", i);
 		fread_u8_die( &shields[i].tpwr,        1, f);
 		fread_u8_die( &shields[i].mpwr,        1, f);
 		fread_u16_die(&shields[i].itemgraphic, 1, f);

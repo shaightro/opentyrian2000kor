@@ -23,6 +23,7 @@
 #include "mouse.h"
 #include "network.h"
 #include "opentyr.h"
+#include "varz.h"
 #include "video.h"
 #include "video_scale.h"
 
@@ -273,8 +274,9 @@ void service_SDL_events(JE_boolean clear_new)
 				break;
 
 			case SDL_QUIT:
-				/* TODO: Call the cleanup code here. */
-				exit(0);
+				// Closing the window quits like the menu does, so that settings
+				// and high scores are saved.
+				JE_tyrianHalt(0);
 				break;
 		}
 	}

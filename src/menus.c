@@ -31,13 +31,14 @@
 #include "palette.h"
 #include "picload.h"
 #include "sprite.h"
+#include "textlayer.h"
 #include "vga256d.h"
 #include "video.h"
 
-char episode_name[6][31];
-char difficulty_name[7][21];
-char gameplay_name[GAMEPLAY_NAME_COUNT][26];
-char timed_battle_name[4][23];
+char episode_name[6][TEXT_SIZE(31)];
+char difficulty_name[7][TEXT_SIZE(21)];
+char gameplay_name[GAMEPLAY_NAME_COUNT][TEXT_SIZE(26)];
+char timed_battle_name[4][TEXT_SIZE(23)];
 
 bool gameplaySelect(void)
 {
@@ -76,7 +77,7 @@ bool gameplaySelect(void)
 		}
 
 		// Restore background and header.
-		memcpy(VGAScreen->pixels, VGAScreen2->pixels, (size_t)VGAScreen->pitch * VGAScreen->h);
+		surface_copy(VGAScreen, VGAScreen2);
 
 		// Draw menu items.
 		for (size_t i = 0; i < menuItemsCount; ++i)
@@ -273,7 +274,7 @@ bool episodeSelect(void)
 		}
 
 		// Restore background and header.
-		memcpy(VGAScreen->pixels, VGAScreen2->pixels, (size_t)VGAScreen->pitch * VGAScreen->h);
+		surface_copy(VGAScreen, VGAScreen2);
 
 		// Draw menu items.
 		for (size_t i = 0; i < menuItemsCount; ++i)
@@ -461,7 +462,7 @@ bool difficultySelect(void)
 		}
 
 		// Restore background and header.
-		memcpy(VGAScreen->pixels, VGAScreen2->pixels, (size_t)VGAScreen->pitch * VGAScreen->h);
+		surface_copy(VGAScreen, VGAScreen2);
 
 		// Draw menu items.
 		for (size_t i = 0; i < menuItemsVisibleCount; ++i)
@@ -703,7 +704,7 @@ bool timedBattleSelect(void)
 		}
 
 		// Restore background and header.
-		memcpy(VGAScreen->pixels, VGAScreen2->pixels, (size_t)VGAScreen->pitch * VGAScreen->h);
+		surface_copy(VGAScreen, VGAScreen2);
 
 		// Draw menu items.
 		for (size_t i = 0; i < menuItemsCount; ++i)

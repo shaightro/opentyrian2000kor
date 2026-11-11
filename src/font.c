@@ -19,7 +19,9 @@
 #include "font.h"
 
 #include "fonthand.h"
+#include "hangul.h"
 #include "sprite.h"
+#include "textlayer.h"
 
 /**
  * \file font.c
@@ -131,15 +133,29 @@ void draw_font_hv(SDL_Surface *surface, int x, int y, const char *text, Font fon
 	}
 	
 	bool highlight = false;
-	
-	for (; *text != '\0'; ++text)
+	bool after_wide = false;
+
+	for (const char *next = text; *text != '\0'; text = next)
 	{
+		Uint32 codepoint;
+		if (JE_nextTextChar(&next, font, &codepoint))
+		{
+			// A character the sprite font lacks (Korean); see textlayer.h.
+			const int advance = textlayer_draw_glyph(surface, x, y, font, codepoint, TEXT_MODE_HV, hue, value);
+			if (advance > 0)
+				x += advance;
+			after_wide = codepoint >= 0x80;
+			continue;
+		}
+		if (*text != ' ' && *text != '~')
+			after_wide = false;
+
 		int sprite_id = font_ascii[(unsigned char)*text];
-		
+
 		switch (*text)
 		{
 		case ' ':
-			x += 6;
+			x += JE_spaceWidth(font, after_wide, JE_isWideChar(next));
 			break;
 			
 		case '~':
@@ -193,19 +209,34 @@ void draw_font_hv_blend(SDL_Surface *surface, int x, int y, const char *text, Fo
 		break;
 	}
 	
-	for (; *text != '\0'; ++text)
+	bool after_wide = false;
+
+	for (const char *next = text; *text != '\0'; text = next)
 	{
+		Uint32 codepoint;
+		if (JE_nextTextChar(&next, font, &codepoint))
+		{
+			// A character the sprite font lacks (Korean); see textlayer.h.
+			const int advance = textlayer_draw_glyph(surface, x, y, font, codepoint, TEXT_MODE_BLEND, hue, value);
+			if (advance > 0)
+				x += advance;
+			after_wide = codepoint >= 0x80;
+			continue;
+		}
+		if (*text != ' ' && *text != '~')
+			after_wide = false;
+
 		int sprite_id = font_ascii[(unsigned char)*text];
-		
+
 		switch (*text)
 		{
 		case ' ':
-			x += 6;
+			x += JE_spaceWidth(font, after_wide, JE_isWideChar(next));
 			break;
-			
+
 		case '~':
 			break;
-			
+
 		default:
 			if (sprite_id != -1 && sprite_exists(font, sprite_id))
 			{
@@ -249,14 +280,29 @@ void draw_font_dark(SDL_Surface *surface, int x, int y, const char *text, Font f
 		break;
 	}
 	
-	for (; *text != '\0'; ++text)
+	bool after_wide = false;
+
+	for (const char *next = text; *text != '\0'; text = next)
 	{
+		Uint32 codepoint;
+		if (JE_nextTextChar(&next, font, &codepoint))
+		{
+			// A character the sprite font lacks (Korean); see textlayer.h.
+			const int advance = textlayer_draw_glyph(surface, x, y, font, codepoint, black ? TEXT_MODE_BLACK : TEXT_MODE_DARK, 0, 0);
+			if (advance > 0)
+				x += advance;
+			after_wide = codepoint >= 0x80;
+			continue;
+		}
+		if (*text != ' ' && *text != '~')
+			after_wide = false;
+
 		int sprite_id = font_ascii[(unsigned char)*text];
 		
 		switch (*text)
 		{
 		case ' ':
-			x += 6;
+			x += JE_spaceWidth(font, after_wide, JE_isWideChar(next));
 			break;
 			
 		case '~':

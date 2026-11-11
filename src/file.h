@@ -26,7 +26,10 @@
 
 extern const char *custom_data_dir;
 
+const char *base_dir(void);
 const char *data_dir(void);
+bool data_dir_found(void);
+bool dir_is_writable(const char *dir);
 
 FILE *dir_fopen(const char *dir, const char *file, const char *mode);
 FILE *dir_fopen_warn(const char *dir, const char *file, const char *mode);

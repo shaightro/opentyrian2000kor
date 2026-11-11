@@ -59,6 +59,8 @@
 #include "palette.h"
 #include "picload.h"
 #include "sprite.h"
+#include "textlayer.h"
+#include "translate.h"
 #include "varz.h"
 #include "vga256d.h"
 #include "video.h"
@@ -737,7 +739,7 @@ static void JE_destructMain(void)
 
 static void JE_introScreen(void)
 {
-	memcpy(VGAScreen2->pixels, VGAScreen->pixels, VGAScreen2->h * VGAScreen2->pitch);
+	surface_copy(VGAScreen2, VGAScreen);
 	JE_outText(VGAScreen, JE_fontCenter(specialName[SA_DESTRUCT - 1], TINY_FONT), 90, specialName[SA_DESTRUCT - 1], 12, 5);
 	JE_outText(VGAScreen, JE_fontCenter(miscText[64], TINY_FONT), 180, miscText[64], 15, 2);
 	JE_outText(VGAScreen, JE_fontCenter(miscText[65], TINY_FONT), 190, miscText[65], 15, 2);
@@ -752,7 +754,7 @@ static void JE_introScreen(void)
 	}
 
 	fade_black(15);
-	memcpy(VGAScreen->pixels, VGAScreen2->pixels, VGAScreen->h * VGAScreen->pitch);
+	surface_copy(VGAScreen, VGAScreen2);
 	JE_showVGA();
 }
 
@@ -770,14 +772,14 @@ static void DrawModeSelectMenu(enum de_mode_t mode)
 	for (i = 0; i < DESTRUCT_MODES; i++)
 		JE_textShade(VGAScreen, JE_fontCenter(destructModeName[i], TINY_FONT), 82 + i * 12, destructModeName[i], 12, (i == mode) * 4, FULL_SHADE);
 	if (config.allow_custom == true)
-		JE_textShade(VGAScreen, JE_fontCenter("Custom", TINY_FONT), 82 + i * 12, "Custom", 12, (i == mode) * 4, FULL_SHADE);
+		JE_textShade(VGAScreen, JE_fontCenter(ui_text(UI_DESTRUCT_CUSTOM), TINY_FONT), 82 + i * 12, ui_text(UI_DESTRUCT_CUSTOM), 12, (i == mode) * 4, FULL_SHADE);
 }
 
 static enum de_mode_t JE_modeSelect(void)
 {
 	enum de_mode_t mode;
 
-	memcpy(VGAScreen2->pixels, VGAScreen->pixels, VGAScreen2->h * VGAScreen2->pitch);
+	surface_copy(VGAScreen2, VGAScreen);
 	mode = MODE_5CARDWAR;
 
 	// Draw the menu and fade us in
@@ -842,7 +844,7 @@ static enum de_mode_t JE_modeSelect(void)
 	}
 
 	fade_black(15);
-	memcpy(VGAScreen->pixels, VGAScreen2->pixels, VGAScreen->h * VGAScreen->pitch);
+	surface_copy(VGAScreen, VGAScreen2);
 	JE_showVGA();
 	return mode;
 }
@@ -895,7 +897,7 @@ static void JE_generateTerrain(void)
 	JE_aliasDirt(world.VGAScreen);
 	JE_showVGA();
 
-	memcpy(destructTempScreen->pixels, VGAScreen->pixels, destructTempScreen->pitch * destructTempScreen->h);
+	surface_copy(destructTempScreen, VGAScreen);
 }
 
 static void DE_generateBaseTerrain(unsigned int mapFlags, unsigned int * baseWorld)
@@ -1365,7 +1367,7 @@ static void JE_helpScreen(void)
 
 	//JE_getVGA();  didn't do anything anyway?
 	fade_black(15);
-	memcpy(VGAScreen2->pixels, VGAScreen->pixels, VGAScreen2->h * VGAScreen2->pitch);
+	surface_copy(VGAScreen2, VGAScreen);
 	JE_clr256(VGAScreen);
 
 	for (i = 0; i < 2; i++)
@@ -1386,7 +1388,7 @@ static void JE_helpScreen(void)
 	} while (!newkey);
 
 	fade_black(15);
-	memcpy(VGAScreen->pixels, VGAScreen2->pixels, VGAScreen->h * VGAScreen->pitch);
+	surface_copy(VGAScreen, VGAScreen2);
 	JE_showVGA();
 	fade_palette(colors, 15, 0, 255);
 }
@@ -1396,7 +1398,7 @@ static void JE_pauseScreen(void)
 	set_volume(tyrMusicVolume / 2, fxVolume);
 
 	/* Save our current screen/game world.  We don't want to screw it up while paused. */
-	memcpy(VGAScreen2->pixels, VGAScreen->pixels, VGAScreen2->h * VGAScreen2->pitch);
+	surface_copy(VGAScreen2, VGAScreen);
 	JE_outText(VGAScreen, JE_fontCenter(miscText[22], TINY_FONT), 90, miscText[22], 12, 5);
 	JE_showVGA();
 
@@ -1407,7 +1409,7 @@ static void JE_pauseScreen(void)
 	} while (!newkey);
 
 	/* Restore current screen & volume*/
-	memcpy(VGAScreen->pixels, VGAScreen2->pixels, VGAScreen->h * VGAScreen->pitch);
+	surface_copy(VGAScreen, VGAScreen2);
 	JE_showVGA();
 
 	set_volume(tyrMusicVolume, fxVolume);

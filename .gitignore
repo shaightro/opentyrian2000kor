@@ -33,5 +33,11 @@ tyrian.sav
 /visualc/*.props
 /visualc/*.user
 
+# Windows package output (windows/build.ps1)
+/dist/
+
+# Reports of the translation tools (--dump-text, --check-text)
+/kor/lang/*-report.txt
+
 # Doxygen output
 /doc/doxygen/

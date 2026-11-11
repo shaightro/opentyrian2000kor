@@ -121,8 +121,8 @@ extern const JE_byte cryptKey[10];
 extern const DosKeySettings defaultDosKeySettings;  // fka defaultKeySettings
 extern const KeySettings defaultKeySettings;
 extern const MouseSettings defaultMouseSettings;
-extern char defaultHighScoreNames[39][23];
-extern char defaultTeamNames[10][25];
+extern char defaultHighScoreNames[39][TEXT_SIZE(23)];
+extern char defaultTeamNames[10][TEXT_SIZE(25)];
 extern const JE_EditorItemAvailType initialItemAvail;
 extern JE_boolean smoothies[9];
 extern JE_byte starShowVGASpecialCode;

@@ -44,6 +44,8 @@
 #include "picload.h"
 #include "shots.h"
 #include "sprite.h"
+#include "textlayer.h"
+#include "translate.h"
 #include "vga256d.h"
 #include "video.h"
 
@@ -66,7 +68,7 @@ JE_word levelEnemyMax;
 JE_word levelEnemyFrequency;
 JE_word levelEnemy[40]; /* [1..40] */
 
-char tempStr[31];
+char tempStr[256];  // also holds translated text
 
 /* Data used for ItemScreen procedure to indicate items available */
 JE_byte itemAvail[9][10]; /* [1..9, 1..10] */
@@ -771,7 +773,7 @@ start_level_first:
 
 	JE_drawOptions();
 
-	JE_outText(VGAScreen, 268, twoPlayerMode ? 76 : 118, levelName, 12, 4);
+	JE_outText(VGAScreen, 268, twoPlayerMode ? 76 : 118, tr_level_name(levelName), 12, 4);
 
 	JE_showVGA();
 	JE_gammaCorrect(&colors, gammaCorrection);
@@ -2041,7 +2043,7 @@ draw_player_shot_loop_end:
 			fill_rectangle_xy(VGAScreen, 175, 181, 287, 183, warningCol);
 			fill_rectangle_xy(VGAScreen, 24, 0, 287, 3, warningCol);
 
-			JE_outText(VGAScreen, 140, 178, "WARNING", 7, (warningCol % 16) / 2);
+			JE_outText(VGAScreen, 140, 178, ui_text(UI_WARNING), 7, (warningCol % 16) / 2);
 
 		}
 	}
@@ -2395,6 +2397,52 @@ draw_player_shot_loop_end:
 	goto level_loop;
 }
 
+/*
+ * Index of the next string read from the episode script (levels<e>.dat).
+ * Blocks of text are translated by the index of their first line
+ * ("ep<e>.<n>"; see translate.h).
+ */
+static int episode_line;
+
+static void read_episode_line(char *s, size_t size, FILE *f)
+{
+	read_encrypted_pascal_string(s, size, f);
+	++episode_line;
+}
+
+/**
+ * Reads a block of text lines of the episode script, up to its '#' line, into
+ * levelWarningText -- or the block's translation, whose lines are separated by
+ * '\n' and may differ in number from the original.
+ */
+static void read_episode_text_block(FILE *f)
+{
+	char key[32];
+	snprintf(key, sizeof(key), "ep%d.%d", episodeNum, episode_line);
+	const char *translation = tr_lookup(key);
+
+	char s[256];
+	do
+	{
+		read_episode_line(s, sizeof(s), f);
+
+		if (s[0] != '#' && translation == NULL && levelWarningLines < COUNTOF(levelWarningText))
+			SDL_strlcpy(levelWarningText[levelWarningLines++], s, sizeof(*levelWarningText));
+	} while (s[0] != '#');
+
+	for (const char *line = translation; line != NULL && levelWarningLines < COUNTOF(levelWarningText); )
+	{
+		const char *end = strchr(line, '\n');
+		const size_t len = end != NULL ? (size_t)(end - line) : strlen(line);
+
+		char buffer[256];
+		SDL_strlcpy(buffer, line, MIN(len + 1, sizeof(buffer)));
+		tr_copy_text(levelWarningText[levelWarningLines++], sizeof(*levelWarningText), buffer);
+
+		line = end != NULL ? end + 1 : NULL;
+	}
+}
+
 /* --- Load Level/Map Data --- */
 void JE_loadMap(void)
 {
@@ -2435,6 +2483,7 @@ new_game:
 		do
 		{
 			FILE *ep_f = dir_fopen_die(data_dir(), episode_file, "rb");
+			episode_line = 0;
 
 			jumpSection = false;
 			loadLevelOk = false;
@@ -2443,7 +2492,7 @@ new_game:
 			int x = 0;
 			while (x < mainLevel)
 			{
-				read_encrypted_pascal_string(s, sizeof(s), ep_f);
+				read_episode_line(s, sizeof(s), ep_f);
 				if (s[0] == '*')
 				{
 					x++;
@@ -2466,7 +2515,7 @@ new_game:
 				}
 
 				strcpy(s, " ");
-				read_encrypted_pascal_string(s, sizeof(s), ep_f);
+				read_episode_line(s, sizeof(s), ep_f);
 
 				if (s[0] == ']')
 				{
@@ -2606,7 +2655,7 @@ new_game:
 
 						for (int i = 0; i < 9; ++i)
 						{
-							read_encrypted_pascal_string(s, sizeof(s), ep_f);
+							read_episode_line(s, sizeof(s), ep_f);
 
 							char buf[256];
 							strncpy(buf, (strlen(s) > 8) ? s + 8 : "", sizeof(buf));
@@ -2652,7 +2701,7 @@ new_game:
 						}
 						else
 						{
-							sprintf(levelWarningText[0], "%s %lu", miscText[37], JE_totalScore(&player[0]));
+							snprintf(levelWarningText[0], sizeof(*levelWarningText), "%s %lu", miscText[37], JE_totalScore(&player[0]));
 							strcpy(levelWarningText[1], "");
 							levelWarningLines = 2;
 						}
@@ -2661,17 +2710,11 @@ new_game:
 						{
 							do
 							{
-								read_encrypted_pascal_string(s, sizeof(s), ep_f);
+								read_episode_line(s, sizeof(s), ep_f);
 							} while (s[0] != '#');
 						}
 
-						do
-						{
-							read_encrypted_pascal_string(s, sizeof(s), ep_f);
-							strcpy(levelWarningText[levelWarningLines], s);
-							levelWarningLines++;
-						} while (s[0] != '#');
-						levelWarningLines--;
+						read_episode_text_block(ep_f);
 
 						JE_wipeKey();
 						frameCountMax = 4;
@@ -2698,10 +2741,10 @@ new_game:
 							{
 								if (SANextShip[superArcadeMode] == SA_ENGAGE)
 								{
-									sprintf(buffer, "%s %s", miscTextB[4], pName[0]);
+									snprintf(buffer, sizeof(buffer), "%s %s", miscTextB[4], pName[0]);
 									JE_dString(VGAScreen, JE_fontCenter(buffer, FONT_SHAPES), 100, buffer, FONT_SHAPES);
 
-									sprintf(buffer, "Or play... %s", specialName[SA_DESTRUCT - 1]);
+									tr_format(buffer, sizeof(buffer), ui_text(UI_OR_PLAY), specialName[SA_DESTRUCT - 1], 0);
 									JE_dString(VGAScreen, 80, 180, buffer, SMALL_FONT_SHAPES);
 								}
 								else
@@ -2715,7 +2758,7 @@ new_game:
 								else if (SANextShip[superArcadeMode] == SA_NORTSHIPZ)
 									trentWin = true;
 
-								sprintf(buffer, "Type %s at Title", specialName[SANextShip[superArcadeMode]-1]);
+								tr_format(buffer, sizeof(buffer), ui_text(UI_TYPE_AT_TITLE), specialName[SANextShip[superArcadeMode]-1], 0);
 								JE_dString(VGAScreen, JE_fontCenter(buffer, SMALL_FONT_SHAPES), 160, buffer, SMALL_FONT_SHAPES);
 								JE_showVGA();
 
@@ -2768,11 +2811,12 @@ new_game:
 					case 'U':
 						if (!constantPlay)
 						{
-							memcpy(VGAScreen2->pixels, VGAScreen->pixels, VGAScreen2->pitch * VGAScreen2->h);
+							surface_copy(VGAScreen2, VGAScreen);
 
 							JE_word tempX = atoi(s + 3);
 							JE_loadPic(VGAScreen, tempX, false);
 							memcpy(pic_buffer, VGAScreen->pixels, sizeof(pic_buffer));
+							textlayer_copy(VGAScreen, VGAScreen2);  // the old screen (and its text) is wiped away row by row
 
 							service_SDL_events(true);
 
@@ -2813,6 +2857,7 @@ new_game:
 							}
 
 							memcpy(VGAScreen->pixels, pic_buffer, sizeof(pic_buffer));
+							textlayer_clear(VGAScreen);
 						}
 						break;
 
@@ -2820,11 +2865,12 @@ new_game:
 						if (!constantPlay)
 						{
 							/* TODO: NETWORK */
-							memcpy(VGAScreen2->pixels, VGAScreen->pixels, VGAScreen2->pitch * VGAScreen2->h);
+							surface_copy(VGAScreen2, VGAScreen);
 
 							JE_word tempX = atoi(s + 3);
 							JE_loadPic(VGAScreen, tempX, false);
 							memcpy(pic_buffer, VGAScreen->pixels, sizeof(pic_buffer));
+							textlayer_copy(VGAScreen, VGAScreen2);  // the old screen (and its text) is wiped away row by row
 
 							service_SDL_events(true);
 							for (int z = 0; z <= 199; z++)
@@ -2864,6 +2910,7 @@ new_game:
 							}
 
 							memcpy(VGAScreen->pixels, pic_buffer, sizeof(pic_buffer));
+							textlayer_clear(VGAScreen);
 						}
 						break;
 
@@ -2871,11 +2918,12 @@ new_game:
 						if (!constantPlay)
 						{
 							/* TODO: NETWORK */
-							memcpy(VGAScreen2->pixels, VGAScreen->pixels, VGAScreen2->pitch * VGAScreen2->h);
+							surface_copy(VGAScreen2, VGAScreen);
 
 							JE_word tempX = atoi(s + 3);
 							JE_loadPic(VGAScreen, tempX, false);
 							memcpy(pic_buffer, VGAScreen->pixels, sizeof(pic_buffer));
+							textlayer_copy(VGAScreen, VGAScreen2);  // the old screen (and its text) is wiped away row by row
 
 							service_SDL_events(true);
 
@@ -2911,6 +2959,7 @@ new_game:
 							}
 
 							memcpy(VGAScreen->pixels, pic_buffer, sizeof(pic_buffer));
+							textlayer_clear(VGAScreen);
 						}
 						break;
 
@@ -2957,16 +3006,7 @@ new_game:
 								warningRed = frameCountMax / 10;
 								frameCountMax = frameCountMax % 10;
 
-								do
-								{
-									read_encrypted_pascal_string(s, sizeof(s), ep_f);
-
-									if (s[0] != '#')
-									{
-										strcpy(levelWarningText[levelWarningLines], s);
-										levelWarningLines++;
-									}
-								} while (!(s[0] == '#'));
+								read_episode_text_block(ep_f);
 
 								JE_displayText();
 								newkey = false;
@@ -2985,7 +3025,7 @@ new_game:
 					case 'h':
 						if (initialDifficulty > DIFFICULTY_NORMAL)
 						{
-							read_encrypted_pascal_string(s, sizeof(s), ep_f);
+							read_episode_line(s, sizeof(s), ep_f);
 						}
 						break;
 
@@ -3204,7 +3244,7 @@ new_game:
 void networkStartScreen(void)
 {
 	JE_loadPic(VGAScreen, 2, false);
-	memcpy(VGAScreen2->pixels, VGAScreen->pixels, VGAScreen2->pitch * VGAScreen2->h);
+	surface_copy(VGAScreen2, VGAScreen);
 	JE_dString(VGAScreen, JE_fontCenter("Waiting for other player.", SMALL_FONT_SHAPES), 140, "Waiting for other player.", SMALL_FONT_SHAPES);
 	JE_showVGA();
 	fade_palette(colors, 10, 0, 255);
@@ -3237,7 +3277,7 @@ void networkStartScreen(void)
 	}
 	else
 	{
-		memcpy(VGAScreen->pixels, VGAScreen2->pixels, VGAScreen->pitch * VGAScreen->h);
+		surface_copy(VGAScreen, VGAScreen2);
 		JE_dString(VGAScreen, JE_fontCenter(networkText[4 - 1], SMALL_FONT_SHAPES), 140, networkText[4 - 1], SMALL_FONT_SHAPES);
 		JE_showVGA();
 
@@ -3318,7 +3358,7 @@ bool titleScreen(void)
 
 			if (moveTyrianLogoUp)
 			{
-				memcpy(VGAScreen2->pixels, VGAScreen->pixels, VGAScreen2->pitch * VGAScreen2->h);
+				surface_copy(VGAScreen2, VGAScreen);
 
 				blit_sprite(VGAScreenSeg, 11, 62, PLANET_SHAPES, 146); // tyrian logo
 				blit_sprite(VGAScreenSeg, 155, 41, PLANET_SHAPES, 151); // 2000(tm)
@@ -3328,7 +3368,7 @@ bool titleScreen(void)
 				{
 					setDelay(2);
 
-					memcpy(VGAScreen->pixels, VGAScreen2->pixels, VGAScreen->pitch * VGAScreen->h);
+					surface_copy(VGAScreen, VGAScreen2);
 					blit_sprite(VGAScreenSeg, 11, yLogo, PLANET_SHAPES, 146); // tyrian logo
 					blit_sprite(VGAScreenSeg, 155, y2K, PLANET_SHAPES, 151); // 2000(tm)
 					JE_showVGA();
@@ -3360,7 +3400,7 @@ bool titleScreen(void)
 				draw_font_hv(VGAScreen, x,     y,     menuText[i], normal_font, left_aligned, 15, -3);
 			}
 
-			memcpy(VGAScreen2->pixels, VGAScreen->pixels, VGAScreen2->pitch * VGAScreen2->h);
+			surface_copy(VGAScreen2, VGAScreen);
 
 			mouseCursor = MOUSE_POINTER_NORMAL;
 
@@ -3370,7 +3410,7 @@ bool titleScreen(void)
 			restart = false;
 		}
 
-		memcpy(VGAScreen->pixels, VGAScreen2->pixels, VGAScreen->pitch * VGAScreen->h);
+		surface_copy(VGAScreen, VGAScreen2);
 
 		// Highlight selected menu item.
 		draw_font_hv(VGAScreen, VGAScreen->w / 2, yMenuItems + hMenuItem * selectedIndex, menuText[selectedIndex], normal_font, centered, 15, -1);
@@ -3735,7 +3775,7 @@ bool newSuperTyrianGame(void)
 		JE_outText(VGAScreen, 10, 40, superTyrianText[4], 15, 4);
 	JE_outText(VGAScreen, 10, 60, superTyrianText[5], 15, 4);
 
-	char buf[10 + 1 + 15 + 1];
+	char buf[TEXT_SIZE(12) + TEXT_SIZE(16)];
 	snprintf(buf, sizeof(buf), "%s %s", miscTextB[4], pName[0]);
 	JE_dString(VGAScreen, JE_fontCenter(buf, FONT_SHAPES), 110, buf, FONT_SHAPES);
 

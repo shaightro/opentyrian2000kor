@@ -30,21 +30,52 @@
 
 const char *custom_data_dir = NULL;
 
+// directory containing the executable, without a trailing separator ("" if unknown)
+const char *base_dir(void)
+{
+	static char *dir = NULL;
+
+	if (dir == NULL)
+	{
+		dir = SDL_GetBasePath();
+		if (dir == NULL)
+		{
+			dir = SDL_strdup("");
+		}
+		else
+		{
+			size_t len = strlen(dir);
+			if (len > 1 && (dir[len - 1] == '/' || dir[len - 1] == '\\'))
+				dir[len - 1] = '\0';
+		}
+	}
+
+	return dir != NULL ? dir : "";
+}
+
 // finds the Tyrian data directory
 const char *data_dir(void)
 {
-	const char *const dirs[] =
-	{
-		custom_data_dir,
-		TYRIAN_DIR,
-		"data",
-		".",
-	};
-
 	static const char *dir = NULL;
 
 	if (dir != NULL)
 		return dir;
+
+	// Look next to the executable first so that the game works no matter
+	// which working directory it was started from (e.g. via a shortcut).
+	static char base_data_dir[1024];
+	const bool have_base = base_dir()[0] != '\0' &&
+		(size_t)snprintf(base_data_dir, sizeof(base_data_dir), "%s/data", base_dir()) < sizeof(base_data_dir);
+
+	const char *const dirs[] =
+	{
+		custom_data_dir,
+		have_base ? base_data_dir : NULL,
+		have_base ? base_dir() : NULL,
+		TYRIAN_DIR,
+		"data",
+		".",
+	};
 
 	for (uint i = 0; i < COUNTOF(dirs); ++i)
 	{
@@ -61,10 +92,39 @@ const char *data_dir(void)
 		}
 	}
 
-	if (dir == NULL) // data not found
-		dir = "";
+	// data not found; not cached so that data installed later is still found
+	if (dir == NULL)
+		return "";
 
 	return dir;
+}
+
+bool data_dir_found(void)
+{
+	return data_dir()[0] != '\0';
+}
+
+// check if a file can be created in the directory
+bool dir_is_writable(const char *dir)
+{
+	static const char test_file[] = ".opentyrian_write_test";
+
+	FILE *f = dir_fopen(dir, test_file, "wb");
+	if (f == NULL)
+		return false;
+	fclose(f);
+
+	char *path = malloc(strlen(dir) + 1 + sizeof(test_file));
+	sprintf(path, "%s/%s", dir, test_file);
+	remove(path);
+	free(path);
+
+	return true;
+}
+
+static void show_error_box(const char *message)
+{
+	SDL_ShowSimpleMessageBox(SDL_MESSAGEBOX_ERROR, "OpenTyrian2000", message, NULL);
 }
 
 // prepend directory and fopen
@@ -101,6 +161,15 @@ FILE *dir_fopen_die(const char *dir, const char *file, const char *mode)
 		fprintf(stderr, "error: failed to open '%s': %s\n", file, strerror(errno));
 		fprintf(stderr, "error: One or more of the required Tyrian " TYRIAN_VERSION " data files could not be found.\n"
 		                "       Please read the README file.\n");
+
+		// (Korean text is passed as arguments rather than in the format string
+		// to keep MSVC's format checker from warning about the code page.)
+		static const char message_head[] = "필요한 게임 데이터 파일을 열 수 없습니다: ";
+		static const char message_tail[] = "\n\nTyrian 2000 데이터 파일이 프로그램 옆의 data 폴더에 있어야 합니다.";
+		char message[512];
+		snprintf(message, sizeof(message), "%s%s%s", message_head, file, message_tail);
+		show_error_box(message);
+
 		JE_tyrianHalt(1);
 	}
 

@@ -36,43 +36,44 @@ extern JE_byte helpBoxColor, helpBoxBrightness, helpBoxShadeType;
 
 #define HELPTEXT_MISCTEXT_COUNT 72
 #define HELPTEXT_MISCTEXTB_COUNT 8
-#define HELPTEXT_MISCTEXTB_SIZE 12
-#define HELPTEXT_MENUTEXT_SIZE 29
+#define HELPTEXT_MISCTEXTB_SIZE TEXT_SIZE(12)
+#define HELPTEXT_MENUTEXT_SIZE TEXT_SIZE(29)
 #define HELPTEXT_MAINMENUHELP_COUNT 37
 #define HELPTEXT_NETWORKTEXT_COUNT 5
-#define HELPTEXT_NETWORKTEXT_SIZE 33
+#define HELPTEXT_NETWORKTEXT_SIZE TEXT_SIZE(33)
 #define HELPTEXT_SUPERSHIPS_COUNT 13
 #define HELPTEXT_SPECIALNAME_COUNT 11
 #define HELPTEXT_SHIPINFO_COUNT 20
 
-extern char helpTxt[39][231];
-extern char pName[21][16];
-extern char miscText[HELPTEXT_MISCTEXT_COUNT][42];
+extern char helpTxt[39][TEXT_SIZE(231)];
+extern char pName[21][TEXT_SIZE(16)];
+extern char miscText[HELPTEXT_MISCTEXT_COUNT][TEXT_SIZE(42)];
 extern char miscTextB[HELPTEXT_MISCTEXTB_COUNT][HELPTEXT_MISCTEXTB_SIZE];
 extern char keyName[8][18];
 extern char menuText[7][HELPTEXT_MENUTEXT_SIZE];
-extern char outputs[9][31];
-extern char topicName[6][21];
-extern char mainMenuHelp[HELPTEXT_MAINMENUHELP_COUNT][66];
-extern char inGameText[6][21];
-extern char detailLevel[6][13];
-extern char gameSpeedText[5][13];
-extern char inputDevices[3][13];
+extern char outputs[9][TEXT_SIZE(31)];
+extern char topicName[6][TEXT_SIZE(21)];
+extern char mainMenuHelp[HELPTEXT_MAINMENUHELP_COUNT][TEXT_SIZE(66)];
+extern char inGameText[6][TEXT_SIZE(21)];
+extern char detailLevel[6][TEXT_SIZE(13)];
+extern char gameSpeedText[5][TEXT_SIZE(13)];
+extern char inputDevices[3][TEXT_SIZE(13)];
 extern char networkText[HELPTEXT_NETWORKTEXT_COUNT][HELPTEXT_NETWORKTEXT_SIZE];
-extern char difficultyNameB[11][21];
-extern char joyButtonNames[5][21];
-extern char superShips[HELPTEXT_SUPERSHIPS_COUNT][26];
-extern char specialName[HELPTEXT_SPECIALNAME_COUNT][10];
-extern char destructHelp[25][22];
-extern char weaponNames[17][17];
-extern char destructModeName[DESTRUCT_MODES][13];
-extern char shipInfo[HELPTEXT_SHIPINFO_COUNT][2][256];
-extern char licensingInfo[3][46];
-extern char orderingInfo[6][32];
-extern char superTyrianText[6][64];
-extern char menuInt[MENU_MAX+1][11][18];
+extern char difficultyNameB[11][TEXT_SIZE(21)];
+extern char joyButtonNames[5][TEXT_SIZE(21)];
+extern char superShips[HELPTEXT_SUPERSHIPS_COUNT][TEXT_SIZE(26)];
+extern char specialName[HELPTEXT_SPECIALNAME_COUNT][TEXT_SIZE(10)];
+extern char destructHelp[25][TEXT_SIZE(22)];
+extern char weaponNames[17][TEXT_SIZE(17)];
+extern char destructModeName[DESTRUCT_MODES][TEXT_SIZE(13)];
+extern char shipInfo[HELPTEXT_SHIPINFO_COUNT][2][TEXT_SIZE(256)];
+extern char licensingInfo[3][TEXT_SIZE(46)];
+extern char orderingInfo[6][TEXT_SIZE(32)];
+extern char superTyrianText[6][TEXT_SIZE(64)];
+extern char menuInt[MENU_MAX+1][11][TEXT_SIZE(18)];
 
 void read_encrypted_pascal_string(char *s, size_t size, FILE *f);
+bool try_read_encrypted_pascal_string(char *s, size_t size, FILE *f);  // false at the end of the file
 void skip_pascal_string(FILE *f);
 
 void JE_helpBox(SDL_Surface *screen, int x, int y, const char *message, unsigned int boxwidth);

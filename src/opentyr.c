@@ -25,6 +25,7 @@
 #include "file.h"
 #include "font.h"
 #include "fonthand.h"
+#include "hangul.h"
 #include "helptext.h"
 #include "joystick.h"
 #include "jukebox.h"
@@ -41,11 +42,15 @@
 #include "params.h"
 #include "picload.h"
 #include "sprite.h"
+#include "textlayer.h"
+#include "textdump.h"
+#include "translate.h"
 #include "tyrian2.h"
 #include "varz.h"
 #include "vga256d.h"
 #include "video.h"
 #include "video_scale.h"
+#include "winsetup.h"
 #include "xmas.h"
 
 #include "SDL.h"
@@ -67,9 +72,22 @@ static size_t getDisplayPickerItemsCount(void)
 static const char *getDisplayPickerItem(size_t i, char *buffer, size_t bufferSize)
 {
 	if (i == 0)
-		return "Window";
+		return ui_text(UI_DISPLAY_WINDOW);
 
-	snprintf(buffer, bufferSize, "Display %d", (int)i);
+	return tr_format(buffer, bufferSize, ui_text(UI_DISPLAY_N), NULL, (int)i);
+}
+
+static size_t getWindowSizePickerItemsCount(void)
+{
+	return 1 + (size_t)get_max_window_scale();  // "Auto" + 1x..max
+}
+
+static const char *getWindowSizePickerItem(size_t i, char *buffer, size_t bufferSize)
+{
+	if (i == WINDOW_SCALE_AUTO)
+		return tr_format(buffer, bufferSize, ui_text(UI_WINDOW_SIZE_AUTO), NULL, get_auto_window_scale());
+
+	snprintf(buffer, bufferSize, "%dx", (int)i);
 	return buffer;
 }
 
@@ -94,7 +112,15 @@ static const char *getScalingModePickerItem(size_t i, char *buffer, size_t buffe
 {
 	(void)buffer, (void)bufferSize;
 
-	return scaling_mode_names[i];
+	// (scaling_mode_names are also the configuration values, so not translated)
+	static const UiText names[ScalingMode_MAX] =
+	{
+		[SCALE_CENTER] = UI_SCALING_CENTER,
+		[SCALE_INTEGER] = UI_SCALING_INTEGER,
+		[SCALE_ASPECT_8_5] = UI_SCALING_FIT_8_5,
+		[SCALE_ASPECT_4_3] = UI_SCALING_FIT_4_3,
+	};
+	return i < ScalingMode_MAX ? ui_text(names[i]) : "";
 }
 
 void setupMenu(void)
@@ -108,6 +134,7 @@ void setupMenu(void)
 		MENU_ITEM_JUKEBOX,
 		MENU_ITEM_DESTRUCT,
 		MENU_ITEM_DISPLAY,
+		MENU_ITEM_WINDOW_SIZE,
 		MENU_ITEM_SCALER,
 		MENU_ITEM_SCALING_MODE,
 		MENU_ITEM_MUSIC_VOLUME,
@@ -125,46 +152,47 @@ void setupMenu(void)
 	typedef struct
 	{
 		MenuItemId id;
-		const char *name;
-		const char *description;
+		UiText name;
+		UiText description;
 		size_t (*getPickerItemsCount)(void);
 		const char *(*getPickerItem)(size_t i, char *buffer, size_t bufferSize);
 	} MenuItem;
 
 	typedef struct
 	{
-		const char *header;
+		UiText header;
 		const MenuItem items[6];
 	} Menu;
 
 	static const Menu menus[] = {
 		[MENU_SETUP] = {
-			.header = "Setup",
+			.header = UI_SETUP_TITLE,
 			.items = {
-				{ MENU_ITEM_GRAPHICS, "Graphics...", "Change the graphics settings." },
-				{ MENU_ITEM_SOUND, "Sound...", "Change the sound settings." },
-				{ MENU_ITEM_JUKEBOX, "Jukebox", "Listen to the music of Tyrian." },
+				{ MENU_ITEM_GRAPHICS, UI_SETUP_GRAPHICS, UI_SETUP_GRAPHICS_DESC },
+				{ MENU_ITEM_SOUND, UI_SETUP_SOUND, UI_SETUP_SOUND_DESC },
+				{ MENU_ITEM_JUKEBOX, UI_SETUP_JUKEBOX, UI_SETUP_JUKEBOX_DESC },
 				// { MENU_ITEM_DESTRUCT, "Destruct", "Play a bonus mini-game." },
-				{ MENU_ITEM_DONE, "Done", "Return to the main menu." },
+				{ MENU_ITEM_DONE, UI_SETUP_DONE, UI_SETUP_DONE_DESC },
 				{ -1 }
 			},
 		},
 		[MENU_GRAPHICS] = {
-			.header = "Graphics",
+			.header = UI_GRAPHICS_TITLE,
 			.items = {
-				{ MENU_ITEM_DISPLAY, "Display:", "Change the display mode.", getDisplayPickerItemsCount, getDisplayPickerItem },
-				{ MENU_ITEM_SCALER, "Scaler:", "Change the pixel art scaling algorithm.", getScalerPickerItemsCount, getScalerPickerItem },
-				{ MENU_ITEM_SCALING_MODE, "Scaling Mode:", "Change the scaling mode.", getScalingModePickerItemsCount, getScalingModePickerItem },
-				{ MENU_ITEM_DONE, "Done", "Return to the previous menu." },
+				{ MENU_ITEM_DISPLAY, UI_GRAPHICS_DISPLAY, UI_GRAPHICS_DISPLAY_DESC, getDisplayPickerItemsCount, getDisplayPickerItem },
+				{ MENU_ITEM_WINDOW_SIZE, UI_GRAPHICS_WINDOW_SIZE, UI_GRAPHICS_WINDOW_SIZE_DESC, getWindowSizePickerItemsCount, getWindowSizePickerItem },
+				{ MENU_ITEM_SCALER, UI_GRAPHICS_SCALER, UI_GRAPHICS_SCALER_DESC, getScalerPickerItemsCount, getScalerPickerItem },
+				{ MENU_ITEM_SCALING_MODE, UI_GRAPHICS_SCALING_MODE, UI_GRAPHICS_SCALING_MODE_DESC, getScalingModePickerItemsCount, getScalingModePickerItem },
+				{ MENU_ITEM_DONE, UI_SETUP_DONE, UI_DONE_PREVIOUS_DESC },
 				{ -1 }
 			},
 		},
 		[MENU_SOUND] = {
-			.header = "Sound",
+			.header = UI_SOUND_TITLE,
 			.items = {
-				{ MENU_ITEM_MUSIC_VOLUME, "Music Volume", "Change volume with the left/right arrow keys." },
-				{ MENU_ITEM_SOUND_VOLUME, "Sound Volume", "Change volume with the left/right arrow keys." },
-				{ MENU_ITEM_DONE, "Done", "Return to the previous menu." },
+				{ MENU_ITEM_MUSIC_VOLUME, UI_SOUND_MUSIC_VOLUME, UI_SOUND_VOLUME_DESC },
+				{ MENU_ITEM_SOUND_VOLUME, UI_SOUND_EFFECTS_VOLUME, UI_SOUND_VOLUME_DESC },
+				{ MENU_ITEM_DONE, UI_SETUP_DONE, UI_DONE_PREVIOUS_DESC },
 				{ -1 }
 			},
 		},
@@ -204,12 +232,12 @@ void setupMenu(void)
 		}
 
 		// Restore background.
-		memcpy(VGAScreen->pixels, VGAScreen2->pixels, (size_t)VGAScreen->pitch * VGAScreen->h);
+		surface_copy(VGAScreen, VGAScreen2);
 
 		const Menu *menu = &menus[currentMenu];
 
 		// Draw header.
-		draw_font_hv_shadow(VGAScreen, xCenter, yMenuHeader, menu->header, large_font, centered, 15, -3, false, 2);
+		draw_font_hv_shadow(VGAScreen, xCenter, yMenuHeader, ui_text(menu->header), large_font, centered, 15, -3, false, 2);
 
 		int yPicker = 0;
 		const int dyPickerItem = 15;
@@ -236,21 +264,21 @@ void setupMenu(void)
 			if (selected)
 				yPicker = y;
 
-			const char *const name = menuItem->name;
+			const char *const name = ui_text(menuItem->name);
 
 			draw_font_hv_shadow(VGAScreen, xMenuItemName, y, name, normal_font, left_aligned, 15, -3 + (selected ? 2 : 0) + (disabled ? -4 : 0), false, 2);
 
 			switch (menuItem->id)
 			{
 			case MENU_ITEM_DISPLAY:;
-				const char *value = "Window";
-				if (fullscreen_display >= 0)
-				{
-					snprintf(buffer, sizeof(buffer), "Display %d", fullscreen_display + 1);
-					value = buffer;
-				}
+				const char *value = getDisplayPickerItem((size_t)(fullscreen_display + 1), buffer, sizeof(buffer));
 
 				draw_font_hv_shadow(VGAScreen, xMenuItemValue, y, value, normal_font, left_aligned, 15, -3 + (selected ? 2 : 0) + (disabled ? -4 : 0), false, 2);
+				break;
+
+			case MENU_ITEM_WINDOW_SIZE:
+				getWindowSizePickerItem((size_t)window_scale, buffer, sizeof(buffer));
+				draw_font_hv_shadow(VGAScreen, xMenuItemValue, y, buffer, normal_font, left_aligned, 15, -3 + (selected ? 2 : 0) + (disabled ? -4 : 0), false, 2);
 				break;
 
 			case MENU_ITEM_SCALER:
@@ -258,7 +286,7 @@ void setupMenu(void)
 				break;
 
 			case MENU_ITEM_SCALING_MODE:
-				draw_font_hv_shadow(VGAScreen, xMenuItemValue, y, scaling_mode_names[scaling_mode], normal_font, left_aligned, 15, -3 + (selected ? 2 : 0) + (disabled ? -4 : 0), false, 2);
+				draw_font_hv_shadow(VGAScreen, xMenuItemValue, y, getScalingModePickerItem(scaling_mode, buffer, sizeof(buffer)), normal_font, left_aligned, 15, -3 + (selected ? 2 : 0) + (disabled ? -4 : 0), false, 2);
 				break;
 
 			case MENU_ITEM_MUSIC_VOLUME:
@@ -277,7 +305,7 @@ void setupMenu(void)
 		}
 
 		// Draw status text.
-		JE_textShade(VGAScreen, xMenuItemName, 190, menuItems[*selectedMenuItemIndex].description, 15, 4, PART_SHADE);
+		JE_textShade(VGAScreen, xMenuItemName, 190, ui_text(menuItems[*selectedMenuItemIndex].description), 15, 4, PART_SHADE);
 
 		// Draw picker box and items.
 
@@ -568,6 +596,14 @@ void setupMenu(void)
 					pickerSelectedIndex = (size_t)(fullscreen_display + 1);
 					break;
 				}
+				case MENU_ITEM_WINDOW_SIZE:
+				{
+					JE_playSampleNum(S_CLICK);
+
+					currentPicker = selectedMenuItemId;
+					pickerSelectedIndex = MIN((size_t)window_scale, getWindowSizePickerItemsCount() - 1);
+					break;
+				}
 				case MENU_ITEM_SCALER:
 				{
 					JE_playSampleNum(S_CLICK);
@@ -717,6 +753,11 @@ void setupMenu(void)
 						reinit_fullscreen((int)pickerSelectedIndex - 1);
 					break;
 				}
+				case MENU_ITEM_WINDOW_SIZE:
+				{
+					set_window_scale((int)pickerSelectedIndex);
+					break;
+				}
 				case MENU_ITEM_SCALER:
 				{
 					if (pickerSelectedIndex != scaler)
@@ -733,6 +774,7 @@ void setupMenu(void)
 				case MENU_ITEM_SCALING_MODE:
 				{
 					scaling_mode = pickerSelectedIndex;
+					reset_window_size();  // 4:3 mode needs a taller window
 					break;
 				}
 				default:
@@ -770,8 +812,30 @@ int main(int argc, char *argv[])
 
 	JE_paramCheck(argc, argv);
 
+#ifdef TARGET_WIN32
+	// First run of a portable copy: offer to install the freeware data files.
+	if (custom_data_dir == NULL && !data_dir_found() && !win_install_data_files())
+	{
+		SDL_Quit();
+		return EXIT_FAILURE;
+	}
+#endif
+
 	if (!override_xmas) // arg handler may override
 		xmas = xmas_time();
+
+	if (!hangul_init())
+		fprintf(stderr, "warning: Korean fonts are missing; Korean text will not be shown\n");
+
+	// Translation tools run instead of the game.
+	if (textdump_requested || textcheck_requested)
+	{
+		const int result = textdump_run();
+		SDL_Quit();
+		return result;
+	}
+
+	printf("translations loaded: %d\n", tr_init());
 
 	JE_loadHelpText();
 	/*debuginfo("Help text complete");*/

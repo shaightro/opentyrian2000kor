@@ -24,6 +24,7 @@
 #include "loudness.h"
 #include "network.h"
 #include "opentyr.h"
+#include "textdump.h"
 #include "varz.h"
 #include "xmas.h"
 
@@ -63,7 +64,11 @@ void JE_paramCheck(int argc, char *argv[])
 		{ 'k', 'k', "death",             false },
 		{ 'r', 'r', "record",            false },
 		{ 'l', 'l', "loot",              false },
-		
+
+		// translation tools (see textdump.h)
+		{ 258, 0,   "dump-text",         false },
+		{ 259, 0,   "check-text",        false },
+
 		{ 0, 0, NULL, false}
 	};
 	
@@ -149,6 +154,14 @@ void JE_paramCheck(int argc, char *argv[])
 			}
 			break;
 			
+		case 258: // --dump-text
+			textdump_requested = true;
+			break;
+
+		case 259: // --check-text
+			textcheck_requested = true;
+			break;
+
 		case 256: // --net-player-name
 			network_player_name = malloc(strlen(option.arg) + 1);
 			strcpy(network_player_name, option.arg);

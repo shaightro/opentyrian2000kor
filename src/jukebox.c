@@ -29,6 +29,7 @@
 #include "palette.h"
 #include "sprite.h"
 #include "starlib.h"
+#include "translate.h"
 #include "vga_palette.h"
 #include "video.h"
 
@@ -104,8 +105,8 @@ void jukebox(void)  // FKA Setup.jukeboxGo
 			
 			const int x = VGAScreen->w / 2;
 			
-			draw_font_hv(VGAScreen, x, 170, "Press ESC to quit the jukebox.",           small_font, centered, 1, 0);
-			draw_font_hv(VGAScreen, x, 180, "Arrow keys change the song being played.", small_font, centered, 1, 0);
+			draw_font_hv(VGAScreen, x, 170, ui_text(UI_JUKEBOX_QUIT), small_font, centered, 1, 0);
+			draw_font_hv(VGAScreen, x, 180, ui_text(UI_JUKEBOX_KEYS), small_font, centered, 1, 0);
 			draw_font_hv(VGAScreen, x, 190, buffer,                                     small_font, centered, 1, 4);
 		}
 
