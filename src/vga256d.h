@@ -21,6 +21,8 @@
 
 #include "opentyr.h"
 
+#include "textlayer.h"
+
 #include "SDL.h"
 
 void JE_pix(SDL_Surface *surface, int x, int y, JE_byte c);
@@ -36,6 +38,7 @@ static inline void fill_rectangle_wh(SDL_Surface *surface, int x, int y, uint w,
 {
 	SDL_Rect rect = { x, y, w, h };
 	SDL_FillRect(surface, &rect, color);
+	textlayer_clear_rect(surface, x, y, (int)w, (int)h);
 }
 
 void draw_segmented_gauge(SDL_Surface *surface, int x, int y, Uint8 color, uint segment_width, uint segment_height, uint segment_value, uint value);

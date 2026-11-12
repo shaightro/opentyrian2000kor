@@ -144,7 +144,25 @@ void JE_outCharGlow(JE_word x, JE_word y, const char *s)
 			int sprite_id = font_ascii[chars[z]];
 
 			if (chars[z] == ' ')
-				loc += JE_spaceWidth(TINY_FONT, z > 0 && wide[z - 1], z + 1 < maxloc && wide[z + 1]);
+			{
+				// as in the text loops of fonthand.c (JE_keepsSpacing(), JE_isWideChar())
+				bool after_wide = false, before_wide = false;
+				for (int k = z - 1; k >= 0; --k)
+				{
+					if (wide[k])
+						after_wide = true;
+					if (wide[k] || !JE_keepsSpacing((char)chars[k]))
+						break;
+				}
+				for (int k = z + 1; k < maxloc; ++k)
+				{
+					if (wide[k])
+						before_wide = true;
+					if (wide[k] || strchr("~([\"'", (char)chars[k]) == NULL)
+						break;
+				}
+				loc += JE_spaceWidth(TINY_FONT, after_wide, before_wide);
+			}
 			else if (sprite_id != -1)
 				loc += sprite(TINY_FONT, sprite_id)->width + 1;
 		}

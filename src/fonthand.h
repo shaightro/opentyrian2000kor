@@ -51,6 +51,7 @@ bool JE_nextTextChar(const char **s, unsigned int font, Uint32 *codepoint);
 
 /** Whether the character at s is multi-byte (Korean). */
 bool JE_isWideChar(const char *s);
+bool JE_keepsSpacing(char c);
 
 /** Width of a space between the given kinds of characters. */
 int JE_spaceWidth(unsigned int font, bool after_wide, bool before_wide);

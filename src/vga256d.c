@@ -88,6 +88,7 @@ void fill_rectangle_xy(SDL_Surface *surface, int x, int y, int x2, int y2, Uint8
 {
 	SDL_Rect rect = { x, y, x2 - x + 1, y2 - y + 1 };
 	SDL_FillRect(surface, &rect, color);
+	textlayer_clear_rect(surface, rect.x, rect.y, rect.w, rect.h);
 }
 
 void JE_barShade(SDL_Surface *surface, int a, int b, int c, int d) /* x1, y1, x2, y2 */

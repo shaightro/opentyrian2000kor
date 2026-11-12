@@ -220,6 +220,33 @@ void textlayer_clear(SDL_Surface *surface)
 		clear_state(state);
 }
 
+void textlayer_clear_rect(SDL_Surface *surface, int x, int y, int w, int h)
+{
+	SurfaceText *state = get_state(surface, false);
+	if (state == NULL || state->active_count == 0)
+		return;
+
+	const SDL_Rect area = { x, y, w, h }, bounds = { 0, 0, vga_width, vga_height };
+	SDL_Rect r;
+	if (!SDL_IntersectRect(&area, &bounds, &r))
+		return;
+
+	const Uint32 serial = ++serial_counter;
+	for (int cy = r.y; cy < r.y + r.h; ++cy)
+	{
+		for (int cx = r.x; cx < r.x + r.w; ++cx)
+		{
+			const int i = cy * vga_width + cx;
+			if (state->active[i])
+			{
+				state->active[i] = 0;
+				state->reset_serial[i] = serial;
+				--state->active_count;
+			}
+		}
+	}
+}
+
 void textlayer_set_overlay(SDL_Surface *surface, int x, int y, int w, int h)
 {
 	SurfaceText *state = get_state(surface, false);

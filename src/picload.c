@@ -22,6 +22,7 @@
 #include "opentyr.h"
 #include "palette.h"
 #include "pcxmast.h"
+#include "textlayer.h"
 #include "video.h"
 
 #include <string.h>
@@ -76,6 +77,9 @@ void JE_loadPic(SDL_Surface *screen, JE_byte PCXnumber, JE_boolean storepal)
 			s += screen->pitch - 320;
 		}
 	}
+
+	// the whole screen is replaced, together with any text on it
+	textlayer_clear(screen);
 
 	free(buffer);
 

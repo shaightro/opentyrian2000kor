@@ -66,11 +66,19 @@ bool JE_nextTextChar(const char **s, unsigned int font, Uint32 *codepoint)
 
 bool JE_isWideChar(const char *s)
 {
-	// '~' only toggles highlighting, so look at the character after it (as the
-	// text loops do for after_wide).
-	while (*s == '~')
+	// '~' only toggles highlighting and opening marks belong to the word that
+	// follows, so look at the character after them (as the text loops do for
+	// after_wide, see JE_keepsSpacing()).
+	while (*s != '\0' && strchr("~([\"'", *s) != NULL)
 		++s;
 	return (unsigned char)*s >= 0x80;
+}
+
+bool JE_keepsSpacing(char c)
+{
+	// After a Korean word, closing punctuation (as in "...다. 3개") does not end
+	// the narrow spacing of Korean text.
+	return c != '\0' && strchr(" ~.,!?:;)]\"'", c) != NULL;
 }
 
 int JE_spaceWidth(unsigned int font, bool after_wide, bool before_wide)
@@ -150,7 +158,7 @@ void JE_dString(SDL_Surface * screen, int x, int y, const char *s, unsigned int 
 			after_wide = codepoint >= 0x80;
 			continue;
 		}
-		if (s[i] != ' ' && s[i] != '~')
+		if (!JE_keepsSpacing(s[i]))
 			after_wide = false;
 
 		int sprite_id = font_ascii[(unsigned char)s[i]];
@@ -200,7 +208,7 @@ int JE_textWidth(const char *s, unsigned int font)
 			after_wide = codepoint >= 0x80;
 			continue;
 		}
-		if (s[i] != ' ' && s[i] != '~')
+		if (!JE_keepsSpacing(s[i]))
 			after_wide = false;
 
 		int sprite_id = font_ascii[(unsigned char)s[i]];
@@ -257,7 +265,7 @@ void JE_outText(SDL_Surface * screen, int x, int y, const char *s, unsigned int 
 			after_wide = codepoint >= 0x80;
 			continue;
 		}
-		if (s[i] != ' ' && s[i] != '~')
+		if (!JE_keepsSpacing(s[i]))
 			after_wide = false;
 
 		int sprite_id = font_ascii[(unsigned char)s[i]];
@@ -302,7 +310,7 @@ void JE_outTextModify(SDL_Surface * screen, int x, int y, const char *s, unsigne
 			after_wide = codepoint >= 0x80;
 			continue;
 		}
-		if (s[i] != ' ' && s[i] != '~')
+		if (!JE_keepsSpacing(s[i]))
 			after_wide = false;
 
 		int sprite_id = font_ascii[(unsigned char)s[i]];
@@ -339,7 +347,7 @@ void JE_outTextAdjust(SDL_Surface * screen, int x, int y, const char *s, unsigne
 			after_wide = codepoint >= 0x80;
 			continue;
 		}
-		if (s[i] != ' ' && s[i] != '~')
+		if (!JE_keepsSpacing(s[i]))
 			after_wide = false;
 
 		int sprite_id = font_ascii[(unsigned char)s[i]];
@@ -386,7 +394,7 @@ void JE_outTextAndDarken(SDL_Surface * screen, int x, int y, const char *s, unsi
 			after_wide = codepoint >= 0x80;
 			continue;
 		}
-		if (s[i] != ' ' && s[i] != '~')
+		if (!JE_keepsSpacing(s[i]))
 			after_wide = false;
 
 		int sprite_id = font_ascii[(unsigned char)s[i]];

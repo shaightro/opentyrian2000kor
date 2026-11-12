@@ -77,6 +77,13 @@ void textlayer_copy_rect(SDL_Surface *dst, int dx, int dy, SDL_Surface *src, int
 void textlayer_clear(SDL_Surface *surface);
 
 /**
+ * Forgets the text in a rectangle that the game has filled.  (Text drawn
+ * there afterwards in the color of the old text would otherwise look like the
+ * old text was still there.)
+ */
+void textlayer_clear_rect(SDL_Surface *surface, int x, int y, int w, int h);
+
+/**
  * Marks a rectangle of \p surface that the game covers only for a while: the
  * mouse pointer, which it draws into the surface and later erases by putting
  * back the pixels from below it.  Text under the rectangle is hidden while

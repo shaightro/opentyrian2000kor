@@ -147,7 +147,7 @@ void draw_font_hv(SDL_Surface *surface, int x, int y, const char *text, Font fon
 			after_wide = codepoint >= 0x80;
 			continue;
 		}
-		if (*text != ' ' && *text != '~')
+		if (!JE_keepsSpacing(*text))
 			after_wide = false;
 
 		int sprite_id = font_ascii[(unsigned char)*text];
@@ -223,7 +223,7 @@ void draw_font_hv_blend(SDL_Surface *surface, int x, int y, const char *text, Fo
 			after_wide = codepoint >= 0x80;
 			continue;
 		}
-		if (*text != ' ' && *text != '~')
+		if (!JE_keepsSpacing(*text))
 			after_wide = false;
 
 		int sprite_id = font_ascii[(unsigned char)*text];
@@ -294,7 +294,7 @@ void draw_font_dark(SDL_Surface *surface, int x, int y, const char *text, Font f
 			after_wide = codepoint >= 0x80;
 			continue;
 		}
-		if (*text != ' ' && *text != '~')
+		if (!JE_keepsSpacing(*text))
 			after_wide = false;
 
 		int sprite_id = font_ascii[(unsigned char)*text];
