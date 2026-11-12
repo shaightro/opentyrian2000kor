@@ -1796,6 +1796,7 @@ bool load_cube(int cube_slot, int cube_index)
 	tr_read_encrypted(cube[cube_slot].header, sizeof(cube[cube_slot].header), f, key);
 
 	uint line = 0, line_chars = 0, line_width = 0;
+	bool highlighted = false;  // a ~highlight~ is open at the end of the current line
 
 	// The text is stored hard-wrapped.  Translations are of whole paragraphs,
 	// keyed by their first line, and replace the rest of the paragraph.
@@ -1839,6 +1840,7 @@ bool load_cube(int cube_slot, int cube_index)
 				++line;
 			line_chars = 0;
 			line_width = 0;
+			highlighted = false;
 
 			continue;
 		}
@@ -1869,11 +1871,21 @@ bool load_cube(int cube_slot, int cube_index)
 				line_width += word_width + (prepend_space ? 6 : 0);
 
 				// word won't fit on current line; use next
-				if (line_chars > cube_line_chars || line_width > cube_line_width)
+				// (one byte is kept for closing a highlight)
+				if (line_chars > cube_line_chars - 1 || line_width > cube_line_width)
 				{
+					// Every line is drawn starting unhighlighted, so a ~highlight~
+					// that goes on (several words, as translations often have)
+					// is closed here and opened again on the next line.
+					if (highlighted && line < COUNTOF(cube->text))
+						strcat(cube[cube_slot].text[line], "~");
+
 					++line;
-					line_chars = word_chars;
+					line_chars = word_chars + (highlighted ? 1 : 0);
 					line_width = word_width;
+
+					if (highlighted && line < COUNTOF(cube->text))
+						strcat(cube[cube_slot].text[line], "~");
 
 					prepend_space = false;
 				}
@@ -1888,6 +1900,10 @@ bool load_cube(int cube_slot, int cube_index)
 					// track last line with text
 					cube[cube_slot].last_line = line + 1;
 				}
+
+				for (const char *c = word; *c != '\0'; ++c)
+					if (*c == '~')
+						highlighted = !highlighted;
 			}
 
 			if (end_of_line)

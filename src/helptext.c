@@ -174,6 +174,7 @@ static void help_box_wrap_by_width(SDL_Surface *screen, int x, int y, const char
 	// boxwidth is in characters of the small font, about 5 pixels each.
 	const int max_width = (int)boxwidth * 5;
 
+	bool highlighted = false;
 	const char *p = message;
 	for (;;)
 	{
@@ -218,10 +219,19 @@ static void help_box_wrap_by_width(SDL_Surface *screen, int x, int y, const char
 				++word;
 		}
 
-		char line[TEXT_SIZE(256)];
-		SDL_strlcpy(line, p, MIN((size_t)(line_end - p) + 1, sizeof(line)));
+		// Every line is drawn starting unhighlighted, so a ~highlight~ that
+		// goes on to the next line is opened again there.
+		char line[TEXT_SIZE(256) + 1];
+		size_t len = 0;
+		if (highlighted)
+			line[len++] = '~';
+		SDL_strlcpy(line + len, p, MIN((size_t)(line_end - p) + 1, sizeof(line) - len));
 		JE_textShade(screen, x, y, line, helpBoxColor, helpBoxBrightness, helpBoxShadeType);
 		y += verticalHeight;
+
+		for (const char *c = p; c < line_end; ++c)
+			if (*c == '~')
+				highlighted = !highlighted;
 
 		p = line_end;
 	}
