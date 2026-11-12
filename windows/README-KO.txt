@@ -13,12 +13,13 @@ Tyrian 2000을 요즘 Windows에서 실행하는 오픈소스 이식판 OpenTyri
 
 OpenTyrian2000.exe 를 더블클릭하세요.
 
-처음 실행하면 게임 데이터(Tyrian 2000 프리웨어)를 내려받을지 묻습니다.
-[예]를 누르면 공식 배포처 camanis.net에서 tyrian2000.zip(약 5MB)을 받아
-data 폴더에 설치한 뒤 게임을 시작합니다.
+게임 데이터(Tyrian 2000 프리웨어)는 data 폴더에 들어 있습니다. data 폴더의
+.exe 파일들은 원래 게임(DOS/Windows 95)의 실행 파일이라 쓰지 않습니다.
 
-인터넷을 쓸 수 없다면 아래 주소의 tyrian2000.zip 을 다른 곳에서 받아
-이 폴더(OpenTyrian2000.exe 옆)에 두고 실행하세요. 압축은 자동으로 풀립니다.
+data 폴더가 없으면 처음 실행할 때 공식 배포처 camanis.net에서
+tyrian2000.zip(약 5MB)을 내려받을지 묻습니다. 인터넷을 쓸 수 없다면 아래 주소의
+tyrian2000.zip 을 다른 곳에서 받아 이 폴더(OpenTyrian2000.exe 옆)에 두고
+실행하세요. 압축은 자동으로 풀립니다.
 
   https://www.camanis.net/tyrian/tyrian2000.zip
 
@@ -65,11 +66,27 @@ Alt+Enter       전체 화면 전환
   %APPDATA%\OpenTyrian\OpenTyrian2000
 
 
-== 라이선스 ====================================================================
+== 저작권과 배포 조건 ==========================================================
 
-OpenTyrian2000
+이 배포판은 무료이며, 비상업적인 용도로만 배포합니다. 판매하거나 유료로
+제공하는 상품이나 서비스에 넣지 마세요.
+
+Tyrian 2000 게임 데이터 - data 폴더
+  Tyrian 2000 Game Copyright (c) 1999, Eclipse Software
+  Tyrian 2000 Copyright (c) 1999, Stealth Productions, Inc.
+  만든 사람: Jason Emery(프로그래밍), Alexander Brandon(이야기, 음악),
+  Daniel Cook(그래픽) 외 (전체 제작진은 게임의 제작진 목록에 있습니다)
+
+  원저작자가 프리웨어로 공개한 파일(위 camanis.net 주소의 tyrian2000.zip)을
+  고치지 않고 그대로 넣었습니다. 저작권은 원저작권자에게 있으며, 원본 안내문은
+  data\readme.txt 입니다. 권리자가 이의를 제기하면 게임 데이터 배포를 바로
+  중단하겠습니다. 연락: https://github.com/shaightro/opentyrian2000kor/issues
+
+OpenTyrian2000 - 이 프로그램
+  OpenTyrian: The OpenTyrian Development Team
+  OpenTyrian2000: Kaito Sinclaire, https://github.com/KScl/opentyrian2000
+  한국어판: https://github.com/shaightro/opentyrian2000kor
   GNU General Public License 버전 2 이상 (COPYING.txt)
-  소스 코드: https://github.com/shaightro/opentyrian2000kor
 
 SDL2
   zlib 라이선스 (SDL2-LICENSE.txt)
@@ -77,7 +94,3 @@ SDL2
 갈무리(Galmuri) 글꼴 - kor 폴더의 Galmuri11-Bold.ttf, Galmuri9.ttf
   SIL Open Font License 1.1 (kor\Galmuri-OFL.md)
   Copyright 2019-2025 Lee Minseo, https://github.com/quiple/galmuri
-
-Tyrian 2000 게임 데이터
-  이 배포판에는 들어 있지 않습니다. 원저작자가 프리웨어로 공개한 파일을
-  첫 실행 때 공식 배포처에서 내려받습니다.

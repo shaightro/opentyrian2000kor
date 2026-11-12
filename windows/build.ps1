@@ -8,17 +8,23 @@
     the official GitHub release and verified by SHA-256.
   - Finds MSBuild with vswhere and builds Release|x64 without networking.
   - Assembles dist\OpenTyrian2000-KR\ (exe, SDL2.dll, docs) and zips it.
+  - Puts the Tyrian 2000 freeware data, unmodified, into its data folder: from
+    -DataZip (default: tyrian2000.zip next to the repository), downloaded from
+    camanis.net if missing; verified by SHA-256 either way. -NoData leaves it
+    out (the game then offers to download it on first run).
 
-  The Tyrian 2000 data files are not included: their redistribution terms are
-  unclear, so the game offers to download them on first run instead.
+  The data is bundled free of charge for non-commercial use, crediting its
+  authors, and will be withdrawn if its rights holders object (README-KO.txt).
 
 .EXAMPLE
   powershell -ExecutionPolicy Bypass -File windows\build.ps1
 #>
 param(
   [string]$SDL2Dir = "",
+  [string]$DataZip = "",
   [string]$PlatformToolset = "",
   [string]$Version = "",
+  [switch]$NoData,
   [switch]$NoZip
 )
 
@@ -26,6 +32,39 @@ $ErrorActionPreference = "Stop"
 
 $repo = Split-Path -Parent $PSScriptRoot
 if ($SDL2Dir -eq "") { $SDL2Dir = Join-Path (Split-Path -Parent $repo) "SDL2" }
+if ($DataZip -eq "") { $DataZip = Join-Path (Split-Path -Parent $repo) "tyrian2000.zip" }
+
+# Tyrian 2000 freeware data; the same file and hash as in src/winsetup.c
+$dataUrl = "https://www.camanis.net/tyrian/tyrian2000.zip"
+$dataSha256 = "348bc76e73514e452279b8730cf217daf0f70a282f07b6b94af653d87e921667"
+
+function Get-DataZip {
+  if (-not (Test-Path $DataZip)) {
+    Write-Host "Tyrian 2000 data not found at $DataZip; downloading $dataUrl"
+    [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+    $download = "$DataZip.download"
+    Invoke-WebRequest -Uri $dataUrl -OutFile $download -UseBasicParsing
+    Move-Item $download $DataZip
+  }
+  $hash = (Get-FileHash -Algorithm SHA256 $DataZip).Hash.ToLowerInvariant()
+  if ($hash -ne $dataSha256) { throw "SHA-256 mismatch for $DataZip ($hash); expected the tyrian2000.zip of $dataUrl" }
+}
+
+function Add-Data([string]$pkg) {
+  $tmp = Join-Path ([IO.Path]::GetTempPath()) ("tyrian2000-" + [Guid]::NewGuid())
+  New-Item -ItemType Directory -Path $tmp | Out-Null
+  try {
+    Expand-Archive -Path $DataZip -DestinationPath $tmp
+    $data = Join-Path $pkg "data"
+    New-Item -ItemType Directory -Force -Path $data | Out-Null
+    # the files of the archive's tyrian2000 folder, unmodified
+    Copy-Item (Join-Path $tmp "tyrian2000\*") $data -Recurse
+    return (Get-ChildItem $data).Count
+  }
+  finally {
+    Remove-Item -Recurse -Force $tmp -ErrorAction SilentlyContinue
+  }
+}
 
 $sdlVersion = "2.32.10"
 $sdlZipName = "SDL2-devel-$sdlVersion-VC.zip"
@@ -71,6 +110,7 @@ function Get-BuildVersion {
 }
 
 Install-SDL2
+if (-not $NoData) { Get-DataZip }
 $msbuild = Find-MSBuild
 if ($Version -eq "") { $Version = Get-BuildVersion }
 
@@ -97,6 +137,11 @@ New-Item -ItemType Directory -Force -Path $pkg | Out-Null
 
 Copy-Item (Join-Path $repo "opentyrian-x64-Release.exe") (Join-Path $pkg "OpenTyrian2000.exe")
 Copy-Item (Join-Path $SDL2Dir "lib\x64\SDL2.dll") $pkg
+
+if (-not $NoData) {
+  $dataFiles = Add-Data $pkg
+  Write-Host "Tyrian 2000 data packaged: $dataFiles files"
+}
 Copy-Item (Join-Path $PSScriptRoot "README-KO.txt") $pkg
 Copy-Item (Join-Path $repo "COPYING") (Join-Path $pkg "COPYING.txt")
 Copy-Item (Join-Path $SDL2Dir "LICENSE.txt") (Join-Path $pkg "SDL2-LICENSE.txt")
