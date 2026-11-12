@@ -275,6 +275,18 @@ const char *tr_level_name(const char *name)
 	return text != NULL ? text : name;
 }
 
+const char *tr_save_name(const char *name)
+{
+	// The game names its automatic save "LAST LEVEL" (padded with spaces) and
+	// stores the name in the save file, so it is translated when shown.
+	size_t len = strlen(name);
+	while (len > 0 && name[len - 1] == ' ')
+		--len;
+	if (len == 10 && strncmp(name, "LAST LEVEL", 10) == 0)
+		return ui_text(UI_LAST_LEVEL_SLOT);
+	return name;
+}
+
 /* Text in the program itself *************************************************/
 
 typedef struct
@@ -335,6 +347,9 @@ static const UiTextInfo ui_texts[UI_TEXT_COUNT] =
 	[UI_OR_PLAY] = { "ui.or_play", "Or play... %s", "슈퍼 아케이드 모드를 마친 뒤 나오는 안내. %s는 미니게임 이름입니다" },
 	[UI_TYPE_AT_TITLE] = { "ui.type_at_title", "Type %s at Title", "슈퍼 아케이드 모드를 마친 뒤 나오는 비밀 코드 안내. %s는 타이틀 화면에서 입력할 코드입니다 (영어 그대로)" },
 	[UI_PAGE_OF] = { "ui.page_of", "%s of %d", "도움말 화면 오른쪽 아래의 쪽 번호. %s는 \"페이지 3\" 같은 현재 쪽, %d는 전체 쪽 수입니다 (작은 글씨)" },
+	[UI_LAST_LEVEL_SLOT] = { "ui.last_level_slot", "LAST LEVEL", "불러오기 메뉴에서 레벨을 시작할 때 자동으로 저장되는 칸의 이름 (작은 글씨, 짧게)" },
+	[UI_DESTRUCT_DAMAGE] = { "ui.destruct.damage", "dmg~%d~", "숨겨진 미니게임 Destruct 위쪽 칸의 차량 내구도. %d는 숫자, ~는 강조 (작은 글씨, 약 30픽셀)" },
+	[UI_DESTRUCT_POINTS] = { "ui.destruct.points", "pts~%d~", "숨겨진 미니게임 Destruct 위쪽 칸의 점수. %d는 숫자, ~는 강조 (작은 글씨, 약 30픽셀)" },
 };
 
 const char *ui_text(UiText id)

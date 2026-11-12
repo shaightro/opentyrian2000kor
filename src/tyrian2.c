@@ -149,6 +149,14 @@ void JE_starShowVGA(void)
 				src += game_screen->pitch;
 			}
 		}
+
+		// Korean text drawn into the playing field (player labels, ...) goes
+		// along; flipped or relit copies cannot carry it.
+		if (starShowVGASpecialCode == 1 || (starShowVGASpecialCode == 2 && processorType >= 2))
+			textlayer_copy_rect(VGAScreenSeg, 0, 0, NULL, 0, 0, 264, 184);
+		else
+			textlayer_copy_rect(VGAScreenSeg, 0, 0, game_screen, 24, 0, 264, 184);
+
 		JE_showVGA();
 	}
 

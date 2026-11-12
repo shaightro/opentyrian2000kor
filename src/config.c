@@ -1067,7 +1067,7 @@ void JE_saveConfiguration(void)
 		
 		/* SYN: Pascal strings are prefixed by a byte holding the length! */
 		memset(p, 0, sizeof(tempSaveFile.levelName));
-		*p = strlen(tempSaveFile.levelName);
+		*p = (JE_byte)MIN(strlen(tempSaveFile.levelName), 9);  // string [9]: more would spill into the name
 		memcpy(&p[1], &tempSaveFile.levelName, *p);
 		p += 10;
 		

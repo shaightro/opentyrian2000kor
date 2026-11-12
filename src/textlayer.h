@@ -65,8 +65,24 @@ int textlayer_glyph_advance(unsigned int font, Uint32 codepoint);
 /** Copies the text records of a whole surface (after copying its pixels). */
 void textlayer_copy(SDL_Surface *dst, SDL_Surface *src);
 
+/**
+ * Copies the text records of a rectangle (after copying its pixels unchanged);
+ * the text of \p dst in the rectangle is replaced.  With a NULL \p src, the
+ * rectangle of \p dst just loses its text records (for copies that change the
+ * pixels).
+ */
+void textlayer_copy_rect(SDL_Surface *dst, int dx, int dy, SDL_Surface *src, int sx, int sy, int w, int h);
+
 /** Forgets all text records of a surface. */
 void textlayer_clear(SDL_Surface *surface);
+
+/**
+ * Marks a rectangle of \p surface that the game covers only for a while: the
+ * mouse pointer, which it draws into the surface and later erases by putting
+ * back the pixels from below it.  Text under the rectangle is hidden while
+ * covered instead of being forgotten.  An empty rectangle removes the mark.
+ */
+void textlayer_set_overlay(SDL_Surface *surface, int x, int y, int w, int h);
 
 /**
  * Returns the surface to scale for display: \p src itself, or a copy with the

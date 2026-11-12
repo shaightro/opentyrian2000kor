@@ -55,6 +55,13 @@ typedef struct
 	// reset after the glyph was drawn.
 	TextOp *ops;
 	int op_count, op_capacity;
+
+	// Area that the game covers only for a while (the mouse pointer, whose
+	// pixels it restores afterwards).  Changed cells in it hide their text
+	// in the shown frame instead of losing it.
+	SDL_Rect overlay;
+	Uint8 hidden[CELL_COUNT];          // active cell covered in the shown frame
+	SDL_Rect hidden_area;              // where hidden may be set
 } SurfaceText;
 
 static SurfaceText *states[MAX_SURFACES];
@@ -203,6 +210,7 @@ static void clear_state(SurfaceText *state)
 		memset(state->active, 0, sizeof(state->active));
 	state->active_count = 0;
 	state->op_count = 0;
+	state->overlay = (SDL_Rect){ 0, 0, 0, 0 };
 }
 
 void textlayer_clear(SDL_Surface *surface)
@@ -210,6 +218,17 @@ void textlayer_clear(SDL_Surface *surface)
 	SurfaceText *state = get_state(surface, false);
 	if (state != NULL)
 		clear_state(state);
+}
+
+void textlayer_set_overlay(SDL_Surface *surface, int x, int y, int w, int h)
+{
+	SurfaceText *state = get_state(surface, false);
+	if (state == NULL)
+		return;
+
+	const SDL_Rect area = { x, y, w, h }, bounds = { 0, 0, vga_width, vga_height };
+	if (!SDL_IntersectRect(&area, &bounds, &state->overlay))
+		state->overlay = (SDL_Rect){ 0, 0, 0, 0 };
 }
 
 void textlayer_copy(SDL_Surface *dst, SDL_Surface *src)
@@ -257,9 +276,10 @@ static bool op_is_shadow(Uint8 mode)
 /**
  * Whether a cell of a glyph still shows the glyph: true for cells the glyph
  * does not touch, and for touched cells that are active and were not reset
- * after the glyph was drawn.
+ * after the glyph was drawn.  With \p shown, cells covered for the moment
+ * (see SurfaceText.hidden) count as not showing it.
  */
-static bool cell_shows_glyph(const SurfaceText *state, const TextOp *op, const HangulGlyph *glyph, int cx, int cy)
+static bool cell_shows_glyph(const SurfaceText *state, const TextOp *op, const HangulGlyph *glyph, int cx, int cy, bool shown)
 {
 	if (!glyph->cov[cy * glyph->cov_w + cx])
 		return true;
@@ -270,11 +290,11 @@ static bool cell_shows_glyph(const SurfaceText *state, const TextOp *op, const H
 		return false;
 
 	const int i = y * vga_width + x;
-	return state->active[i] && state->reset_serial[i] <= op->serial;
+	return state->active[i] && state->reset_serial[i] <= op->serial && !(shown && state->hidden[i]);
 }
 
 /** Counts the cells of a glyph still showing it; *all is set if none was drawn over. */
-static int visible_cells(const SurfaceText *state, const TextOp *op, bool *all)
+static int visible_cells(const SurfaceText *state, const TextOp *op, bool shown, bool *all)
 {
 	const HangulGlyph *glyph = hangul_glyph(op->font, op->codepoint);
 	*all = false;
@@ -289,7 +309,7 @@ static int visible_cells(const SurfaceText *state, const TextOp *op, bool *all)
 			if (!glyph->cov[cy * glyph->cov_w + cx])
 				continue;
 			++touched;
-			visible += cell_shows_glyph(state, op, glyph, cx, cy);
+			visible += cell_shows_glyph(state, op, glyph, cx, cy, shown);
 		}
 	}
 
@@ -302,7 +322,7 @@ static bool op_is_valid(const SurfaceText *state, const TextOp *op)
 	// Partly overwritten glyphs are kept and shown clipped to their intact
 	// cells (text scrolling behind a mask, a sprite over part of the text).
 	bool all;
-	return visible_cells(state, op, &all) > 0;
+	return visible_cells(state, op, false, &all) > 0;
 }
 
 /** Drops records of text the game has drawn over since. */
@@ -310,6 +330,14 @@ static void validate(SurfaceText *state)
 {
 	const SDL_Surface *surface = state->surface;
 	const Uint32 serial = ++serial_counter;
+
+	// Cells covered in the previous frame are judged again.
+	const SDL_Rect *h = &state->hidden_area;
+	for (int y = h->y; y < h->y + h->h; ++y)
+		memset(&state->hidden[y * vga_width + h->x], 0, (size_t)h->w);
+	state->hidden_area = state->overlay;
+
+	const SDL_Rect *o = &state->overlay;
 
 	int active_count = 0;
 	for (int y = 0; y < vga_height; ++y)
@@ -321,14 +349,20 @@ static void validate(SurfaceText *state)
 			if (!state->active[i])
 				continue;
 
-			if (row[x] != state->expected[i])
+			if (row[x] == state->expected[i])
 			{
-				state->active[i] = 0;
-				state->reset_serial[i] = serial;
+				++active_count;
+			}
+			else if (x >= o->x && x < o->x + o->w && y >= o->y && y < o->y + o->h)
+			{
+				// Covered for now; the game restores the cell later.
+				state->hidden[i] = 1;
+				++active_count;
 			}
 			else
 			{
-				++active_count;
+				state->active[i] = 0;
+				state->reset_serial[i] = serial;
 			}
 		}
 	}
@@ -339,6 +373,99 @@ static void validate(SurfaceText *state)
 		if (op_is_valid(state, &state->ops[i]))
 			state->ops[kept++] = state->ops[i];
 	state->op_count = kept;
+}
+
+static void push_op(SurfaceText *state, const TextOp *op)
+{
+	if (state->op_count >= MAX_OPS)
+		return;
+
+	if (state->op_count == state->op_capacity)
+	{
+		const int capacity = MAX(64, state->op_capacity * 2);
+		TextOp *ops = realloc(state->ops, capacity * sizeof(*ops));
+		if (ops == NULL)
+			return;
+		state->ops = ops;
+		state->op_capacity = capacity;
+	}
+
+	state->ops[state->op_count++] = *op;
+}
+
+void textlayer_copy_rect(SDL_Surface *dst, int dx, int dy, SDL_Surface *src, int sx, int sy, int w, int h)
+{
+	if (dst == src)
+		return;
+
+	// Keep the rectangle inside both surfaces.
+	if (dx < 0) { sx -= dx; w += dx; dx = 0; }
+	if (dy < 0) { sy -= dy; h += dy; dy = 0; }
+	if (sx < 0) { dx -= sx; w += sx; sx = 0; }
+	if (sy < 0) { dy -= sy; h += sy; sy = 0; }
+	w = MIN(w, MIN(vga_width - dx, vga_width - sx));
+	h = MIN(h, MIN(vga_height - dy, vga_height - sy));
+	if (w <= 0 || h <= 0)
+		return;
+
+	SurfaceText *s = src != NULL ? get_state(src, false) : NULL;
+	if (s != NULL && s->active_count > 0)
+		validate(s);  // the copy carries only text that is still there
+	if (s != NULL && s->active_count == 0)
+		s = NULL;
+
+	SurfaceText *d = get_state(dst, s != NULL);
+	if (d == NULL)
+		return;
+
+	const Uint32 serial = ++serial_counter;
+	for (int y = 0; y < h; ++y)
+	{
+		for (int x = 0; x < w; ++x)
+		{
+			const int di = (dy + y) * vga_width + dx + x;
+			const int si = (sy + y) * vga_width + sx + x;
+
+			d->active_count -= d->active[di];
+			if (s != NULL && s->active[si])
+			{
+				d->active[di] = 1;
+				d->expected[di] = s->expected[si];
+				d->bg[di] = s->bg[si];
+				d->reset_serial[di] = s->reset_serial[si];
+				++d->active_count;
+			}
+			else
+			{
+				d->active[di] = 0;
+				d->reset_serial[di] = serial;
+			}
+		}
+	}
+
+	// Glyphs placed in the rectangle are replaced by those of the source.
+	int kept = 0;
+	for (int i = 0; i < d->op_count; ++i)
+	{
+		const TextOp *op = &d->ops[i];
+		if (!(op->x >= dx && op->x < dx + w && op->y >= dy && op->y < dy + h))
+			d->ops[kept++] = *op;
+	}
+	d->op_count = kept;
+
+	if (s != NULL)
+	{
+		for (int i = 0; i < s->op_count; ++i)
+		{
+			TextOp op = s->ops[i];
+			if (op.x >= sx && op.x < sx + w && op.y >= sy && op.y < sy + h)
+			{
+				op.x = (Sint16)(op.x - sx + dx);
+				op.y = (Sint16)(op.y - sy + dy);
+				push_op(d, &op);
+			}
+		}
+	}
 }
 
 /* Drawing ********************************************************************/
@@ -450,19 +577,9 @@ int textlayer_draw_glyph(SDL_Surface *surface, int x, int y, unsigned int font, 
 		}
 	}
 
-	if (state != NULL && state->op_count < MAX_OPS)
+	if (state != NULL)
 	{
-		if (state->op_count == state->op_capacity)
-		{
-			const int capacity = MAX(64, state->op_capacity * 2);
-			TextOp *ops = realloc(state->ops, capacity * sizeof(*ops));
-			if (ops == NULL)
-				return glyph->advance;
-			state->ops = ops;
-			state->op_capacity = capacity;
-		}
-
-		state->ops[state->op_count++] = (TextOp){
+		push_op(state, &(TextOp){
 			.serial = serial,
 			.codepoint = codepoint,
 			.x = (Sint16)x,
@@ -471,7 +588,7 @@ int textlayer_draw_glyph(SDL_Surface *surface, int x, int y, unsigned int font, 
 			.mode = (Uint8)mode,
 			.hue = hue,
 			.value = value,
-		};
+		});
 	}
 
 	return glyph->advance;
@@ -505,7 +622,7 @@ SDL_Surface *textlayer_prepare_frame(SDL_Surface *src)
 		for (int x = 0; x < vga_width; ++x)
 		{
 			const int i = y * vga_width + x;
-			if (state->active[i])
+			if (state->active[i] && !state->hidden[i])
 				dst_row[x] = state->bg[i];
 		}
 	}
@@ -581,7 +698,7 @@ void textlayer_render(SDL_Renderer *renderer, SDL_Surface *src, const SDL_Rect *
 			continue;
 
 		bool all_visible;
-		if (visible_cells(state, op, &all_visible) == 0)
+		if (visible_cells(state, op, true, &all_visible) == 0)
 			continue;
 
 		// Size of a font pixel on screen.  Glyphs are pre-enlarged by an
@@ -620,14 +737,14 @@ void textlayer_render(SDL_Renderer *renderer, SDL_Surface *src, const SDL_Rect *
 		{
 			for (int cx = 0; cx < glyph->cov_w; )
 			{
-				if (!cell_shows_glyph(state, op, glyph, cx, cy))
+				if (!cell_shows_glyph(state, op, glyph, cx, cy, true))
 				{
 					++cx;
 					continue;
 				}
 
 				int run_end = cx + 1;
-				while (run_end < glyph->cov_w && cell_shows_glyph(state, op, glyph, run_end, cy))
+				while (run_end < glyph->cov_w && cell_shows_glyph(state, op, glyph, run_end, cy, true))
 					++run_end;
 
 				const int x0 = op->x + glyph->cov_x + cx,

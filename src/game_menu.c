@@ -359,7 +359,7 @@ void JE_itemScreen(void)
 				else if (saveFiles[x-2].level == 0)
 					strcpy(tempStr, miscText[3-1]);
 				else
-					strcpy(tempStr, saveFiles[x-2].name);
+					tr_copy_text(tempStr, sizeof(tempStr), tr_save_name(saveFiles[x-2].name));
 
 				int tempY = 38 + (x - min)*11;
 
@@ -2433,7 +2433,7 @@ JE_boolean JE_saveRequest(JE_byte slot, const char *savename)
 			JE_textShade(VGAScreen, 74, 90, miscText[1], 12, 1, FULL_SHADE); // Save name:
 			JE_textShade(VGAScreen, 135, 90, savename, 12, 1, FULL_SHADE);
 			JE_textShade(VGAScreen, 74, 100, miscText[69], 12, 1, FULL_SHADE); // Original save:
-			JE_textShade(VGAScreen, 140, 100, saveFiles[slot-1].name, 12, 1, FULL_SHADE);
+			JE_textShade(VGAScreen, 140, 100, tr_save_name(saveFiles[slot-1].name), 12, 1, FULL_SHADE);
 
 			col += colC;
 			if (col > 8 || col < 2)

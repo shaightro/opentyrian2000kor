@@ -734,7 +734,7 @@ bool JE_loadScreen(void)
 			}
 			else
 			{
-				JE_textShade(VGAScreen, xMenuItemName, y, saveFile->name, 13, selected ? 6 : 2, FULL_SHADE);
+				JE_textShade(VGAScreen, xMenuItemName, y, tr_save_name(saveFile->name), 13, selected ? 6 : 2, FULL_SHADE);
 
 				snprintf(buffer, sizeof buffer, "%s %s", miscTextB[2], tr_level_name(saveFile->levelName));
 				JE_textShade(VGAScreen, xMenuItemLastLevel, y, buffer, 5, selected ? 6 : 2, FULL_SHADE);
@@ -1126,7 +1126,7 @@ void JE_initPlayerData(void)
 	mainLevel = FIRST_LEVEL;
 	saveLevel = FIRST_LEVEL;
 
-	tr_copy_text(lastLevelName, sizeof(lastLevelName), miscText[19]);  // saved in 11 bytes
+	tr_copy_text(lastLevelName, 10, miscText[19]);  // saves keep 9 bytes of it (JE_saveConfiguration)
 }
 
 void JE_sortHighScores(void)

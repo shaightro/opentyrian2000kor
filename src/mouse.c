@@ -21,6 +21,7 @@
 #include "keyboard.h"
 #include "nortvars.h"
 #include "sprite.h"
+#include "textlayer.h"
 #include "video.h"
 #include "vga256d.h"
 
@@ -37,6 +38,14 @@ JE_word mouseXB, mouseYB;
 
 static JE_word mouseGrabX, mouseGrabY;
 static JE_byte mouseGrabShape[24 * 28];
+static SDL_Surface *mouseGrabSurface;
+
+/** Tells the text layer that the grabbed area is covered until JE_mouseReplace(). */
+static void mark_pointer_area(void)
+{
+	mouseGrabSurface = VGAScreen;
+	textlayer_set_overlay(VGAScreen, mouseGrabX, mouseGrabY, 24, 28);
+}
 
 static void JE_drawShapeTypeOne(JE_word x, JE_word y, JE_byte *shape)
 {
@@ -126,6 +135,7 @@ void JE_mouseStart(void)
 		mouseGrabY = MIN(MAX(spriteInfo->fy, mouse_y), 200 - (spriteInfo->h - spriteInfo->fy)) - spriteInfo->fy;
 
 		JE_grabShapeTypeOne(mouseGrabX, mouseGrabY, mouseGrabShape);
+		mark_pointer_area();
 
 		if (!mouseInactive)
 		{
@@ -148,6 +158,7 @@ void JE_mouseStartFilter(Uint8 filter)
 		mouseGrabY = MIN(MAX(spriteInfo->fy, mouse_y), 200 - (spriteInfo->h - spriteInfo->fy)) - spriteInfo->fy;
 
 		JE_grabShapeTypeOne(mouseGrabX, mouseGrabY, mouseGrabShape);
+		mark_pointer_area();
 
 		if (!mouseInactive)
 		{
@@ -161,5 +172,11 @@ void JE_mouseStartFilter(Uint8 filter)
 void JE_mouseReplace(void)
 {
 	if (has_mouse)
+	{
 		JE_drawShapeTypeOne(mouseGrabX, mouseGrabY, mouseGrabShape);
+
+		if (mouseGrabSurface != NULL)
+			textlayer_set_overlay(mouseGrabSurface, 0, 0, 0, 0);
+		mouseGrabSurface = NULL;
+	}
 }

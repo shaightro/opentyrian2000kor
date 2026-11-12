@@ -274,6 +274,14 @@ static void collect(const char *key, const char *text, size_t size)
 		text = trimmed;
 	}
 
+	// "NEW GAME" becomes the level name of a save, which the save file keeps
+	// in 9 bytes (see JE_saveConfiguration()).
+	if (strcmp(key, "help.miscText.19") == 0)
+	{
+		add_entry(key, text, 10, "새 게임을 시작한 뒤 저장한 칸의 레벨 이름 (불러오기 메뉴, 세이브 파일에 9바이트까지 저장)");
+		return;
+	}
+
 	add_entry(key, text, size, note_for(key));
 }
 

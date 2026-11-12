@@ -2295,7 +2295,7 @@ static void DE_RunTickDrawHUD(void)
 {
 	unsigned int i;
 	unsigned int startX;
-	char tempstr[16]; /* Max size needed: 16 assuming 10 digit int max. */
+	char tempstr[32]; /* label (translated) and a number */
 	struct destruct_unit_s * curUnit;
 
 	for (i = 0; i < MAX_PLAYERS; i++)
@@ -2313,9 +2313,9 @@ static void DE_RunTickDrawHUD(void)
 		blit_sprite2(VGAScreen, startX +  4, 0, destructSpriteSheet, 191 + curUnit->shotType);
 
 		JE_outText   (VGAScreen, startX + 20, 3, weaponNames[curUnit->shotType], 15, 2);
-		sprintf      (tempstr, "dmg~%d~", curUnit->health);
+		tr_format    (tempstr, sizeof(tempstr), ui_text(UI_DESTRUCT_DAMAGE), NULL, curUnit->health);
 		JE_outText   (VGAScreen, startX + 75, 3, tempstr, 15, 0);
-		sprintf      (tempstr, "pts~%d~", destruct_player[i].score);
+		tr_format    (tempstr, sizeof(tempstr), ui_text(UI_DESTRUCT_POINTS), NULL, destruct_player[i].score);
 		JE_outText   (VGAScreen, startX + 110, 3, tempstr, 15, 0);
 	}
 }

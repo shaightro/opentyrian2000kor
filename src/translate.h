@@ -66,6 +66,9 @@ const char *tr_format(char *buffer, size_t size, const char *format, const char 
 /** Translated name of a level for display; level names stay English internally. */
 const char *tr_level_name(const char *name);
 
+/** Name of a save slot for display: the automatic "LAST LEVEL" save is translated. */
+const char *tr_save_name(const char *name);
+
 /*
  * While a collector is set, tr_read_encrypted() and tr_apply() report each
  * string to it instead of translating; used to extract the game's text.
@@ -127,6 +130,9 @@ typedef enum
 	UI_OR_PLAY,
 	UI_TYPE_AT_TITLE,
 	UI_PAGE_OF,
+	UI_LAST_LEVEL_SLOT,
+	UI_DESTRUCT_DAMAGE,
+	UI_DESTRUCT_POINTS,
 
 	UI_TEXT_COUNT
 } UiText;
