@@ -244,7 +244,7 @@ msgstr "이러한 조치를 취할 수밖에 없었던 점, 깊이 유감스럽�
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube5.8.4"
 msgid "Your cryo system will wake you at this point.  Once we detect your renewed signal we'll instruct you further."
-msgstr "이 시점에서 당신의 냉동 수면 장치가 당신을 깨울 것입니다. 당신의 신호가 다시 감지되면 추가로 안내해 드리겠습니다."
+msgstr "이 시점에서 냉동 수면 장치가 당신을 깨울 것입니다. 당신의 신호가 다시 감지되면 추가로 안내해 드리겠습니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube5.8.7"
@@ -254,7 +254,7 @@ msgstr "좋은 기원을 보내 드립니다."
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube5.9.title"
 msgid "INCOMING MESSAGE FROM ZINGLON : 00426 mark"
-msgstr "징글론에게서 메시지 수신 : 00426 마크"
+msgstr "징글론발 수신 메시지 : 00426 마크"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube5.9.header"
@@ -269,7 +269,7 @@ msgstr "너는 또다시 궁극의 지혜로 향하는 우리의 길을 더럽�
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube5.9.3"
 msgid "You were thought to be destroyed in your battle with our god, ~Zinglon~. However, I see that some twisted destiny permits you to live."
-msgstr "우리의 신 ~징글론~과의 싸움에서 너는 멸망한 줄로 알았거늘, 어떤 뒤틀린 운명이 네가 살아 있음을 허락하는 모양이구나."
+msgstr "우리의 신 ~징글론~과의 싸움에서 너는 파멸한 줄로 알았거늘, 어떤 뒤틀린 운명이 네가 살아 있음을 허락하는 모양이구나."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube5.9.6"
@@ -279,7 +279,7 @@ msgstr "나는 허락할 수 없노라."
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube5.10.title"
 msgid "INCOMING MESSAGE FROM ZINGLON : 00471 mark"
-msgstr "징글론에게서 메시지 수신 : 00471 마크"
+msgstr "징글론발 수신 메시지 : 00471 마크"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube5.10.header"
@@ -304,7 +304,7 @@ msgstr "머지않아 너는 영광스럽고 거룩한 우리 지도자의 ~열�
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube5.11.title"
 msgid "INCOMING MESSAGE FROM HAZUDRA : 92777 mark"
-msgstr "하주드라에게서 메시지 수신 : 92777 마크"
+msgstr "하주드라발 수신 메시지 : 92777 마크"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube5.11.header"
@@ -334,7 +334,7 @@ msgstr "~마이크로솔~은 그들 세력의 한 전선에 지나지 않으며,
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube5.11.15"
 msgid "Either ~Savara~ or ~Camanis~ would be a good place to look first, as activity on both worlds is very high right now.  Your ship will be allowed to travel to either, of course, without fear of detonation.  If they notice your presence we feel there is a good chance they will reveal themselves to you out of anger."
-msgstr "먼저 ~사바라~나 ~카마니스~를 살펴보시는 것이 좋겠습니다. 지금 두 행성 모두 활동이 매우 활발하기 때문입니다. 물론 당신의 함선은 폭발할 걱정 없이 어느 쪽으로든 가실 수 있습니다. 그들이 당신의 존재를 알아차린다면, 분노한 나머지 당신 앞에 정체를 드러낼 가능성이 크다고 저희는 생각합니다."
+msgstr "먼저 ~사바라~나 ~카마니스~를 살펴보시는 것이 좋겠습니다. 지금 두 행성 모두 활동이 매우 활발하기 때문입니다. 물론 두 곳 중 어디로 가시든 함선이 폭발할 걱정은 하지 않으셔도 됩니다. 그들이 당신의 존재를 알아차린다면, 분노한 나머지 당신 앞에 정체를 드러낼 가능성이 크다고 저희는 생각합니다."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube5.11.20"

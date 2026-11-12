@@ -14,7 +14,7 @@ msgstr ""
 #. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep5.113"
 msgid "\nRelated by your onetime friendship with Buce, you were\nsought out by his people, the Hazudra Collectors, and sent\nto destroy the Zinglonites.\n\nWith none of their forces left and the deadly fruit weapons\ndestroyed, the universe as a whole is silent once again.  No\nresponse ever comes of your inquiry to the state of the\nHazudra or who sent you on this journey.  The secret haunts\nyou in your sleep.\n\nStill a hero once again, as always..."
-msgstr "\n한때 부스와 나눈 우정이 인연이 되어, 그의 동족인\n하주드라 수집단이 당신을 찾아와 징글론 신도들을\n섬멸하라는 임무를 맡겼습니다.\n\n징글론 신도들의 병력은 하나도 남지 않았고 치명적인\n과일 병기도 파괴되어, 온 우주는 다시 고요해졌습니다.\n하주드라의 근황이나 누가 당신을 이 여정에 보냈는지\n물었지만, 끝내 아무 답도 돌아오지 않았습니다.\n그 비밀은 꿈속에서도 당신을 괴롭힙니다.\n\n어쨌든 언제나처럼, 또다시 영웅입니다..."
+msgstr "\n한때 부스와 나눈 우정이 인연이 되어, 그의 동족인\n하주드라 수집가들이 당신을 찾아와 징글론 신도들을\n섬멸하라는 임무를 맡겼습니다.\n\n징글론 신도들의 병력은 하나도 남지 않았고 치명적인\n과일 병기도 파괴되어, 온 우주는 다시 고요해졌습니다.\n하주드라의 근황이나 누가 당신을 이 여정에 보냈는지\n물었지만, 끝내 아무 답도 돌아오지 않았습니다.\n그 비밀은 꿈속에서도 당신을 괴롭힙니다.\n\n어쨌든 언제나처럼, 또다시 영웅입니다..."
 
 #. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep5.130"

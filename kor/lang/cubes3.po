@@ -24,7 +24,7 @@ msgstr "리드"
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube3.1.0"
 msgid "We have finally been able to get through! Javi was jamming our transmissions for some time. I grieve for the loss of your parents, Trent. I learned of their death only hours ago. And at the same time I read of your imprisonment by Javi. It is up to you to help us stop the Microsol fleet from using the Gravitium. You must fly to the Microsol base planet of Ixmucane and give us information on fleet strength before we can marshall our forces. How many ships, weapons, defensive capabilities, everything. Then route the information to us via a Link Flux. We will be waiting, and good luck to you."
-msgstr "드디어 연결됐군요! 하비가 한동안 우리 통신을 방해하고 있었습니다. 부모님을 잃으셨다니 정말 비통합니다, 트렌트. 저도 불과 몇 시간 전에야 두 분이 돌아가셨다는 소식을 들었습니다. 그리고 같은 때에 당신이 하비에게 갇혔다는 소식도 읽었지요. 마이크로솔 함대가 그래비튬을 쓰지 못하게 막는 일은 이제 당신에게 달렸습니다. 우리가 병력을 집결하려면, 먼저 당신이 마이크로솔의 기지 행성인 익스무카네로 날아가 함대 전력에 관한 정보를 알려 주셔야 합니다. 함선 수, 무기, 방어 능력, 전부 다요. 그런 다음 링크 흐름으로 그 정보를 우리에게 보내 주십시오. 기다리고 있겠습니다. 행운을 빕니다."
+msgstr "드디어 연결되었습니다! 하비가 한동안 우리 통신을 방해하고 있었습니다. 부모님을 잃으셨다니 정말 비통합니다, 트렌트. 저도 불과 몇 시간 전에야 두 분이 돌아가셨다는 소식을 들었습니다. 그와 동시에 당신이 하비에게 갇혔다는 소식도 읽었습니다. 마이크로솔 함대가 그래비튬을 쓰지 못하게 막는 일은 이제 당신에게 달렸습니다. 우리가 병력을 집결하려면, 먼저 당신이 마이크로솔의 기지 행성인 익스무카네로 날아가 함대 전력에 관한 정보를 알려 주셔야 합니다. 함선 수, 무기, 방어 능력까지 전부 말입니다. 그런 다음 링크 흐름으로 그 정보를 우리에게 보내 주십시오. 기다리고 있겠습니다. 행운을 빕니다."
 
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube3.2.title"
@@ -384,7 +384,7 @@ msgstr "그럼 난 이만 가 보겠네. 아르르르르!"
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube3.17.title"
 msgid "DELIANI EMPORIUM DATAFLUX"
-msgstr "델리아니 만물상 데이터 흐름"
+msgstr "델리아니 상점 데이터 흐름"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube3.17.header"
@@ -394,7 +394,7 @@ msgstr "광고"
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube3.17.0"
 msgid "Now that the game is almost over, Hank has finally gotten out of jail for USP fraud!  And now, he's gone crazy!"
-msgstr "게임도 거의 끝나 가는 지금, 행크가 USP 사기죄로 복역하다 드디어 출소했습니다! 그리고 지금, 행크가 미쳐 버렸어요!"
+msgstr "게임도 거의 끝나 가는 지금, 행크가 USP 사기죄로 복역하다 드디어 출소했어요! 그리고 이제, 행크가 미쳐 버렸어요!"
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube3.17.3"
@@ -404,7 +404,7 @@ msgstr "행크는 베포의 복제인간을 고용해 일곱 섹터를 샅샅이
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube3.17.7"
 msgid "Zica Lasers, Constant Lasers, Lightning Blasts, Protron Cannons, Missile Launchers, 8-Way Microbombs, Side Ships, and much, much more.  Also, rumor has it that Beppo's got the new Microsol Fighter, but he's not tellin' unless you've got the cash."
-msgstr "지카 레이저, 연속 레이저, 번개 블래스트, 프로트론 캐논, 미사일 발사기, 8방향 마이크로 폭탄, 사이드쉽, 그 밖에도 정말 정말 많아요. 게다가 소문에 따르면 베포가 신형 마이크로솔 전투기도 손에 넣었다는데, 현금이 없으면 입도 뻥끗 안 한대요."
+msgstr "지카 레이저, 연속 레이저, 번개 블래스트, 프로트론 캐논, 미사일 발사기, 8방향 마이크로 폭탄, 측면 함선, 그 밖에도 정말 정말 많아요. 게다가 소문에 따르면 베포가 신형 마이크로솔 전투기도 손에 넣었다는데, 현금이 없으면 입도 뻥끗 안 한대요."
 
 #. 데이터 큐브 본문의 한 문단 (작은 글씨). 게임이 자동으로 줄바꿈합니다. 최대 4095바이트 (한글 약 1365자)
 msgctxt "cube3.17.12"
@@ -449,7 +449,7 @@ msgstr "이 에너지 시스템은 최고 기밀이며 일반에 배포되어서
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube3.19.title"
 msgid "INCOMING TRANSMISSION from Magnatower Center"
-msgstr "매그나타워 센터에서 들어온 통신"
+msgstr "매그나타워 센터발 수신 통신"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube3.19.header"

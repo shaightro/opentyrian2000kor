@@ -14,7 +14,7 @@ msgstr ""
 #. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep1.78"
 msgid "Warning:\nTrajectory heading intercepts minefield surrounding Deliani.\n\nNavigation through minefield necessary to reach Deliani.\n\nUnknown magnetic forces detected ahead.  "
-msgstr "경고:\n예정 항로가 델리아니 주변의\n기뢰밭을 가로지릅니다.\n\n델리아니에 가려면 기뢰밭을\n통과해야 합니다.\n\n전방에서 정체불명의 자기력 감지."
+msgstr "경고:\n예정 항로가 델리아니 주변의\n기뢰밭을 가로지릅니다.\n\n델리아니에 가려면 기뢰밭을\n통과해야 합니다.\n\n전방에서 정체불명의 자기력이\n감지되었습니다."
 
 #. 레벨을 마친 뒤 나오는 힌트 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 9줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep1.212"
@@ -69,7 +69,7 @@ msgstr " 함선   1 2 3 4\n 전방   1 2 3 7 17 20\n 후방   10 11 12 15 18 22\
 #. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep1.370"
 msgid "Now that you've saved the crisis on Savara and earned the\nhelp of Transon Lohk, you head back to Tyrian to find out\nmore about this new power.\n\nHow could such an innocent pile of rocks be used to\ndevastate planets?\n\nYou must locate a sample of this new energy.  If nothing\nelse, perhaps it could be harnessed back against Microsol's\nnew device."
-msgstr "사바라의 위기를 넘기고 트랜슨 로크의 도움까지 얻었으니,\n이제 이 새로운 힘에 대해 더 알아보러 티리안으로\n돌아갑니다.\n\n저 순진해 보이는 돌무더기가 어떻게 행성을\n초토화하는 데 쓰일 수 있단 말입니까?\n\n이 새로운 에너지의 표본을 찾아내야 합니다. 적어도\n그 힘을 역이용해 마이크로솔의 새 장치에 맞설\n수는 있을지도 모릅니다."
+msgstr "사바라의 위기를 넘기고 트랜슨 로크의 도움까지 얻었으니,\n이제 이 새로운 힘에 대해 더 알아보러 티리안으로\n돌아갑니다.\n\n저 무해해 보이는 돌무더기가 어떻게 행성을\n초토화하는 데 쓰일 수 있단 말입니까?\n\n이 새로운 에너지의 표본을 찾아내야 합니다. 적어도\n그 힘을 역이용해 마이크로솔의 새 장치에 맞설 수는\n있을지도 모릅니다."
 
 #. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep1.384"

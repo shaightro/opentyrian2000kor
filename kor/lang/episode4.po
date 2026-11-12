@@ -119,7 +119,7 @@ msgstr "비밀 힌트 4-3-3:\n\n에피소드 4의 비밀\n13번째 함선, 스�
 #. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep4.583"
 msgid "Now that I have won the war, I can return to Savara\nand receive a hero's welcome!  Millions of\nHolo-viewers will bow at my feet and bless the very\nchannels I appear on.\n\nSages will cross a thousand desert streams to be\nat my side.  Streams of small dwarves will dance the\njig of a thousand hours at my celebration.  I could\nbe made into anything."
-msgstr "전쟁에서 이겼으니, 이제 사바라로 돌아가 영웅으로\n환영받을 수 있겠지! 수백만 홀로 시청자가 내 발밑에\n엎드리고, 내가 나오는 채널마다 축복을 내리겠지.\n\n현자들은 사막의 개울 천 개를 건너 내 곁으로 오고,\n꼬마 난쟁이들이 줄지어 내 축하연에서 천 시간짜리\n지그 춤을 추겠지. 나는 무엇이든 될 수 있을 거야."
+msgstr "전쟁에서 이겼으니, 이제 사바라로 돌아가 영웅으로\n환영받을 수 있겠지! 수백만 홀로 시청자가 내 발밑에\n엎드리고, 내가 나오는 채널마저 축복하겠지.\n\n현자들은 사막의 개울 천 개를 건너 내 곁으로 오고,\n꼬마 난쟁이들이 줄지어 내 축하연에서 천 시간짜리\n지그 춤을 추겠지. 나는 무엇이든 될 수 있을 거야."
 
 #. 레벨 시작 전 화면 가운데에 한 줄씩 빛나며 나오는 이야기/경고 (작은 글씨). 줄바꿈(\n)으로 나뉜 각 줄이 화면의 한 줄이며, 줄 수는 바꿔도 됩니다. 최대 12줄, 한 줄 최대 180바이트 (한글 약 60자)
 msgctxt "ep4.595"
