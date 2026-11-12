@@ -1768,6 +1768,10 @@ void load_cubes(void)
 
 bool load_cube(int cube_slot, int cube_index)
 {
+	// The lines are built by appending words, so the slot must start empty.
+	memset(cube[cube_slot].text, 0, sizeof(cube->text));
+	cube[cube_slot].last_line = 0;
+
 	FILE *f = dir_fopen_die(data_dir(), cube_file, "rb");
 
 	// A translated paragraph (see translate.h) can be much longer than a line.
@@ -3452,4 +3456,85 @@ void JE_weaponViewFrame(void)
 	lastPower = temp;
 
 	//JE_waitFrameCount();  TODO: didn't do anything?
+}
+
+/* Text preview (textpreview.c) ***********************************************/
+
+/** Draws the data cube list with the cubes loaded into the first \p count slots. */
+void cube_preview_draw_list(int count)
+{
+	if (shopSpriteSheet.data == NULL)
+		JE_loadCompShapes(&shopSpriteSheet, '1');
+
+	VGAScreen = VGAScreenSeg;
+	JE_loadPic(VGAScreen, 1, false);
+	set_palette(colors, 0, 255);
+
+	curMenu = MENU_DATA_CUBES;
+	curSel[MENU_DATA_CUBES] = 2;
+	JE_drawMenuHeader();
+
+	// as in JE_itemScreen()
+	for (int x = 1; x <= count; x++)
+	{
+		JE_drawCube(VGAScreenSeg, 166, 38 + (x - 1) * 28, 13, 0);
+		temp2 = (x + 1 == curSel[curMenu]) ? 252 : 250;
+		helpBoxColor = temp2 / 16;
+		helpBoxBrightness = (temp2 % 16) - 8;
+		helpBoxShadeType = DARKEN;
+		JE_helpBox(VGAScreen, 192, 44 + (x - 1) * 28, cube[x - 1].title, 24);
+	}
+	JE_textShade(VGAScreen, 172, 44 + count * 28, miscText[6 - 1], 250 / 16, (250 % 16) - 8, DARKEN);
+}
+
+/**
+ * Draws the reading screen of the cube in \p slot, scrolled to \p first_line;
+ * returns the number of lines of the cube.
+ */
+int cube_preview_draw_page(int slot, int first_line)
+{
+	const struct cube_struct *c = &cube[slot];
+
+	if (shopSpriteSheet.data == NULL)
+		JE_loadCompShapes(&shopSpriteSheet, '1');
+
+	VGAScreen = VGAScreenSeg;
+	JE_loadPic(VGAScreen, 1, false);
+
+	curMenu = MENU_DATA_CUBE_SUB;
+	curSel[MENU_DATA_CUBES] = slot + 2;
+	JE_drawMenuHeader();
+
+	// as in JE_itemScreen()
+	if (c->face_sprite != -1)
+	{
+		const int face_x = 77 - (sprite(FACE_SHAPES, c->face_sprite)->width / 2),
+		          face_y = 92 - (sprite(FACE_SHAPES, c->face_sprite)->height / 2);
+		blit_sprite(VGAScreenSeg, face_x, face_y, FACE_SHAPES, c->face_sprite);
+
+		const int pal = (c->face_sprite < 12) ? facepal[c->face_sprite] : 0;
+		for (int i = 1; i <= 255 - (3 * 16); i++)
+			colors[i] = palettes[pal][i];
+	}
+	set_palette(colors, 0, 255);
+
+	JE_textShade(VGAScreen, 75 - JE_textWidth(c->header, TINY_FONT) / 2, 173, c->header, 14, 3, DARKEN);
+
+	fill_rectangle_xy(VGAScreen, 160, 49, 310, 158, 228);
+	int y = 38 + 12;
+	for (int x = first_line + 1; x <= first_line + 10 && x <= c->last_line; x++)
+	{
+		JE_outTextAndDarken(VGAScreen, 161, y, c->text[x - 1], 14, 3, TINY_FONT);
+		y += 12;
+	}
+	fill_rectangle_xy(VGAScreen, 160, 39, 310, 48, 228);
+	fill_rectangle_xy(VGAScreen, 160, 157, 310, 166, 228);
+
+	const int percent_read = (c->last_line <= 9) ? 100 : MIN(100, (first_line * 100) / (c->last_line - 9));
+	char buf[TEXT_SIZE(42) + 16];
+	snprintf(buf, sizeof(buf), "%s %d%%", miscText[11], percent_read);
+	JE_outTextAndDarken(VGAScreen, 176, 160, buf, 14, 1, TINY_FONT);
+	JE_dString(VGAScreen, 260, 160, miscText[12], SMALL_FONT_SHAPES);
+
+	return c->last_line;
 }

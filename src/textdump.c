@@ -893,6 +893,39 @@ static int check(const char *dir)
 			++report_warnings;
 		}
 
+		// Characters that neither the game's fonts nor the Korean fonts have
+		// are not drawn at all.
+		for (const char *p = t->msgstr; *p != '\0'; )
+		{
+			Uint32 codepoint;
+			p += text_decode_char(p, &codepoint);
+			if (codepoint < 0x80)
+				continue;
+
+			const bool normal = hangul_glyph(SMALL_FONT_SHAPES, codepoint) != NULL,
+			           small = hangul_glyph(TINY_FONT, codepoint) != NULL;
+			if (!normal || !small)
+			{
+				char utf8[8] = "";
+				const char *start = p - 1;
+				while (start > t->msgstr && ((unsigned char)*start & 0xC0) == 0x80)
+					--start;
+				SDL_strlcpy(utf8, start, MIN(sizeof(utf8), (size_t)(p - start) + 1));
+
+				if (!normal && !small)
+				{
+					report_line("오류: %s:%d: %s: 글꼴에 없는 글자 '%s'(U+%04X)는 화면에 나오지 않습니다", t->file, t->line, t->key, utf8, (unsigned)codepoint);
+					++report_errors;
+				}
+				else
+				{
+					report_line("경고: %s:%d: %s: 글자 '%s'(U+%04X)는 %s 글씨에서 나오지 않습니다", t->file, t->line, t->key, utf8, (unsigned)codepoint, normal ? "작은" : "보통/큰");
+					++report_warnings;
+				}
+				break;
+			}
+		}
+
 		// Credits lines start with a letter giving their color.
 		if (strncmp(t->key, "credits.", 8) == 0 && t->msgstr[0] != e->text[0])
 		{

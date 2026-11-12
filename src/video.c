@@ -529,6 +529,26 @@ static SDL_Texture *sharp_upscale(int tex_w, int tex_h, int dst_w, int dst_h)
 #endif
 }
 
+/* Screenshots for the text preview (textpreview.c). */
+static char capture_path[512];
+
+void video_capture_next_frame(const char *bmp_path)
+{
+	SDL_strlcpy(capture_path, bmp_path, sizeof(capture_path));
+}
+
+static void capture_frame(const SDL_Rect *rect)
+{
+	SDL_Surface *shot = SDL_CreateRGBSurfaceWithFormat(0, rect->w, rect->h, 32, SDL_PIXELFORMAT_ARGB8888);
+	if (shot != NULL)
+	{
+		if (SDL_RenderReadPixels(main_window_renderer, rect, SDL_PIXELFORMAT_ARGB8888, shot->pixels, shot->pitch) == 0)
+			SDL_SaveBMP(shot, capture_path);
+		SDL_FreeSurface(shot);
+	}
+	capture_path[0] = '\0';
+}
+
 static void scale_and_flip(SDL_Surface *src_surface)
 {
 	assert(src_surface->format->BitsPerPixel == 8);
@@ -552,6 +572,8 @@ static void scale_and_flip(SDL_Surface *src_surface)
 	SDL_RenderClear(main_window_renderer);
 	SDL_RenderCopy(main_window_renderer, texture, NULL, &dst_rect);
 	textlayer_render(main_window_renderer, src_surface, &dst_rect);
+	if (capture_path[0] != '\0')
+		capture_frame(&dst_rect);
 	SDL_RenderPresent(main_window_renderer);
 
 	// Save output rect to be used by mouse functions

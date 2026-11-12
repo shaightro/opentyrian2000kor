@@ -44,6 +44,7 @@
 #include "sprite.h"
 #include "textlayer.h"
 #include "textdump.h"
+#include "textpreview.h"
 #include "translate.h"
 #include "tyrian2.h"
 #include "varz.h"
@@ -865,6 +866,14 @@ int main(int argc, char *argv[])
 
 		free_main_shape_tables();
 		JE_loadMainShapeTables("tyrian.shp");
+	}
+
+	// Translation preview: saves images of text screens instead of playing.
+	if (textpreview_requested)
+	{
+		const int result = textpreview_run();
+		SDL_Quit();
+		return result;
 	}
 
 	/* Default Options */

@@ -41,3 +41,6 @@ tyrian.sav
 
 # Doxygen output
 /doc/doxygen/
+
+# Images of the translation preview (--preview-text)
+/text-preview/

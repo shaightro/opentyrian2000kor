@@ -55,4 +55,8 @@ void JE_drawShipSpecs(SDL_Surface *, SDL_Surface *);
 void JE_weaponSimUpdate(void);
 void JE_weaponViewFrame(void);
 
+// Text preview (textpreview.c)
+void cube_preview_draw_list(int count);
+int cube_preview_draw_page(int slot, int first_line);
+
 #endif // GAME_MENU_H

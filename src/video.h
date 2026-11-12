@@ -60,6 +60,9 @@ int get_max_window_scale(void);
 int get_auto_window_scale(void);
 int get_effective_window_scale(void);
 void set_window_scale(int new_scale);
+
+/** Saves the next shown frame (game area at the output resolution) as a BMP file. */
+void video_capture_next_frame(const char *bmp_path);
 void reset_window_size(void);
 void reinit_fullscreen(int new_display);
 void toggle_fullscreen(void);

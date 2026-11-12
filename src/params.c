@@ -25,6 +25,7 @@
 #include "network.h"
 #include "opentyr.h"
 #include "textdump.h"
+#include "textpreview.h"
 #include "varz.h"
 #include "xmas.h"
 
@@ -68,6 +69,7 @@ void JE_paramCheck(int argc, char *argv[])
 		// translation tools (see textdump.h)
 		{ 258, 0,   "dump-text",         false },
 		{ 259, 0,   "check-text",        false },
+		{ 260, 0,   "preview-text",      false },  // see textpreview.h
 
 		{ 0, 0, NULL, false}
 	};
@@ -160,6 +162,10 @@ void JE_paramCheck(int argc, char *argv[])
 
 		case 259: // --check-text
 			textcheck_requested = true;
+			break;
+
+		case 260: // --preview-text
+			textpreview_requested = true;
 			break;
 
 		case 256: // --net-player-name
