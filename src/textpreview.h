@@ -24,7 +24,7 @@
  * Translation preview, run instead of the game (--preview-text):
  *
  * draws the text screens that are hard to reach by playing -- every briefing
- * and secret hint, the credits, the data cube lists and every page of every
+ * and secret hint, the credits, the ship specs, the data cube lists and every page of every
  * data cube -- with the game's own drawing code, and saves each frame as a
  * BMP file in the "text-preview" folder (with index.txt listing them).
  */

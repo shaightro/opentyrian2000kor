@@ -23,10 +23,13 @@
 #include "game_menu.h"
 #include "helptext.h"
 #include "keyboard.h"
+#include "lvlmast.h"
 #include "mainint.h"
 #include "nortsong.h"
 #include "opentyr.h"
 #include "palette.h"
+#include "picload.h"
+#include "player.h"
 #include "translate.h"
 #include "vga256d.h"
 #include "video.h"
@@ -252,6 +255,36 @@ static void preview_credits(void)
 	}
 }
 
+/* Ship specs ******************************************************************/
+
+static void preview_ship_specs(void)
+{
+	JE_initEpisode(1);  // ship names
+
+	for (int ship = 1; ship <= SHIP_NUM && ship <= HELPTEXT_SHIPINFO_COUNT; ++ship)
+	{
+		// the ship pictures that JE_drawShipSpecs() knows how to place
+		const int graphic = ships[ship].bigshipgraphic;
+		if (graphic != 28 && graphic != 32 && graphic != 33 && graphic != 45 && graphic != 46)
+			continue;
+
+		player[0].items.ship = ship;
+
+		// as JE_doShipSpecs() in the game menu
+		JE_loadPic(VGAScreen2, 1, false);
+		set_palette(colors, 0, 255);
+		JE_drawShipSpecs(VGAScreenSeg, VGAScreen2);
+		VGAScreen = VGAScreenSeg;
+
+		char name[32], what[64];
+		snprintf(name, sizeof(name), "ship-%02d", ship);
+		snprintf(what, sizeof(what), "item.ship.%d, help.shipInfo.%d", ship, ship - 1);
+		shot(name, what);
+	}
+
+	JE_loadPic(VGAScreen2, 1, false);
+}
+
 /* Data cubes ******************************************************************/
 
 static int count_cubes(int episode)
@@ -336,6 +369,7 @@ int textpreview_run(void)
 	}
 
 	preview_credits();
+	preview_ship_specs();
 
 	for (int episode = 1; episode <= EPISODE_MAX; ++episode)
 		preview_cubes(episode);
