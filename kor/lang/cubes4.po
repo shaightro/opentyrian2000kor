@@ -1399,7 +1399,7 @@ msgstr "또 연락이 닿으면 좋겠다."
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.38.title"
 msgid "GYGES SECTOR - PRIVATE TRANSMISSION ID 11432"
-msgstr "기게스 섹터 - 개인 통신 ID 11432"
+msgstr "기게스 섹터 개인 통신 ID 11432"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.38.header"
@@ -1534,7 +1534,7 @@ msgstr "[통신 종료]"
 #. 데이터 큐브 목록에 나오는 제목 (작은 글씨, 두 줄까지). 최대 240바이트 (한글 약 80자)
 msgctxt "cube4.40.title"
 msgid "GYGES SECTOR - PRIVATE TRANSMISSION ID 11432"
-msgstr "기게스 섹터 - 개인 통신 ID 11432"
+msgstr "기게스 섹터 개인 통신 ID 11432"
 
 #. 데이터 큐브를 읽을 때 위에 나오는 제목 (큰 글씨, 아주 짧게). 최대 36바이트 (한글 약 12자)
 msgctxt "cube4.40.header"
