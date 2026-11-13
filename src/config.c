@@ -209,14 +209,14 @@ JE_word editorLevel;   /*Initial value 800*/
 
 Config opentyrian_config;  // implicitly initialized
 
-bool autoFireSpecial = false;
-bool showDropHints = false;
+bool autoFireSpecial = true;
+bool showDropHints = true;
 
 bool load_opentyrian_config(void)
 {
 	// defaults
-	autoFireSpecial = false;
-	showDropHints = false;
+	autoFireSpecial = true;
+	showDropHints = true;
 	fullscreen_display = -1;
 	window_scale = WINDOW_SCALE_AUTO;
 	set_scaler_by_name("Scale2x");

@@ -20,7 +20,7 @@
 #define DROPHINT_H
 
 /*
- * Drop timing hints (an OpenTyrian option, off by default).
+ * Drop timing hints (an OpenTyrian option, on by default).
  *
  * Level events hand items to the enemies that are alive at that moment, so some enemies drop
  * something better if the player waits before shooting them.  When the option is on, an enemy
