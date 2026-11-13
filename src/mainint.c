@@ -2325,6 +2325,10 @@ void JE_highScoreCheck(void)
 // increases game difficulty based on player's total score / total of players' scores
 void adjust_difficulty(void)
 {
+	// Easy in the 1-player full game keeps its difficulty (OpenTyrian addition)
+	if (initialDifficulty == DIFFICULTY_EASY && !twoPlayerMode && !onePlayerAction)
+		return;
+
 	const float score_multiplier[10] =
 	{
 		0,     // Wimp  (doesn't exist)

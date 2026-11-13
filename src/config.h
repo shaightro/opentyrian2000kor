@@ -188,6 +188,19 @@ extern bool autoFireSpecial;
 /** Mark enemies that carry, or will carry, a major item and enemies that decide later items (OpenTyrian option, drophint.c). */
 extern bool showDropHints;
 
+/*
+ * Easy difficulty extras for a 1-player full game, chosen on the difficulty screen (OpenTyrian
+ * addition).  The choices are remembered in opentyrian.cfg; the flags below apply to the game
+ * being played.
+ */
+extern bool easyHalfDamageChoice, easyRichStartChoice, easyGoodGearChoice;
+
+/** This game: the player takes half damage.  Kept in saved games. */
+extern bool halfDamageTaken;
+
+/** This game: the first shop also offers some top gear (see JE_loadMap). */
+extern bool goodGearShop;
+
 void JE_initProcessorType(void);
 void JE_setNewGameSpeed(void);
 const char *get_user_directory(void);

@@ -29,7 +29,8 @@ extern char timed_battle_name[4][TEXT_SIZE(23)];
 
 bool gameplaySelect(void);
 bool episodeSelect(void);
-bool difficultySelect(void);
+/** Difficulty menu; with easyExtras (1-player full game), choosing Easy opens the Easy extras. */
+bool difficultySelect(bool easyExtras);
 bool timedBattleSelect(void);
 
 #endif /* MENUS_H */

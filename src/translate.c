@@ -339,6 +339,13 @@ static const UiTextInfo ui_texts[UI_TEXT_COUNT] =
 	[UI_SCALING_FIT_4_3] = { "ui.scaling.fit_4_3", "Fit 4:3", "화면 맞춤 방식 값: 4:3 비율(옛 CRT)로 꽉 차게" },
 	[UI_OPTION_ON] = { "ui.option.on", "On", "켜고 끄는 설정의 값: 켜짐 (보통 글씨, 약 95픽셀)" },
 	[UI_OPTION_OFF] = { "ui.option.off", "Off", "켜고 끄는 설정의 값: 꺼짐 (보통 글씨, 약 95픽셀)" },
+	[UI_EASY_HALF_DAMAGE] = { "ui.easy.half_damage", "Half Damage:", "쉬움 난이도를 고르면 아래에 나오는 추가 옵션 이름 (보통 글씨, 약 160픽셀). 플레이어가 받는 피해를 절반으로 줄이는 기능" },
+	[UI_EASY_START_CASH] = { "ui.easy.start_cash", "Starting Cash:", "쉬움 추가 옵션 이름 (보통 글씨, 약 160픽셀). 새 게임의 시작 자금" },
+	[UI_EASY_CASH_NORMAL] = { "ui.easy.cash_normal", "Normal", "시작 자금 옵션의 값: 원래대로 (보통 글씨, 약 90픽셀)" },
+	[UI_EASY_CASH_RICH] = { "ui.easy.cash_rich", "1,000,000", "시작 자금 옵션의 값: 100만 크레딧 (보통 글씨, 약 90픽셀)" },
+	[UI_EASY_GOOD_GEAR] = { "ui.easy.good_gear", "Good Gear in Shop:", "쉬움 추가 옵션 이름 (보통 글씨, 약 160픽셀). 첫 상점에 좋은 장비를 더 파는 기능" },
+	[UI_EASY_START] = { "ui.easy.start", "Start", "쉬움 추가 옵션 아래의 게임 시작 항목 (보통 글씨, 짧게)" },
+	[UI_EASY_HELP] = { "ui.easy.help", "Left/Right: change   Enter: select   ESC: back", "쉬움 추가 옵션의 조작 안내 (작은 글씨, 화면 아래 한 줄, 약 300픽셀)" },
 
 	[UI_JUKEBOX_QUIT] = { "ui.jukebox.quit", "Press ESC to quit the jukebox.", "음악 감상 화면 아래 안내 (작은 글씨, 한 줄)" },
 	[UI_JUKEBOX_KEYS] = { "ui.jukebox.keys", "Arrow keys change the song being played.", "음악 감상 화면 아래 안내" },

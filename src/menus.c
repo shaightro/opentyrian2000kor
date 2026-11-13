@@ -32,6 +32,7 @@
 #include "picload.h"
 #include "sprite.h"
 #include "textlayer.h"
+#include "translate.h"
 #include "vga256d.h"
 #include "video.h"
 
@@ -432,7 +433,48 @@ bool episodeSelect(void)
 	}
 }
 
-bool difficultySelect(void)
+/** Draws the Easy extras below the difficulty list; row is the selected one. */
+static void draw_easy_extras(int y0, int dy, size_t row)
+{
+	const UiText labels[] = { UI_EASY_HALF_DAMAGE, UI_EASY_START_CASH, UI_EASY_GOOD_GEAR, UI_EASY_START };
+	const int xLabel = 48, xValue = 214;
+
+	for (size_t i = 0; i < COUNTOF(labels); ++i)
+	{
+		const int y = y0 + dy * (int)i;
+		const int brightness = -4 + (i == row ? 2 : 0);
+
+		draw_font_hv_shadow(VGAScreen, xLabel, y, ui_text(labels[i]), normal_font, left_aligned, 15, brightness, false, 2);
+
+		const char *value = NULL;
+		switch (i)
+		{
+		case 0: value = ui_text(easyHalfDamageChoice ? UI_OPTION_ON : UI_OPTION_OFF); break;
+		case 1: value = ui_text(easyRichStartChoice ? UI_EASY_CASH_RICH : UI_EASY_CASH_NORMAL); break;
+		case 2: value = ui_text(easyGoodGearChoice ? UI_OPTION_ON : UI_OPTION_OFF); break;
+		}
+		if (value != NULL)
+			draw_font_hv_shadow(VGAScreen, xValue, y, value, normal_font, left_aligned, 15, brightness, false, 2);
+	}
+
+	const char *help = ui_text(UI_EASY_HELP);
+	JE_textShade(VGAScreen, xLabel, 191, help, 15, 4, PART_SHADE);  // clear of the copyright line of the picture
+}
+
+/** Changes the Easy extra on the given row (0 to 2). */
+static void toggle_easy_extra(size_t row)
+{
+	JE_playSampleNum(S_CLICK);
+
+	switch (row)
+	{
+	case 0: easyHalfDamageChoice = !easyHalfDamageChoice; break;
+	case 1: easyRichStartChoice = !easyRichStartChoice; break;
+	case 2: easyGoodGearChoice = !easyGoodGearChoice; break;
+	}
+}
+
+bool difficultySelect(bool easyExtras)
 {
 	if (shopSpriteSheet.data == NULL)
 		JE_loadCompShapes(&shopSpriteSheet, '1');  // need mouse pointer sprites
@@ -451,6 +493,14 @@ bool difficultySelect(void)
 	const int hMenuItem = 13;
 	int wMenuItem[COUNTOF(difficulty_name) - 1] = { 0 };
 
+	// Easy extras for a 1-player full game (OpenTyrian addition): choosing Easy opens a panel
+	// below the list with half damage, starting cash and good gear in the first shop.
+	bool extrasOpen = false;
+	size_t extrasRow = 3;  // 0 to 2: the options, 3: start
+	const int yExtras = yMenuItems + dyMenuItems * 3 + 2;
+	const int dyExtras = 15;
+	const size_t extrasRows = 4;
+
 	for (; ; )
 	{
 		if (restart)
@@ -464,8 +514,8 @@ bool difficultySelect(void)
 		// Restore background and header.
 		surface_copy(VGAScreen, VGAScreen2);
 
-		// Draw menu items.
-		for (size_t i = 0; i < menuItemsVisibleCount; ++i)
+		// Draw menu items (with the Easy extras open, only Easy to Hard, Easy chosen).
+		for (size_t i = 0; i < (extrasOpen ? MIN(menuItemsVisibleCount, 3) : menuItemsVisibleCount); ++i)
 		{
 			const char *const text = difficulty_name[i + 1];
 
@@ -473,10 +523,13 @@ bool difficultySelect(void)
 			const int x = xCenter - wMenuItem[i] / 2;
 			const int y = yMenuItems + dyMenuItems * i;
 
-			const bool selected = i == selectedIndex;
+			const bool selected = extrasOpen ? i == 0 : i == selectedIndex;
 
 			draw_font_hv_shadow(VGAScreen, x, y, text, normal_font, left_aligned, 15, -4 + (selected ? 2 : 0), false, 2);
 		}
+
+		if (extrasOpen)
+			draw_easy_extras(yExtras, dyExtras, extrasRow);
 
 		if (restart)
 		{
@@ -551,6 +604,91 @@ bool difficultySelect(void)
 				menuItemsVisibleCount = 5;
 			if (menuItemsVisibleCount == 3 && keysactive[SDL_SCANCODE_G])
 				menuItemsVisibleCount = 4;
+		}
+
+		if (extrasOpen)
+		{
+			bool toggle = false, start = false, back = false;
+
+			if (mouseMoved || newmouse)
+			{
+				for (size_t row = 0; row < extrasRows; ++row)
+				{
+					const int y = yExtras + dyExtras * (int)row;
+					if (mouse_x >= 40 && mouse_x < 300 && mouse_y >= y && mouse_y < y + hMenuItem)
+					{
+						if (extrasRow != row)
+						{
+							JE_playSampleNum(S_CURSOR);
+							extrasRow = row;
+						}
+						if (newmouse && lastmouse_but == SDL_BUTTON_LEFT &&
+						    lastmouse_x >= 40 && lastmouse_x < 300 && lastmouse_y >= y && lastmouse_y < y + hMenuItem)
+						{
+							if (row == extrasRows - 1)
+								start = true;
+							else
+								toggle = true;
+						}
+						break;
+					}
+				}
+				if (newmouse && lastmouse_but == SDL_BUTTON_RIGHT)
+					back = true;
+			}
+			else if (newkey)
+			{
+				switch (lastkey_scan)
+				{
+				case SDL_SCANCODE_UP:
+					JE_playSampleNum(S_CURSOR);
+					extrasRow = extrasRow == 0 ? extrasRows - 1 : extrasRow - 1;
+					break;
+				case SDL_SCANCODE_DOWN:
+					JE_playSampleNum(S_CURSOR);
+					extrasRow = extrasRow == extrasRows - 1 ? 0 : extrasRow + 1;
+					break;
+				case SDL_SCANCODE_LEFT:
+				case SDL_SCANCODE_RIGHT:
+					if (extrasRow < extrasRows - 1)
+						toggle = true;
+					break;
+				case SDL_SCANCODE_SPACE:
+				case SDL_SCANCODE_RETURN:
+					if (extrasRow < extrasRows - 1)
+						toggle = true;
+					else
+						start = true;
+					break;
+				case SDL_SCANCODE_ESCAPE:
+					back = true;
+					break;
+				default:
+					break;
+				}
+			}
+
+			if (toggle)
+				toggle_easy_extra(extrasRow);
+
+			if (back)
+			{
+				JE_playSampleNum(S_SPRING);
+				extrasOpen = false;
+			}
+
+			if (start)
+			{
+				JE_playSampleNum(S_SELECT);
+
+				difficultyLevel = DIFFICULTY_EASY;
+
+				fade_black(10);
+
+				return true;
+			}
+
+			continue;
 		}
 
 		bool action = false;
@@ -634,6 +772,15 @@ bool difficultySelect(void)
 			default:
 				break;
 			}
+		}
+
+		if (action && selectedIndex == 0 && easyExtras)
+		{
+			JE_playSampleNum(S_SELECT);
+
+			extrasOpen = true;
+			extrasRow = extrasRows - 1;
+			continue;
 		}
 
 		if (action)

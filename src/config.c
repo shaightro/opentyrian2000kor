@@ -212,11 +212,24 @@ Config opentyrian_config;  // implicitly initialized
 bool autoFireSpecial = true;
 bool showDropHints = true;
 
+bool easyHalfDamageChoice = false, easyRichStartChoice = false, easyGoodGearChoice = false;
+bool halfDamageTaken = false;
+bool goodGearShop = false;
+
+// Saved games keep the OpenTyrian extras in a field Tyrian 2000 leaves unused (the old second
+// high score of the slot), marked so that older values are not mistaken for them.
+#define SAVE_EXTRAS_MAGIC  0x4B520000
+#define SAVE_EXTRAS_MASK   0xFFFF0000
+#define SAVE_HALF_DAMAGE   0x0001
+
 bool load_opentyrian_config(void)
 {
 	// defaults
 	autoFireSpecial = true;
 	showDropHints = true;
+	easyHalfDamageChoice = false;
+	easyRichStartChoice = false;
+	easyGoodGearChoice = false;
 	fullscreen_display = -1;
 	window_scale = WINDOW_SCALE_AUTO;
 	set_scaler_by_name("Scale2x");
@@ -262,6 +275,9 @@ bool load_opentyrian_config(void)
 	{
 		config_get_bool_option(section, "auto_fire_special", &autoFireSpecial);
 		config_get_bool_option(section, "drop_hints", &showDropHints);
+		config_get_bool_option(section, "easy_half_damage", &easyHalfDamageChoice);
+		config_get_bool_option(section, "easy_rich_start", &easyRichStartChoice);
+		config_get_bool_option(section, "easy_good_gear", &easyGoodGearChoice);
 	}
 
 	section = config_find_section(config, "keyboard", NULL);
@@ -328,6 +344,9 @@ bool save_opentyrian_config(void)
 
 	config_set_bool_option(section, "auto_fire_special", autoFireSpecial, OFF_ON);
 	config_set_bool_option(section, "drop_hints", showDropHints, OFF_ON);
+	config_set_bool_option(section, "easy_half_damage", easyHalfDamageChoice, OFF_ON);
+	config_set_bool_option(section, "easy_rich_start", easyRichStartChoice, OFF_ON);
+	config_set_bool_option(section, "easy_good_gear", easyGoodGearChoice, OFF_ON);
 
 	section = config_find_or_add_section(config, "keyboard", NULL);
 	if (section == NULL)
@@ -454,6 +473,8 @@ void JE_saveGame(JE_byte slot, const char *name)
 		// if two-player, use first player's front and second player's rear weapon
 		saveFiles[slot-1].power[port] = player[twoPlayerMode ? port : 0].items.weapon[port].power;
 	}
+
+	saveFiles[slot-1].highScore2 = SAVE_EXTRAS_MAGIC | (halfDamageTaken ? SAVE_HALF_DAMAGE : 0);
 	
 	JE_saveConfiguration();
 }
@@ -511,6 +532,10 @@ void JE_loadGame(JE_byte slot)
 	secretHint = saveFiles[slot-1].secretHint;
 	inputDevice[0] = saveFiles[slot-1].input1;
 	inputDevice[1] = saveFiles[slot-1].input2;
+
+	const Uint32 extras = (Uint32)saveFiles[slot-1].highScore2;
+	halfDamageTaken = (extras & SAVE_EXTRAS_MASK) == SAVE_EXTRAS_MAGIC && (extras & SAVE_HALF_DAMAGE) != 0;
+	goodGearShop = false;
 
 	for (uint port = 0; port < 2; ++port)
 	{

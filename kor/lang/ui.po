@@ -196,6 +196,41 @@ msgctxt "ui.option.off"
 msgid "Off"
 msgstr "끔"
 
+#. 쉬움 난이도를 고르면 아래에 나오는 추가 옵션 이름 (보통 글씨, 약 160픽셀). 플레이어가 받는 피해를 절반으로 줄이는 기능
+msgctxt "ui.easy.half_damage"
+msgid "Half Damage:"
+msgstr "받는 피해 절반:"
+
+#. 쉬움 추가 옵션 이름 (보통 글씨, 약 160픽셀). 새 게임의 시작 자금
+msgctxt "ui.easy.start_cash"
+msgid "Starting Cash:"
+msgstr "시작 자금:"
+
+#. 시작 자금 옵션의 값: 원래대로 (보통 글씨, 약 90픽셀)
+msgctxt "ui.easy.cash_normal"
+msgid "Normal"
+msgstr "기본"
+
+#. 시작 자금 옵션의 값: 100만 크레딧 (보통 글씨, 약 90픽셀)
+msgctxt "ui.easy.cash_rich"
+msgid "1,000,000"
+msgstr "1,000,000"
+
+#. 쉬움 추가 옵션 이름 (보통 글씨, 약 160픽셀). 첫 상점에 좋은 장비를 더 파는 기능
+msgctxt "ui.easy.good_gear"
+msgid "Good Gear in Shop:"
+msgstr "시작 상점 좋은 장비:"
+
+#. 쉬움 추가 옵션 아래의 게임 시작 항목 (보통 글씨, 짧게)
+msgctxt "ui.easy.start"
+msgid "Start"
+msgstr "시작"
+
+#. 쉬움 추가 옵션의 조작 안내 (작은 글씨, 화면 아래 한 줄, 약 300픽셀)
+msgctxt "ui.easy.help"
+msgid "Left/Right: change   Enter: select   ESC: back"
+msgstr "좌우: 바꾸기   엔터: 선택   ESC: 돌아가기"
+
 #. 음악 감상 화면 아래 안내 (작은 글씨, 한 줄)
 msgctxt "ui.jukebox.quit"
 msgid "Press ESC to quit the jukebox."

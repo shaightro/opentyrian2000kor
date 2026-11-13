@@ -2461,6 +2461,36 @@ static void read_episode_text_block(FILE *f)
 	}
 }
 
+/**
+ * Easy extra "good gear": adds some top items to the first shop of a new game (rows of itemAvail
+ * as read from the ]I lines: 0 ship, 1 front, 2 rear, 3 generator, 6 right sidekick, 8 shield).
+ * Rows are kept short enough for the shop screen, which also adds the item already fitted.
+ */
+static void add_good_gear_to_shop(void)
+{
+	static const struct { int row; JE_byte item; } gear[] =
+	{
+		{ 0, 7 },   // ship: Prototype Stalker-C
+		{ 1, 4 },   // front weapon: Laser
+		{ 2, 11 },  // rear weapon: Sonic Wave
+		{ 3, 6 },   // generator: Gravitron Pulse-Wave
+		{ 8, 11 },  // shield: MicroCorp HXS Class C
+		{ 6, 22 },  // right sidekick: BattleShip-Class Firebomb
+	};
+
+	for (size_t g = 0; g < COUNTOF(gear); ++g)
+	{
+		const int row = gear[g].row;
+
+		bool present = false;
+		for (int j = 0; j < itemAvailMax[row]; ++j)
+			present |= itemAvail[row][j] == gear[g].item;
+
+		if (!present && itemAvailMax[row] < 5)
+			itemAvail[row][itemAvailMax[row]++] = gear[g].item;
+	}
+}
+
 /* --- Load Level/Map Data --- */
 void JE_loadMap(void)
 {
@@ -2682,6 +2712,12 @@ new_game:
 							while (str_pop_int(buf, &temp))
 								itemAvail[i][j++] = temp;
 							itemAvailMax[i] = j;
+						}
+
+						if (goodGearShop)
+						{
+							add_good_gear_to_shop();
+							goodGearShop = false;
 						}
 
 						JE_itemScreen();
@@ -3274,7 +3310,10 @@ void networkStartScreen(void)
 	{
 		fade_black(10);
 
-		if (episodeSelect() && difficultySelect())
+		halfDamageTaken = false;
+		goodGearShop = false;
+
+		if (episodeSelect() && difficultySelect(false))
 		{
 			initialDifficulty = difficultyLevel;
 
@@ -3687,13 +3726,18 @@ bool newGame(void)
 		if (timedBattleMode)
 		{
 			onePlayerAction = true;
-			if (timedBattleSelect() && difficultySelect())
+			if (timedBattleSelect() && difficultySelect(false))
 				gameLoaded = true;
 		}
-		else if (episodeSelect() && difficultySelect())
+		else if (episodeSelect() && difficultySelect(!onePlayerAction && !twoPlayerMode))
 			gameLoaded = true;
 
 		initialDifficulty = difficultyLevel;
+
+		// Easy extras chosen on the difficulty screen (1-player full game only)
+		const bool easyExtras = gameLoaded && !onePlayerAction && !twoPlayerMode && difficultyLevel == DIFFICULTY_EASY;
+		halfDamageTaken = easyExtras && easyHalfDamageChoice;
+		goodGearShop = easyExtras && easyGoodGearChoice;
 
 		if (onePlayerAction)
 		{
@@ -3713,7 +3757,7 @@ bool newGame(void)
 			inputDevice[0] = 1;
 			inputDevice[1] = 2;
 		}
-		else if (richMode)
+		else if (richMode || (easyExtras && easyRichStartChoice))
 		{
 			player[0].cash = 1000000;
 		}
@@ -3735,7 +3779,10 @@ bool newSuperArcadeGame(unsigned int i)
 {
 	player[0].items.ship = SAShip[i];
 
-	if (episodeSelect() && difficultySelect())
+	halfDamageTaken = false;
+	goodGearShop = false;
+
+	if (episodeSelect() && difficultySelect(false))
 	{
 		/* Start special mode! */
 		JE_loadPic(VGAScreen, 1, false);

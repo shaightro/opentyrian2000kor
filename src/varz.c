@@ -1050,6 +1050,15 @@ JE_byte JE_playerDamage(JE_byte temp,
 	int playerDamage = 0;
 	soundQueue[7] = S_SHIELD_HIT;
 
+	// Easy extra: half damage.  Odd points are carried over, so that exactly half gets through.
+	if (halfDamageTaken && !play_demo && !record_demo && !twoPlayerMode)
+	{
+		static unsigned int carry = 0;
+		const unsigned int total = temp + carry;
+		temp = total / 2;
+		carry = total % 2;
+	}
+
 	/* Player Damage Routines */
 	if (this_player->shield < temp)
 	{
