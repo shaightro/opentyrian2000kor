@@ -140,6 +140,8 @@ void setupMenu(void)
 		MENU_ITEM_SCALING_MODE,
 		MENU_ITEM_MUSIC_VOLUME,
 		MENU_ITEM_SOUND_VOLUME,
+		MENU_ITEM_AUTO_FIRE_SPECIAL,
+		MENU_ITEM_DROP_HINTS,
 	} MenuItemId;
 
 	typedef enum
@@ -162,7 +164,7 @@ void setupMenu(void)
 	typedef struct
 	{
 		UiText header;
-		const MenuItem items[6];
+		const MenuItem items[7];
 	} Menu;
 
 	static const Menu menus[] = {
@@ -171,6 +173,8 @@ void setupMenu(void)
 			.items = {
 				{ MENU_ITEM_GRAPHICS, UI_SETUP_GRAPHICS, UI_SETUP_GRAPHICS_DESC },
 				{ MENU_ITEM_SOUND, UI_SETUP_SOUND, UI_SETUP_SOUND_DESC },
+				{ MENU_ITEM_AUTO_FIRE_SPECIAL, UI_SETUP_AUTO_FIRE_SPECIAL, UI_SETUP_AUTO_FIRE_SPECIAL_DESC },
+				{ MENU_ITEM_DROP_HINTS, UI_SETUP_DROP_HINTS, UI_SETUP_DROP_HINTS_DESC },
 				{ MENU_ITEM_JUKEBOX, UI_SETUP_JUKEBOX, UI_SETUP_JUKEBOX_DESC },
 				// { MENU_ITEM_DESTRUCT, "Destruct", "Play a bonus mini-game." },
 				{ MENU_ITEM_DONE, UI_SETUP_DONE, UI_SETUP_DONE_DESC },
@@ -300,6 +304,12 @@ void setupMenu(void)
 				JE_rectangle(VGAScreen, xMenuItemValue - 2, y - 2, xMenuItemValue + 96, y + 11, 242);
 				break;
 
+			case MENU_ITEM_AUTO_FIRE_SPECIAL:
+			case MENU_ITEM_DROP_HINTS:;
+				const bool on = menuItem->id == MENU_ITEM_AUTO_FIRE_SPECIAL ? autoFireSpecial : showDropHints;
+				draw_font_hv_shadow(VGAScreen, xMenuItemValue, y, ui_text(on ? UI_OPTION_ON : UI_OPTION_OFF), normal_font, left_aligned, 15, -3 + (selected ? 2 : 0) + (disabled ? -4 : 0), false, 2);
+				break;
+
 			default:
 				break;
 			}
@@ -405,6 +415,8 @@ void setupMenu(void)
 									case MENU_ITEM_DISPLAY:
 									case MENU_ITEM_SCALER:
 									case MENU_ITEM_SCALING_MODE:
+									case MENU_ITEM_AUTO_FIRE_SPECIAL:
+									case MENU_ITEM_DROP_HINTS:
 									{
 										action = true;
 										break;
@@ -490,6 +502,12 @@ void setupMenu(void)
 						JE_playSampleNum(S_CURSOR);
 						break;
 					}
+					case MENU_ITEM_AUTO_FIRE_SPECIAL:
+					case MENU_ITEM_DROP_HINTS:
+					{
+						action = true;
+						break;
+					}
 					default:
 						break;
 					}
@@ -511,6 +529,12 @@ void setupMenu(void)
 						JE_changeVolume(&tyrMusicVolume, 0, &fxVolume, 8);
 
 						JE_playSampleNum(S_CURSOR);
+						break;
+					}
+					case MENU_ITEM_AUTO_FIRE_SPECIAL:
+					case MENU_ITEM_DROP_HINTS:
+					{
+						action = true;
 						break;
 					}
 					default:
@@ -635,6 +659,20 @@ void setupMenu(void)
 					samples_disabled = !samples_disabled;
 
 					JE_playSampleNum(S_CLICK);
+					break;
+				}
+				case MENU_ITEM_AUTO_FIRE_SPECIAL:
+				{
+					JE_playSampleNum(S_CLICK);
+
+					autoFireSpecial = !autoFireSpecial;
+					break;
+				}
+				case MENU_ITEM_DROP_HINTS:
+				{
+					JE_playSampleNum(S_CLICK);
+
+					showDropHints = !showDropHints;
 					break;
 				}
 				default:

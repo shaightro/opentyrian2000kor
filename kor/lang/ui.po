@@ -41,6 +41,26 @@ msgctxt "ui.setup.sound_desc"
 msgid "Change the sound settings."
 msgstr "소리 설정을 바꿉니다."
 
+#. 설정 메뉴 항목 이름 (보통 글씨, 약 130픽셀). 발사형 특수 무기를 발사 버튼을 누르고 있는 동안 계속 쏘는 기능
+msgctxt "ui.setup.auto_fire_special"
+msgid "Auto Special:"
+msgstr "특수 무기 연사:"
+
+#. 화면 아래 설명 (작은 글씨, 한 줄)
+msgctxt "ui.setup.auto_fire_special_desc"
+msgid "Hold fire to keep firing a weapon special."
+msgstr "발사 버튼을 누르고 있으면 발사형 특수 무기를 계속 쏩니다."
+
+#. 설정 메뉴 항목 이름 (보통 글씨, 약 130픽셀). 아이템이 걸린 적(기다렸다 부수면 더 좋은 아이템을 주는 적, 부수거나 살려 보내면 나중에 아이템이 나오는 적)을 테두리로 표시하는 기능
+msgctxt "ui.setup.drop_hints"
+msgid "Item Hints:"
+msgstr "아이템 힌트 표시:"
+
+#. 화면 아래 설명 (작은 글씨, 한 줄). 테두리 색의 뜻: 노랑은 기다릴 적, 초록은 지금 부술 적, 빨강은 부수면 나중에 아이템이 나오는 적, 파랑은 살려 보내면 나중에 아이템이 나오는 적
+msgctxt "ui.setup.drop_hints_desc"
+msgid "Frames: yellow wait, green now, red destroy, blue let go."
+msgstr "노랑: 기다리기, 초록: 지금, 빨강: 부수기, 파랑: 살려 보내기"
+
 #. 설정 메뉴 항목 (게임 음악 듣기)
 msgctxt "ui.setup.jukebox"
 msgid "Jukebox"
@@ -165,6 +185,16 @@ msgstr "8:5 맞춤"
 msgctxt "ui.scaling.fit_4_3"
 msgid "Fit 4:3"
 msgstr "4:3 맞춤"
+
+#. 켜고 끄는 설정의 값: 켜짐 (보통 글씨, 약 95픽셀)
+msgctxt "ui.option.on"
+msgid "On"
+msgstr "켬"
+
+#. 켜고 끄는 설정의 값: 꺼짐 (보통 글씨, 약 95픽셀)
+msgctxt "ui.option.off"
+msgid "Off"
+msgstr "끔"
 
 #. 음악 감상 화면 아래 안내 (작은 글씨, 한 줄)
 msgctxt "ui.jukebox.quit"

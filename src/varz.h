@@ -110,6 +110,8 @@ struct JE_SingleEnemyType
 	JE_integer  yminbounce;
 	JE_integer  ymaxbounce;
 	JE_byte     fill[3]; /* [1..3] */
+
+	JE_byte     visibleFrames;  /* drop hints (drophint.c): frames drawn on screen so far (up to 255) */
 };
 
 typedef struct JE_SingleEnemyType JE_MultiEnemyType[100]; /* [1..100] */

@@ -182,6 +182,12 @@ extern JE_word editorLevel;
 
 extern Config opentyrian_config;
 
+/** Keep firing a weapon-type special while the fire button is held (OpenTyrian option). */
+extern bool autoFireSpecial;
+
+/** Mark enemies that carry, or will carry, a major item and enemies that decide later items (OpenTyrian option, drophint.c). */
+extern bool showDropHints;
+
 void JE_initProcessorType(void);
 void JE_setNewGameSpeed(void);
 const char *get_user_directory(void);

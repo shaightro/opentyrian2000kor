@@ -20,6 +20,7 @@
 
 #include "animlib.h"
 #include "backgrnd.h"
+#include "drophint.h"
 #include "episodes.h"
 #include "file.h"
 #include "font.h"
@@ -252,6 +253,13 @@ void JE_drawEnemy(int enemyOffset) // actually does a whole lot more than just d
 				{
 					if (enemy[i].ey > -13)
 						blit_enemy(VGAScreen, i, 0, 0, 0);
+				}
+
+				if (enemy[i].ey > -13)
+				{
+					if (enemy[i].visibleFrames < 255)
+						enemy[i].visibleFrames++;
+					drophint_draw(VGAScreen, i, enemy[i].ex + tempMapXOfs, enemy[i].ey);
 				}
 
 				enemy[i].filter = 0;
@@ -1270,6 +1278,8 @@ level_loop:
 	/*---------------------------EVENTS-------------------------*/
 	while (eventRec[eventLoc-1].eventtime <= curLoc && eventLoc <= maxEvent)
 		JE_eventSystem();
+
+	drophint_update();
 
 	if (isNetworkGame && reallyEndLevel)
 		goto start_level;
@@ -4119,6 +4129,8 @@ uint JE_makeEnemy(struct JE_SingleEnemyType *enemy, Uint16 eDatI, Sint16 uniqueS
 	enemy->fixedmovey = 0;
 
 	enemy->filter = 0x00;
+
+	enemy->visibleFrames = 0;
 
 	int tempValue = 0;
 	if (enemyDat[eDatI].value > 1 && enemyDat[eDatI].value < 10000)

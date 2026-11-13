@@ -209,9 +209,14 @@ JE_word editorLevel;   /*Initial value 800*/
 
 Config opentyrian_config;  // implicitly initialized
 
+bool autoFireSpecial = false;
+bool showDropHints = false;
+
 bool load_opentyrian_config(void)
 {
 	// defaults
+	autoFireSpecial = false;
+	showDropHints = false;
 	fullscreen_display = -1;
 	window_scale = WINDOW_SCALE_AUTO;
 	set_scaler_by_name("Scale2x");
@@ -250,6 +255,13 @@ bool load_opentyrian_config(void)
 		if (config_get_int_option(section, "window_scale", &scale) &&
 		    scale >= WINDOW_SCALE_AUTO && scale <= WINDOW_SCALE_MAX)
 			window_scale = scale;
+	}
+
+	section = config_find_section(config, "gameplay", NULL);
+	if (section != NULL)
+	{
+		config_get_bool_option(section, "auto_fire_special", &autoFireSpecial);
+		config_get_bool_option(section, "drop_hints", &showDropHints);
 	}
 
 	section = config_find_section(config, "keyboard", NULL);
@@ -309,6 +321,13 @@ bool save_opentyrian_config(void)
 	config_set_string_option(section, "scaling_mode", scaling_mode_names[scaling_mode]);
 
 	config_set_int_option(section, "window_scale", window_scale);  // 0 = auto
+
+	section = config_find_or_add_section(config, "gameplay", NULL);
+	if (section == NULL)
+		exit(EXIT_FAILURE);  // out of memory
+
+	config_set_bool_option(section, "auto_fire_special", autoFireSpecial, OFF_ON);
+	config_set_bool_option(section, "drop_hints", showDropHints, OFF_ON);
 
 	section = config_find_or_add_section(config, "keyboard", NULL);
 	if (section == NULL)

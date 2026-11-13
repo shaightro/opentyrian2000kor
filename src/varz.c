@@ -763,7 +763,13 @@ void JE_doSpecialShot(JE_byte playerNum, uint *armor, uint *shield)
 		}
 		else if (shotRepeat[SHOT_SPECIAL] == 0 && !fireButtonHeld && !(flareDuration > 0) && specialWait == 0)
 		{
-			fireButtonHeld = true;
+			// Normally a special fires once per press.  With the auto-fire option, a weapon-type
+			// special (stype 1) fires again whenever its reload allows while the button stays held.
+			// Demos and network games keep the original behavior so their inputs replay the same.
+			const bool autoFire = autoFireSpecial && special[player[0].items.special].stype == 1 &&
+			                      !play_demo && !record_demo && !isNetworkGame;
+
+			fireButtonHeld = !autoFire;
 			JE_specialComplete(playerNum, player[0].items.special);
 		}
 
