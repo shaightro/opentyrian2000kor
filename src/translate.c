@@ -349,6 +349,8 @@ static const UiTextInfo ui_texts[UI_TEXT_COUNT] =
 
 	[UI_NEXT_LEVEL] = { "ui.next_level", "Next Level", "다음 레벨 선택 메뉴의 제목 (큰 글씨, 짧게)" },
 	[UI_COST] = { "ui.cost", "Cost: %d", "상점의 아이템 가격 (작은 글씨). %d(가격)는 그대로 두세요" },
+	[UI_SHOP_DPS] = { "ui.shop.dps", "DPS %s", "상점의 무기·사이드킥 초당 피해량 (작은 글씨, 가격 줄 오른쪽, 약 50픽셀). %s는 숫자이고, 후방 무기는 \"30/45\"처럼 두 발사 방식이 함께 들어갑니다" },
+	[UI_SHOP_DAMAGE_PER_SHOT] = { "ui.shop.damage_per_shot", "%d/shot", "상점의 탄약 제한 사이드킥의 한 발 피해량 (작은 글씨, 가격 줄 오른쪽, 약 50픽셀). %d는 숫자" },
 	[UI_CUSTOM_SHIP] = { "ui.custom_ship", "Custom Ship %d", "상점의 사용자 정의 함선 이름. %d(번호)는 그대로 두세요" },
 	[UI_OR_PLAY] = { "ui.or_play", "Or play... %s", "슈퍼 아케이드 모드를 마친 뒤 나오는 안내. %s는 미니게임 이름입니다" },
 	[UI_TYPE_AT_TITLE] = { "ui.type_at_title", "Type %s at Title", "슈퍼 아케이드 모드를 마친 뒤 나오는 비밀 코드 안내. %s는 타이틀 화면에서 입력할 코드입니다 (영어 그대로)" },

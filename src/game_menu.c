@@ -43,6 +43,7 @@
 #include "varz.h"
 #include "vga256d.h"
 #include "video.h"
+#include "weapdps.h"
 
 #include <assert.h>
 
@@ -130,6 +131,57 @@ static Uint8 *playeritem_map(PlayerItems *items, uint i)
 	};
 	assert(i < COUNTOF(map));
 	return map[i];
+}
+
+/**
+ * The damage figure shown under a weapon or sidekick in the shop (OpenTyrian addition, see weapdps.c),
+ * or an empty string.  Weapons are rated at the power level they would be bought with.
+ */
+static void shop_damage_text(int itemType, JE_word item, char *buf, size_t size)
+{
+	char value[24];
+
+	buf[0] = '\0';
+	if (item == 0)
+		return;
+
+	switch (itemType)
+	{
+	case 2:  // front weapon
+	case 3:  // rear weapon: both firing modes
+	{
+		const uint power = MIN(MAX(player[0].items.weapon[itemType - 2].power, 1), 11);
+		const int first = weapon_dps(weaponPort[item].op[0][power - 1]);
+		const int second = weapon_dps(weaponPort[item].op[1][power - 1]);
+
+		if (itemType == 3 && weaponPort[item].opnum >= 2 && second != first)
+			snprintf(value, sizeof(value), "%d/%d", first, second);
+		else
+			snprintf(value, sizeof(value), "%d", first);
+		tr_format(buf, size, ui_text(UI_SHOP_DPS), value, 0);
+		break;
+	}
+	case 6:  // sidekicks
+	case 7:
+	{
+		const JE_OptionType *option = &options[item];
+		if (option->wport == 0)
+			return;
+
+		if (option->ammo > 0)  // limited ammo: damage of one shot
+		{
+			tr_format(buf, size, ui_text(UI_SHOP_DAMAGE_PER_SHOT), NULL, weapon_damage_per_fire(option->wpnum));
+		}
+		else  // fires continuously; a charging sidekick at its lowest charge stage
+		{
+			snprintf(value, sizeof(value), "%d", weapon_dps(option->wpnum));
+			tr_format(buf, size, ui_text(UI_SHOP_DPS), value, 0);
+		}
+		break;
+	}
+	default:
+		break;
+	}
 }
 
 JE_longint JE_cashLeft(void)
@@ -616,6 +668,11 @@ void JE_itemScreen(void)
 
 					tr_format(buf, sizeof(buf), ui_text(UI_COST), NULL, temp_cost);
 					JE_textShade(VGAScreen, 187, tempY+10, buf, temp2 / 16, temp2 % 16 - 8 - afford_shade, DARKEN);
+
+					/* Draw damage figure, right-aligned on the cost line */
+					shop_damage_text(curSel[MENU_UPGRADES] - 1, temp, buf, sizeof(buf));
+					if (buf[0] != '\0')
+						JE_textShade(VGAScreen, 290 - JE_textWidth(buf, TINY_FONT), tempY+10, buf, temp2 / 16, temp2 % 16 - 8 - afford_shade, DARKEN);
 				}
 			}
 		}
