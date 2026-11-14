@@ -41,15 +41,15 @@ msgctxt "ui.setup.sound_desc"
 msgid "Change the sound settings."
 msgstr "소리 설정을 바꿉니다."
 
-#. 설정 메뉴 항목 이름 (보통 글씨, 약 130픽셀). 발사형 특수 무기를 발사 버튼을 누르고 있는 동안 계속 쏘는 기능
+#. 설정 메뉴 항목 이름 (보통 글씨, 약 130픽셀). 공격형 특수 무기를 발사 버튼을 누르고 있는 동안 계속 쓰는 기능
 msgctxt "ui.setup.auto_fire_special"
 msgid "Auto Special:"
 msgstr "특수 무기 연사:"
 
 #. 화면 아래 설명 (작은 글씨, 한 줄)
 msgctxt "ui.setup.auto_fire_special_desc"
-msgid "Hold fire to keep firing a weapon special."
-msgstr "발사 버튼을 누르고 있으면 발사형 특수 무기를 계속 쏩니다."
+msgid "Hold fire to keep using an attack special."
+msgstr "발사 버튼을 누르고 있으면 공격형 특수 무기를 계속 씁니다."
 
 #. 설정 메뉴 항목 이름 (보통 글씨, 약 130픽셀). 아이템이 걸린 적(기다렸다 부수면 더 좋은 아이템을 주는 적, 부수거나 살려 보내면 나중에 아이템이 나오는 적)을 테두리로 표시하는 기능
 msgctxt "ui.setup.drop_hints"

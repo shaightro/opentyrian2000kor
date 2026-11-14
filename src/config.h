@@ -182,7 +182,7 @@ extern JE_word editorLevel;
 
 extern Config opentyrian_config;
 
-/** Keep firing a weapon-type special while the fire button is held (OpenTyrian option). */
+/** Keep using an attack special (shots, flares, beams) while the fire button is held (OpenTyrian option). */
 extern bool autoFireSpecial;
 
 /** Mark enemies that carry, or will carry, a major item and enemies that decide later items (OpenTyrian option, drophint.c). */

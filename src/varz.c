@@ -504,6 +504,33 @@ void JE_tyrianHalt(JE_byte code)
 	exit(code);
 }
 
+/*
+ * Specials that the auto-fire option repeats while fire is held (OpenTyrian addition): the attacks
+ * that reload before they can be used again.  That is the shots (1), Soul of Zinglon (3), and the
+ * flares and beams (5-11, 16) such as the SDF Main Gun, which wait for their effect to end.
+ * Repulsor (2) and Attractor (4) have no reload, so they keep acting once per press, and the rest
+ * (invulnerability, repairs, extra sidekicks) are not attacks.
+ */
+static bool special_auto_fires(JE_byte stype)
+{
+	switch (stype)
+	{
+	case 1:
+	case 3:
+	case 5:
+	case 6:
+	case 7:
+	case 8:
+	case 9:
+	case 10:
+	case 11:
+	case 16:
+		return true;
+	default:
+		return false;
+	}
+}
+
 void JE_specialComplete(JE_byte playerNum, JE_byte specialType)
 {
 	nextSpecialWait = 0;
@@ -763,10 +790,10 @@ void JE_doSpecialShot(JE_byte playerNum, uint *armor, uint *shield)
 		}
 		else if (shotRepeat[SHOT_SPECIAL] == 0 && !fireButtonHeld && !(flareDuration > 0) && specialWait == 0)
 		{
-			// Normally a special fires once per press.  With the auto-fire option, a weapon-type
-			// special (stype 1) fires again whenever its reload allows while the button stays held.
+			// Normally a special fires once per press.  With the auto-fire option, an attack special
+			// fires again whenever its reload allows while the button stays held.
 			// Demos and network games keep the original behavior so their inputs replay the same.
-			const bool autoFire = autoFireSpecial && special[player[0].items.special].stype == 1 &&
+			const bool autoFire = autoFireSpecial && special_auto_fires(special[player[0].items.special].stype) &&
 			                      !play_demo && !record_demo && !isNetworkGame;
 
 			fireButtonHeld = !autoFire;
