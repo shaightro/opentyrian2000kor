@@ -212,24 +212,39 @@ Config opentyrian_config;  // implicitly initialized
 bool autoFireSpecial = true;
 bool showDropHints = true;
 
-bool easyHalfDamageChoice = false, easyRichStartChoice = false, easyGoodGearChoice = false;
+bool halfDamageChoice = false, richStartChoice = false, goodGearChoice = false, difficultyRiseChoice = false;
 bool halfDamageTaken = false;
 bool goodGearShop = false;
+bool difficultyRises = true;
+ulong difficultyScoreBase = 0;
 
-// Saved games keep the OpenTyrian extras in a field Tyrian 2000 leaves unused (the old second
-// high score of the slot), marked so that older values are not mistaken for them.
+void clear_game_options(void)
+{
+	halfDamageTaken = false;
+	goodGearShop = false;
+	difficultyRises = true;
+	difficultyScoreBase = 0;
+}
+
+// Saved games keep the game options in a field Tyrian 2000 leaves unused (the old second high
+// score of the slot), marked so that older values are not mistaken for them.  Games saved before
+// the difficulty rise became an option (no SAVE_RISE_KNOWN) kept their difficulty only on Easy.
 #define SAVE_EXTRAS_MAGIC  0x4B520000
 #define SAVE_EXTRAS_MASK   0xFFFF0000
 #define SAVE_HALF_DAMAGE   0x0001
+#define SAVE_NO_RISE       0x0002
+#define SAVE_RISE_KNOWN    0x0004
+#define SAVE_RICH_START    0x0008
 
 bool load_opentyrian_config(void)
 {
 	// defaults
 	autoFireSpecial = true;
 	showDropHints = true;
-	easyHalfDamageChoice = false;
-	easyRichStartChoice = false;
-	easyGoodGearChoice = false;
+	halfDamageChoice = false;
+	richStartChoice = false;
+	goodGearChoice = false;
+	difficultyRiseChoice = false;
 	fullscreen_display = -1;
 	window_scale = WINDOW_SCALE_AUTO;
 	set_scaler_by_name("Scale2x");
@@ -275,9 +290,11 @@ bool load_opentyrian_config(void)
 	{
 		config_get_bool_option(section, "auto_fire_special", &autoFireSpecial);
 		config_get_bool_option(section, "drop_hints", &showDropHints);
-		config_get_bool_option(section, "easy_half_damage", &easyHalfDamageChoice);
-		config_get_bool_option(section, "easy_rich_start", &easyRichStartChoice);
-		config_get_bool_option(section, "easy_good_gear", &easyGoodGearChoice);
+		// The first three keep the names from when only Easy had them, so the choices carry over.
+		config_get_bool_option(section, "easy_half_damage", &halfDamageChoice);
+		config_get_bool_option(section, "easy_rich_start", &richStartChoice);
+		config_get_bool_option(section, "easy_good_gear", &goodGearChoice);
+		config_get_bool_option(section, "difficulty_rise", &difficultyRiseChoice);
 	}
 
 	section = config_find_section(config, "keyboard", NULL);
@@ -344,9 +361,10 @@ bool save_opentyrian_config(void)
 
 	config_set_bool_option(section, "auto_fire_special", autoFireSpecial, OFF_ON);
 	config_set_bool_option(section, "drop_hints", showDropHints, OFF_ON);
-	config_set_bool_option(section, "easy_half_damage", easyHalfDamageChoice, OFF_ON);
-	config_set_bool_option(section, "easy_rich_start", easyRichStartChoice, OFF_ON);
-	config_set_bool_option(section, "easy_good_gear", easyGoodGearChoice, OFF_ON);
+	config_set_bool_option(section, "easy_half_damage", halfDamageChoice, OFF_ON);
+	config_set_bool_option(section, "easy_rich_start", richStartChoice, OFF_ON);
+	config_set_bool_option(section, "easy_good_gear", goodGearChoice, OFF_ON);
+	config_set_bool_option(section, "difficulty_rise", difficultyRiseChoice, OFF_ON);
 
 	section = config_find_or_add_section(config, "keyboard", NULL);
 	if (section == NULL)
@@ -474,7 +492,10 @@ void JE_saveGame(JE_byte slot, const char *name)
 		saveFiles[slot-1].power[port] = player[twoPlayerMode ? port : 0].items.weapon[port].power;
 	}
 
-	saveFiles[slot-1].highScore2 = SAVE_EXTRAS_MAGIC | (halfDamageTaken ? SAVE_HALF_DAMAGE : 0);
+	saveFiles[slot-1].highScore2 = SAVE_EXTRAS_MAGIC | SAVE_RISE_KNOWN |
+	                               (halfDamageTaken ? SAVE_HALF_DAMAGE : 0) |
+	                               (difficultyRises ? 0 : SAVE_NO_RISE) |
+	                               (difficultyScoreBase > 0 ? SAVE_RICH_START : 0);
 	
 	JE_saveConfiguration();
 }
@@ -534,8 +555,18 @@ void JE_loadGame(JE_byte slot)
 	inputDevice[1] = saveFiles[slot-1].input2;
 
 	const Uint32 extras = (Uint32)saveFiles[slot-1].highScore2;
-	halfDamageTaken = (extras & SAVE_EXTRAS_MASK) == SAVE_EXTRAS_MAGIC && (extras & SAVE_HALF_DAMAGE) != 0;
-	goodGearShop = false;
+	const bool marked = (extras & SAVE_EXTRAS_MASK) == SAVE_EXTRAS_MAGIC;
+	clear_game_options();
+	halfDamageTaken = marked && (extras & SAVE_HALF_DAMAGE) != 0;
+	if (marked && (extras & SAVE_RISE_KNOWN) != 0)
+	{
+		difficultyRises = (extras & SAVE_NO_RISE) == 0;
+		difficultyScoreBase = (extras & SAVE_RICH_START) != 0 ? RICH_START_CASH : 0;
+	}
+	else
+	{
+		difficultyRises = !(initialDifficulty == DIFFICULTY_EASY && !twoPlayerMode && !onePlayerAction);
+	}
 
 	for (uint port = 0; port < 2; ++port)
 	{

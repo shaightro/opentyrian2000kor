@@ -2325,8 +2325,8 @@ void JE_highScoreCheck(void)
 // increases game difficulty based on player's total score / total of players' scores
 void adjust_difficulty(void)
 {
-	// Easy in the 1-player full game keeps its difficulty (OpenTyrian addition)
-	if (initialDifficulty == DIFFICULTY_EASY && !twoPlayerMode && !onePlayerAction)
+	// The difficulty rise is a game option (OpenTyrian addition).
+	if (!difficultyRises)
 		return;
 
 	const float score_multiplier[10] =
@@ -2345,8 +2345,12 @@ void adjust_difficulty(void)
 
 	assert(initialDifficulty > 0 && initialDifficulty < 10);
 
-	const ulong score = twoPlayerMode ? (player[0].cash + player[1].cash) : JE_totalScore(&player[0]),
-	            adjusted_score = roundf(score * score_multiplier[initialDifficulty]);
+	ulong score = twoPlayerMode ? (player[0].cash + player[1].cash) : JE_totalScore(&player[0]);
+
+	// A rich start does not count toward the difficulty (OpenTyrian addition).
+	score = score > difficultyScoreBase ? score - difficultyScoreBase : 0;
+
+	const ulong adjusted_score = roundf(score * score_multiplier[initialDifficulty]);
 
 	uint new_difficulty = 0;
 
@@ -3208,6 +3212,23 @@ void JE_inGameDisplays(void)
 	{
 		JE_outText(VGAScreen, 90, 170, ui_text(UI_CHEATERS), 3, 4);
 	}
+}
+
+void auto_fire_hotkey(void)
+{
+	// Checked every frame rather than on new key presses only, so that the key is seen going up
+	// again and held keys (which repeat) switch only once.
+	static bool held = false;
+	const bool down = keysactive[SDL_SCANCODE_F5] != 0;
+	if (down && !held && !isNetworkGame)
+	{
+		autoFireSpecial = !autoFireSpecial;
+
+		char message[128];
+		snprintf(message, sizeof(message), "%s %s", ui_text(UI_SETUP_AUTO_FIRE_SPECIAL), ui_text(autoFireSpecial ? UI_OPTION_ON : UI_OPTION_OFF));
+		JE_drawTextWindow(message);
+	}
+	held = down;
 }
 
 void JE_mainKeyboardInput(void)

@@ -51,6 +51,11 @@ msgctxt "ui.setup.auto_fire_special_desc"
 msgid "Hold fire to keep using an attack special."
 msgstr "발사 버튼을 누르고 있으면 공격형 특수 무기를 계속 씁니다."
 
+#. 게임 화면의 특수 무기 아이콘 옆에 "켬"/"끔"과 함께 나오는 특수 무기 연사 표시 (작은 글씨, 아주 짧게, 한글 2자 정도)
+msgctxt "ui.hud.auto_fire"
+msgid "Auto"
+msgstr "연사"
+
 #. 설정 메뉴 항목 이름 (보통 글씨, 약 130픽셀). 아이템이 걸린 적(기다렸다 부수면 더 좋은 아이템을 주는 적, 부수거나 살려 보내면 나중에 아이템이 나오는 적)을 테두리로 표시하는 기능
 msgctxt "ui.setup.drop_hints"
 msgid "Item Hints:"
@@ -196,38 +201,48 @@ msgctxt "ui.option.off"
 msgid "Off"
 msgstr "끔"
 
-#. 쉬움 난이도를 고르면 아래에 나오는 추가 옵션 이름 (보통 글씨, 약 160픽셀). 플레이어가 받는 피해를 절반으로 줄이는 기능
-msgctxt "ui.easy.half_damage"
+#. 난이도를 고르면 아래에 나오는 새 게임 옵션 이름 (보통 글씨, 약 160픽셀). 플레이어가 받는 피해를 절반으로 줄이는 기능
+msgctxt "ui.game_options.half_damage"
 msgid "Half Damage:"
 msgstr "받는 피해 절반:"
 
-#. 쉬움 추가 옵션 이름 (보통 글씨, 약 160픽셀). 새 게임의 시작 자금
-msgctxt "ui.easy.start_cash"
+#. 새 게임 옵션 이름 (보통 글씨, 약 160픽셀). 새 게임의 시작 자금
+msgctxt "ui.game_options.start_cash"
 msgid "Starting Cash:"
 msgstr "시작 자금:"
 
 #. 시작 자금 옵션의 값: 원래대로 (보통 글씨, 약 90픽셀)
-msgctxt "ui.easy.cash_normal"
+msgctxt "ui.game_options.cash_normal"
 msgid "Normal"
 msgstr "기본"
 
 #. 시작 자금 옵션의 값: 100만 크레딧 (보통 글씨, 약 90픽셀)
-msgctxt "ui.easy.cash_rich"
+msgctxt "ui.game_options.cash_rich"
 msgid "1,000,000"
 msgstr "1,000,000"
 
-#. 쉬움 추가 옵션 이름 (보통 글씨, 약 160픽셀). 첫 상점에 좋은 장비를 더 파는 기능
-msgctxt "ui.easy.good_gear"
+#. 새 게임 옵션 이름 (보통 글씨, 약 160픽셀). 첫 상점에 좋은 장비를 더 파는 기능
+msgctxt "ui.game_options.good_gear"
 msgid "Good Gear in Shop:"
 msgstr "시작 상점 좋은 장비:"
 
-#. 쉬움 추가 옵션 아래의 게임 시작 항목 (보통 글씨, 짧게)
-msgctxt "ui.easy.start"
+#. 새 게임 옵션 이름 (보통 글씨, 약 160픽셀). 레벨을 마칠 때마다 총자산에 따라 난이도가 저절로 오르는 원래 게임의 규칙
+msgctxt "ui.game_options.difficulty_rise"
+msgid "Difficulty Rise:"
+msgstr "난이도 자동 상승:"
+
+#. 난이도 자동 상승 옵션 바로 아래의 작은 글씨 안내 (한 줄, 약 240픽셀). 원래 게임에서는 늘 켜져 있던 규칙인데 이 판에서는 기본으로 꺼 둔다는 설명
+msgctxt "ui.game_options.difficulty_rise_note"
+msgid "Always on in the original game; off by default here."
+msgstr "원래 게임에서는 늘 켜져 있었지만, 여기서는 기본으로 꺼 둡니다."
+
+#. 새 게임 옵션 아래의 게임 시작 항목 (보통 글씨, 짧게)
+msgctxt "ui.game_options.start"
 msgid "Start"
 msgstr "시작"
 
-#. 쉬움 추가 옵션의 조작 안내 (작은 글씨, 화면 아래 한 줄, 약 300픽셀)
-msgctxt "ui.easy.help"
+#. 새 게임 옵션의 조작 안내 (작은 글씨, 화면 아래 한 줄, 약 300픽셀)
+msgctxt "ui.game_options.help"
 msgid "Left/Right: change   Enter: select   ESC: back"
 msgstr "좌우: 바꾸기   엔터: 선택   ESC: 돌아가기"
 

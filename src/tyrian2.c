@@ -158,6 +158,9 @@ void JE_starShowVGA(void)
 		else
 			textlayer_copy_rect(VGAScreenSeg, 0, 0, game_screen, 24, 0, 264, 184);
 
+		// next to the special's icon, which is at 47 - 24 (OpenTyrian addition)
+		draw_auto_fire_mark(VGAScreenSeg, 47 - 24 + 14, 6);
+
 		JE_showVGA();
 	}
 
@@ -2234,6 +2237,8 @@ draw_player_shot_loop_end:
 	{
 		service_SDL_events(false);
 
+		auto_fire_hotkey();
+
 		if (newkey)
 		{
 			skipStarShowVGA = false;
@@ -2462,7 +2467,7 @@ static void read_episode_text_block(FILE *f)
 }
 
 /**
- * Easy extra "good gear": adds some top items to the first shop of a new game (rows of itemAvail
+ * Game option "good gear": adds some top items to the first shop of a new game (rows of itemAvail
  * as read from the ]I lines: 0 ship, 1 front, 2 rear, 3 generator, 6 right sidekick, 8 shield).
  * Rows are kept short enough for the shop screen, which also adds the item already fitted.
  */
@@ -3306,14 +3311,12 @@ void networkStartScreen(void)
 	network_connect();
 
 	twoPlayerMode = true;
+	clear_game_options();
 	if (thisPlayerNum == 1)
 	{
 		fade_black(10);
 
-		halfDamageTaken = false;
-		goodGearShop = false;
-
-		if (episodeSelect() && difficultySelect(false))
+		if (episodeSelect() && difficultySelect(DIFFICULTY_OPTIONS_NONE))
 		{
 			initialDifficulty = difficultyLevel;
 
@@ -3726,18 +3729,22 @@ bool newGame(void)
 		if (timedBattleMode)
 		{
 			onePlayerAction = true;
-			if (timedBattleSelect() && difficultySelect(false))
+			if (timedBattleSelect() && difficultySelect(DIFFICULTY_OPTIONS_NONE))
 				gameLoaded = true;
 		}
-		else if (episodeSelect() && difficultySelect(!onePlayerAction && !twoPlayerMode))
+		else if (episodeSelect() && difficultySelect(onePlayerAction || twoPlayerMode ? DIFFICULTY_OPTIONS_ARCADE : DIFFICULTY_OPTIONS_FULL_GAME))
 			gameLoaded = true;
 
 		initialDifficulty = difficultyLevel;
 
-		// Easy extras chosen on the difficulty screen (1-player full game only)
-		const bool easyExtras = gameLoaded && !onePlayerAction && !twoPlayerMode && difficultyLevel == DIFFICULTY_EASY;
-		halfDamageTaken = easyExtras && easyHalfDamageChoice;
-		goodGearShop = easyExtras && easyGoodGearChoice;
+		// Options chosen on the difficulty screen: all of them in the full game, half damage and
+		// difficulty rise in the arcade games (OpenTyrian addition)
+		const bool fullGame = gameLoaded && !onePlayerAction && !twoPlayerMode;
+		const bool arcade = gameLoaded && !timedBattleMode && (onePlayerAction || twoPlayerMode);
+		clear_game_options();
+		halfDamageTaken = (fullGame || arcade) && halfDamageChoice;
+		goodGearShop = fullGame && goodGearChoice;
+		difficultyRises = !(fullGame || arcade) || difficultyRiseChoice;
 
 		if (onePlayerAction)
 		{
@@ -3757,9 +3764,10 @@ bool newGame(void)
 			inputDevice[0] = 1;
 			inputDevice[1] = 2;
 		}
-		else if (richMode || (easyExtras && easyRichStartChoice))
+		else if (richMode || (fullGame && richStartChoice))
 		{
-			player[0].cash = 1000000;
+			player[0].cash = RICH_START_CASH;
+			difficultyScoreBase = RICH_START_CASH;  // does not raise the difficulty
 		}
 		else if (gameLoaded)
 		{
@@ -3779,11 +3787,13 @@ bool newSuperArcadeGame(unsigned int i)
 {
 	player[0].items.ship = SAShip[i];
 
-	halfDamageTaken = false;
-	goodGearShop = false;
+	clear_game_options();
 
-	if (episodeSelect() && difficultySelect(false))
+	if (episodeSelect() && difficultySelect(DIFFICULTY_OPTIONS_ARCADE))
 	{
+		halfDamageTaken = halfDamageChoice;
+		difficultyRises = difficultyRiseChoice;
+
 		/* Start special mode! */
 		JE_loadPic(VGAScreen, 1, false);
 		JE_clr256(VGAScreen);
@@ -3805,7 +3815,8 @@ bool newSuperArcadeGame(unsigned int i)
 		superArcadeMode = i + 1;
 		timedBattleMode = false;
 		gameLoaded = true;
-		initialDifficulty = ++difficultyLevel;
+		++difficultyLevel;  // one step harder than chosen
+		initialDifficulty = MIN(difficultyLevel, DIFFICULTY_NORTANEOUS);  // the top level has no harder step to start from
 
 		player[0].cash = 0;
 
@@ -3828,6 +3839,8 @@ bool newSuperTyrianGame(void)
 	/* SuperTyrian */
 
 	initialDifficulty = keysactive[SDL_SCANCODE_SCROLLLOCK] ? DIFFICULTY_SUICIDE : DIFFICULTY_ZINGLON;
+
+	clear_game_options();
 
 	JE_clr256(VGAScreen);
 	JE_outText(VGAScreen, 10, 10, superTyrianText[0], 15, 4);

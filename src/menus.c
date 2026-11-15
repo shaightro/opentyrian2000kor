@@ -22,6 +22,7 @@
 #include "episodes.h"
 #include "font.h"
 #include "fonthand.h"
+#include "helptext.h"
 #include "joystick.h"
 #include "keyboard.h"
 #include "mouse.h"
@@ -433,73 +434,169 @@ bool episodeSelect(void)
 	}
 }
 
-/** Draws the Easy extras below the difficulty list; row is the selected one. */
-static void draw_easy_extras(int y0, int dy, size_t row)
+/** The difficulty levels on the menu, from the easiest. */
+static const JE_shortint difficultyMenuLevels[] =
 {
-	const UiText labels[] = { UI_EASY_HALF_DAMAGE, UI_EASY_START_CASH, UI_EASY_GOOD_GEAR, UI_EASY_START };
+	DIFFICULTY_EASY,
+	DIFFICULTY_NORMAL,
+	DIFFICULTY_HARD,
+	DIFFICULTY_IMPOSSIBLE,
+	DIFFICULTY_INSANITY,
+	DIFFICULTY_SUICIDE,
+	DIFFICULTY_MANIACAL,
+	DIFFICULTY_ZINGLON,
+	DIFFICULTY_NORTANEOUS,
+};
+
+/*
+ * The original menu offers Easy, Normal, Hard, Impossible, Suicide and Lord of the Game, the last
+ * three hidden behind key codes.  This menu shows every level, and the ones the original skips
+ * take their names from the high score table.
+ */
+static const char *difficulty_menu_name(JE_shortint level)
+{
+	switch (level)
+	{
+	case DIFFICULTY_EASY:       return difficulty_name[1];
+	case DIFFICULTY_NORMAL:     return difficulty_name[2];
+	case DIFFICULTY_HARD:       return difficulty_name[3];
+	case DIFFICULTY_IMPOSSIBLE: return difficulty_name[4];
+	case DIFFICULTY_SUICIDE:    return difficulty_name[5];
+	case DIFFICULTY_ZINGLON:    return difficulty_name[6];
+	default:                    return difficultyNameB[level];
+	}
+}
+
+/*
+ * Options for the game being started, shown below the chosen difficulty (OpenTyrian addition).
+ * The full game offers all of them; the arcade games leave out money and shops, which mean
+ * nothing there.
+ */
+enum
+{
+	GAME_OPTION_HALF_DAMAGE,
+	GAME_OPTION_START_CASH,
+	GAME_OPTION_GOOD_GEAR,
+	GAME_OPTION_DIFFICULTY_RISE,
+};
+
+static const int fullGameOptions[] =
+{
+	GAME_OPTION_HALF_DAMAGE,
+	GAME_OPTION_START_CASH,
+	GAME_OPTION_GOOD_GEAR,
+	GAME_OPTION_DIFFICULTY_RISE,
+};
+
+static const int arcadeOptions[] =
+{
+	GAME_OPTION_HALF_DAMAGE,
+	GAME_OPTION_DIFFICULTY_RISE,
+};
+
+/*
+ * The difficulty rise option has a note under it (the original game always rises, this one does
+ * not unless asked), which pushes the rows after it down.
+ */
+static const int gameOptionNoteGap = 10;
+
+/** Top of an option row (count is the start row). */
+static int game_option_row_y(const int *options, size_t count, int y0, int dy, size_t row)
+{
+	int y = y0 + dy * (int)row;
+	for (size_t i = 0; i < row && i < count; ++i)
+		if (options[i] == GAME_OPTION_DIFFICULTY_RISE)
+			y += gameOptionNoteGap;
+	return y;
+}
+
+/** Draws the options and the start row below them; row is the selected one. */
+static void draw_game_options(const int *options, size_t count, int y0, int dy, size_t row)
+{
 	const int xLabel = 48, xValue = 214;
 
-	for (size_t i = 0; i < COUNTOF(labels); ++i)
+	for (size_t i = 0; i <= count; ++i)
 	{
-		const int y = y0 + dy * (int)i;
+		const int y = game_option_row_y(options, count, y0, dy, i);
 		const int brightness = -4 + (i == row ? 2 : 0);
 
-		draw_font_hv_shadow(VGAScreen, xLabel, y, ui_text(labels[i]), normal_font, left_aligned, 15, brightness, false, 2);
-
+		const char *label = ui_text(UI_OPTIONS_START);
 		const char *value = NULL;
-		switch (i)
+		if (i < count)
 		{
-		case 0: value = ui_text(easyHalfDamageChoice ? UI_OPTION_ON : UI_OPTION_OFF); break;
-		case 1: value = ui_text(easyRichStartChoice ? UI_EASY_CASH_RICH : UI_EASY_CASH_NORMAL); break;
-		case 2: value = ui_text(easyGoodGearChoice ? UI_OPTION_ON : UI_OPTION_OFF); break;
+			switch (options[i])
+			{
+			case GAME_OPTION_HALF_DAMAGE:
+				label = ui_text(UI_OPTIONS_HALF_DAMAGE);
+				value = ui_text(halfDamageChoice ? UI_OPTION_ON : UI_OPTION_OFF);
+				break;
+			case GAME_OPTION_START_CASH:
+				label = ui_text(UI_OPTIONS_START_CASH);
+				value = ui_text(richStartChoice ? UI_OPTIONS_CASH_RICH : UI_OPTIONS_CASH_NORMAL);
+				break;
+			case GAME_OPTION_GOOD_GEAR:
+				label = ui_text(UI_OPTIONS_GOOD_GEAR);
+				value = ui_text(goodGearChoice ? UI_OPTION_ON : UI_OPTION_OFF);
+				break;
+			case GAME_OPTION_DIFFICULTY_RISE:
+				label = ui_text(UI_OPTIONS_DIFFICULTY_RISE);
+				value = ui_text(difficultyRiseChoice ? UI_OPTION_ON : UI_OPTION_OFF);
+				break;
+			}
 		}
+
+		draw_font_hv_shadow(VGAScreen, xLabel, y, label, normal_font, left_aligned, 15, brightness, false, 2);
 		if (value != NULL)
 			draw_font_hv_shadow(VGAScreen, xValue, y, value, normal_font, left_aligned, 15, brightness, false, 2);
+
+		if (i < count && options[i] == GAME_OPTION_DIFFICULTY_RISE)
+			JE_textShade(VGAScreen, xLabel + 8, y + 14, ui_text(UI_OPTIONS_DIFFICULTY_RISE_NOTE), 15, 0, PART_SHADE);
 	}
 
-	const char *help = ui_text(UI_EASY_HELP);
+	const char *help = ui_text(UI_OPTIONS_HELP);
 	JE_textShade(VGAScreen, xLabel, 191, help, 15, 4, PART_SHADE);  // clear of the copyright line of the picture
 }
 
-/** Changes the Easy extra on the given row (0 to 2). */
-static void toggle_easy_extra(size_t row)
+static void toggle_game_option(int option)
 {
 	JE_playSampleNum(S_CLICK);
 
-	switch (row)
+	switch (option)
 	{
-	case 0: easyHalfDamageChoice = !easyHalfDamageChoice; break;
-	case 1: easyRichStartChoice = !easyRichStartChoice; break;
-	case 2: easyGoodGearChoice = !easyGoodGearChoice; break;
+	case GAME_OPTION_HALF_DAMAGE:     halfDamageChoice = !halfDamageChoice; break;
+	case GAME_OPTION_START_CASH:      richStartChoice = !richStartChoice; break;
+	case GAME_OPTION_GOOD_GEAR:       goodGearChoice = !goodGearChoice; break;
+	case GAME_OPTION_DIFFICULTY_RISE: difficultyRiseChoice = !difficultyRiseChoice; break;
 	}
 }
 
-bool difficultySelect(bool easyExtras)
+bool difficultySelect(DifficultyOptions withOptions)
 {
 	if (shopSpriteSheet.data == NULL)
 		JE_loadCompShapes(&shopSpriteSheet, '1');  // need mouse pointer sprites
 
 	bool restart = true;
 
-	const size_t menuItemsCount = COUNTOF(difficulty_name) - 1;
-	size_t menuItemsVisibleCount = menuItemsCount - 3;
+	const size_t menuItemsCount = COUNTOF(difficultyMenuLevels);
 	size_t selectedIndex = 1;
-	size_t lordProgress = 0;
 
 	const int xCenter = 320 / 2;
 	const int yMenuHeader = 20;
-	const int yMenuItems = 54;
-	const int dyMenuItems = 24;
+	const int yMenuItems = 48;
+	const int dyMenuItems = 16;
 	const int hMenuItem = 13;
-	int wMenuItem[COUNTOF(difficulty_name) - 1] = { 0 };
+	int wMenuItem[COUNTOF(difficultyMenuLevels)] = { 0 };
 
-	// Easy extras for a 1-player full game (OpenTyrian addition): choosing Easy opens a panel
-	// below the list with half damage, starting cash and good gear in the first shop.
-	bool extrasOpen = false;
-	size_t extrasRow = 3;  // 0 to 2: the options, 3: start
-	const int yExtras = yMenuItems + dyMenuItems * 3 + 2;
-	const int dyExtras = 15;
-	const size_t extrasRows = 4;
+	// Choosing a difficulty opens the options of the game below it (OpenTyrian addition).
+	const int *options = withOptions == DIFFICULTY_OPTIONS_FULL_GAME ? fullGameOptions : arcadeOptions;
+	const size_t optionsCount = withOptions == DIFFICULTY_OPTIONS_FULL_GAME ? COUNTOF(fullGameOptions)
+	                          : withOptions == DIFFICULTY_OPTIONS_ARCADE ? COUNTOF(arcadeOptions)
+	                          : 0;
+	const size_t optionsRows = optionsCount + 1;  // the options, then start
+	bool optionsOpen = false;
+	size_t optionsRow = optionsCount;
+	const int yOptions = yMenuItems + 24;
+	const int dyOptions = 16;
 
 	for (; ; )
 	{
@@ -514,22 +611,27 @@ bool difficultySelect(bool easyExtras)
 		// Restore background and header.
 		surface_copy(VGAScreen, VGAScreen2);
 
-		// Draw menu items (with the Easy extras open, only Easy to Hard, Easy chosen).
-		for (size_t i = 0; i < (extrasOpen ? MIN(menuItemsVisibleCount, 3) : menuItemsVisibleCount); ++i)
+		if (optionsOpen)
 		{
-			const char *const text = difficulty_name[i + 1];
+			// Only the chosen difficulty stays above its options.
+			const char *const text = difficulty_menu_name(difficultyMenuLevels[selectedIndex]);
+			draw_font_hv_shadow(VGAScreen, xCenter, yMenuItems, text, normal_font, centered, 15, -2, false, 2);
 
-			wMenuItem[i] = JE_textWidth(text, normal_font);
-			const int x = xCenter - wMenuItem[i] / 2;
-			const int y = yMenuItems + dyMenuItems * i;
-
-			const bool selected = extrasOpen ? i == 0 : i == selectedIndex;
-
-			draw_font_hv_shadow(VGAScreen, x, y, text, normal_font, left_aligned, 15, -4 + (selected ? 2 : 0), false, 2);
+			draw_game_options(options, optionsCount, yOptions, dyOptions, optionsRow);
 		}
+		else
+		{
+			for (size_t i = 0; i < menuItemsCount; ++i)
+			{
+				const char *const text = difficulty_menu_name(difficultyMenuLevels[i]);
 
-		if (extrasOpen)
-			draw_easy_extras(yExtras, dyExtras, extrasRow);
+				wMenuItem[i] = JE_textWidth(text, normal_font);
+				const int x = xCenter - wMenuItem[i] / 2;
+				const int y = yMenuItems + dyMenuItems * i;
+
+				draw_font_hv_shadow(VGAScreen, x, y, text, normal_font, left_aligned, 15, -4 + (i == selectedIndex ? 2 : 0), false, 2);
+			}
+		}
 
 		if (restart)
 		{
@@ -564,68 +666,26 @@ bool difficultySelect(bool easyExtras)
 
 		// Handle interaction.
 
-		if (menuItemsVisibleCount == 5)
-		{
-			const SDL_Scancode lordKeys[] = { SDL_SCANCODE_L, SDL_SCANCODE_O, SDL_SCANCODE_R, SDL_SCANCODE_D };
-
-			for (size_t i = 0; ; ++i)
-			{
-				if (i == COUNTOF(lordKeys))
-				{
-					menuItemsVisibleCount = 6;
-					break;
-				}
-
-				if (!keysactive[lordKeys[i]])
-					break;
-			}
-
-			if (newkey)
-			{
-				// Due to key jamming, holding down 4 keys simultaneous may not be possible, so an
-				// alternate input method is also provided.
-				if (lordProgress < COUNTOF(lordKeys) &&
-					lastkey_scan == lordKeys[lordProgress])
-				{
-					lordProgress += 1;
-
-					if (lordProgress == COUNTOF(lordKeys))
-						menuItemsVisibleCount = 6;
-				}
-				else
-				{
-					lordProgress = 0;
-				}
-			}
-		}
-		if (SDL_GetModState() & KMOD_SHIFT)
-		{
-			if (menuItemsVisibleCount == 4 && keysactive[SDL_SCANCODE_RIGHTBRACKET])
-				menuItemsVisibleCount = 5;
-			if (menuItemsVisibleCount == 3 && keysactive[SDL_SCANCODE_G])
-				menuItemsVisibleCount = 4;
-		}
-
-		if (extrasOpen)
+		if (optionsOpen)
 		{
 			bool toggle = false, start = false, back = false;
 
 			if (mouseMoved || newmouse)
 			{
-				for (size_t row = 0; row < extrasRows; ++row)
+				for (size_t row = 0; row < optionsRows; ++row)
 				{
-					const int y = yExtras + dyExtras * (int)row;
+					const int y = game_option_row_y(options, optionsCount, yOptions, dyOptions, row);
 					if (mouse_x >= 40 && mouse_x < 300 && mouse_y >= y && mouse_y < y + hMenuItem)
 					{
-						if (extrasRow != row)
+						if (optionsRow != row)
 						{
 							JE_playSampleNum(S_CURSOR);
-							extrasRow = row;
+							optionsRow = row;
 						}
 						if (newmouse && lastmouse_but == SDL_BUTTON_LEFT &&
 						    lastmouse_x >= 40 && lastmouse_x < 300 && lastmouse_y >= y && lastmouse_y < y + hMenuItem)
 						{
-							if (row == extrasRows - 1)
+							if (row == optionsCount)
 								start = true;
 							else
 								toggle = true;
@@ -642,20 +702,20 @@ bool difficultySelect(bool easyExtras)
 				{
 				case SDL_SCANCODE_UP:
 					JE_playSampleNum(S_CURSOR);
-					extrasRow = extrasRow == 0 ? extrasRows - 1 : extrasRow - 1;
+					optionsRow = optionsRow == 0 ? optionsRows - 1 : optionsRow - 1;
 					break;
 				case SDL_SCANCODE_DOWN:
 					JE_playSampleNum(S_CURSOR);
-					extrasRow = extrasRow == extrasRows - 1 ? 0 : extrasRow + 1;
+					optionsRow = optionsRow == optionsRows - 1 ? 0 : optionsRow + 1;
 					break;
 				case SDL_SCANCODE_LEFT:
 				case SDL_SCANCODE_RIGHT:
-					if (extrasRow < extrasRows - 1)
+					if (optionsRow < optionsCount)
 						toggle = true;
 					break;
 				case SDL_SCANCODE_SPACE:
 				case SDL_SCANCODE_RETURN:
-					if (extrasRow < extrasRows - 1)
+					if (optionsRow < optionsCount)
 						toggle = true;
 					else
 						start = true;
@@ -669,19 +729,19 @@ bool difficultySelect(bool easyExtras)
 			}
 
 			if (toggle)
-				toggle_easy_extra(extrasRow);
+				toggle_game_option(options[optionsRow]);
 
 			if (back)
 			{
 				JE_playSampleNum(S_SPRING);
-				extrasOpen = false;
+				optionsOpen = false;
 			}
 
 			if (start)
 			{
 				JE_playSampleNum(S_SELECT);
 
-				difficultyLevel = DIFFICULTY_EASY;
+				difficultyLevel = difficultyMenuLevels[selectedIndex];
 
 				fade_black(10);
 
@@ -697,7 +757,7 @@ bool difficultySelect(bool easyExtras)
 		if (mouseMoved || newmouse)
 		{
 			// Find menu item that was hovered or clicked.
-			for (size_t i = 0; i < menuItemsVisibleCount; ++i)
+			for (size_t i = 0; i < menuItemsCount; ++i)
 			{
 				const int xMenuItem = xCenter - wMenuItem[i] / 2;
 				if (mouse_x >= xMenuItem && mouse_x < xMenuItem + wMenuItem[i])
@@ -743,7 +803,7 @@ bool difficultySelect(bool easyExtras)
 				JE_playSampleNum(S_CURSOR);
 
 				selectedIndex = selectedIndex == 0
-					? menuItemsVisibleCount - 1
+					? menuItemsCount - 1
 					: selectedIndex - 1;
 				break;
 			}
@@ -751,7 +811,7 @@ bool difficultySelect(bool easyExtras)
 			{
 				JE_playSampleNum(S_CURSOR);
 
-				selectedIndex = selectedIndex == menuItemsVisibleCount - 1
+				selectedIndex = selectedIndex == menuItemsCount - 1
 					? 0
 					: selectedIndex + 1;
 				break;
@@ -774,12 +834,12 @@ bool difficultySelect(bool easyExtras)
 			}
 		}
 
-		if (action && selectedIndex == 0 && easyExtras)
+		if (action && optionsCount > 0)
 		{
 			JE_playSampleNum(S_SELECT);
 
-			extrasOpen = true;
-			extrasRow = extrasRows - 1;
+			optionsOpen = true;
+			optionsRow = optionsCount;
 			continue;
 		}
 
@@ -787,27 +847,7 @@ bool difficultySelect(bool easyExtras)
 		{
 			JE_playSampleNum(S_SELECT);
 
-			switch (selectedIndex)
-			{
-			case 0:
-				difficultyLevel = DIFFICULTY_EASY;
-				break;
-			case 1:
-				difficultyLevel = DIFFICULTY_NORMAL;
-				break;
-			case 2:
-				difficultyLevel = DIFFICULTY_HARD;
-				break;
-			case 3:
-				difficultyLevel = DIFFICULTY_IMPOSSIBLE;
-				break;
-			case 4:
-				difficultyLevel = DIFFICULTY_SUICIDE;
-				break;
-			case 5:
-				difficultyLevel = DIFFICULTY_ZINGLON;
-				break;
-			}
+			difficultyLevel = difficultyMenuLevels[selectedIndex];
 
 			fade_black(10);
 

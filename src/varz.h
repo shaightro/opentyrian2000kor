@@ -338,6 +338,13 @@ void JE_tyrianHalt(JE_byte code); /* This ends the game */
 void JE_specialComplete(JE_byte playernum, JE_byte specialType);
 void JE_doSpecialShot(JE_byte playernum, uint *armor, uint *shield);
 
+/**
+ * Draws, next to the special's icon, whether the special keeps firing while fire is held (for the
+ * specials the auto-fire option applies to; F5 switches it during the game).  OpenTyrian addition,
+ * drawn on the shown screen after the playing field so that level filters leave the text alone.
+ */
+void draw_auto_fire_mark(SDL_Surface *surface, int x, int y);
+
 void JE_wipeShieldArmorBars(void);
 JE_byte JE_playerDamage(JE_byte temp, Player *);
 

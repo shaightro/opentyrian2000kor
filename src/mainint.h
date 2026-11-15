@@ -78,6 +78,9 @@ bool JE_loadScreen(void);
 void JE_operation(JE_byte slot);
 void JE_inGameDisplays(void);
 void JE_mainKeyboardInput(void);
+
+/** F5 during the game switches the auto special fire option (OpenTyrian addition); call every frame. */
+void auto_fire_hotkey(void);
 void JE_pauseGame(void);
 
 void JE_playerMovement(Player *this_player, JE_byte inputDevice, JE_byte playerNum, JE_word shipGr, Sprite2_array *shipGrPtr_, JE_word *mouseX, JE_word *mouseY);

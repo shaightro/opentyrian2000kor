@@ -21,6 +21,7 @@
 #include "config.h"
 #include "editship.h"
 #include "episodes.h"
+#include "fonthand.h"
 #include "joystick.h"
 #include "lds_play.h"
 #include "loudness.h"
@@ -33,6 +34,7 @@
 #include "opentyr.h"
 #include "shots.h"
 #include "sprite.h"
+#include "translate.h"
 #include "vga256d.h"
 #include "video.h"
 
@@ -706,6 +708,17 @@ void JE_specialComplete(JE_byte playerNum, JE_byte specialType)
 	}
 }
 
+void draw_auto_fire_mark(SDL_Surface *surface, int x, int y)
+{
+	if (player[0].items.special == 0 || !special_auto_fires(special[player[0].items.special].stype) ||
+	    play_demo || record_demo || isNetworkGame)
+		return;
+
+	char mark[64];
+	snprintf(mark, sizeof(mark), "%s %s", ui_text(UI_HUD_AUTO_FIRE), ui_text(autoFireSpecial ? UI_OPTION_ON : UI_OPTION_OFF));
+	JE_textShade(surface, x, y, mark, autoFireSpecial ? 12 : 0, autoFireSpecial ? 4 : 0, FULL_SHADE);
+}
+
 void JE_doSpecialShot(JE_byte playerNum, uint *armor, uint *shield)
 {
 	if (player[0].items.special > 0)
@@ -1077,13 +1090,14 @@ JE_byte JE_playerDamage(JE_byte temp,
 	int playerDamage = 0;
 	soundQueue[7] = S_SHIELD_HIT;
 
-	// Easy extra: half damage.  Odd points are carried over, so that exactly half gets through.
-	if (halfDamageTaken && !play_demo && !record_demo && !twoPlayerMode)
+	// Game option: half damage.  Odd points are carried over, so that exactly half gets through.
+	if (halfDamageTaken && !play_demo && !record_demo)
 	{
-		static unsigned int carry = 0;
-		const unsigned int total = temp + carry;
+		static unsigned int carry[COUNTOF(player)] = { 0 };
+		const size_t p = this_player == &player[1] ? 1 : 0;
+		const unsigned int total = temp + carry[p];
 		temp = total / 2;
-		carry = total % 2;
+		carry[p] = total % 2;
 	}
 
 	/* Player Damage Routines */

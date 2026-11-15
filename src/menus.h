@@ -29,8 +29,16 @@ extern char timed_battle_name[4][TEXT_SIZE(23)];
 
 bool gameplaySelect(void);
 bool episodeSelect(void);
-/** Difficulty menu; with easyExtras (1-player full game), choosing Easy opens the Easy extras. */
-bool difficultySelect(bool easyExtras);
+/** Which options the difficulty menu offers for the game being started (OpenTyrian addition). */
+typedef enum
+{
+	DIFFICULTY_OPTIONS_NONE,
+	DIFFICULTY_OPTIONS_ARCADE,     // half damage, difficulty rise
+	DIFFICULTY_OPTIONS_FULL_GAME,  // also starting cash and good gear in the first shop
+} DifficultyOptions;
+
+/** Difficulty menu; with options, choosing a difficulty opens them below it. */
+bool difficultySelect(DifficultyOptions withOptions);
 bool timedBattleSelect(void);
 
 #endif /* MENUS_H */

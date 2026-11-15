@@ -189,17 +189,29 @@ extern bool autoFireSpecial;
 extern bool showDropHints;
 
 /*
- * Easy difficulty extras for a 1-player full game, chosen on the difficulty screen (OpenTyrian
- * addition).  The choices are remembered in opentyrian.cfg; the flags below apply to the game
- * being played.
+ * Options for a new game, chosen on the difficulty screen (OpenTyrian addition): all of them in
+ * the full game, half damage and difficulty rise in the arcade games.  The choices are remembered
+ * in opentyrian.cfg; the variables after them apply to the game being played.
  */
-extern bool easyHalfDamageChoice, easyRichStartChoice, easyGoodGearChoice;
+extern bool halfDamageChoice, richStartChoice, goodGearChoice, difficultyRiseChoice;
 
-/** This game: the player takes half damage.  Kept in saved games. */
+/** Starting cash of the rich start (the option above, or the LOOT parameter). */
+#define RICH_START_CASH 1000000
+
+/** This game: the players take half damage.  Kept in saved games. */
 extern bool halfDamageTaken;
 
 /** This game: the first shop also offers some top gear (see JE_loadMap). */
 extern bool goodGearShop;
+
+/** This game: the difficulty rises with the total score at the end of each level.  Kept in saved games. */
+extern bool difficultyRises;
+
+/** This game: the part of the total score that does not raise the difficulty (a rich start).  Kept in saved games. */
+extern ulong difficultyScoreBase;
+
+/** Sets the options of the game being played back to the original game. */
+void clear_game_options(void);
 
 void JE_initProcessorType(void);
 void JE_setNewGameSpeed(void);
